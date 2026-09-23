@@ -27,3 +27,5 @@ dist-ssr
 # SQLite Temporary files
 *.sqlite-journal
 api/data/*.sqlite-journal
+
+.vercel
