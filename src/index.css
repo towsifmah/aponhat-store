@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased selection:bg-apon-500 selection:text-white;
+  }
+}
+
+/* Smooth transitions for theme switching */
+html.dark {
+  color-scheme: dark;
+}
+
+/* Custom Pickup Van Animation Keyframes */
+@keyframes vanRollIn {
+  0% {
+    transform: translateX(-150%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes packageDrop {
+  0% {
+    transform: translateY(-80px) scale(0.6);
+    opacity: 0;
+  }
+  70% {
+    transform: translateY(5px) scale(1.05);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes vanDriveOut {
+  0% {
+    transform: translateX(0%);
+  }
+  25% {
+    transform: translateX(-15px); /* wind up */
+  }
+  100% {
+    transform: translateX(180%);
+  }
+}
+
+@keyframes wheelSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes exhaustPuff {
+  0% {
+    transform: scale(0.3) translateX(0);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1.5) translateX(-40px);
+    opacity: 0;
+  }
+}
+
+.animate-van-in {
+  animation: vanRollIn 1.4s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+.animate-package-drop {
+  animation: packageDrop 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) 1.5s forwards;
+}
+
+.animate-van-out {
+  animation: vanDriveOut 1.8s cubic-bezier(0.45, 0, 0.55, 1) 2.8s forwards;
+}
+
+.animate-wheel-spin {
+  animation: wheelSpin 0.5s linear infinite;
+}
+
+.animate-exhaust {
+  animation: exhaustPuff 0.6s ease-out infinite;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #10b981;
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #064e3b;
+}
+
+/* Completely hide scrollbars across all browsers while retaining smooth scrollability */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Slide in toast animation */
+@keyframes toastSlideIn {
+  0% {
+    transform: translateY(-20px) scale(0.95);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-toast-in {
+  animation: toastSlideIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
