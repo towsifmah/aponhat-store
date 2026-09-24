@@ -1,15 +1,16 @@
 import React, { useState } from 'react';
 import { ShoppingCart, Eye, Copy, CheckCheck, Link2 } from 'lucide-react';
 import { useCart } from '../context/CartContext';
+import { getProductUrl } from '../utils/urlHelper';
 
 export default function ProductCard({ product, onQuickView }) {
   const { addToCart } = useCart();
   const [copied, setCopied] = useState(false);
 
-  const productUrl = `/product/${product.id}`;
+  const productUrl = getProductUrl(product);
   const fullShareUrl = typeof window !== 'undefined'
-    ? `${window.location.origin}/product/${product.id}`
-    : `https://aponhat-store.vercel.app/product/${product.id}`;
+    ? `${window.location.origin}${productUrl}`
+    : `https://aponhat-store.vercel.app${productUrl}`;
 
   const handleCardClick = (e) => {
     // If modifier keys used (Ctrl, Cmd, Shift, middle-click), let the browser handle (e.g. open in new tab)

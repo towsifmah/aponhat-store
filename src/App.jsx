@@ -14,25 +14,10 @@ import PriyaChatbot from './components/PriyaChatbot';
 import ProductPage from './pages/ProductPage';
 import { useAuth } from './context/AuthContext';
 import { ShieldAlert, KeyRound } from 'lucide-react';
-
-function parsePathname(pathname) {
-  const clean = (pathname || '/').replace(/\/+$/, '') || '/';
-  if (clean === '/admin') return { view: 'admin', catId: 'all' };
-  if (clean === '/checkout') return { view: 'checkout', catId: 'all' };
-  if (clean === '/order-success') return { view: 'order_success', catId: 'all' };
-  if (clean.startsWith('/product/')) {
-    const rawId = clean.replace('/product/', '').split('/')[0];
-    return { view: 'product', productId: decodeURIComponent(rawId), catId: 'all' };
-  }
-  if (clean.startsWith('/category/')) {
-    const rawCat = clean.replace('/category/', '');
-    return { view: 'home', catId: decodeURIComponent(rawCat) };
-  }
-  return { view: 'home', catId: 'all' };
-}
+import { parseAppPathname, getProductUrl, slugifyTitle } from './utils/urlHelper';
 
 export default function App() {
-  const initialRoute = parsePathname(typeof window !== 'undefined' ? window.location.pathname : '/');
+  const initialRoute = parseAppPathname(typeof window !== 'undefined' ? window.location.pathname : '/');
 
   const [currentView, setCurrentView] = useState(initialRoute.view); // home, checkout, order_success, admin, product
   const [selectedCategory, setSelectedCategory] = useState(initialRoute.catId);
@@ -116,7 +101,7 @@ export default function App() {
   // Listen to browser Back/Forward navigation
   useEffect(() => {
     const handlePopState = () => {
-      const route = parsePathname(window.location.pathname);
+      const route = parseAppPathname(window.location.pathname);
       setCurrentView(route.view);
       setSelectedCategory(route.catId);
       if (route.productId) {
@@ -130,10 +115,14 @@ export default function App() {
     return () => window.removeEventListener('popstate', handlePopState);
   }, []);
 
-  // Fetch or find single product when visiting /product/:id directly or on reload
+  // Fetch or find single product when visiting /category/:catId/:item or /product/:id directly or on reload
   useEffect(() => {
     if (currentView === 'product' && selectedProductId) {
-      const found = products.find(p => String(p.id) === String(selectedProductId));
+      const found = products.find(p => 
+        String(p.id) === String(selectedProductId) ||
+        (p.slug && p.slug === selectedProductId) ||
+        (p.title && slugifyTitle(p.title) === selectedProductId)
+      );
       if (found) {
         setDirectProductData(found);
         setSingleProductLoading(false);
@@ -313,7 +302,10 @@ export default function App() {
     if (view === 'admin') path = '/admin';
     else if (view === 'checkout') path = '/checkout';
     else if (view === 'order_success') path = '/order-success';
-    else if (view === 'product' && selectedProductId) path = `/product/${selectedProductId}`;
+    else if (view === 'product' && selectedProductId) {
+      const prod = directProductData || products.find(p => String(p.id) === String(selectedProductId));
+      path = prod ? getProductUrl(prod) : `/product/${selectedProductId}`;
+    }
     else if (view === 'home') {
       path = (selectedCategory && selectedCategory !== 'all') ? `/category/${selectedCategory}` : '/';
     }
@@ -321,13 +313,23 @@ export default function App() {
   };
 
   const handleOpenProduct = (productOrId) => {
-    const prodId = typeof productOrId === 'object' && productOrId !== null ? productOrId.id : productOrId;
+    let prod = null;
+    let prodId = null;
     if (typeof productOrId === 'object' && productOrId !== null) {
+      prod = productOrId;
+      prodId = String(productOrId.id);
       setDirectProductData(productOrId);
+    } else {
+      prodId = String(productOrId);
+      prod = products.find(p => String(p.id) === prodId) || null;
+      if (prod) setDirectProductData(prod);
     }
-    const idStr = String(prodId);
-    setSelectedProductId(idStr);
-    navigateTo(`/product/${idStr}`, 'product', 'all', { productId: idStr });
+
+    const catId = prod?.category_id || selectedCategory || '1';
+    const path = prod ? getProductUrl(prod) : `/product/${prodId}`;
+    setSelectedProductId(prodId);
+    setSelectedCategory(catId);
+    navigateTo(path, 'product', catId, { productId: prodId });
   };
 
   const handleSelectCategory = (catId) => {

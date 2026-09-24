@@ -7,6 +7,7 @@ import {
 import { useCart } from '../context/CartContext';
 import ShopifyProductViewer from '../components/ShopifyProductViewer';
 import ProductCard from '../components/ProductCard';
+import { getProductUrl } from '../utils/urlHelper';
 
 export default function ProductPage({
   product,
@@ -38,6 +39,13 @@ export default function ProductPage({
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [product?.id]);
 
+  const productCanonicalUrl = product ? getProductUrl(product) : '/';
+  const currentUrl = typeof window !== 'undefined'
+    ? (window.location.pathname.startsWith('/category/') && window.location.pathname.split('/').length >= 3
+        ? window.location.href 
+        : `${window.location.origin}${productCanonicalUrl}`)
+    : `https://aponhat-store.vercel.app${productCanonicalUrl}`;
+
   // Dynamic SEO & AEO title, OpenGraph metadata & JSON-LD Product Schema
   useEffect(() => {
     if (!product) return;
@@ -59,26 +67,53 @@ export default function ProductPage({
       scriptTag.type = 'application/ld+json';
       document.head.appendChild(scriptTag);
     }
-    const schemaData = {
-      "@context": "https://schema.org/",
-      "@type": "Product",
-      "name": product.title,
-      "image": product.image || (product.images && product.images[0]),
-      "description": product.description || product.title,
-      "sku": product.sku || `APON-${product.id}`,
-      "brand": {
-        "@type": "Brand",
-        "name": "আপনহাট (AponHat)"
+    const schemaData = [
+      {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": product.title,
+        "image": product.image || (product.images && product.images[0]),
+        "description": product.description || product.title,
+        "sku": product.sku || `APON-${product.id}`,
+        "category": product.category_name,
+        "brand": {
+          "@type": "Brand",
+          "name": "আপনহাট (AponHat)"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": currentUrl,
+          "priceCurrency": "BDT",
+          "price": Math.round(product.retail_price || product.price),
+          "itemCondition": "https://schema.org/NewCondition",
+          "availability": (product.stock === undefined || product.stock > 0) ? "https://schema.org/InStock" : "https://schema.org/PreOrder"
+        }
       },
-      "offers": {
-        "@type": "Offer",
-        "url": typeof window !== 'undefined' ? window.location.href : `https://aponhat-store.vercel.app/product/${product.id}`,
-        "priceCurrency": "BDT",
-        "price": Math.round(product.retail_price || product.price),
-        "itemCondition": "https://schema.org/NewCondition",
-        "availability": (product.stock === undefined || product.stock > 0) ? "https://schema.org/InStock" : "https://schema.org/PreOrder"
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "হোম",
+            "item": "https://aponhat-store.vercel.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": product.category_name || "ক্যাটাগরি",
+            "item": `https://aponhat-store.vercel.app/category/${product.category_id || 1}`
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": product.title,
+            "item": currentUrl
+          }
+        ]
       }
-    };
+    ];
     scriptTag.text = JSON.stringify(schemaData);
 
     return () => {
@@ -86,7 +121,7 @@ export default function ProductPage({
       const el = document.getElementById(scriptId);
       if (el) el.remove();
     };
-  }, [product]);
+  }, [product, currentUrl]);
 
   if (loading || !product) {
     return (
@@ -107,7 +142,6 @@ export default function ProductPage({
     );
   }
 
-  const currentUrl = typeof window !== 'undefined' ? window.location.href : `https://aponhat-store.vercel.app/product/${product.id}`;
   const shareText = `${product.title} - মাত্র ৳${Math.round(product.retail_price || product.price)} এ কিনুন আপনহাট থেকে!`;
 
   const handleCopyLink = () => {
