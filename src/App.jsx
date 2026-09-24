@@ -10,6 +10,7 @@ import MobileBottomNav from './components/MobileBottomNav';
 import ProductModal from './components/ProductModal';
 import AuthModal from './components/AuthModal';
 import Footer from './components/Footer';
+import PriyaChatbot from './components/PriyaChatbot';
 import { useAuth } from './context/AuthContext';
 import { ShieldAlert, KeyRound } from 'lucide-react';
 
@@ -145,6 +146,9 @@ export default function App() {
         products={products}
         onQuickView={(prod) => setQuickViewProduct(prod)}
       />
+
+      {/* Priya Live Shopping Assistant (Left Side) */}
+      <PriyaChatbot onQuickView={(prod) => setQuickViewProduct(prod)} />
 
       {/* Animated Add-to-Cart Toast Notification */}
       <CartToast onCheckout={handleGoToCheckout} />

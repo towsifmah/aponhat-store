@@ -5,16 +5,16 @@ import path from 'path';
 const TMP_FILE = path.join('/tmp', 'aponhat_store.json');
 
 export const initialCategories = [
-  { id: '1', name: 'জেন্টস ফ্যাশন', slug: 'gents-fashion', image: 'https://api.greenishtradeltd.com/ecommerce/api/v1/fileViewById/260600010', product_count: 12 },
-  { id: '2', name: 'লেডিস ফ্যাশন', slug: 'ladies-fashion', image: 'https://api.greenishtradeltd.com/ecommerce/api/v1/fileViewById/260600013', product_count: 8 },
-  { id: '3', name: 'বেবি ফ্যাশন', slug: 'baby-fashion', image: 'https://api.greenishtradeltd.com/ecommerce/api/v1/fileViewById/260600015', product_count: 6 },
-  { id: '6', name: 'হোম ডেকর', slug: 'home-decor', image: 'https://api.greenishtradeltd.com/ecommerce/api/v1/fileViewById/260600023', product_count: 5 },
-  { id: '7', name: 'কসমেটিকস এন্ড গহনা', slug: 'cosmetics-jewelry', image: 'https://api.greenishtradeltd.com/ecommerce/api/v1/fileViewById/260600017', product_count: 7 },
-  { id: '8', name: 'ইলেকট্রনিকস এন্ড গ্যাজেটস', slug: 'electronics-gadgets', image: 'https://api.greenishtradeltd.com/ecommerce/api/v1/fileViewById/260600018', product_count: 9 },
-  { id: '10', name: 'ফুড এন্ড ফ্রুটস', slug: 'food-fruits', image: 'https://api.greenishtradeltd.com/ecommerce/api/v1/fileViewById/260600019', product_count: 4 },
-  { id: '11', name: 'ব্যাগ কালেকশন', slug: 'bag-collection', image: 'https://api.greenishtradeltd.com/ecommerce/api/v1/fileViewById/260700085', product_count: 6 },
-  { id: '48', name: 'সিজনাল প্রোডাক্টস', slug: 'seasonal-products', image: 'https://api.greenishtradeltd.com/ecommerce/api/v1/fileViewById/260600010', product_count: 4 },
-  { id: '49', name: 'কাপল/কম্বো সেট', slug: 'couple-combo', image: 'https://api.greenishtradeltd.com/ecommerce/api/v1/fileViewById/260900086', product_count: 5 }
+  { id: '1', name: 'জেন্টস ফ্যাশন', slug: 'gents-fashion', image: 'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=600&q=80', product_count: 12 },
+  { id: '2', name: 'লেডিস ফ্যাশন', slug: 'ladies-fashion', image: 'https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600&q=80', product_count: 8 },
+  { id: '3', name: 'বেবি ফ্যাশন', slug: 'baby-fashion', image: 'https://images.unsplash.com/photo-1519689680058-324335c77eba?w=600&q=80', product_count: 6 },
+  { id: '6', name: 'হোম ডেকর', slug: 'home-decor', image: 'https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=600&q=80', product_count: 5 },
+  { id: '7', name: 'কসমেটিকস এন্ড গহনা', slug: 'cosmetics-jewelry', image: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=600&q=80', product_count: 7 },
+  { id: '8', name: 'ইলেকট্রনিকস এন্ড গ্যাজেটস', slug: 'electronics-gadgets', image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80', product_count: 9 },
+  { id: '10', name: 'ফুড এন্ড ফ্রুটস', slug: 'food-fruits', image: 'https://images.unsplash.com/photo-1619566636858-adf3ef46400b?w=600&q=80', product_count: 4 },
+  { id: '11', name: 'ব্যাগ কালেকশন', slug: 'bag-collection', image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80', product_count: 6 },
+  { id: '48', name: 'সিজনাল প্রোডাক্টস', slug: 'seasonal-products', image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80', product_count: 4 },
+  { id: '49', name: 'কাপল/কম্বো সেট', slug: 'couple-combo', image: 'https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=600&q=80', product_count: 5 }
 ];
 
 export const initialProducts = [
@@ -27,10 +27,13 @@ export const initialProducts = [
     reseller_price: 420,
     retail_price: 699,
     stock: 40,
-    image: 'http://147.93.97.56:9000/ecommerce-public/ProductImage/WhatsApp%20Image%202026-08-15%20at%209.27.52%20PM%20(1)_2608181042313270.jpeg',
+    image: 'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800&q=85',
     description: "অফিস ও ফরমাল লুকের জন্য বেছে নিন Premium Oxford Cotton Formal Shirt। উন্নতমানের অক্সফোর্ড কটন ফেব্রিক দিয়ে তৈরি এই শার্টটি আরামদায়ক ও ফ্যাশনেবল। এর স্লিম ফিট ডিজাইন আপনাকে দেবে স্মার্ট ও পরিপাটি লুক।\n\n✨ মূল বৈশিষ্ট্য:\n👔 ফেব্রিক: প্রিমিয়াম অক্সফোর্ড কটন\n👔 ফিট: স্লিম ফিট\n👔 আরামদায়ক ও ফ্যাশনেবল ডিজাইন\n👔 উন্নতমানের স্টিচিং ও ফিনিশিং\n👔 অফিস, মিটিং ও ফরমাল অনুষ্ঠানের জন্য উপযুক্ত\n🎨 কালার: ছবিতে প্রদর্শিত রঙ অনুযায়ী",
     sizes: ['M', 'L', 'XL', 'XXL'],
-    images: ['http://147.93.97.56:9000/ecommerce-public/ProductImage/WhatsApp%20Image%202026-08-15%20at%209.27.52%20PM%20(1)_2608181042313270.jpeg'],
+    images: [
+      'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800&q=85',
+      'https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=800&q=85'
+    ],
     sku: 'Mir-1_013',
     source_url: 'https://greenishtradeltd.com/products/26081800002594',
     is_active: 1
@@ -44,10 +47,10 @@ export const initialProducts = [
     reseller_price: 420,
     retail_price: 699,
     stock: 40,
-    image: 'http://147.93.97.56:9000/ecommerce-public/ProductImage/WhatsApp%20Image%202026-08-15%20at%209.27.52%20PM%20(2)_2608181041130220.jpeg',
+    image: 'https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=800&q=85',
     description: "ক্লাসিক নেভি ব্লু কালারের প্রিমিয়াম অক্সফোর্ড কটন স্লিম ফিট শার্ট। ১০০% আরামদায়ক কটন।",
     sizes: ['M', 'L', 'XL', 'XXL'],
-    images: ['http://147.93.97.56:9000/ecommerce-public/ProductImage/WhatsApp%20Image%202026-08-15%20at%209.27.52%20PM%20(2)_2608181041130220.jpeg'],
+    images: ['https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=800&q=85'],
     sku: 'Mir-1_012',
     source_url: 'https://greenishtradeltd.com/products/26081800002593',
     is_active: 1
@@ -61,10 +64,10 @@ export const initialProducts = [
     reseller_price: 420,
     retail_price: 699,
     stock: 39,
-    image: 'http://147.93.97.56:9000/ecommerce-public/ProductImage/WhatsApp%20Image%202026-08-15%20at%209.27.52%20PM_2608181040003447.jpeg',
+    image: 'https://images.unsplash.com/photo-1603252109303-2751441dd157?w=800&q=85',
     description: "অলিভ গ্রিন শেডের প্রিমিয়াম অক্সফোর্ড কটন শার্ট। যেকোনো আউটিং বা অফিস মিটিংয়ের জন্য বেস্ট চয়েস।",
     sizes: ['M', 'L', 'XL', 'XXL'],
-    images: ['http://147.93.97.56:9000/ecommerce-public/ProductImage/WhatsApp%20Image%202026-08-15%20at%209.27.52%20PM_2608181040003447.jpeg'],
+    images: ['https://images.unsplash.com/photo-1603252109303-2751441dd157?w=800&q=85'],
     sku: 'Mir-1_011',
     source_url: 'https://greenishtradeltd.com/products/26081800002592',
     is_active: 1
@@ -78,10 +81,10 @@ export const initialProducts = [
     reseller_price: 420,
     retail_price: 699,
     stock: 39,
-    image: 'http://147.93.97.56:9000/ecommerce-public/ProductImage/WhatsApp%20Image%202026-08-15%20at%209.27.54%20PM_2608181038478619.jpeg',
+    image: 'https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800&q=85',
     description: "স্মার্ট চারকোল ব্ল্যাক অক্সফোর্ড কটন শার্ট। নিখুঁত সেলাই ও স্লিম ফিট কাটিং।",
     sizes: ['M', 'L', 'XL', 'XXL'],
-    images: ['http://147.93.97.56:9000/ecommerce-public/ProductImage/WhatsApp%20Image%202026-08-15%20at%209.27.54%20PM_2608181038478619.jpeg'],
+    images: ['https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800&q=85'],
     sku: 'Mir-1_010',
     source_url: 'https://greenishtradeltd.com/products/26081800002591',
     is_active: 1
@@ -95,10 +98,10 @@ export const initialProducts = [
     reseller_price: 420,
     retail_price: 699,
     stock: 40,
-    image: 'http://147.93.97.56:9000/ecommerce-public/ProductImage/WhatsApp%20Image%202026-08-15%20at%209.27.55%20PM%20(1)_2608181037285929.jpeg',
+    image: 'https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?w=800&q=85',
     description: "গ্ল্যামারাস মেরুন কালারের প্রিমিয়াম ফরমাল শার্ট। উৎসব কিংবা মিটিংয়ে মানানসই।",
     sizes: ['M', 'L', 'XL', 'XXL'],
-    images: ['http://147.93.97.56:9000/ecommerce-public/ProductImage/WhatsApp%20Image%202026-08-15%20at%209.27.55%20PM%20(1)_2608181037285929.jpeg'],
+    images: ['https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?w=800&q=85'],
     sku: 'Mir-1_009',
     source_url: 'https://greenishtradeltd.com/products/26081800002590',
     is_active: 1
@@ -112,10 +115,10 @@ export const initialProducts = [
     reseller_price: 420,
     retail_price: 699,
     stock: 40,
-    image: 'http://147.93.97.56:9000/ecommerce-public/ProductImage/WhatsApp%20Image%202026-08-15%20at%209.27.55%20PM%20(2)_2608181036101890.jpeg',
+    image: 'https://images.unsplash.com/photo-1620012253295-c15c429fccf8?w=800&q=85',
     description: "রয়্যাল ব্লু প্রিমিয়াম স্লিম ফিট কটন শার্ট।",
     sizes: ['M', 'L', 'XL', 'XXL'],
-    images: ['http://147.93.97.56:9000/ecommerce-public/ProductImage/WhatsApp%20Image%202026-08-15%20at%209.27.55%20PM%20(2)_2608181036101890.jpeg'],
+    images: ['https://images.unsplash.com/photo-1620012253295-c15c429fccf8?w=800&q=85'],
     sku: 'Mir-1_008',
     source_url: 'https://greenishtradeltd.com/products/26081800002589',
     is_active: 1
@@ -129,10 +132,10 @@ export const initialProducts = [
     reseller_price: 450,
     retail_price: 750,
     stock: 45,
-    image: 'http://147.93.97.56:9000/ecommerce-public/ProductImage/WhatsApp%20Image%202026-08-15%20at%209.27.55%20PM_2608181034571521.jpeg',
+    image: 'https://images.unsplash.com/photo-1621072156002-e2fccdc0b176?w=800&q=85',
     description: "পরিপাটি উজ্জ্বল সাদা ফরমাল শার্ট। ১০০% প্রিমিয়াম সুতি।",
     sizes: ['M', 'L', 'XL', 'XXL'],
-    images: ['http://147.93.97.56:9000/ecommerce-public/ProductImage/WhatsApp%20Image%202026-08-15%20at%209.27.55%20PM_2608181034571521.jpeg'],
+    images: ['https://images.unsplash.com/photo-1621072156002-e2fccdc0b176?w=800&q=85'],
     sku: 'Mir-1_007',
     source_url: 'https://greenishtradeltd.com/products/26081800002588',
     is_active: 1
@@ -146,14 +149,15 @@ export const initialProducts = [
     reseller_price: 420,
     retail_price: 699,
     stock: 39,
-    image: 'http://147.93.97.56:9000/ecommerce-public/ProductImage/WhatsApp%20Image%202026-08-15%20at%209.27.56%20PM%20(1)_2608181033473111.jpeg',
+    image: 'https://images.unsplash.com/photo-1589310243389-96a5483213a8?w=800&q=85',
     description: "অত্যন্ত জনপ্রিয় স্কাই ব্লু শেড। আরামদায়ক ও ট্রেন্ডি।",
     sizes: ['M', 'L', 'XL', 'XXL'],
-    images: ['http://147.93.97.56:9000/ecommerce-public/ProductImage/WhatsApp%20Image%202026-08-15%20at%209.27.56%20PM%20(1)_2608181033473111.jpeg'],
+    images: ['https://images.unsplash.com/photo-1589310243389-96a5483213a8?w=800&q=85'],
     sku: 'Mir-1_006',
     source_url: 'https://greenishtradeltd.com/products/26081800002587',
     is_active: 1
   },
+
   {
     id: '26081900001001',
     title: 'Wireless Bluetooth Earbuds with Digital LED Display',

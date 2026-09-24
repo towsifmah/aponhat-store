@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { 
   RefreshCw, ExternalLink, Package, DollarSign, ShoppingCart, 
   CheckCircle, AlertCircle, Copy, Check, Filter, Search,
-  TrendingUp, Volume2, VolumeX, Settings, Edit3, Save, Sparkles, Tag
+  TrendingUp, Volume2, VolumeX, Settings, Edit3, Save, Sparkles, Tag,
+  MessageSquare, Send, Bot, User, Clock, CheckCheck, ToggleLeft, ToggleRight, MessageCircle
 } from 'lucide-react';
 
 export default function AdminDashboard() {
@@ -42,6 +43,14 @@ export default function AdminDashboard() {
   });
   const [showSettingsModal, setShowSettingsModal] = useState(false);
   const [savingSettings, setSavingSettings] = useState(false);
+
+  // Live Chat & Priya AI Controller States
+  const [chatSessions, setChatSessions] = useState({});
+  const [selectedSessionId, setSelectedSessionId] = useState(null);
+  const [autoPriyaMode, setAutoPriyaMode] = useState(true);
+  const [adminReplyText, setAdminReplyText] = useState('');
+  const [sendingAdminReply, setSendingAdminReply] = useState(false);
+  const [chatSearchQuery, setChatSearchQuery] = useState('');
 
   const fetchOrders = async (isInitial = false) => {
     try {
@@ -107,14 +116,81 @@ export default function AdminDashboard() {
     }
   };
 
+  const fetchAdminChats = async () => {
+    try {
+      const res = await fetch('/api/chat?admin=true');
+      const data = await res.json();
+      if (data.status === 'success') {
+        if (typeof data.auto_priya_mode === 'boolean') {
+          setAutoPriyaMode(data.auto_priya_mode);
+        }
+        const incomingSessions = data.sessions || {};
+        setChatSessions(incomingSessions);
+
+        setSelectedSessionId(prev => {
+          if (prev && incomingSessions[prev]) return prev;
+          const sessionKeys = Object.keys(incomingSessions);
+          return sessionKeys.length > 0 ? sessionKeys[0] : null;
+        });
+      }
+    } catch (err) {
+      console.error('Error fetching admin chats:', err);
+    }
+  };
+
+  const handleTogglePriyaMode = async () => {
+    try {
+      const res = await fetch('/api/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'toggle_mode' })
+      });
+      const data = await res.json();
+      if (data.status === 'success') {
+        setAutoPriyaMode(data.auto_priya_mode);
+      }
+    } catch (err) {
+      console.error('Error toggling Priya mode:', err);
+    }
+  };
+
+  const handleSendAdminReply = async (customText) => {
+    const textToSend = (customText || adminReplyText).trim();
+    if (!textToSend || !selectedSessionId) return;
+
+    try {
+      setSendingAdminReply(true);
+      const res = await fetch('/api/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          session_id: selectedSessionId,
+          sender: 'admin',
+          text: textToSend
+        })
+      });
+      const data = await res.json();
+      if (data.status === 'success') {
+        setAdminReplyText('');
+        await fetchAdminChats();
+      }
+    } catch (err) {
+      console.error('Error sending admin reply:', err);
+    } finally {
+      setSendingAdminReply(false);
+    }
+  };
+
   useEffect(() => {
     fetchOrders(true);
     fetchProducts();
     fetchSettings();
+    fetchAdminChats();
 
-    // Real-time polling every 4 seconds for live incoming orders
+    // Real-time polling every 4 seconds for live incoming orders and chats
     const interval = setInterval(() => {
       fetchOrders(false);
+      fetchAdminChats();
     }, 4000);
 
     return () => clearInterval(interval);
@@ -387,6 +463,26 @@ export default function AdminDashboard() {
         >
           <Tag className="w-4 h-4" />
           <span>মূল্য ও পণ্য ব্যবস্থাপনা ({products.length})</span>
+        </button>
+
+        <button
+          onClick={() => {
+            setActiveTab('live_chat');
+            fetchAdminChats();
+          }}
+          className={`pb-2 text-sm font-bold transition-all border-b-2 flex items-center gap-2 ${
+            activeTab === 'live_chat'
+              ? 'border-apon-600 text-apon-600 dark:text-apon-400'
+              : 'border-transparent text-gray-500 dark:text-dark-muted hover:text-gray-800'
+          }`}
+        >
+          <MessageSquare className="w-4 h-4" />
+          <span>লাইভ চ্যাট ও গ্রাহক সহায়তা ({Object.keys(chatSessions).length})</span>
+          {autoPriyaMode ? (
+            <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse" title="প্রিয়া অটো-মোড সক্রিয়" />
+          ) : (
+            <span className="w-2.5 h-2.5 rounded-full bg-amber-500" title="ম্যানুয়াল টেকওভার মোড" />
+          )}
         </button>
       </div>
 
@@ -868,6 +964,306 @@ export default function AdminDashboard() {
                 </tbody>
               </table>
             </div>
+          </div>
+
+        </div>
+      )}
+
+      {/* TAB 3: LIVE CHAT & PRIYA AI MANAGER */}
+      {activeTab === 'live_chat' && (
+        <div className="space-y-6">
+          
+          {/* Top Control Bar */}
+          <div className="p-5 rounded-3xl border border-gray-200/80 dark:border-dark-border bg-white dark:bg-dark-card shadow-xs flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div>
+              <div className="flex items-center gap-2">
+                <span className={`w-3 h-3 rounded-full ${autoPriyaMode ? 'bg-emerald-500 animate-pulse' : 'bg-amber-500'}`} />
+                <span className="text-xs font-bold uppercase tracking-wider text-emerald-600 dark:text-emerald-400">
+                  রিয়েল-টাইম লাইভ চ্যাট ম্যানেজার
+                </span>
+              </div>
+              <h2 className="text-xl sm:text-2xl font-black text-gray-900 dark:text-white mt-1">
+                প্রিয়া অ্যাসিস্ট্যান্ট ও কাস্টমার সাপোর্ট কন্ট্রোল
+              </h2>
+              <p className="text-xs text-gray-500 dark:text-dark-muted mt-1 max-w-2xl">
+                গ্রাহকরা ওয়েবসাইটের বাম পাশের উইজেটে প্রিয়ার সাথে যেসকল কথা বলছেন তা রিয়েল-টাইমে মনিটর করুন এবং প্রয়োজনমতো সরাসরি আপনি নিজেই উত্তর দিয়ে চ্যাটে টেকওভার করুন।
+              </p>
+            </div>
+
+            {/* Toggle Mode & Refresh Button */}
+            <div className="flex items-center gap-3">
+              <button
+                onClick={handleTogglePriyaMode}
+                className={`px-4 py-2.5 rounded-2xl border text-xs font-bold flex items-center gap-2.5 transition-all shadow-xs ${
+                  autoPriyaMode
+                    ? 'bg-emerald-50 dark:bg-emerald-950/50 border-emerald-300 dark:border-emerald-800 text-emerald-800 dark:text-emerald-300 hover:bg-emerald-100'
+                    : 'bg-amber-50 dark:bg-amber-950/50 border-amber-300 dark:border-amber-800 text-amber-800 dark:text-amber-300 hover:bg-amber-100'
+                }`}
+              >
+                {autoPriyaMode ? (
+                  <>
+                    <ToggleRight className="w-5 h-5 text-emerald-600 dark:text-emerald-400" />
+                    <span>প্রিয়া অটো-রিপ্লাই: চালু আছে</span>
+                  </>
+                ) : (
+                  <>
+                    <ToggleLeft className="w-5 h-5 text-amber-600 dark:text-amber-400" />
+                    <span>প্রিয়া অটো-রিপ্লাই: বন্ধ (ম্যানুয়াল মোড)</span>
+                  </>
+                )}
+              </button>
+
+              <button
+                onClick={fetchAdminChats}
+                className="p-2.5 rounded-2xl border border-gray-200 dark:border-dark-border bg-gray-50 dark:bg-dark-bg hover:bg-gray-100 dark:hover:bg-dark-cardHover text-gray-700 dark:text-gray-300 text-xs font-bold flex items-center gap-1.5 transition-all"
+                title="চ্যাট রিফ্রেশ করুন"
+              >
+                <RefreshCw className="w-4 h-4" />
+                <span className="hidden sm:inline">রিফ্রেশ</span>
+              </button>
+            </div>
+          </div>
+
+          {/* Chat Workspace: Left List + Right Conversation */}
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 min-h-[580px]">
+            
+            {/* Left Column: Sessions List (4 cols) */}
+            <div className="lg:col-span-4 rounded-3xl border border-gray-200/80 dark:border-dark-border bg-white dark:bg-dark-card shadow-xs p-4 flex flex-col">
+              
+              <div className="flex items-center justify-between mb-3 px-1">
+                <h3 className="font-black text-sm text-gray-900 dark:text-white flex items-center gap-2">
+                  <MessageCircle className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
+                  <span>গ্রাহক চ্যাট লিস্ট ({Object.keys(chatSessions).length})</span>
+                </h3>
+              </div>
+
+              {/* Search Sessions */}
+              <div className="relative mb-3">
+                <Search className="w-3.5 h-3.5 absolute left-3 top-3 text-gray-400" />
+                <input
+                  type="text"
+                  placeholder="গ্রাহকের নাম বা সেশন আইডি খুঁজুন..."
+                  value={chatSearchQuery}
+                  onChange={(e) => setChatSearchQuery(e.target.value)}
+                  className="w-full pl-9 pr-3 py-2 text-xs bg-gray-50 dark:bg-dark-bg border border-gray-200 dark:border-dark-border rounded-xl focus:outline-none focus:ring-2 focus:ring-emerald-500 text-gray-900 dark:text-white"
+                />
+              </div>
+
+              {/* Sessions Scrollable List */}
+              <div className="flex-1 overflow-y-auto space-y-2 no-scrollbar pr-1 max-h-[500px]">
+                {Object.keys(chatSessions).length === 0 ? (
+                  <div className="py-16 text-center text-gray-400">
+                    <Bot className="w-10 h-10 mx-auto opacity-30 mb-2" />
+                    <p className="text-xs font-bold text-gray-600 dark:text-gray-300">কোনো চ্যাট সেশন পাওয়া যায়নি</p>
+                    <p className="text-[11px] text-gray-400 mt-1 max-w-xs mx-auto">
+                      গ্রাহকরা ওয়েবসাইটে প্রিয়াকে বার্তা পাঠালে সাথে সাথে এখানে প্রদর্শিত হবে।
+                    </p>
+                  </div>
+                ) : (
+                  Object.entries(chatSessions)
+                    .filter(([sid, sess]) => {
+                      if (!chatSearchQuery) return true;
+                      const q = chatSearchQuery.toLowerCase();
+                      return (
+                        sid.toLowerCase().includes(q) ||
+                        (sess.customer_name && sess.customer_name.toLowerCase().includes(q)) ||
+                        (sess.customer_phone && sess.customer_phone.includes(q))
+                      );
+                    })
+                    .sort((a, b) => {
+                      const lastA = a[1].messages?.slice(-1)[0]?.timestamp || 0;
+                      const lastB = b[1].messages?.slice(-1)[0]?.timestamp || 0;
+                      return new Date(lastB) - new Date(lastA);
+                    })
+                    .map(([sid, sess]) => {
+                      const isSelected = selectedSessionId === sid;
+                      const lastMsg = sess.messages?.slice(-1)[0];
+                      const totalMsgs = sess.messages?.length || 0;
+
+                      return (
+                        <div
+                          key={sid}
+                          onClick={() => setSelectedSessionId(sid)}
+                          className={`p-3 rounded-2xl cursor-pointer transition-all border ${
+                            isSelected
+                              ? 'bg-emerald-50/80 dark:bg-emerald-950/40 border-emerald-500 shadow-xs'
+                              : 'bg-gray-50/60 dark:bg-dark-bg/60 border-gray-200/60 dark:border-dark-border/60 hover:bg-gray-100 dark:hover:bg-dark-cardHover'
+                          }`}
+                        >
+                          <div className="flex items-center justify-between mb-1">
+                            <div className="flex items-center gap-2">
+                              <div className="w-7 h-7 rounded-full bg-emerald-100 dark:bg-emerald-900/60 text-emerald-700 dark:text-emerald-300 font-black text-xs flex items-center justify-center">
+                                👤
+                              </div>
+                              <span className="font-bold text-xs text-gray-900 dark:text-white">
+                                {sess.customer_name || 'গ্রাহক (অনলাইন)'}
+                              </span>
+                            </div>
+                            <span className="text-[10px] text-gray-400">
+                              {lastMsg?.timestamp ? new Date(lastMsg.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : ''}
+                            </span>
+                          </div>
+
+                          <p className="text-[11px] text-gray-600 dark:text-dark-muted line-clamp-1 pl-9">
+                            {lastMsg ? `${lastMsg.sender === 'priya' ? 'প্রিয়া: ' : lastMsg.sender === 'admin' ? 'ম্যানেজার: ' : ''}${lastMsg.text}` : 'কথোপকথন শুরু হয়েছে'}
+                          </p>
+
+                          <div className="flex items-center justify-between mt-2 pt-1.5 border-t border-gray-100 dark:border-dark-border/40 pl-9 text-[10px] text-gray-400">
+                            <span>মোট বার্তা: {totalMsgs}</span>
+                            <span className="font-mono text-[9px]">{sid.slice(0, 16)}...</span>
+                          </div>
+                        </div>
+                      );
+                    })
+                )}
+              </div>
+            </div>
+
+            {/* Right Column: Chat Conversation Stream & Admin Composer (8 cols) */}
+            <div className="lg:col-span-8 rounded-3xl border border-gray-200/80 dark:border-dark-border bg-white dark:bg-dark-card shadow-xs flex flex-col overflow-hidden">
+              
+              {selectedSessionId && chatSessions[selectedSessionId] ? (
+                <>
+                  {/* Active Chat Header */}
+                  <div className="p-4 border-b border-gray-200 dark:border-dark-border bg-gray-50/70 dark:bg-dark-bg/70 flex items-center justify-between">
+                    <div className="flex items-center gap-3">
+                      <div className="w-10 h-10 rounded-2xl bg-emerald-600 text-white font-bold flex items-center justify-center text-lg shadow-xs">
+                        👤
+                      </div>
+                      <div>
+                        <div className="flex items-center gap-2">
+                          <h4 className="font-black text-sm text-gray-900 dark:text-white">
+                            {chatSessions[selectedSessionId].customer_name || 'গ্রাহক'}
+                          </h4>
+                          <span className="px-2 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-950 text-emerald-700 dark:text-emerald-300 text-[10px] font-bold">
+                            লাইভ সংযোগ
+                          </span>
+                        </div>
+                        <p className="text-[10px] font-mono text-gray-400 mt-0.5">
+                          সেশন আইডি: {selectedSessionId}
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="text-right text-[11px] text-gray-500 dark:text-dark-muted">
+                      <span>প্রিয়া মোড: </span>
+                      <span className={`font-bold ${autoPriyaMode ? 'text-emerald-600 dark:text-emerald-400' : 'text-amber-600 dark:text-amber-400'}`}>
+                        {autoPriyaMode ? 'স্বয়ংক্রিয়' : 'ম্যানুয়াল'}
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* Message History Container */}
+                  <div className="flex-1 p-5 overflow-y-auto space-y-3.5 bg-gray-50/30 dark:bg-dark-bg/30 max-h-[380px] no-scrollbar">
+                    {(chatSessions[selectedSessionId].messages || []).map((msg, idx) => {
+                      const isUser = msg.sender === 'customer';
+                      const isAdmin = msg.sender === 'admin';
+                      const isPriya = msg.sender === 'priya';
+
+                      return (
+                        <div
+                          key={msg.id || idx}
+                          className={`flex flex-col ${isUser ? 'items-start' : 'items-end'}`}
+                        >
+                          <div className="flex items-center gap-1.5 mb-1 px-1 text-[11px] font-bold text-gray-500">
+                            {isUser && <span>👤 গ্রাহক</span>}
+                            {isPriya && <span className="text-emerald-600 dark:text-emerald-400 font-bold">👩‍💼 প্রিয়া (অটো-অ্যাসিস্ট্যান্ট)</span>}
+                            {isAdmin && <span className="text-amber-600 dark:text-amber-400 font-bold">🛡️ আপনহাট সাপোর্ট ম্যানেজার (আপনি)</span>}
+                          </div>
+
+                          <div
+                            className={`max-w-[80%] rounded-2xl px-4 py-2.5 text-xs sm:text-[13px] leading-relaxed shadow-xs whitespace-pre-line ${
+                              isUser
+                                ? 'bg-white dark:bg-dark-card border border-gray-200 dark:border-dark-border text-gray-900 dark:text-white rounded-bl-xs'
+                                : isAdmin
+                                ? 'bg-amber-600 text-white rounded-br-xs shadow-amber-500/20'
+                                : 'bg-emerald-600 text-white rounded-br-xs shadow-emerald-500/20'
+                            }`}
+                          >
+                            {msg.text}
+                          </div>
+
+                          {/* Product Recommendations if any */}
+                          {msg.suggested_products && msg.suggested_products.length > 0 && (
+                            <div className="mt-2 space-y-1.5 w-full max-w-sm">
+                              <span className="text-[10px] font-bold text-gray-400">প্রিয়ার প্রস্তাবিত পণ্য:</span>
+                              {msg.suggested_products.map((p) => (
+                                <div key={p.id} className="p-2 rounded-xl bg-white dark:bg-dark-card border border-gray-200 dark:border-dark-border flex items-center justify-between text-xs">
+                                  <span className="truncate max-w-[200px] font-semibold">{p.title}</span>
+                                  <span className="font-bold text-emerald-600 font-sans">৳{p.retail_price}</span>
+                                </div>
+                              ))}
+                            </div>
+                          )}
+
+                          <span className="text-[9px] text-gray-400 px-1 mt-0.5">
+                            {msg.timestamp ? new Date(msg.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : ''}
+                          </span>
+                        </div>
+                      );
+                    })}
+                  </div>
+
+                  {/* Canned Quick Reply Templates */}
+                  <div className="px-4 py-2 bg-gray-100/70 dark:bg-dark-bg/60 border-t border-gray-200 dark:border-dark-border flex gap-1.5 overflow-x-auto no-scrollbar">
+                    {[
+                      { label: '🚚 ডেলিভারি তথ্য', text: 'আমাদের ডেলিভারি চার্জ: ঢাকা সিটিতে ৬০ টাকা এবং ঢাকার বাইরে ১২০ টাকা। ২-৩ দিনে পৌঁছে যাবে।' },
+                      { label: '💳 বিকাশ পেমেন্ট', text: 'আমাদের বিকাশ পার্সোনাল নম্বর: ০১৬১৭৯৭১৬৪৪ (Send Money করে লাস্ট ৪ ডিজিট জানান)।' },
+                      { label: '✅ অর্ডার প্রসেস শুরু', text: 'ধন্যবাদ! আপনার অর্ডারটি আমরা সিস্টেমে গ্রহণ করেছি। শীঘ্রই কুরিয়ারে হস্তান্তর করা হবে।' },
+                      { label: '🛡️ সাইজ ও কালার', text: 'অনুগ্রহ করে আপনার প্রয়োজনীয় সাইজ (M/L/XL) ও কালারটি এখানে উল্লেখ করুন।' }
+                    ].map((canned, i) => (
+                      <button
+                        key={i}
+                        onClick={() => handleSendAdminReply(canned.text)}
+                        className="whitespace-nowrap px-2.5 py-1 rounded-full bg-white dark:bg-dark-card border border-gray-300 dark:border-dark-border text-[11px] font-medium text-gray-700 dark:text-gray-300 hover:border-emerald-500 hover:text-emerald-600 transition-all flex-shrink-0"
+                      >
+                        {canned.label}
+                      </button>
+                    ))}
+                  </div>
+
+                  {/* Admin Reply Input Box */}
+                  <div className="p-4 bg-white dark:bg-dark-card border-t border-gray-200 dark:border-dark-border">
+                    <form
+                      onSubmit={(e) => {
+                        e.preventDefault();
+                        handleSendAdminReply();
+                      }}
+                      className="flex items-center gap-2"
+                    >
+                      <input
+                        type="text"
+                        value={adminReplyText}
+                        onChange={(e) => setAdminReplyText(e.target.value)}
+                        placeholder="সাপোর্ট ম্যানেজার হিসেবে সরাসরি গ্রাহককে উত্তর লিখুন..."
+                        className="flex-1 py-3 px-4 text-xs sm:text-sm bg-gray-50 dark:bg-dark-bg border border-gray-300 dark:border-dark-border rounded-2xl focus:outline-none focus:ring-2 focus:ring-emerald-500 text-gray-900 dark:text-white"
+                      />
+                      <button
+                        type="submit"
+                        disabled={!adminReplyText.trim() || sendingAdminReply}
+                        className="px-5 py-3 rounded-2xl bg-amber-600 hover:bg-amber-700 disabled:opacity-50 text-white font-bold text-xs shadow-md transition-all active:scale-95 flex items-center gap-1.5"
+                      >
+                        <Send className="w-4 h-4" />
+                        <span>{sendingAdminReply ? 'যাচ্ছে...' : 'পাঠান'}</span>
+                      </button>
+                    </form>
+                    <p className="text-[10px] text-gray-400 mt-1.5 px-1">
+                      💡 আপনি মেসেজ পাঠালে তা গ্রাহকের চ্যাট স্ক্রিনে "আপনহাট সাপোর্ট ম্যানেজার" হিসেবে প্রদর্শিত হবে।
+                    </p>
+                  </div>
+                </>
+              ) : (
+                <div className="flex-1 flex flex-col items-center justify-center p-12 text-center text-gray-400">
+                  <MessageSquare className="w-12 h-12 mb-3 opacity-30 text-emerald-600" />
+                  <h4 className="font-bold text-sm text-gray-700 dark:text-gray-300">কোনো চ্যাট সেশন সিলেক্ট করা হয়নি</h4>
+                  <p className="text-xs text-gray-400 max-w-sm mt-1">
+                    কথোপকথন দেখতে এবং সরাসরি রিপ্লাই পাঠাতে বাম পাশের তালিকা থেকে যেকোনো গ্রাহক সিলেক্ট করুন।
+                  </p>
+                </div>
+              )}
+
+            </div>
+
           </div>
 
         </div>
