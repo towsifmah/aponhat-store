@@ -1,8 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { 
   ShoppingBag, Sun, Moon, Search, LayoutDashboard, ShieldCheck, User, 
-  LogOut, ChevronDown, ChevronLeft, ChevronRight, Sparkles, Layers
+  LogOut, ChevronDown, ChevronLeft, ChevronRight, Sparkles, Layers, ArrowRight
 } from 'lucide-react';
+import { smartSearchProducts } from '../utils/searchHelper';
 import { useTheme } from '../context/ThemeContext';
 import { useCart } from '../context/CartContext';
 import { useAuth } from '../context/AuthContext';
@@ -52,13 +53,23 @@ export default function Navbar({
     }
   };
 
-  // Filter live search suggestions
-  const liveSearchResults = searchQuery.trim().length > 1 && products
-    ? products.filter(p => 
-        p.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        (p.subcategory && p.subcategory.toLowerCase().includes(searchQuery.toLowerCase()))
-      ).slice(0, 5)
+  const executeSearch = (e) => {
+    if (e) e.preventDefault();
+    if (!searchQuery.trim()) return;
+    setSearchDropdownOpen(false);
+    setSelectedCategory('all');
+    if (currentView !== 'home') setCurrentView('home');
+    setTimeout(() => {
+      const el = document.getElementById('products-section');
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 60);
+  };
+
+  // Filter live search suggestions with bilingual smart search
+  const allSearchResults = searchQuery.trim().length > 0 && products
+    ? smartSearchProducts(products, searchQuery)
     : [];
+  const liveSearchResults = allSearchResults.slice(0, 8);
 
   useEffect(() => {
     const handleClickOutside = (e) => {
@@ -125,8 +136,14 @@ export default function Navbar({
 
           {/* Dynamic Search Bar with Live Suggestions Dropdown */}
           <div ref={searchRef} className="flex-1 max-w-lg mx-1 sm:mx-6 relative">
-            <div className="relative">
-              <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 dark:text-dark-muted" />
+            <form onSubmit={executeSearch} className="relative">
+              <button
+                type="submit"
+                aria-label="অনুসন্ধান করুন"
+                className="absolute left-3.5 top-1/2 -translate-y-1/2 text-gray-400 hover:text-apon-600 dark:text-dark-muted dark:hover:text-apon-400 transition-colors"
+              >
+                <Search className="w-4 h-4" />
+              </button>
               <input
                 type="text"
                 value={searchQuery}
@@ -135,54 +152,82 @@ export default function Navbar({
                   setSearchQuery(e.target.value);
                   setSearchDropdownOpen(true);
                 }}
-                placeholder="পণ্য খুঁজুন (যেমন: শার্ট, ঘড়ি, ব্যাগ)..."
-                className="w-full pl-9 sm:pl-10 pr-4 py-2 sm:py-2.5 rounded-full border border-gray-200 dark:border-dark-border bg-gray-50/80 dark:bg-dark-bg/80 text-xs sm:text-sm text-gray-900 dark:text-dark-text placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-apon-500 focus:border-transparent transition-all shadow-inner"
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter') {
+                    executeSearch(e);
+                  }
+                }}
+                placeholder="পণ্য খুঁজুন (যেমন: শার্ট, ঘড়ি, ব্যাগ, পাঞ্জাবি)..."
+                className="w-full pl-9 sm:pl-10 pr-9 sm:pr-10 py-2 sm:py-2.5 rounded-full border border-gray-200 dark:border-dark-border bg-gray-50/80 dark:bg-dark-bg/80 text-xs sm:text-sm text-gray-900 dark:text-dark-text placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-apon-500 focus:border-transparent transition-all shadow-inner"
               />
               {searchQuery && (
                 <button
+                  type="button"
                   onClick={() => setSearchQuery('')}
                   className="absolute right-3 top-1/2 -translate-y-1/2 text-xs text-gray-400 hover:text-gray-600 dark:hover:text-white"
                 >
                   ✕
                 </button>
               )}
-            </div>
+            </form>
 
             {/* Live Search Autocomplete Dropdown */}
-            {searchDropdownOpen && liveSearchResults.length > 0 && (
+            {searchDropdownOpen && searchQuery.trim().length > 0 && (
               <div className="absolute left-0 right-0 top-full mt-2 rounded-2xl bg-white dark:bg-dark-card border border-gray-200 dark:border-dark-border shadow-2xl overflow-hidden z-50 animate-toast-in">
-                <div className="p-2 border-b border-gray-100 dark:border-dark-border text-[11px] font-bold text-gray-400 uppercase tracking-wider">
-                  পরামর্শসমূহ
-                </div>
-                <div className="divide-y divide-gray-100 dark:divide-dark-border max-h-72 overflow-y-auto no-scrollbar">
-                  {liveSearchResults.map(prod => (
-                    <div
-                      key={prod.id}
-                      onClick={() => {
-                        onQuickView(prod);
-                        setSearchDropdownOpen(false);
-                      }}
-                      className="flex items-center gap-3 p-3 hover:bg-gray-50 dark:hover:bg-dark-bg cursor-pointer transition-colors"
-                    >
-                      <img
-                        src={prod.image}
-                        alt={prod.title}
-                        onError={(e) => {
-                          e.currentTarget.onerror = null;
-                          e.currentTarget.src = 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80';
-                        }}
-                        className="w-10 h-10 rounded-lg object-cover bg-gray-100 dark:bg-dark-bg shrink-0"
-                      />
-                      <div className="flex-1 min-w-0">
-                        <p className="text-xs font-bold text-gray-900 dark:text-white line-clamp-1">{prod.title}</p>
-                        <p className="text-[10px] text-gray-400">{prod.category_name}</p>
-                      </div>
-                      <span className="text-xs font-bold text-apon-600 dark:text-apon-400 font-sans">
-                        ৳{Math.round(prod.retail_price)}
-                      </span>
+                {liveSearchResults.length > 0 ? (
+                  <>
+                    <div className="p-2.5 border-b border-gray-100 dark:border-dark-border text-[11px] font-bold text-gray-500 dark:text-dark-muted flex items-center justify-between">
+                      <span>পরামর্শসমূহ</span>
+                      <span className="text-apon-600 dark:text-apon-400">{allSearchResults.length} টি পণ্য পাওয়া গেছে</span>
                     </div>
-                  ))}
-                </div>
+                    <div className="divide-y divide-gray-100 dark:divide-dark-border max-h-72 overflow-y-auto no-scrollbar">
+                      {liveSearchResults.map(prod => (
+                        <div
+                          key={prod.id}
+                          onClick={() => {
+                            onQuickView(prod);
+                            setSearchDropdownOpen(false);
+                          }}
+                          className="flex items-center gap-3 p-3 hover:bg-gray-50 dark:hover:bg-dark-bg cursor-pointer transition-colors"
+                        >
+                          <img
+                            src={prod.image}
+                            alt={prod.title}
+                            onError={(e) => {
+                              e.currentTarget.onerror = null;
+                              e.currentTarget.src = 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80';
+                            }}
+                            className="w-10 h-10 rounded-lg object-cover bg-gray-100 dark:bg-dark-bg shrink-0"
+                          />
+                          <div className="flex-1 min-w-0">
+                            <p className="text-xs font-bold text-gray-900 dark:text-white line-clamp-1">{prod.title}</p>
+                            <p className="text-[10px] text-gray-400">{prod.subcategory || prod.category_name}</p>
+                          </div>
+                          <span className="text-xs font-bold text-apon-600 dark:text-apon-400 font-sans">
+                            ৳{Math.round(prod.retail_price)}
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+
+                    {/* View All Results Button */}
+                    <div className="p-2.5 bg-gray-50 dark:bg-dark-bg border-t border-gray-100 dark:border-dark-border text-center">
+                      <button
+                        type="button"
+                        onClick={executeSearch}
+                        className="text-xs font-bold text-apon-600 dark:text-apon-400 hover:text-apon-700 dark:hover:text-apon-300 flex items-center justify-center gap-1.5 w-full py-1 transition-colors"
+                      >
+                        <span>"{searchQuery}" এর সকল ফলাফল দেখুন ({allSearchResults.length} টি)</span>
+                        <ArrowRight className="w-3.5 h-3.5" />
+                      </button>
+                    </div>
+                  </>
+                ) : (
+                  <div className="p-4 text-center text-xs text-gray-500 dark:text-dark-muted">
+                    <p className="font-semibold text-gray-800 dark:text-gray-200">"{searchQuery}" দিয়ে কোনো পণ্য পাওয়া যায়নি</p>
+                    <p className="text-[11px] mt-1 text-gray-400">শার্ট, ঘড়ি, পাঞ্জাবি বা ব্যাগ লিখে সার্চ করে দেখুন</p>
+                  </div>
+                )}
               </div>
             )}
           </div>

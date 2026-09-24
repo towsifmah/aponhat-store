@@ -1,6 +1,7 @@
 import React from 'react';
-import { Sparkles, Truck, ShieldCheck, Headphones, ArrowRight, Flame, ShoppingBag } from 'lucide-react';
+import { Sparkles, Truck, ShieldCheck, Headphones, ArrowRight, Flame, ShoppingBag, X } from 'lucide-react';
 import ProductCard from '../components/ProductCard';
+import { smartSearchProducts } from '../utils/searchHelper';
 
 export default function HomePage({
   products,
@@ -9,6 +10,7 @@ export default function HomePage({
   selectedCategory,
   setSelectedCategory,
   searchQuery,
+  setSearchQuery,
   onQuickView
 }) {
   const [selectedSubcategory, setSelectedSubcategory] = React.useState('all');
@@ -30,25 +32,41 @@ export default function HomePage({
     return Array.from(subs);
   }, [selectedCategory, products]);
 
-  const filteredProducts = products.filter((product) => {
-    const matchesCategory =
-      selectedCategory === 'all' || 
-      String(product.category_id) === String(selectedCategory) ||
-      (product.category_name && product.category_name.toLowerCase() === String(selectedCategory).toLowerCase());
+  // Intelligent Filter: If user is searching, search globally across all products with bilingual synonyms!
+  const filteredProducts = React.useMemo(() => {
+    if (searchQuery && searchQuery.trim().length > 0) {
+      let results = smartSearchProducts(products, searchQuery);
 
-    const matchesSubcategory =
-      selectedSubcategory === 'all' || 
-      product.subcategory === selectedSubcategory;
+      // If user additionally chose a specific category, allow narrowing if it has matches
+      if (selectedCategory !== 'all') {
+        const catScoped = results.filter(p => String(p.category_id) === String(selectedCategory));
+        if (catScoped.length > 0) {
+          results = catScoped;
+        }
+      }
+      if (selectedSubcategory !== 'all') {
+        const subScoped = results.filter(p => p.subcategory === selectedSubcategory);
+        if (subScoped.length > 0) {
+          results = subScoped;
+        }
+      }
+      return results;
+    }
 
-    const matchesSearch =
-      !searchQuery ||
-      product.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      (product.subcategory && product.subcategory.toLowerCase().includes(searchQuery.toLowerCase())) ||
-      (product.category_name && product.category_name.toLowerCase().includes(searchQuery.toLowerCase())) ||
-      (product.sku && product.sku.toLowerCase().includes(searchQuery.toLowerCase()));
+    // Default category & subcategory browsing
+    return products.filter((product) => {
+      const matchesCategory =
+        selectedCategory === 'all' || 
+        String(product.category_id) === String(selectedCategory) ||
+        (product.category_name && product.category_name.toLowerCase() === String(selectedCategory).toLowerCase());
 
-    return matchesCategory && matchesSubcategory && matchesSearch;
-  });
+      const matchesSubcategory =
+        selectedSubcategory === 'all' || 
+        product.subcategory === selectedSubcategory;
+
+      return matchesCategory && matchesSubcategory;
+    });
+  }, [products, searchQuery, selectedCategory, selectedSubcategory]);
 
   return (
     <div className="space-y-10 pb-16">
@@ -243,30 +261,44 @@ export default function HomePage({
           <div>
             <h2 className="text-xl sm:text-2xl font-black text-gray-900 dark:text-white flex items-center gap-2">
               <span>
-                {selectedCategory === 'all'
-                  ? 'সকল পণ্য সম্ভার'
-                  : categories.find((c) => String(c.id) === String(selectedCategory))?.name || 'পণ্যসমূহ'}
+                {searchQuery
+                  ? `"${searchQuery}" এর অনুসন্ধান ফলাফল`
+                  : (selectedCategory === 'all'
+                    ? 'সকল পণ্য সম্ভার'
+                    : categories.find((c) => String(c.id) === String(selectedCategory))?.name || 'পণ্যসমূহ')}
               </span>
-              <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-apon-100 text-apon-800 dark:bg-apon-950 dark:text-apon-300">
-                {filteredProducts.length} টি
+              <span className="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-apon-100 text-apon-800 dark:bg-apon-950 dark:text-apon-300">
+                {filteredProducts.length} টি পণ্য
               </span>
             </h2>
             {searchQuery && (
-              <p className="text-xs text-gray-500 dark:text-dark-muted mt-1">
-                "{searchQuery}" এর জন্য ফলাফল দেখাচ্ছে
-              </p>
+              <div className="flex items-center gap-3 mt-1.5 flex-wrap">
+                <p className="text-xs text-gray-500 dark:text-dark-muted">
+                  সর্বমোট ৫২৪টি পণ্যের মধ্যে <span className="font-bold text-gray-900 dark:text-white">{filteredProducts.length}</span> টি পণ্য পাওয়া গেছে
+                </p>
+                {setSearchQuery && (
+                  <button
+                    onClick={() => setSearchQuery('')}
+                    className="text-xs text-red-600 dark:text-red-400 hover:underline font-bold flex items-center gap-1 bg-red-50 dark:bg-red-950/40 px-2 py-0.5 rounded-md"
+                  >
+                    <span>সার্চ মুছুন</span>
+                    <X className="w-3 h-3" />
+                  </button>
+                )}
+              </div>
             )}
           </div>
 
-          {selectedCategory !== 'all' && (
+          {(selectedCategory !== 'all' || searchQuery) && (
             <button
               onClick={() => {
                 setSelectedCategory('all');
                 setSelectedSubcategory('all');
+                if (setSearchQuery) setSearchQuery('');
               }}
               className="text-xs font-semibold text-apon-600 dark:text-apon-400 hover:underline self-start sm:self-auto"
             >
-              ← সব ক্যাটাগরি দেখুন
+              ← সব ক্যাটাগরি ও পণ্য দেখুন
             </button>
           )}
         </div>
@@ -319,15 +351,19 @@ export default function HomePage({
         ) : filteredProducts.length === 0 ? (
           <div className="py-16 text-center text-gray-500 dark:text-dark-muted">
             <ShoppingBag className="w-12 h-12 text-gray-300 dark:text-dark-border mx-auto mb-3" />
-            <h3 className="text-base font-bold text-gray-800 dark:text-gray-200">কোনো পণ্য পাওয়া যায়নি</h3>
-            <p className="text-xs mt-1">অন্য কোনো কিওয়ার্ড লিখে খুঁজুন অথবা ক্যাটাগরি পরিবর্তন করুন।</p>
+            <h3 className="text-base font-bold text-gray-800 dark:text-gray-200">
+              {searchQuery ? `"${searchQuery}" এর জন্য কোনো পণ্য পাওয়া যায়নি` : 'কোনো পণ্য পাওয়া যায়নি'}
+            </h3>
+            <p className="text-xs mt-1">শার্ট, ঘড়ি, পাঞ্জাবি, ব্যাগ বা অন্য কোনো কিওয়ার্ড লিখে খুঁজুন অথবা ক্যাটাগরি পরিবর্তন করুন।</p>
             <button
               onClick={() => {
                 setSelectedCategory('all');
+                setSelectedSubcategory('all');
+                if (setSearchQuery) setSearchQuery('');
               }}
-              className="mt-4 px-5 py-2 rounded-full bg-apon-600 text-white text-xs font-bold"
+              className="mt-4 px-6 py-2.5 rounded-full bg-apon-600 hover:bg-apon-700 text-white text-xs font-bold shadow-md transition-all active:scale-95"
             >
-              সব পণ্য দেখুন
+              সকল পণ্য দেখুন ({products.length} টি)
             </button>
           </div>
         ) : (

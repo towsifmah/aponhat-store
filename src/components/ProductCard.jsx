@@ -13,12 +13,19 @@ export default function ProductCard({ product, onQuickView }) {
 
   return (
     <article
+      itemScope
+      itemType="https://schema.org/Product"
       onClick={() => onQuickView(product)}
       className="group relative flex flex-col overflow-hidden rounded-2xl border border-gray-200/80 dark:border-dark-border bg-white dark:bg-dark-card shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1.5 cursor-pointer"
     >
+      <meta itemProp="name" content={product.title} />
+      <meta itemProp="description" content={product.description || product.title} />
+      <meta itemProp="sku" content={product.sku || 'APON-' + product.id} />
+
       {/* Product Image Container */}
       <div className="relative aspect-square w-full overflow-hidden bg-gray-50 dark:bg-dark-bg">
         <img
+          itemProp="image"
           src={product.image || 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80'}
           alt={product.title}
           loading="lazy"
@@ -61,7 +68,10 @@ export default function ProductCard({ product, onQuickView }) {
         </h3>
 
         {/* Price & Add to Cart Button */}
-        <div className="mt-auto pt-3 flex items-center justify-between border-t border-gray-100 dark:border-dark-border">
+        <div className="mt-auto pt-3 flex items-center justify-between border-t border-gray-100 dark:border-dark-border" itemProp="offers" itemScope itemType="https://schema.org/Offer">
+          <meta itemProp="priceCurrency" content="BDT" />
+          <meta itemProp="price" content={String(Math.round(product.retail_price))} />
+          <meta itemProp="availability" content="https://schema.org/InStock" />
           <div>
             <div className="flex items-baseline gap-1.5">
               <span className="text-base sm:text-lg font-bold text-apon-600 dark:text-apon-400">

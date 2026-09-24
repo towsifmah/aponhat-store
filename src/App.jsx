@@ -98,6 +98,7 @@ export default function App() {
             selectedCategory={selectedCategory}
             setSelectedCategory={setSelectedCategory}
             searchQuery={searchQuery}
+            setSearchQuery={setSearchQuery}
             onQuickView={(prod) => setQuickViewProduct(prod)}
           />
         )}

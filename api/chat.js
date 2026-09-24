@@ -2,6 +2,7 @@
 import fs from 'fs';
 import path from 'path';
 import { getStore } from './_data.js';
+import { smartSearchProducts } from './_searchHelper.js';
 
 const CHAT_FILE = path.join('/tmp', 'aponhat_chats.json');
 
@@ -113,12 +114,8 @@ function generatePriyaResponse(userMessage, store) {
     };
   }
 
-  // 6. Generic search matching any keyword
-  const keywordMatches = products.filter(p =>
-    p.title.toLowerCase().includes(q) ||
-    p.category_name.toLowerCase().includes(q) ||
-    (p.subcategory && p.subcategory.toLowerCase().includes(q))
-  ).slice(0, 3);
+  // 6. Intelligent bilingual search across all 524 products from Greenish Trade
+  const keywordMatches = smartSearchProducts(products, q).slice(0, 3);
 
   if (keywordMatches.length > 0) {
     return {

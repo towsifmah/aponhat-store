@@ -1,5 +1,6 @@
 // api/products.js - Vercel Serverless Function for Products
 import { getStore, saveStore } from './_data.js';
+import { smartSearchProducts } from './_searchHelper.js';
 
 export default function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -74,18 +75,16 @@ export default function handler(req, res) {
 
   let results = store.products.filter(p => p.is_active !== 0);
 
-  if (category_id && category_id !== 'all') {
-    results = results.filter(p => String(p.category_id) === String(category_id));
+  if (search) {
+    results = smartSearchProducts(results, search);
   }
 
-  if (search) {
-    const q = search.toLowerCase();
-    results = results.filter(p =>
-      p.title.toLowerCase().includes(q) ||
-      (p.subcategory && p.subcategory.toLowerCase().includes(q)) ||
-      (p.description && p.description.toLowerCase().includes(q)) ||
-      String(p.id).includes(q)
-    );
+  if (category_id && category_id !== 'all') {
+    const catFiltered = results.filter(p => String(p.category_id) === String(category_id));
+    // If search had results outside this category, don't zero it out
+    if (catFiltered.length > 0 || !search) {
+      results = catFiltered;
+    }
   }
 
   const max = limit ? parseInt(limit) : 1000;
