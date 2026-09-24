@@ -93,7 +93,6 @@ export default function App() {
   });
 
   const [searchQuery, setSearchQuery] = useState('');
-  const [quickViewProduct, setQuickViewProduct] = useState(null);
   const [orderSuccessData, setOrderSuccessData] = useState(null);
 
   const { isAdmin, openLogin } = useAuth();
@@ -117,11 +116,17 @@ export default function App() {
 
   // Fetch or find single product when visiting /category/:catId/:item or /product/:id directly or on reload
   useEffect(() => {
-    if (currentView === 'product' && selectedProductId) {
+    if (selectedProductId) {
+      const pIdStr = String(selectedProductId);
+      const cleanId = pIdStr.match(/^(\d{6,})/) ? pIdStr.match(/^(\d{6,})/)[1] : pIdStr.split('-')[0];
+
       const found = products.find(p => 
-        String(p.id) === String(selectedProductId) ||
-        (p.slug && p.slug === selectedProductId) ||
-        (p.title && slugifyTitle(p.title) === selectedProductId)
+        String(p.id) === pIdStr ||
+        String(p.id) === cleanId ||
+        (p.slug && p.slug === pIdStr) ||
+        (p.title && slugifyTitle(p.title) === pIdStr) ||
+        (p.title && slugifyTitle(p.title) === cleanId) ||
+        pIdStr.includes(String(p.id))
       );
       if (found) {
         setDirectProductData(found);
@@ -129,7 +134,7 @@ export default function App() {
       } else {
         let isMounted = true;
         setSingleProductLoading(true);
-        fetch(`/api/products.php?id=${encodeURIComponent(selectedProductId)}`)
+        fetch(`/api/products.php?id=${encodeURIComponent(cleanId)}`)
           .then(r => r.json())
           .then(res => {
             if (isMounted) {
@@ -146,7 +151,7 @@ export default function App() {
         return () => { isMounted = false; };
       }
     }
-  }, [currentView, selectedProductId, products]);
+  }, [selectedProductId, products]);
 
   // Fetch categories, products, and settings on initial load
   useEffect(() => {
@@ -321,19 +326,39 @@ export default function App() {
       setDirectProductData(productOrId);
     } else {
       prodId = String(productOrId);
-      prod = products.find(p => String(p.id) === prodId) || null;
+      const cleanId = prodId.match(/^(\d{6,})/) ? prodId.match(/^(\d{6,})/)[1] : prodId.split('-')[0];
+      prod = products.find(p => 
+        String(p.id) === prodId || 
+        String(p.id) === cleanId ||
+        (p.slug && p.slug === prodId) || 
+        (p.title && slugifyTitle(p.title) === prodId) ||
+        prodId.includes(String(p.id))
+      ) || null;
       if (prod) setDirectProductData(prod);
     }
 
-    const catId = prod?.category_id || selectedCategory || '1';
-    const path = prod ? getProductUrl(prod) : `/product/${prodId}`;
+    const catId = prod?.category_id || (selectedCategory !== 'all' ? selectedCategory : '1');
+    const path = prod ? getProductUrl(prod) : `/category/${catId}/${prodId}`;
     setSelectedProductId(prodId);
     setSelectedCategory(catId);
-    navigateTo(path, 'product', catId, { productId: prodId });
+    if (typeof window !== 'undefined' && window.location.pathname !== path) {
+      window.history.pushState({ view: 'home', catId, productId: prodId }, '', path);
+    }
+  };
+
+  const handleCloseProductModal = () => {
+    setSelectedProductId(null);
+    setDirectProductData(null);
+    const catPath = (selectedCategory && selectedCategory !== 'all') ? `/category/${selectedCategory}` : '/';
+    if (typeof window !== 'undefined' && window.location.pathname !== catPath) {
+      window.history.pushState({ view: 'home', catId: selectedCategory, productId: null }, '', catPath);
+    }
   };
 
   const handleSelectCategory = (catId) => {
     setSelectedCategory(catId);
+    setSelectedProductId(null);
+    setDirectProductData(null);
     const newPath = (catId && catId !== 'all') ? `/category/${catId}` : '/';
     if (window.location.pathname !== newPath) {
       window.history.pushState({ view: 'home', catId, productId: null }, '', newPath);
@@ -349,7 +374,10 @@ export default function App() {
   };
 
   const handleBackToShopping = () => {
-    navigateTo('/', 'home', 'all');
+    setSelectedProductId(null);
+    setDirectProductData(null);
+    const catPath = (selectedCategory && selectedCategory !== 'all') ? `/category/${selectedCategory}` : '/';
+    navigateTo(catPath, 'home', selectedCategory, { productId: null });
   };
 
   const handleGoToCheckout = () => {
@@ -363,7 +391,19 @@ export default function App() {
     } catch {}
   };
 
-  const activeProduct = directProductData || products.find(p => String(p.id) === String(selectedProductId));
+  const activeProduct = directProductData || products.find(p => {
+    if (!selectedProductId) return false;
+    const pIdStr = String(selectedProductId);
+    const cleanId = pIdStr.match(/^(\d{6,})/) ? pIdStr.match(/^(\d{6,})/)[1] : pIdStr.split('-')[0];
+    return (
+      String(p.id) === pIdStr ||
+      String(p.id) === cleanId ||
+      (p.slug && p.slug === pIdStr) ||
+      (p.title && slugifyTitle(p.title) === pIdStr) ||
+      (p.title && slugifyTitle(p.title) === cleanId) ||
+      pIdStr.includes(String(p.id))
+    );
+  });
 
   return (
     <div className="min-h-screen flex flex-col bg-gray-50 dark:bg-dark-bg text-gray-900 dark:text-dark-text transition-colors duration-300">
@@ -489,12 +529,17 @@ export default function App() {
         setSelectedCategory={handleSelectCategory}
       />
 
-      {/* Product Quick View & Variant Modal with Zoom */}
-      {quickViewProduct && (
+      {/* Product Quick View & Variant Modal with Address Bar URL Sync & Zoom */}
+      {selectedProductId && activeProduct && currentView !== 'product' && (
         <ProductModal
-          product={quickViewProduct}
-          onClose={() => setQuickViewProduct(null)}
+          product={activeProduct}
+          onClose={handleCloseProductModal}
           onBuyNow={handleGoToCheckout}
+          storeSettings={storeSettings}
+          onOpenFullPage={() => {
+            const path = getProductUrl(activeProduct);
+            navigateTo(path, 'product', activeProduct.category_id || selectedCategory || '1', { productId: activeProduct.id });
+          }}
         />
       )}
 
