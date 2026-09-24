@@ -44,6 +44,10 @@ export default function ShopifyProductViewer({ product }) {
             <img
               src={imgUrl}
               alt={`Angle ${idx + 1}`}
+              onError={(e) => {
+                e.currentTarget.onerror = null;
+                e.currentTarget.src = 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80';
+              }}
               className="w-full h-full object-cover object-center"
             />
           </button>
@@ -61,6 +65,10 @@ export default function ShopifyProductViewer({ product }) {
         <img
           src={activeImage}
           alt={product?.title || 'Product view'}
+          onError={(e) => {
+            e.currentTarget.onerror = null;
+            e.currentTarget.src = 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80';
+          }}
           style={{
             transformOrigin: `${zoomPos.x}% ${zoomPos.y}%`,
             transform: isZoomed ? 'scale(2.2)' : 'scale(1)',

@@ -88,9 +88,9 @@ export const initialProducts = [
     "retail_price": 670,
     "regular_price": 871,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.52%20PM%20(1)_2608181042313270.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.52%20PM%20(1)_2608181042313270.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.52%20PM%20(1)_2608181042313270.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.52%20PM%20(1)_2608181042313270.jpeg"
     ],
     "sizes": [
       "M",
@@ -113,9 +113,9 @@ export const initialProducts = [
     "retail_price": 670,
     "regular_price": 871,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.52%20PM%20(2)_2608181041130220.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.52%20PM%20(2)_2608181041130220.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.52%20PM%20(2)_2608181041130220.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.52%20PM%20(2)_2608181041130220.jpeg"
     ],
     "sizes": [
       "M",
@@ -138,9 +138,9 @@ export const initialProducts = [
     "retail_price": 670,
     "regular_price": 871,
     "stock": 39,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.52%20PM_2608181040003447.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.52%20PM_2608181040003447.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.52%20PM_2608181040003447.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.52%20PM_2608181040003447.jpeg"
     ],
     "sizes": [
       "M",
@@ -163,9 +163,9 @@ export const initialProducts = [
     "retail_price": 670,
     "regular_price": 871,
     "stock": 39,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.54%20PM_2608181038478619.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.54%20PM_2608181038478619.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.54%20PM_2608181038478619.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.54%20PM_2608181038478619.jpeg"
     ],
     "sizes": [
       "M",
@@ -188,9 +188,9 @@ export const initialProducts = [
     "retail_price": 670,
     "regular_price": 871,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.55%20PM%20(1)_2608181037285929.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.55%20PM%20(1)_2608181037285929.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.55%20PM%20(1)_2608181037285929.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.55%20PM%20(1)_2608181037285929.jpeg"
     ],
     "sizes": [
       "M",
@@ -213,9 +213,9 @@ export const initialProducts = [
     "retail_price": 670,
     "regular_price": 871,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.55%20PM%20(2)_2608181036101890.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.55%20PM%20(2)_2608181036101890.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.55%20PM%20(2)_2608181036101890.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.55%20PM%20(2)_2608181036101890.jpeg"
     ],
     "sizes": [
       "M",
@@ -238,9 +238,9 @@ export const initialProducts = [
     "retail_price": 670,
     "regular_price": 871,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.55%20PM_2608181034571521.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.55%20PM_2608181034571521.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.55%20PM_2608181034571521.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.55%20PM_2608181034571521.jpeg"
     ],
     "sizes": [
       "M",
@@ -263,9 +263,9 @@ export const initialProducts = [
     "retail_price": 670,
     "regular_price": 871,
     "stock": 39,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.56%20PM%20(1)_2608181033473111.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.56%20PM%20(1)_2608181033473111.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.56%20PM%20(1)_2608181033473111.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.56%20PM%20(1)_2608181033473111.jpeg"
     ],
     "sizes": [
       "M",
@@ -288,9 +288,9 @@ export const initialProducts = [
     "retail_price": 670,
     "regular_price": 871,
     "stock": 39,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.56%20PM%20(2)_2608181032174519.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.56%20PM%20(2)_2608181032174519.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.56%20PM%20(2)_2608181032174519.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.56%20PM%20(2)_2608181032174519.jpeg"
     ],
     "sizes": [
       "M",
@@ -313,9 +313,9 @@ export const initialProducts = [
     "retail_price": 670,
     "regular_price": 871,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.56%20PM%20(3)_2608181031024951.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.56%20PM%20(3)_2608181031024951.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.56%20PM%20(3)_2608181031024951.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.56%20PM%20(3)_2608181031024951.jpeg"
     ],
     "sizes": [
       "M",
@@ -338,9 +338,9 @@ export const initialProducts = [
     "retail_price": 670,
     "regular_price": 871,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.56%20PM_2608181029455502.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.56%20PM_2608181029455502.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.56%20PM_2608181029455502.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.56%20PM_2608181029455502.jpeg"
     ],
     "sizes": [
       "M",
@@ -363,9 +363,9 @@ export const initialProducts = [
     "retail_price": 670,
     "regular_price": 871,
     "stock": 41,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.57%20PM%20(1)_2608181028214545.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.57%20PM%20(1)_2608181028214545.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.57%20PM%20(1)_2608181028214545.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-15%20at%209.27.57%20PM%20(1)_2608181028214545.jpeg"
     ],
     "sizes": [
       "M",
@@ -388,9 +388,9 @@ export const initialProducts = [
     "retail_price": 410,
     "regular_price": 533,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-30%20at%2022.19.19%20(1)_2608301621343662.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-30%20at%2022.19.19%20(1)_2608301621343662.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-30%20at%2022.19.19%20(1)_2608301621343662.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-30%20at%2022.19.19%20(1)_2608301621343662.jpeg"
     ],
     "sizes": [
       "M",
@@ -413,9 +413,9 @@ export const initialProducts = [
     "retail_price": 410,
     "regular_price": 533,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-30%20at%2022.15.04%20(1)_2608301618346589.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-30%20at%2022.15.04%20(1)_2608301618346589.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-30%20at%2022.15.04%20(1)_2608301618346589.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-30%20at%2022.15.04%20(1)_2608301618346589.jpeg"
     ],
     "sizes": [
       "M",
@@ -438,9 +438,9 @@ export const initialProducts = [
     "retail_price": 410,
     "regular_price": 533,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-30%20at%2022.11.08_2608301614047144.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-30%20at%2022.11.08_2608301614047144.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-30%20at%2022.11.08_2608301614047144.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-30%20at%2022.11.08_2608301614047144.jpeg"
     ],
     "sizes": [
       "M",
@@ -463,9 +463,9 @@ export const initialProducts = [
     "retail_price": 410,
     "regular_price": 533,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fgfbhgfb_2608241712282330.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fgfbhgfb_2608241712282330.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fgfbhgfb_2608241712282330.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fgfbhgfb_2608241712282330.jpg"
     ],
     "sizes": [
       "M",
@@ -488,9 +488,9 @@ export const initialProducts = [
     "retail_price": 440,
     "regular_price": 572,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FFDGVRFDV_2608232052552074.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FFDGVRFDV_2608232052552074.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FFDGVRFDV_2608232052552074.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FFDGVRFDV_2608232052552074.jpg"
     ],
     "sizes": [
       "M",
@@ -513,9 +513,9 @@ export const initialProducts = [
     "retail_price": 460,
     "regular_price": 598,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-22%20at%2011.28.48%20AM%20(4)_2608232046221097.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-22%20at%2011.28.48%20AM%20(4)_2608232046221097.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-22%20at%2011.28.48%20AM%20(4)_2608232046221097.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-22%20at%2011.28.48%20AM%20(4)_2608232046221097.jpeg"
     ],
     "sizes": [
       "M",
@@ -538,9 +538,9 @@ export const initialProducts = [
     "retail_price": 460,
     "regular_price": 598,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-22%20at%2011.28.48%20AM%20(3)_2608232043273807.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-22%20at%2011.28.48%20AM%20(3)_2608232043273807.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-22%20at%2011.28.48%20AM%20(3)_2608232043273807.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-22%20at%2011.28.48%20AM%20(3)_2608232043273807.jpeg"
     ],
     "sizes": [
       "M",
@@ -563,9 +563,9 @@ export const initialProducts = [
     "retail_price": 460,
     "regular_price": 598,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-23%20at%2012.28.48%20AM_2608241904450761.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-23%20at%2012.28.48%20AM_2608241904450761.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-23%20at%2012.28.48%20AM_2608241904450761.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-23%20at%2012.28.48%20AM_2608241904450761.jpeg"
     ],
     "sizes": [
       "M",
@@ -588,9 +588,9 @@ export const initialProducts = [
     "retail_price": 425,
     "regular_price": 553,
     "stock": 50,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-05%20at%2012.37.18%20PM%20(1)_2606052210563469.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-05%20at%2012.37.18%20PM%20(1)_2606052210563469.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-05%20at%2012.37.18%20PM%20(1)_2606052210563469.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-05%20at%2012.37.18%20PM%20(1)_2606052210563469.jpeg"
     ],
     "sizes": [
       "M",
@@ -613,9 +613,9 @@ export const initialProducts = [
     "retail_price": 420,
     "regular_price": 546,
     "stock": 50,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-05%20at%2012.33.25%20PM_2606052205324013.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-05%20at%2012.33.25%20PM_2606052205324013.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-05%20at%2012.33.25%20PM_2606052205324013.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-05%20at%2012.33.25%20PM_2606052205324013.jpeg"
     ],
     "sizes": [
       "M",
@@ -638,9 +638,9 @@ export const initialProducts = [
     "retail_price": 420,
     "regular_price": 546,
     "stock": 50,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-05%20at%2012.33.24%20PM%20(2)_2606052202282614.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-05%20at%2012.33.24%20PM%20(2)_2606052202282614.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-05%20at%2012.33.24%20PM%20(2)_2606052202282614.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-05%20at%2012.33.24%20PM%20(2)_2606052202282614.jpeg"
     ],
     "sizes": [
       "M",
@@ -663,9 +663,9 @@ export const initialProducts = [
     "retail_price": 420,
     "regular_price": 546,
     "stock": 50,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-05%20at%2012.33.24%20PM%20(1)_2606052159327256.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-05%20at%2012.33.24%20PM%20(1)_2606052159327256.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-05%20at%2012.33.24%20PM%20(1)_2606052159327256.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-05%20at%2012.33.24%20PM%20(1)_2606052159327256.jpeg"
     ],
     "sizes": [
       "M",
@@ -688,9 +688,9 @@ export const initialProducts = [
     "retail_price": 560,
     "regular_price": 728,
     "stock": 28,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-07%20at%2023.01.05_2609160545521692.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-07%20at%2023.01.05_2609160545521692.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-07%20at%2023.01.05_2609160545521692.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-07%20at%2023.01.05_2609160545521692.jpeg"
     ],
     "sizes": [
       "M",
@@ -713,9 +713,9 @@ export const initialProducts = [
     "retail_price": 560,
     "regular_price": 728,
     "stock": 30,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-07%20at%2022.59.00_2609160539159097.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-07%20at%2022.59.00_2609160539159097.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-07%20at%2022.59.00_2609160539159097.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-07%20at%2022.59.00_2609160539159097.jpeg"
     ],
     "sizes": [
       "M",
@@ -738,9 +738,9 @@ export const initialProducts = [
     "retail_price": 560,
     "regular_price": 728,
     "stock": 29,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-07%20at%2022.56.29_2609160532483920.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-07%20at%2022.56.29_2609160532483920.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-07%20at%2022.56.29_2609160532483920.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-07%20at%2022.56.29_2609160532483920.jpeg"
     ],
     "sizes": [
       "M",
@@ -763,9 +763,9 @@ export const initialProducts = [
     "retail_price": 560,
     "regular_price": 728,
     "stock": 30,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-07%20at%2022.54.15_2609160529446463.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-07%20at%2022.54.15_2609160529446463.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-07%20at%2022.54.15_2609160529446463.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-07%20at%2022.54.15_2609160529446463.jpeg"
     ],
     "sizes": [
       "M",
@@ -788,9 +788,9 @@ export const initialProducts = [
     "retail_price": 480,
     "regular_price": 624,
     "stock": 24,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-13%20at%2021.54.01_2608161622179044.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-13%20at%2021.54.01_2608161622179044.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-13%20at%2021.54.01_2608161622179044.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-13%20at%2021.54.01_2608161622179044.jpeg"
     ],
     "sizes": [
       "M",
@@ -813,9 +813,9 @@ export const initialProducts = [
     "retail_price": 480,
     "regular_price": 624,
     "stock": 23,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-13%20at%2021.54.01%20(1)_2608161620286097.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-13%20at%2021.54.01%20(1)_2608161620286097.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-13%20at%2021.54.01%20(1)_2608161620286097.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-13%20at%2021.54.01%20(1)_2608161620286097.jpeg"
     ],
     "sizes": [
       "M",
@@ -838,9 +838,9 @@ export const initialProducts = [
     "retail_price": 480,
     "regular_price": 624,
     "stock": 36,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-13%20at%2021.54.02_2608161617516651.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-13%20at%2021.54.02_2608161617516651.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-13%20at%2021.54.02_2608161617516651.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-13%20at%2021.54.02_2608161617516651.jpeg"
     ],
     "sizes": [
       "M",
@@ -863,9 +863,9 @@ export const initialProducts = [
     "retail_price": 480,
     "regular_price": 624,
     "stock": 34,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-13%20at%2021.54.02%20(1)_2608161616051809.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-13%20at%2021.54.02%20(1)_2608161616051809.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-13%20at%2021.54.02%20(1)_2608161616051809.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-13%20at%2021.54.02%20(1)_2608161616051809.jpeg"
     ],
     "sizes": [
       "M",
@@ -888,9 +888,9 @@ export const initialProducts = [
     "retail_price": 480,
     "regular_price": 624,
     "stock": 31,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-13%20at%2021.54.02%20(2)_2608161614122494.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-13%20at%2021.54.02%20(2)_2608161614122494.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-13%20at%2021.54.02%20(2)_2608161614122494.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-13%20at%2021.54.02%20(2)_2608161614122494.jpeg"
     ],
     "sizes": [
       "M",
@@ -913,9 +913,9 @@ export const initialProducts = [
     "retail_price": 480,
     "regular_price": 624,
     "stock": 33,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-13%20at%2021.54.03_2608161607082461.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-13%20at%2021.54.03_2608161607082461.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-13%20at%2021.54.03_2608161607082461.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-13%20at%2021.54.03_2608161607082461.jpeg"
     ],
     "sizes": [
       "M",
@@ -938,9 +938,9 @@ export const initialProducts = [
     "retail_price": 696,
     "regular_price": 905,
     "stock": 41,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.05_2608161826232867.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.05_2608161826232867.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.05_2608161826232867.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.05_2608161826232867.jpeg"
     ],
     "sizes": [
       "M",
@@ -963,9 +963,9 @@ export const initialProducts = [
     "retail_price": 696,
     "regular_price": 905,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.05%20(2)_2608161822265704.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.05%20(2)_2608161822265704.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.05%20(2)_2608161822265704.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.05%20(2)_2608161822265704.jpeg"
     ],
     "sizes": [
       "M",
@@ -988,9 +988,9 @@ export const initialProducts = [
     "retail_price": 696,
     "regular_price": 905,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.05%20(1)_2608161819312889.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.05%20(1)_2608161819312889.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.05%20(1)_2608161819312889.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.05%20(1)_2608161819312889.jpeg"
     ],
     "sizes": [
       "M",
@@ -1013,9 +1013,9 @@ export const initialProducts = [
     "retail_price": 696,
     "regular_price": 905,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.04_2608161752220906.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.04_2608161752220906.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.04_2608161752220906.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.04_2608161752220906.jpeg"
     ],
     "sizes": [
       "M",
@@ -1038,9 +1038,9 @@ export const initialProducts = [
     "retail_price": 696,
     "regular_price": 905,
     "stock": 41,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.04%20(1)_2608161748504704.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.04%20(1)_2608161748504704.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.04%20(1)_2608161748504704.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.04%20(1)_2608161748504704.jpeg"
     ],
     "sizes": [
       "M",
@@ -1063,9 +1063,9 @@ export const initialProducts = [
     "retail_price": 943,
     "regular_price": 1225,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-16%20at%2016.05.21_2607161043404490.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-16%20at%2016.05.21_2607161043404490.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-16%20at%2016.05.21_2607161043404490.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-16%20at%2016.05.21_2607161043404490.jpeg"
     ],
     "sizes": [
       "M",
@@ -1088,9 +1088,9 @@ export const initialProducts = [
     "retail_price": 943,
     "regular_price": 1225,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-16%20at%2016.05.22_2607161041365654.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-16%20at%2016.05.22_2607161041365654.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-16%20at%2016.05.22_2607161041365654.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-16%20at%2016.05.22_2607161041365654.jpeg"
     ],
     "sizes": [
       "M",
@@ -1113,9 +1113,9 @@ export const initialProducts = [
     "retail_price": 943,
     "regular_price": 1225,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-16%20at%2016.05.23_2607161037485512.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-16%20at%2016.05.23_2607161037485512.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-16%20at%2016.05.23_2607161037485512.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-16%20at%2016.05.23_2607161037485512.jpeg"
     ],
     "sizes": [
       "M",
@@ -1138,9 +1138,9 @@ export const initialProducts = [
     "retail_price": 798,
     "regular_price": 1037,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-16%20at%2015.56.29_2607161016594298.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-16%20at%2015.56.29_2607161016594298.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-16%20at%2015.56.29_2607161016594298.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-16%20at%2015.56.29_2607161016594298.jpeg"
     ],
     "sizes": [
       "M",
@@ -1163,9 +1163,9 @@ export const initialProducts = [
     "retail_price": 798,
     "regular_price": 1037,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-16%20at%2015.56.29%20(1)_2607161013408826.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-16%20at%2015.56.29%20(1)_2607161013408826.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-16%20at%2015.56.29%20(1)_2607161013408826.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-16%20at%2015.56.29%20(1)_2607161013408826.jpeg"
     ],
     "sizes": [
       "M",
@@ -1188,9 +1188,9 @@ export const initialProducts = [
     "retail_price": 798,
     "regular_price": 1037,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-16%20at%2015.56.29%20(2)_2607161011409220.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-16%20at%2015.56.29%20(2)_2607161011409220.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-16%20at%2015.56.29%20(2)_2607161011409220.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-16%20at%2015.56.29%20(2)_2607161011409220.jpeg"
     ],
     "sizes": [
       "M",
@@ -1213,9 +1213,9 @@ export const initialProducts = [
     "retail_price": 798,
     "regular_price": 1037,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-16%20at%2015.56.30_2607161009306802.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-16%20at%2015.56.30_2607161009306802.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-16%20at%2015.56.30_2607161009306802.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-16%20at%2015.56.30_2607161009306802.jpeg"
     ],
     "sizes": [
       "M",
@@ -1238,9 +1238,9 @@ export const initialProducts = [
     "retail_price": 696,
     "regular_price": 905,
     "stock": 30,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.49%20(2)_2608161658495793.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.49%20(2)_2608161658495793.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.49%20(2)_2608161658495793.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.49%20(2)_2608161658495793.jpeg"
     ],
     "sizes": [
       "30",
@@ -1263,9 +1263,9 @@ export const initialProducts = [
     "retail_price": 696,
     "regular_price": 905,
     "stock": 30,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.49%20(1)_2608161655125402.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.49%20(1)_2608161655125402.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.49%20(1)_2608161655125402.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.49%20(1)_2608161655125402.jpeg"
     ],
     "sizes": [
       "30",
@@ -1288,9 +1288,9 @@ export const initialProducts = [
     "retail_price": 696,
     "regular_price": 905,
     "stock": 30,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.49_2608161651209646.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.49_2608161651209646.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.49_2608161651209646.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-16%20at%2000.43.49_2608161651209646.jpeg"
     ],
     "sizes": [
       "30",
@@ -1313,9 +1313,9 @@ export const initialProducts = [
     "retail_price": 914,
     "regular_price": 1188,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftttt5r_2606192022582016.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftttt5r_2606192022582016.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftttt5r_2606192022582016.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftttt5r_2606192022582016.jpg"
     ],
     "sizes": [
       "30",
@@ -1338,9 +1338,9 @@ export const initialProducts = [
     "retail_price": 899,
     "regular_price": 1169,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fryrrr_2606192010074750.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fryrrr_2606192010074750.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fryrrr_2606192010074750.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fryrrr_2606192010074750.jpg"
     ],
     "sizes": [
       "30",
@@ -1363,9 +1363,9 @@ export const initialProducts = [
     "retail_price": 914,
     "regular_price": 1188,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fjy_2606191953544873.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fjy_2606191953544873.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fjy_2606191953544873.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fjy_2606191953544873.jpg"
     ],
     "sizes": [
       "30",
@@ -1388,9 +1388,9 @@ export const initialProducts = [
     "retail_price": 600,
     "regular_price": 780,
     "stock": 30,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F114_2607252015258122.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F114_2607252015258122.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F114_2607252015258122.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F114_2607252015258122.jpg"
     ],
     "sizes": [
       "M",
@@ -1413,9 +1413,9 @@ export const initialProducts = [
     "retail_price": 600,
     "regular_price": 780,
     "stock": 30,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F112323_2607252010340202.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F112323_2607252010340202.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F112323_2607252010340202.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F112323_2607252010340202.jpg"
     ],
     "sizes": [
       "M",
@@ -1438,9 +1438,9 @@ export const initialProducts = [
     "retail_price": 600,
     "regular_price": 780,
     "stock": 30,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_a8znmpa8znmpa8zn_2607252004067791.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_a8znmpa8znmpa8zn_2607252004067791.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_a8znmpa8znmpa8zn_2607252004067791.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_a8znmpa8znmpa8zn_2607252004067791.jpg"
     ],
     "sizes": [
       "M",
@@ -1463,9 +1463,9 @@ export const initialProducts = [
     "retail_price": 600,
     "regular_price": 780,
     "stock": 30,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_qlr6sqlr6sqlr6sq_2607252000084279.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_qlr6sqlr6sqlr6sq_2607252000084279.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_qlr6sqlr6sqlr6sq_2607252000084279.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_qlr6sqlr6sqlr6sq_2607252000084279.jpg"
     ],
     "sizes": [
       "M",
@@ -1488,9 +1488,9 @@ export const initialProducts = [
     "retail_price": 600,
     "regular_price": 780,
     "stock": 30,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_geddkgeddkgeddkg_2607251956405319.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_geddkgeddkgeddkg_2607251956405319.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_geddkgeddkgeddkg_2607251956405319.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_geddkgeddkgeddkg_2607251956405319.jpg"
     ],
     "sizes": [
       "M",
@@ -1513,9 +1513,9 @@ export const initialProducts = [
     "retail_price": 600,
     "regular_price": 780,
     "stock": 30,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_naznnqnaznnqnazn_2607251947029144.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_naznnqnaznnqnazn_2607251947029144.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_naznnqnaznnqnazn_2607251947029144.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_naznnqnaznnqnazn_2607251947029144.jpg"
     ],
     "sizes": [
       "M",
@@ -1538,9 +1538,9 @@ export const initialProducts = [
     "retail_price": 550,
     "regular_price": 715,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-19%20at%2001.16.04_2604181951595906.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-19%20at%2001.16.04_2604181951595906.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-19%20at%2001.16.04_2604181951595906.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-19%20at%2001.16.04_2604181951595906.jpeg"
     ],
     "sizes": [
       "M",
@@ -1563,9 +1563,9 @@ export const initialProducts = [
     "retail_price": 550,
     "regular_price": 715,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-19%20at%2001.16.04%20(1)_2604181946332505.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-19%20at%2001.16.04%20(1)_2604181946332505.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-19%20at%2001.16.04%20(1)_2604181946332505.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-19%20at%2001.16.04%20(1)_2604181946332505.jpeg"
     ],
     "sizes": [
       "M",
@@ -1588,9 +1588,9 @@ export const initialProducts = [
     "retail_price": 550,
     "regular_price": 715,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-19%20at%2001.16.04%20(2)_2604181944351539.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-19%20at%2001.16.04%20(2)_2604181944351539.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-19%20at%2001.16.04%20(2)_2604181944351539.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-19%20at%2001.16.04%20(2)_2604181944351539.jpeg"
     ],
     "sizes": [
       "M",
@@ -1613,9 +1613,9 @@ export const initialProducts = [
     "retail_price": 550,
     "regular_price": 715,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-19%20at%2001.16.05_2604181942201790.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-19%20at%2001.16.05_2604181942201790.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-19%20at%2001.16.05_2604181942201790.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-19%20at%2001.16.05_2604181942201790.jpeg"
     ],
     "sizes": [
       "M",
@@ -1638,9 +1638,9 @@ export const initialProducts = [
     "retail_price": 550,
     "regular_price": 715,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-19%20at%2001.16.05%20(1)_2604181939549509.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-19%20at%2001.16.05%20(1)_2604181939549509.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-19%20at%2001.16.05%20(1)_2604181939549509.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-19%20at%2001.16.05%20(1)_2604181939549509.jpeg"
     ],
     "sizes": [
       "M",
@@ -1663,9 +1663,9 @@ export const initialProducts = [
     "retail_price": 550,
     "regular_price": 715,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-19%20at%2001.16.05%20(2)_2604181937019967.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-19%20at%2001.16.05%20(2)_2604181937019967.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-19%20at%2001.16.05%20(2)_2604181937019967.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-19%20at%2001.16.05%20(2)_2604181937019967.jpeg"
     ],
     "sizes": [
       "M",
@@ -1688,9 +1688,9 @@ export const initialProducts = [
     "retail_price": 520,
     "regular_price": 676,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.24.24%20AM_2608021731351215.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.24.24%20AM_2608021731351215.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.24.24%20AM_2608021731351215.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.24.24%20AM_2608021731351215.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -1710,9 +1710,9 @@ export const initialProducts = [
     "retail_price": 520,
     "regular_price": 676,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.23.27%20AM_2608021728228771.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.23.27%20AM_2608021728228771.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.23.27%20AM_2608021728228771.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.23.27%20AM_2608021728228771.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -1732,9 +1732,9 @@ export const initialProducts = [
     "retail_price": 520,
     "regular_price": 676,
     "stock": 39,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.23.20%20AM%20(2)_2608021725092040.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.23.20%20AM%20(2)_2608021725092040.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.23.20%20AM%20(2)_2608021725092040.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.23.20%20AM%20(2)_2608021725092040.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -1754,9 +1754,9 @@ export const initialProducts = [
     "retail_price": 520,
     "regular_price": 676,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.23.20%20AM_2608021717497276.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.23.20%20AM_2608021717497276.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.23.20%20AM_2608021717497276.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.23.20%20AM_2608021717497276.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -1776,9 +1776,9 @@ export const initialProducts = [
     "retail_price": 520,
     "regular_price": 676,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.23.19%20AM_2608021715068535.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.23.19%20AM_2608021715068535.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.23.19%20AM_2608021715068535.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.23.19%20AM_2608021715068535.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -1798,9 +1798,9 @@ export const initialProducts = [
     "retail_price": 520,
     "regular_price": 676,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.23.18%20AM%20(1)_2608021712101976.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.23.18%20AM%20(1)_2608021712101976.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.23.18%20AM%20(1)_2608021712101976.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.23.18%20AM%20(1)_2608021712101976.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -1820,9 +1820,9 @@ export const initialProducts = [
     "retail_price": 520,
     "regular_price": 676,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.23.17%20AM%20(1)_2608021706001940.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.23.17%20AM%20(1)_2608021706001940.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.23.17%20AM%20(1)_2608021706001940.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.23.17%20AM%20(1)_2608021706001940.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -1842,9 +1842,9 @@ export const initialProducts = [
     "retail_price": 520,
     "regular_price": 676,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.23.17%20AM_2608021702096564.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.23.17%20AM_2608021702096564.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.23.17%20AM_2608021702096564.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-02%20at%2012.23.17%20AM_2608021702096564.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -1864,9 +1864,9 @@ export const initialProducts = [
     "retail_price": 420,
     "regular_price": 546,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-04%20at%2014.31.43%20(2)_2606062007354810.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-04%20at%2014.31.43%20(2)_2606062007354810.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-04%20at%2014.31.43%20(2)_2606062007354810.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-04%20at%2014.31.43%20(2)_2606062007354810.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -1886,9 +1886,9 @@ export const initialProducts = [
     "retail_price": 420,
     "regular_price": 546,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-04%20at%2014.31.43%20(1)_2606062005350127.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-04%20at%2014.31.43%20(1)_2606062005350127.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-04%20at%2014.31.43%20(1)_2606062005350127.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-04%20at%2014.31.43%20(1)_2606062005350127.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -1908,9 +1908,9 @@ export const initialProducts = [
     "retail_price": 420,
     "regular_price": 546,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-04%20at%2014.31.42_2606062003270367.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-04%20at%2014.31.42_2606062003270367.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-04%20at%2014.31.42_2606062003270367.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-04%20at%2014.31.42_2606062003270367.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -1930,9 +1930,9 @@ export const initialProducts = [
     "retail_price": 420,
     "regular_price": 546,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-04%20at%2014.31.41_2606062001458948.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-04%20at%2014.31.41_2606062001458948.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-04%20at%2014.31.41_2606062001458948.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-04%20at%2014.31.41_2606062001458948.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -1952,9 +1952,9 @@ export const initialProducts = [
     "retail_price": 1088,
     "regular_price": 1414,
     "stock": 39,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.33.23%20PM%20(1)_2608061350506675.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.33.23%20PM%20(1)_2608061350506675.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.33.23%20PM%20(1)_2608061350506675.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.33.23%20PM%20(1)_2608061350506675.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -1974,9 +1974,9 @@ export const initialProducts = [
     "retail_price": 1088,
     "regular_price": 1414,
     "stock": 38,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.33%20PM_2608061349068331.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.33%20PM_2608061349068331.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.33%20PM_2608061349068331.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.33%20PM_2608061349068331.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -1996,9 +1996,9 @@ export const initialProducts = [
     "retail_price": 1088,
     "regular_price": 1414,
     "stock": 37,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.35%20PM_2608061347263897.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.35%20PM_2608061347263897.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.35%20PM_2608061347263897.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.35%20PM_2608061347263897.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -2018,9 +2018,9 @@ export const initialProducts = [
     "retail_price": 1088,
     "regular_price": 1414,
     "stock": 39,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.36%20PM_2608061343480395.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.36%20PM_2608061343480395.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.36%20PM_2608061343480395.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.36%20PM_2608061343480395.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -2040,9 +2040,9 @@ export const initialProducts = [
     "retail_price": 1088,
     "regular_price": 1414,
     "stock": 35,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.37%20PM%20(1)_2608061341572426.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.37%20PM%20(1)_2608061341572426.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.37%20PM%20(1)_2608061341572426.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.37%20PM%20(1)_2608061341572426.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -2062,9 +2062,9 @@ export const initialProducts = [
     "retail_price": 1088,
     "regular_price": 1414,
     "stock": 35,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.35%20PM%20(1)_2608061339540524.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.35%20PM%20(1)_2608061339540524.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.35%20PM%20(1)_2608061339540524.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.35%20PM%20(1)_2608061339540524.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -2084,9 +2084,9 @@ export const initialProducts = [
     "retail_price": 1088,
     "regular_price": 1414,
     "stock": 36,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.36%20PM%20(1)_2608061338096720.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.36%20PM%20(1)_2608061338096720.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.36%20PM%20(1)_2608061338096720.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.36%20PM%20(1)_2608061338096720.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -2106,9 +2106,9 @@ export const initialProducts = [
     "retail_price": 1088,
     "regular_price": 1414,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.33.21%20PM%20(1)_2608061335010313.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.33.21%20PM%20(1)_2608061335010313.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.33.21%20PM%20(1)_2608061335010313.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.33.21%20PM%20(1)_2608061335010313.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -2128,9 +2128,9 @@ export const initialProducts = [
     "retail_price": 1088,
     "regular_price": 1414,
     "stock": 37,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.33.23%20PM_2608061333416795.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.33.23%20PM_2608061333416795.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.33.23%20PM_2608061333416795.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.33.23%20PM_2608061333416795.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -2150,9 +2150,9 @@ export const initialProducts = [
     "retail_price": 1088,
     "regular_price": 1414,
     "stock": 39,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.33.24%20PM_2608061332129515.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.33.24%20PM_2608061332129515.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.33.24%20PM_2608061332129515.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.33.24%20PM_2608061332129515.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -2172,9 +2172,9 @@ export const initialProducts = [
     "retail_price": 1088,
     "regular_price": 1414,
     "stock": 41,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.36%20PM%20(2)_2608061330394271.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.36%20PM%20(2)_2608061330394271.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.36%20PM%20(2)_2608061330394271.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.36%20PM%20(2)_2608061330394271.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -2194,9 +2194,9 @@ export const initialProducts = [
     "retail_price": 1088,
     "regular_price": 1414,
     "stock": 39,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.37%20PM_2608061328536172.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.37%20PM_2608061328536172.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.37%20PM_2608061328536172.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-06%20at%206.35.37%20PM_2608061328536172.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -2216,9 +2216,9 @@ export const initialProducts = [
     "retail_price": 1059,
     "regular_price": 1376,
     "stock": 30,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-30%20at%2022.39.19_2609201721035836.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-30%20at%2022.39.19_2609201721035836.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-30%20at%2022.39.19_2609201721035836.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-30%20at%2022.39.19_2609201721035836.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -2242,9 +2242,9 @@ export const initialProducts = [
     "retail_price": 1059,
     "regular_price": 1376,
     "stock": 30,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-31%20at%2015.11.40_2609201716299670.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-31%20at%2015.11.40_2609201716299670.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-31%20at%2015.11.40_2609201716299670.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-31%20at%2015.11.40_2609201716299670.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -2268,9 +2268,9 @@ export const initialProducts = [
     "retail_price": 1059,
     "regular_price": 1376,
     "stock": 30,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-02%20at%2019.46.07%20(1)_2609201710408776.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-02%20at%2019.46.07%20(1)_2609201710408776.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-02%20at%2019.46.07%20(1)_2609201710408776.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-02%20at%2019.46.07%20(1)_2609201710408776.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -2294,9 +2294,9 @@ export const initialProducts = [
     "retail_price": 1073,
     "regular_price": 1395,
     "stock": 30,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-06%20at%2010.25.20%20PM%20(1)_2609061937176416.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-06%20at%2010.25.20%20PM%20(1)_2609061937176416.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-06%20at%2010.25.20%20PM%20(1)_2609061937176416.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-06%20at%2010.25.20%20PM%20(1)_2609061937176416.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -2320,9 +2320,9 @@ export const initialProducts = [
     "retail_price": 1073,
     "regular_price": 1395,
     "stock": 29,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-06%20at%2010.25.21%20PM_2609061935417533.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-06%20at%2010.25.21%20PM_2609061935417533.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-06%20at%2010.25.21%20PM_2609061935417533.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-06%20at%2010.25.21%20PM_2609061935417533.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -2346,9 +2346,9 @@ export const initialProducts = [
     "retail_price": 1073,
     "regular_price": 1395,
     "stock": 29,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-06%20at%2010.25.21%20PM%20(1)_2609061934205225.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-06%20at%2010.25.21%20PM%20(1)_2609061934205225.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-06%20at%2010.25.21%20PM%20(1)_2609061934205225.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-06%20at%2010.25.21%20PM%20(1)_2609061934205225.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -2372,9 +2372,9 @@ export const initialProducts = [
     "retail_price": 1073,
     "regular_price": 1395,
     "stock": 32,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-06%20at%2010.25.20%20PM%20(2)_2609061932385023.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-06%20at%2010.25.20%20PM%20(2)_2609061932385023.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-06%20at%2010.25.20%20PM%20(2)_2609061932385023.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-06%20at%2010.25.20%20PM%20(2)_2609061932385023.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -2398,9 +2398,9 @@ export const initialProducts = [
     "retail_price": 1189,
     "regular_price": 1546,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-05%20at%201.07.23%20PM%20(1)_2609051318313590.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-05%20at%201.07.23%20PM%20(1)_2609051318313590.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-05%20at%201.07.23%20PM%20(1)_2609051318313590.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-05%20at%201.07.23%20PM%20(1)_2609051318313590.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -2424,9 +2424,9 @@ export const initialProducts = [
     "retail_price": 1102,
     "regular_price": 1433,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-05%20at%201.04.12%20PM_2609051316024834.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-05%20at%201.04.12%20PM_2609051316024834.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-05%20at%201.04.12%20PM_2609051316024834.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-05%20at%201.04.12%20PM_2609051316024834.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -2450,9 +2450,9 @@ export const initialProducts = [
     "retail_price": 1088,
     "regular_price": 1414,
     "stock": 39,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-05%20at%201.05.18%20PM_2609051313169124.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-05%20at%201.05.18%20PM_2609051313169124.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-05%20at%201.05.18%20PM_2609051313169124.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-05%20at%201.05.18%20PM_2609051313169124.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -2476,9 +2476,9 @@ export const initialProducts = [
     "retail_price": 1189,
     "regular_price": 1546,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-05%20at%201.07.24%20PM_2609051305261386.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-05%20at%201.07.24%20PM_2609051305261386.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-05%20at%201.07.24%20PM_2609051305261386.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-05%20at%201.07.24%20PM_2609051305261386.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -2502,9 +2502,9 @@ export const initialProducts = [
     "retail_price": 1160,
     "regular_price": 1508,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-05%20at%201.06.37%20PM%20(1)_2609051301330003.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-05%20at%201.06.37%20PM%20(1)_2609051301330003.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-05%20at%201.06.37%20PM%20(1)_2609051301330003.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-05%20at%201.06.37%20PM%20(1)_2609051301330003.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -2528,9 +2528,9 @@ export const initialProducts = [
     "retail_price": 841,
     "regular_price": 1093,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.22.35_2604180622216395.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.22.35_2604180622216395.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.22.35_2604180622216395.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.22.35_2604180622216395.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -2554,9 +2554,9 @@ export const initialProducts = [
     "retail_price": 841,
     "regular_price": 1093,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.12_2604180619396405.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.12_2604180619396405.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.12_2604180619396405.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.12_2604180619396405.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -2580,9 +2580,9 @@ export const initialProducts = [
     "retail_price": 841,
     "regular_price": 1093,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.11_2604180614521369.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.11_2604180614521369.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.11_2604180614521369.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.11_2604180614521369.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -2606,9 +2606,9 @@ export const initialProducts = [
     "retail_price": 841,
     "regular_price": 1093,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.10_2604180610144247.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.10_2604180610144247.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.10_2604180610144247.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.10_2604180610144247.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -2632,9 +2632,9 @@ export const initialProducts = [
     "retail_price": 841,
     "regular_price": 1093,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.10%20(2)_2604180608414073.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.10%20(2)_2604180608414073.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.10%20(2)_2604180608414073.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.10%20(2)_2604180608414073.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -2658,9 +2658,9 @@ export const initialProducts = [
     "retail_price": 841,
     "regular_price": 1093,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.09%20(1)_2604180607158856.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.09%20(1)_2604180607158856.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.09%20(1)_2604180607158856.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.09%20(1)_2604180607158856.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -2684,9 +2684,9 @@ export const initialProducts = [
     "retail_price": 841,
     "regular_price": 1093,
     "stock": 9,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.08_2604180528519195.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.08_2604180528519195.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.08_2604180528519195.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.08_2604180528519195.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -2710,9 +2710,9 @@ export const initialProducts = [
     "retail_price": 841,
     "regular_price": 1093,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.07_2604180527097688.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.07_2604180527097688.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.07_2604180527097688.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.07_2604180527097688.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -2736,9 +2736,9 @@ export const initialProducts = [
     "retail_price": 841,
     "regular_price": 1093,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.06_2604180525181164.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.06_2604180525181164.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.06_2604180525181164.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.06_2604180525181164.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -2762,9 +2762,9 @@ export const initialProducts = [
     "retail_price": 841,
     "regular_price": 1093,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.05%20(1)_2604180523394449.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.05%20(1)_2604180523394449.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.05%20(1)_2604180523394449.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.05%20(1)_2604180523394449.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -2788,9 +2788,9 @@ export const initialProducts = [
     "retail_price": 841,
     "regular_price": 1093,
     "stock": 11,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.04_2604180521510354.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.04_2604180521510354.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.04_2604180521510354.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2014.21.04_2604180521510354.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -2814,9 +2814,9 @@ export const initialProducts = [
     "retail_price": 653,
     "regular_price": 848,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2013.06.31%20(1)_2604170843093865.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2013.06.31%20(1)_2604170843093865.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2013.06.31%20(1)_2604170843093865.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2013.06.31%20(1)_2604170843093865.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -2836,9 +2836,9 @@ export const initialProducts = [
     "retail_price": 653,
     "regular_price": 848,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2013.06.32_2604170841575832.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2013.06.32_2604170841575832.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2013.06.32_2604170841575832.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2013.06.32_2604170841575832.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -2858,9 +2858,9 @@ export const initialProducts = [
     "retail_price": 653,
     "regular_price": 848,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2013.06.35%20(1)_2604170840174764.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2013.06.35%20(1)_2604170840174764.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2013.06.35%20(1)_2604170840174764.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2013.06.35%20(1)_2604170840174764.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -2880,9 +2880,9 @@ export const initialProducts = [
     "retail_price": 653,
     "regular_price": 848,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2013.06.36%20(2)_2604170838541203.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2013.06.36%20(2)_2604170838541203.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2013.06.36%20(2)_2604170838541203.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2013.06.36%20(2)_2604170838541203.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -2902,9 +2902,9 @@ export const initialProducts = [
     "retail_price": 653,
     "regular_price": 848,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2013.06.36_2604170837012278.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2013.06.36_2604170837012278.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2013.06.36_2604170837012278.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2013.06.36_2604170837012278.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -2924,9 +2924,9 @@ export const initialProducts = [
     "retail_price": 653,
     "regular_price": 848,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2013.06.37%20(1)_2604170630112247.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2013.06.37%20(1)_2604170630112247.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2013.06.37%20(1)_2604170630112247.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2013.06.37%20(1)_2604170630112247.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -2946,9 +2946,9 @@ export const initialProducts = [
     "retail_price": 653,
     "regular_price": 848,
     "stock": 20,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2013.06.38_2604170628283108.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2013.06.38_2604170628283108.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2013.06.38_2604170628283108.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-04-15%20at%2013.06.38_2604170628283108.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -2968,9 +2968,9 @@ export const initialProducts = [
     "retail_price": 1015,
     "regular_price": 1320,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.15.54_2609180553107079.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.15.54_2609180553107079.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.15.54_2609180553107079.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.15.54_2609180553107079.jpeg"
     ],
     "sizes": [
       "১২ হাত বহর"
@@ -2990,9 +2990,9 @@ export const initialProducts = [
     "retail_price": 1015,
     "regular_price": 1320,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.15.54_2609180549401139.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.15.54_2609180549401139.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.15.54_2609180549401139.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.15.54_2609180549401139.jpeg"
     ],
     "sizes": [
       "১২ হাত বহর"
@@ -3012,9 +3012,9 @@ export const initialProducts = [
     "retail_price": 1015,
     "regular_price": 1320,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.15.48%20(1)_2609180547322605.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.15.48%20(1)_2609180547322605.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.15.48%20(1)_2609180547322605.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.15.48%20(1)_2609180547322605.jpeg"
     ],
     "sizes": [
       "১২ হাত বহর"
@@ -3034,9 +3034,9 @@ export const initialProducts = [
     "retail_price": 1015,
     "regular_price": 1320,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.15.48_2609180545472088.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.15.48_2609180545472088.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.15.48_2609180545472088.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.15.48_2609180545472088.jpeg"
     ],
     "sizes": [
       "১২ হাত বহর"
@@ -3056,9 +3056,9 @@ export const initialProducts = [
     "retail_price": 1015,
     "regular_price": 1320,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.15.47_2609180543586089.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.15.47_2609180543586089.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.15.47_2609180543586089.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.15.47_2609180543586089.jpeg"
     ],
     "sizes": [
       "১২ হাত বহর"
@@ -3078,9 +3078,9 @@ export const initialProducts = [
     "retail_price": 1001,
     "regular_price": 1301,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.15.46_2609180542225713.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.15.46_2609180542225713.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.15.46_2609180542225713.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.15.46_2609180542225713.jpeg"
     ],
     "sizes": [
       "১২ হাত বহর"
@@ -3100,9 +3100,9 @@ export const initialProducts = [
     "retail_price": 1001,
     "regular_price": 1301,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.13.21_2609180540023997.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.13.21_2609180540023997.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.13.21_2609180540023997.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.13.21_2609180540023997.jpeg"
     ],
     "sizes": [
       "১২ হাত বহর"
@@ -3122,9 +3122,9 @@ export const initialProducts = [
     "retail_price": 1001,
     "regular_price": 1301,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.13.20%20(1)_2609180538415183.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.13.20%20(1)_2609180538415183.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.13.20%20(1)_2609180538415183.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.13.20%20(1)_2609180538415183.jpeg"
     ],
     "sizes": [
       "১২ হাত বহর"
@@ -3144,9 +3144,9 @@ export const initialProducts = [
     "retail_price": 1001,
     "regular_price": 1301,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.13.20_2609180537186725.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.13.20_2609180537186725.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.13.20_2609180537186725.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.13.20_2609180537186725.jpeg"
     ],
     "sizes": [
       "১২ হাত বহর"
@@ -3166,9 +3166,9 @@ export const initialProducts = [
     "retail_price": 1001,
     "regular_price": 1301,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.13.19%20(1)_2609180535527154.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.13.19%20(1)_2609180535527154.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.13.19%20(1)_2609180535527154.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.13.19%20(1)_2609180535527154.jpeg"
     ],
     "sizes": [
       "১২ হাত বহর"
@@ -3188,9 +3188,9 @@ export const initialProducts = [
     "retail_price": 1001,
     "regular_price": 1301,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.13.19_2609180534203028.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.13.19_2609180534203028.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.13.19_2609180534203028.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.13.19_2609180534203028.jpeg"
     ],
     "sizes": [
       "১২ হাত বহর"
@@ -3210,9 +3210,9 @@ export const initialProducts = [
     "retail_price": 1001,
     "regular_price": 1301,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.13.18_2609180533026706.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.13.18_2609180533026706.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.13.18_2609180533026706.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.13.18_2609180533026706.jpeg"
     ],
     "sizes": [
       "১২ হাত বহর"
@@ -3232,9 +3232,9 @@ export const initialProducts = [
     "retail_price": 2393,
     "regular_price": 3110,
     "stock": 30,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2010.26.43%20PM%20(1)_2609051309125856.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2010.26.43%20PM%20(1)_2609051309125856.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2010.26.43%20PM%20(1)_2609051309125856.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2010.26.43%20PM%20(1)_2609051309125856.jpeg"
     ],
     "sizes": [
       "52",
@@ -3256,9 +3256,9 @@ export const initialProducts = [
     "retail_price": 2393,
     "regular_price": 3110,
     "stock": 30,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2010.26.43%20PM_2609051247539414.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2010.26.43%20PM_2609051247539414.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2010.26.43%20PM_2609051247539414.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2010.26.43%20PM_2609051247539414.jpeg"
     ],
     "sizes": [
       "52",
@@ -3280,9 +3280,9 @@ export const initialProducts = [
     "retail_price": 2393,
     "regular_price": 3110,
     "stock": 30,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2010.26.42%20PM%20(1)_2609051245338192.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2010.26.42%20PM%20(1)_2609051245338192.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2010.26.42%20PM%20(1)_2609051245338192.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2010.26.42%20PM%20(1)_2609051245338192.jpeg"
     ],
     "sizes": [
       "52",
@@ -3304,9 +3304,9 @@ export const initialProducts = [
     "retail_price": 2494,
     "regular_price": 3242,
     "stock": 30,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2012.15.16%20AM%20(1)_2609041158339768.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2012.15.16%20AM%20(1)_2609041158339768.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2012.15.16%20AM%20(1)_2609041158339768.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2012.15.16%20AM%20(1)_2609041158339768.jpeg"
     ],
     "sizes": [
       "52",
@@ -3328,9 +3328,9 @@ export const initialProducts = [
     "retail_price": 2509,
     "regular_price": 3261,
     "stock": 30,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2012.14.14%20AM_2609041151564431.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2012.14.14%20AM_2609041151564431.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2012.14.14%20AM_2609041151564431.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2012.14.14%20AM_2609041151564431.jpeg"
     ],
     "sizes": [
       "52",
@@ -3352,9 +3352,9 @@ export const initialProducts = [
     "retail_price": 1972,
     "regular_price": 2564,
     "stock": 30,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2012.13.12%20AM%20(1)_2609041145098208.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2012.13.12%20AM%20(1)_2609041145098208.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2012.13.12%20AM%20(1)_2609041145098208.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2012.13.12%20AM%20(1)_2609041145098208.jpeg"
     ],
     "sizes": [
       "52",
@@ -3376,9 +3376,9 @@ export const initialProducts = [
     "retail_price": 2001,
     "regular_price": 2601,
     "stock": 30,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2012.13.12%20AM_2609041143300664.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2012.13.12%20AM_2609041143300664.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2012.13.12%20AM_2609041143300664.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2012.13.12%20AM_2609041143300664.jpeg"
     ],
     "sizes": [
       "52",
@@ -3400,9 +3400,9 @@ export const initialProducts = [
     "retail_price": 2465,
     "regular_price": 3205,
     "stock": 30,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2012.11.31%20AM_2609041139521968.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2012.11.31%20AM_2609041139521968.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2012.11.31%20AM_2609041139521968.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-04%20at%2012.11.31%20AM_2609041139521968.jpeg"
     ],
     "sizes": [
       "52",
@@ -3424,9 +3424,9 @@ export const initialProducts = [
     "retail_price": 2973,
     "regular_price": 3864,
     "stock": 30,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-29%20at%209.25.08%20AM_2607291852299684.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-29%20at%209.25.08%20AM_2607291852299684.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-29%20at%209.25.08%20AM_2607291852299684.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-29%20at%209.25.08%20AM_2607291852299684.jpeg"
     ],
     "sizes": [
       "52",
@@ -3448,9 +3448,9 @@ export const initialProducts = [
     "retail_price": 2973,
     "regular_price": 3864,
     "stock": 30,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-29%20at%209.25.07%20AM%20(2)_2607291850564719.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-29%20at%209.25.07%20AM%20(2)_2607291850564719.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-29%20at%209.25.07%20AM%20(2)_2607291850564719.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-29%20at%209.25.07%20AM%20(2)_2607291850564719.jpeg"
     ],
     "sizes": [
       "52",
@@ -3472,9 +3472,9 @@ export const initialProducts = [
     "retail_price": 2973,
     "regular_price": 3864,
     "stock": 26,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-29%20at%209.25.07%20AM_2607291847594725.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-29%20at%209.25.07%20AM_2607291847594725.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-29%20at%209.25.07%20AM_2607291847594725.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-29%20at%209.25.07%20AM_2607291847594725.jpeg"
     ],
     "sizes": [
       "52",
@@ -3496,9 +3496,9 @@ export const initialProducts = [
     "retail_price": 2973,
     "regular_price": 3864,
     "stock": 30,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-29%20at%209.25.06%20AM%20(2)_2607291845353488.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-29%20at%209.25.06%20AM%20(2)_2607291845353488.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-29%20at%209.25.06%20AM%20(2)_2607291845353488.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-29%20at%209.25.06%20AM%20(2)_2607291845353488.jpeg"
     ],
     "sizes": [
       "52",
@@ -3520,9 +3520,9 @@ export const initialProducts = [
     "retail_price": 510,
     "regular_price": 663,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F736621685_122219742404323866_8454001158803415542_n_2607012057417692.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F736621685_122219742404323866_8454001158803415542_n_2607012057417692.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F736621685_122219742404323866_8454001158803415542_n_2607012057417692.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F736621685_122219742404323866_8454001158803415542_n_2607012057417692.jpg"
     ],
     "sizes": [
       "Free Size",
@@ -3546,9 +3546,9 @@ export const initialProducts = [
     "retail_price": 510,
     "regular_price": 663,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F736420576_122219742548323866_6227257283388496409_n_2607012056285906.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F736420576_122219742548323866_6227257283388496409_n_2607012056285906.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F736420576_122219742548323866_6227257283388496409_n_2607012056285906.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F736420576_122219742548323866_6227257283388496409_n_2607012056285906.jpg"
     ],
     "sizes": [
       "Free Size",
@@ -3572,9 +3572,9 @@ export const initialProducts = [
     "retail_price": 510,
     "regular_price": 663,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F737437983_122219742506323866_1618895707462882483_n_2607012050340028.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F737437983_122219742506323866_1618895707462882483_n_2607012050340028.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F737437983_122219742506323866_1618895707462882483_n_2607012050340028.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F737437983_122219742506323866_1618895707462882483_n_2607012050340028.jpg"
     ],
     "sizes": [
       "Free Size",
@@ -3598,9 +3598,9 @@ export const initialProducts = [
     "retail_price": 510,
     "regular_price": 663,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F736832917_122219742374323866_6525526562245531021_n_2607012048343781.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F736832917_122219742374323866_6525526562245531021_n_2607012048343781.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F736832917_122219742374323866_6525526562245531021_n_2607012048343781.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F736832917_122219742374323866_6525526562245531021_n_2607012048343781.jpg"
     ],
     "sizes": [
       "Free Size",
@@ -3624,9 +3624,9 @@ export const initialProducts = [
     "retail_price": 510,
     "regular_price": 663,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731137829_122219078900323866_5981507725281815189_n_2607012046134601.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731137829_122219078900323866_5981507725281815189_n_2607012046134601.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731137829_122219078900323866_5981507725281815189_n_2607012046134601.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731137829_122219078900323866_5981507725281815189_n_2607012046134601.jpg"
     ],
     "sizes": [
       "Free Size",
@@ -3650,9 +3650,9 @@ export const initialProducts = [
     "retail_price": 510,
     "regular_price": 663,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731131525_122219078744323866_8321535264276486588_n_2607012045155219.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731131525_122219078744323866_8321535264276486588_n_2607012045155219.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731131525_122219078744323866_8321535264276486588_n_2607012045155219.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731131525_122219078744323866_8321535264276486588_n_2607012045155219.jpg"
     ],
     "sizes": [
       "Free Size",
@@ -3676,9 +3676,9 @@ export const initialProducts = [
     "retail_price": 510,
     "regular_price": 663,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731093968_122219078696323866_7737695617492481885_n_2607012043579068.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731093968_122219078696323866_7737695617492481885_n_2607012043579068.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731093968_122219078696323866_7737695617492481885_n_2607012043579068.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731093968_122219078696323866_7737695617492481885_n_2607012043579068.jpg"
     ],
     "sizes": [
       "Free Size",
@@ -3702,9 +3702,9 @@ export const initialProducts = [
     "retail_price": 510,
     "regular_price": 663,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731111623_122219078858323866_376665506477261029_n_2607012043031549.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731111623_122219078858323866_376665506477261029_n_2607012043031549.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731111623_122219078858323866_376665506477261029_n_2607012043031549.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731111623_122219078858323866_376665506477261029_n_2607012043031549.jpg"
     ],
     "sizes": [
       "Free Size",
@@ -3728,9 +3728,9 @@ export const initialProducts = [
     "retail_price": 510,
     "regular_price": 663,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731199446_122219079050323866_2479580290183206673_n_2607012042016064.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731199446_122219079050323866_2479580290183206673_n_2607012042016064.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731199446_122219079050323866_2479580290183206673_n_2607012042016064.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731199446_122219079050323866_2479580290183206673_n_2607012042016064.jpg"
     ],
     "sizes": [
       "Free Size",
@@ -3754,9 +3754,9 @@ export const initialProducts = [
     "retail_price": 510,
     "regular_price": 663,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731423374_122219078960323866_4722717641165368732_n_2607012041014426.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731423374_122219078960323866_4722717641165368732_n_2607012041014426.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731423374_122219078960323866_4722717641165368732_n_2607012041014426.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731423374_122219078960323866_4722717641165368732_n_2607012041014426.jpg"
     ],
     "sizes": [
       "Free Size",
@@ -3780,9 +3780,9 @@ export const initialProducts = [
     "retail_price": 510,
     "regular_price": 663,
     "stock": 7,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731105054_122219078798323866_8888281203630242306_n_2606301806370764.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731105054_122219078798323866_8888281203630242306_n_2606301806370764.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731105054_122219078798323866_8888281203630242306_n_2606301806370764.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731105054_122219078798323866_8888281203630242306_n_2606301806370764.jpg"
     ],
     "sizes": [
       "Free Size",
@@ -3806,9 +3806,9 @@ export const initialProducts = [
     "retail_price": 510,
     "regular_price": 663,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731093471_122219079098323866_8296097004443956686_n_2606301802452325.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731093471_122219079098323866_8296097004443956686_n_2606301802452325.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731093471_122219079098323866_8296097004443956686_n_2606301802452325.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F731093471_122219079098323866_8296097004443956686_n_2606301802452325.jpg"
     ],
     "sizes": [
       "Free Size",
@@ -3832,9 +3832,9 @@ export const initialProducts = [
     "retail_price": 754,
     "regular_price": 980,
     "stock": 30,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-07%20at%2008.39.17_2609201703223240.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-07%20at%2008.39.17_2609201703223240.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-07%20at%2008.39.17_2609201703223240.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-07%20at%2008.39.17_2609201703223240.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -3858,9 +3858,9 @@ export const initialProducts = [
     "retail_price": 769,
     "regular_price": 999,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-28%20at%209.42.38%20AM%20(1)_2608301621071535.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-28%20at%209.42.38%20AM%20(1)_2608301621071535.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-28%20at%209.42.38%20AM%20(1)_2608301621071535.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-28%20at%209.42.38%20AM%20(1)_2608301621071535.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -3884,9 +3884,9 @@ export const initialProducts = [
     "retail_price": 769,
     "regular_price": 999,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-28%20at%209.42.38%20AM_2608301619106152.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-28%20at%209.42.38%20AM_2608301619106152.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-28%20at%209.42.38%20AM_2608301619106152.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-28%20at%209.42.38%20AM_2608301619106152.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -3910,9 +3910,9 @@ export const initialProducts = [
     "retail_price": 769,
     "regular_price": 999,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-28%20at%209.42.37%20AM%20(2)_2608301615355962.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-28%20at%209.42.37%20AM%20(2)_2608301615355962.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-28%20at%209.42.37%20AM%20(2)_2608301615355962.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-28%20at%209.42.37%20AM%20(2)_2608301615355962.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -3936,9 +3936,9 @@ export const initialProducts = [
     "retail_price": 769,
     "regular_price": 999,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-28%20at%209.42.37%20AM_2608301613015032.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-28%20at%209.42.37%20AM_2608301613015032.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-28%20at%209.42.37%20AM_2608301613015032.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-28%20at%209.42.37%20AM_2608301613015032.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -3962,9 +3962,9 @@ export const initialProducts = [
     "retail_price": 769,
     "regular_price": 999,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-28%20at%209.42.36%20AM_2608301610322574.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-28%20at%209.42.36%20AM_2608301610322574.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-28%20at%209.42.36%20AM_2608301610322574.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-28%20at%209.42.36%20AM_2608301610322574.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -3988,9 +3988,9 @@ export const initialProducts = [
     "retail_price": 653,
     "regular_price": 848,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-17%20at%201.00.07%20AM%20(1)_2607211920311297.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-17%20at%201.00.07%20AM%20(1)_2607211920311297.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-17%20at%201.00.07%20AM%20(1)_2607211920311297.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-17%20at%201.00.07%20AM%20(1)_2607211920311297.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -4014,9 +4014,9 @@ export const initialProducts = [
     "retail_price": 653,
     "regular_price": 848,
     "stock": 9,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-17%20at%201.00.07%20AM%20(2)_2607211918017081.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-17%20at%201.00.07%20AM%20(2)_2607211918017081.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-17%20at%201.00.07%20AM%20(2)_2607211918017081.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-17%20at%201.00.07%20AM%20(2)_2607211918017081.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -4040,9 +4040,9 @@ export const initialProducts = [
     "retail_price": 653,
     "regular_price": 848,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-17%20at%201.00.07%20AM%20(3)_2607211915425402.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-17%20at%201.00.07%20AM%20(3)_2607211915425402.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-17%20at%201.00.07%20AM%20(3)_2607211915425402.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-17%20at%201.00.07%20AM%20(3)_2607211915425402.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -4066,9 +4066,9 @@ export const initialProducts = [
     "retail_price": 653,
     "regular_price": 848,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-17%20at%201.00.07%20AM_2607211913325216.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-17%20at%201.00.07%20AM_2607211913325216.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-17%20at%201.00.07%20AM_2607211913325216.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-17%20at%201.00.07%20AM_2607211913325216.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -4092,9 +4092,9 @@ export const initialProducts = [
     "retail_price": 653,
     "regular_price": 848,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-17%20at%201.00.08%20AM%20(1)_2607211911336274.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-17%20at%201.00.08%20AM%20(1)_2607211911336274.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-17%20at%201.00.08%20AM%20(1)_2607211911336274.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-17%20at%201.00.08%20AM%20(1)_2607211911336274.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -4118,9 +4118,9 @@ export const initialProducts = [
     "retail_price": 653,
     "regular_price": 848,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-17%20at%201.00.08%20AM%20(2)_2607211857254272.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-17%20at%201.00.08%20AM%20(2)_2607211857254272.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-17%20at%201.00.08%20AM%20(2)_2607211857254272.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-17%20at%201.00.08%20AM%20(2)_2607211857254272.jpeg"
     ],
     "sizes": [
       "Free Size",
@@ -4144,9 +4144,9 @@ export const initialProducts = [
     "retail_price": 667,
     "regular_price": 867,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftgtrfgreg_2608201842252027.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftgtrfgreg_2608201842252027.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftgtrfgreg_2608201842252027.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftgtrfgreg_2608201842252027.jpg"
     ],
     "sizes": [
       "Standard"
@@ -4166,9 +4166,9 @@ export const initialProducts = [
     "retail_price": 667,
     "regular_price": 867,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhy_2608201836550970.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhy_2608201836550970.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhy_2608201836550970.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhy_2608201836550970.jpg"
     ],
     "sizes": [
       "Standard"
@@ -4188,9 +4188,9 @@ export const initialProducts = [
     "retail_price": 450,
     "regular_price": 585,
     "stock": 60,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.57%20PM_2607261905246961.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.57%20PM_2607261905246961.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.57%20PM_2607261905246961.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.57%20PM_2607261905246961.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4213,9 +4213,9 @@ export const initialProducts = [
     "retail_price": 450,
     "regular_price": 585,
     "stock": 59,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.57%20PM_2607261900551061.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.57%20PM_2607261900551061.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.57%20PM_2607261900551061.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.57%20PM_2607261900551061.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4238,9 +4238,9 @@ export const initialProducts = [
     "retail_price": 450,
     "regular_price": 585,
     "stock": 60,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.57%20PM%20(1)_2607261859198890.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.57%20PM%20(1)_2607261859198890.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.57%20PM%20(1)_2607261859198890.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.57%20PM%20(1)_2607261859198890.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4263,9 +4263,9 @@ export const initialProducts = [
     "retail_price": 450,
     "regular_price": 585,
     "stock": 60,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.56%20PM_2607261857316424.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.56%20PM_2607261857316424.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.56%20PM_2607261857316424.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.56%20PM_2607261857316424.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4288,9 +4288,9 @@ export const initialProducts = [
     "retail_price": 450,
     "regular_price": 585,
     "stock": 60,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.55%20PM_2607261855536745.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.55%20PM_2607261855536745.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.55%20PM_2607261855536745.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.55%20PM_2607261855536745.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4313,9 +4313,9 @@ export const initialProducts = [
     "retail_price": 450,
     "regular_price": 585,
     "stock": 60,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.55%20PM%20(1)_2607261853486870.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.55%20PM%20(1)_2607261853486870.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.55%20PM%20(1)_2607261853486870.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.55%20PM%20(1)_2607261853486870.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4338,9 +4338,9 @@ export const initialProducts = [
     "retail_price": 550,
     "regular_price": 715,
     "stock": 60,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.03%20PM%20(2)_2607231637404520.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.03%20PM%20(2)_2607231637404520.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.03%20PM%20(2)_2607231637404520.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.03%20PM%20(2)_2607231637404520.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4363,9 +4363,9 @@ export const initialProducts = [
     "retail_price": 550,
     "regular_price": 715,
     "stock": 60,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.03%20PM%20(1)_2607231622374486.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.03%20PM%20(1)_2607231622374486.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.03%20PM%20(1)_2607231622374486.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.03%20PM%20(1)_2607231622374486.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4388,9 +4388,9 @@ export const initialProducts = [
     "retail_price": 550,
     "regular_price": 715,
     "stock": 60,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.02%20PM_2607231621122400.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.02%20PM_2607231621122400.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.02%20PM_2607231621122400.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.02%20PM_2607231621122400.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4413,9 +4413,9 @@ export const initialProducts = [
     "retail_price": 550,
     "regular_price": 715,
     "stock": 60,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.02%20PM%20(1)_2607231620246136.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.02%20PM%20(1)_2607231620246136.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.02%20PM%20(1)_2607231620246136.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.02%20PM%20(1)_2607231620246136.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4438,9 +4438,9 @@ export const initialProducts = [
     "retail_price": 550,
     "regular_price": 715,
     "stock": 60,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.01%20PM_2607231619281196.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.01%20PM_2607231619281196.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.01%20PM_2607231619281196.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.01%20PM_2607231619281196.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4463,9 +4463,9 @@ export const initialProducts = [
     "retail_price": 550,
     "regular_price": 715,
     "stock": 60,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.00%20PM_2607231615360658.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.00%20PM_2607231615360658.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.00%20PM_2607231615360658.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.00%20PM_2607231615360658.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4488,9 +4488,9 @@ export const initialProducts = [
     "retail_price": 490,
     "regular_price": 637,
     "stock": 60,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.45%20PM_2607261940283254.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.45%20PM_2607261940283254.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.45%20PM_2607261940283254.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.45%20PM_2607261940283254.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4513,9 +4513,9 @@ export const initialProducts = [
     "retail_price": 490,
     "regular_price": 637,
     "stock": 60,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.42%20PM_2607261939005414.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.42%20PM_2607261939005414.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.42%20PM_2607261939005414.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.42%20PM_2607261939005414.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4538,9 +4538,9 @@ export const initialProducts = [
     "retail_price": 490,
     "regular_price": 637,
     "stock": 60,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.42%20PM%20(1)_2607261934047463.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.42%20PM%20(1)_2607261934047463.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.42%20PM%20(1)_2607261934047463.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.42%20PM%20(1)_2607261934047463.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4563,9 +4563,9 @@ export const initialProducts = [
     "retail_price": 490,
     "regular_price": 637,
     "stock": 60,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.41%20PM_2607261924126305.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.41%20PM_2607261924126305.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.41%20PM_2607261924126305.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.41%20PM_2607261924126305.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4588,9 +4588,9 @@ export const initialProducts = [
     "retail_price": 490,
     "regular_price": 637,
     "stock": 60,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.41%20PM%20(2)_2607261922188145.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.41%20PM%20(2)_2607261922188145.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.41%20PM%20(2)_2607261922188145.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.41%20PM%20(2)_2607261922188145.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4613,9 +4613,9 @@ export const initialProducts = [
     "retail_price": 490,
     "regular_price": 637,
     "stock": 60,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.41%20PM%20(1)_2607261920213912.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.41%20PM%20(1)_2607261920213912.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.41%20PM%20(1)_2607261920213912.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.41%20PM%20(1)_2607261920213912.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4638,9 +4638,9 @@ export const initialProducts = [
     "retail_price": 490,
     "regular_price": 637,
     "stock": 60,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.40%20PM_2607261918147638.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.40%20PM_2607261918147638.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.40%20PM_2607261918147638.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.40%20PM_2607261918147638.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4663,9 +4663,9 @@ export const initialProducts = [
     "retail_price": 490,
     "regular_price": 637,
     "stock": 60,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.40%20PM%20(2)_2607261916235435.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.40%20PM%20(2)_2607261916235435.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.40%20PM%20(2)_2607261916235435.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.40%20PM%20(2)_2607261916235435.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4688,9 +4688,9 @@ export const initialProducts = [
     "retail_price": 490,
     "regular_price": 637,
     "stock": 60,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.40%20PM%20(1)_2607261914527102.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.40%20PM%20(1)_2607261914527102.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.40%20PM%20(1)_2607261914527102.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.40%20PM%20(1)_2607261914527102.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4713,9 +4713,9 @@ export const initialProducts = [
     "retail_price": 490,
     "regular_price": 637,
     "stock": 60,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.39%20PM_2607261913226887.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.39%20PM_2607261913226887.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.39%20PM_2607261913226887.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.39%20PM_2607261913226887.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4738,9 +4738,9 @@ export const initialProducts = [
     "retail_price": 490,
     "regular_price": 637,
     "stock": 62,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.38%20PM_2607261911177167.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.38%20PM_2607261911177167.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.38%20PM_2607261911177167.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.42.38%20PM_2607261911177167.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4763,9 +4763,9 @@ export const initialProducts = [
     "retail_price": 450,
     "regular_price": 585,
     "stock": 61,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.48%20PM_2607261851168721.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.48%20PM_2607261851168721.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.48%20PM_2607261851168721.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%209.41.48%20PM_2607261851168721.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4788,9 +4788,9 @@ export const initialProducts = [
     "retail_price": 530,
     "regular_price": 689,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fdownload%20(29)_2609051714460258.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fdownload%20(29)_2609051714460258.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fdownload%20(29)_2609051714460258.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fdownload%20(29)_2609051714460258.jpg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4813,9 +4813,9 @@ export const initialProducts = [
     "retail_price": 1247,
     "regular_price": 1621,
     "stock": 9,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-04%20at%2010.40.28%20AM_2608041805500328.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-04%20at%2010.40.28%20AM_2608041805500328.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-04%20at%2010.40.28%20AM_2608041805500328.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-04%20at%2010.40.28%20AM_2608041805500328.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4838,9 +4838,9 @@ export const initialProducts = [
     "retail_price": 1204,
     "regular_price": 1565,
     "stock": 710,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-04%20at%2010.40.28%20AM_2608041801406269.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-04%20at%2010.40.28%20AM_2608041801406269.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-04%20at%2010.40.28%20AM_2608041801406269.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-04%20at%2010.40.28%20AM_2608041801406269.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4863,9 +4863,9 @@ export const initialProducts = [
     "retail_price": 1682,
     "regular_price": 2187,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftgtf_2607141742568034.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftgtf_2607141742568034.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftgtf_2607141742568034.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftgtf_2607141742568034.jpg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4888,9 +4888,9 @@ export const initialProducts = [
     "retail_price": 600,
     "regular_price": 780,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-14%20at%202.14.33%20AM_2607141725315294.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-14%20at%202.14.33%20AM_2607141725315294.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-14%20at%202.14.33%20AM_2607141725315294.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-14%20at%202.14.33%20AM_2607141725315294.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4913,9 +4913,9 @@ export const initialProducts = [
     "retail_price": 5583,
     "regular_price": 7257,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-02%20at%2023.23.10_2607070703156207.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-02%20at%2023.23.10_2607070703156207.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-02%20at%2023.23.10_2607070703156207.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-02%20at%2023.23.10_2607070703156207.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4938,9 +4938,9 @@ export const initialProducts = [
     "retail_price": 1233,
     "regular_price": 1602,
     "stock": 1,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fytujhyr_2606241816160760.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fytujhyr_2606241816160760.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fytujhyr_2606241816160760.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fytujhyr_2606241816160760.jpg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4963,9 +4963,9 @@ export const initialProducts = [
     "retail_price": 370,
     "regular_price": 481,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-05-01%20at%2001.33.06%20(1)_2606211449510327.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-05-01%20at%2001.33.06%20(1)_2606211449510327.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-05-01%20at%2001.33.06%20(1)_2606211449510327.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-05-01%20at%2001.33.06%20(1)_2606211449510327.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -4988,9 +4988,9 @@ export const initialProducts = [
     "retail_price": 350,
     "regular_price": 455,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-05-01%20at%2001.33.05%20(2)_2606211442045679.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-05-01%20at%2001.33.05%20(2)_2606211442045679.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-05-01%20at%2001.33.05%20(2)_2606211442045679.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-05-01%20at%2001.33.05%20(2)_2606211442045679.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -5013,9 +5013,9 @@ export const initialProducts = [
     "retail_price": 515,
     "regular_price": 670,
     "stock": 120,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-04%20at%2014.32.50_2606211422225342.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-04%20at%2014.32.50_2606211422225342.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-04%20at%2014.32.50_2606211422225342.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-04%20at%2014.32.50_2606211422225342.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -5038,9 +5038,9 @@ export const initialProducts = [
     "retail_price": 1088,
     "regular_price": 1414,
     "stock": 6,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-21%20at%2019.36.39_2606211402199386.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-21%20at%2019.36.39_2606211402199386.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-21%20at%2019.36.39_2606211402199386.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-21%20at%2019.36.39_2606211402199386.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -5063,9 +5063,9 @@ export const initialProducts = [
     "retail_price": 1088,
     "regular_price": 1414,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-21%20at%2019.36.39%20(1)_2606211400282905.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-21%20at%2019.36.39%20(1)_2606211400282905.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-21%20at%2019.36.39%20(1)_2606211400282905.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-21%20at%2019.36.39%20(1)_2606211400282905.jpeg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -5088,9 +5088,9 @@ export const initialProducts = [
     "retail_price": 798,
     "regular_price": 1037,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F205da836c53880fa06d6e183fbe0e0fd_2607171040504369.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F205da836c53880fa06d6e183fbe0e0fd_2607171040504369.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F205da836c53880fa06d6e183fbe0e0fd_2607171040504369.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F205da836c53880fa06d6e183fbe0e0fd_2607171040504369.jpg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -5113,9 +5113,9 @@ export const initialProducts = [
     "retail_price": 667,
     "regular_price": 867,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F27b416f6c69579a42e3703cb0eb8365f_2607171031197903.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F27b416f6c69579a42e3703cb0eb8365f_2607171031197903.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F27b416f6c69579a42e3703cb0eb8365f_2607171031197903.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F27b416f6c69579a42e3703cb0eb8365f_2607171031197903.jpg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -5138,9 +5138,9 @@ export const initialProducts = [
     "retail_price": 620,
     "regular_price": 806,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fytrghtb_2607171006192345.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fytrghtb_2607171006192345.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fytrghtb_2607171006192345.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fytrghtb_2607171006192345.jpg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -5163,9 +5163,9 @@ export const initialProducts = [
     "retail_price": 2001,
     "regular_price": 2601,
     "stock": 20,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhut5g_2607160929235654.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhut5g_2607160929235654.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhut5g_2607160929235654.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhut5g_2607160929235654.jpg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -5188,9 +5188,9 @@ export const initialProducts = [
     "retail_price": 3219,
     "regular_price": 4185,
     "stock": 20,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F062024081717815727_1716118403995_1716118396050_2607160902140753.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F062024081717815727_1716118403995_1716118396050_2607160902140753.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F062024081717815727_1716118403995_1716118396050_2607160902140753.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F062024081717815727_1716118403995_1716118396050_2607160902140753.jpg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -5213,9 +5213,9 @@ export const initialProducts = [
     "retail_price": 3582,
     "regular_price": 4656,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fimages%20(23)_2607070555427342.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fimages%20(23)_2607070555427342.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fimages%20(23)_2607070555427342.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fimages%20(23)_2607070555427342.jpg"
     ],
     "sizes": [
       "0-6 মাস",
@@ -5238,9 +5238,9 @@ export const initialProducts = [
     "retail_price": 350,
     "regular_price": 455,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-21%20at%2013.38.15_2609210738421741.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-21%20at%2013.38.15_2609210738421741.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-21%20at%2013.38.15_2609210738421741.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-21%20at%2013.38.15_2609210738421741.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -5260,9 +5260,9 @@ export const initialProducts = [
     "retail_price": 1233,
     "regular_price": 1602,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.47.02_2609210719095565.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.47.02_2609210719095565.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.47.02_2609210719095565.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.47.02_2609210719095565.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -5282,9 +5282,9 @@ export const initialProducts = [
     "retail_price": 1407,
     "regular_price": 1828,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.47.01%20(1)_2609210706578819.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.47.01%20(1)_2609210706578819.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.47.01%20(1)_2609210706578819.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.47.01%20(1)_2609210706578819.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -5304,9 +5304,9 @@ export const initialProducts = [
     "retail_price": 450,
     "regular_price": 585,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.47.00_2609210643426853.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.47.00_2609210643426853.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.47.00_2609210643426853.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.47.00_2609210643426853.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -5326,9 +5326,9 @@ export const initialProducts = [
     "retail_price": 570,
     "regular_price": 741,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-09%20at%2023.54.13_2609191727567030.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-09%20at%2023.54.13_2609191727567030.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-09%20at%2023.54.13_2609191727567030.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-09%20at%2023.54.13_2609191727567030.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -5348,9 +5348,9 @@ export const initialProducts = [
     "retail_price": 470,
     "regular_price": 611,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-16%20at%2012.54.47_2609190916083601.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-16%20at%2012.54.47_2609190916083601.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-16%20at%2012.54.47_2609190916083601.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-16%20at%2012.54.47_2609190916083601.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -5370,9 +5370,9 @@ export const initialProducts = [
     "retail_price": 390,
     "regular_price": 507,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-16%20at%2012.15.18%20(2)_2609160616038764.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-16%20at%2012.15.18%20(2)_2609160616038764.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-16%20at%2012.15.18%20(2)_2609160616038764.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-16%20at%2012.15.18%20(2)_2609160616038764.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -5392,9 +5392,9 @@ export const initialProducts = [
     "retail_price": 420,
     "regular_price": 546,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F61fJ8P%2BBKrL._SX679__2609090626547557.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F61fJ8P%2BBKrL._SX679__2609090626547557.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F61fJ8P%2BBKrL._SX679__2609090626547557.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F61fJ8P%2BBKrL._SX679__2609090626547557.jpg"
     ],
     "sizes": [
       "Standard"
@@ -5414,9 +5414,9 @@ export const initialProducts = [
     "retail_price": 670,
     "regular_price": 871,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fdownload%20(44)_2609080721392222.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fdownload%20(44)_2609080721392222.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fdownload%20(44)_2609080721392222.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fdownload%20(44)_2609080721392222.jpg"
     ],
     "sizes": [
       "Standard"
@@ -5436,9 +5436,9 @@ export const initialProducts = [
     "retail_price": 600,
     "regular_price": 780,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-06%20at%2023.21.07_2609061721487560.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-06%20at%2023.21.07_2609061721487560.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-06%20at%2023.21.07_2609061721487560.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-06%20at%2023.21.07_2609061721487560.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -5458,9 +5458,9 @@ export const initialProducts = [
     "retail_price": 450,
     "regular_price": 585,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F2295593_adjustable-plastic-grid-drawer-organizer-multi-purpose-drawer-storage-divider-adjustable-cabinet-sto_2609061706270054.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F2295593_adjustable-plastic-grid-drawer-organizer-multi-purpose-drawer-storage-divider-adjustable-cabinet-sto_2609061706270054.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F2295593_adjustable-plastic-grid-drawer-organizer-multi-purpose-drawer-storage-divider-adjustable-cabinet-sto_2609061706270054.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F2295593_adjustable-plastic-grid-drawer-organizer-multi-purpose-drawer-storage-divider-adjustable-cabinet-sto_2609061706270054.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -5480,9 +5480,9 @@ export const initialProducts = [
     "retail_price": 640,
     "regular_price": 832,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F61HA8v4ZVNL._AC_SX679__2609061645475916.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F61HA8v4ZVNL._AC_SX679__2609061645475916.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F61HA8v4ZVNL._AC_SX679__2609061645475916.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F61HA8v4ZVNL._AC_SX679__2609061645475916.jpg"
     ],
     "sizes": [
       "Standard"
@@ -5502,9 +5502,9 @@ export const initialProducts = [
     "retail_price": 500,
     "regular_price": 650,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.47.03%20(1)_2609210727436878.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.47.03%20(1)_2609210727436878.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.47.03%20(1)_2609210727436878.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.47.03%20(1)_2609210727436878.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -5524,9 +5524,9 @@ export const initialProducts = [
     "retail_price": 550,
     "regular_price": 715,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.47.00%20(1)_2609210650576474.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.47.00%20(1)_2609210650576474.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.47.00%20(1)_2609210650576474.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.47.00%20(1)_2609210650576474.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -5546,9 +5546,9 @@ export const initialProducts = [
     "retail_price": 440,
     "regular_price": 572,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.46.59%20(1)_2609210635349289.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.46.59%20(1)_2609210635349289.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.46.59%20(1)_2609210635349289.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.46.59%20(1)_2609210635349289.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -5568,9 +5568,9 @@ export const initialProducts = [
     "retail_price": 870,
     "regular_price": 1131,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2011.03.12_2609200621266268.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2011.03.12_2609200621266268.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2011.03.12_2609200621266268.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2011.03.12_2609200621266268.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -5590,9 +5590,9 @@ export const initialProducts = [
     "retail_price": 550,
     "regular_price": 715,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-09%20at%2023.54.16_2609191757206821.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-09%20at%2023.54.16_2609191757206821.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-09%20at%2023.54.16_2609191757206821.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-09%20at%2023.54.16_2609191757206821.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -5612,9 +5612,9 @@ export const initialProducts = [
     "retail_price": 630,
     "regular_price": 819,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-09%20at%2023.54.14%20(1)_2609191741129841.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-09%20at%2023.54.14%20(1)_2609191741129841.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-09%20at%2023.54.14%20(1)_2609191741129841.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-09%20at%2023.54.14%20(1)_2609191741129841.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -5634,9 +5634,9 @@ export const initialProducts = [
     "retail_price": 450,
     "regular_price": 585,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-09%20at%2023.54.13%20(1)_2609191733159955.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-09%20at%2023.54.13%20(1)_2609191733159955.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-09%20at%2023.54.13%20(1)_2609191733159955.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-09%20at%2023.54.13%20(1)_2609191733159955.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -5656,9 +5656,9 @@ export const initialProducts = [
     "retail_price": 400,
     "regular_price": 520,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-09%20at%2023.54.11_2609191721402116.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-09%20at%2023.54.11_2609191721402116.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-09%20at%2023.54.11_2609191721402116.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-09%20at%2023.54.11_2609191721402116.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -5678,9 +5678,9 @@ export const initialProducts = [
     "retail_price": 350,
     "regular_price": 455,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-09%20at%2023.54.11_2609191717455748.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-09%20at%2023.54.11_2609191717455748.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-09%20at%2023.54.11_2609191717455748.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-09%20at%2023.54.11_2609191717455748.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -5700,9 +5700,9 @@ export const initialProducts = [
     "retail_price": 972,
     "regular_price": 1263,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fdownload%20(46)_2609191058073645.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fdownload%20(46)_2609191058073645.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fdownload%20(46)_2609191058073645.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fdownload%20(46)_2609191058073645.jpg"
     ],
     "sizes": [
       "Standard"
@@ -5722,9 +5722,9 @@ export const initialProducts = [
     "retail_price": 2726,
     "regular_price": 3544,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.42.43%20(1)_2609191034196550.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.42.43%20(1)_2609191034196550.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.42.43%20(1)_2609191034196550.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.42.43%20(1)_2609191034196550.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -5744,9 +5744,9 @@ export const initialProducts = [
     "retail_price": 2248,
     "regular_price": 2922,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.42.43_2609191027242972.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.42.43_2609191027242972.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.42.43_2609191027242972.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.42.43_2609191027242972.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -5766,9 +5766,9 @@ export const initialProducts = [
     "retail_price": 696,
     "regular_price": 905,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fhnnnnngb%20h_2606261744359931.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fhnnnnngb%20h_2606261744359931.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fhnnnnngb%20h_2606261744359931.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fhnnnnngb%20h_2606261744359931.jpg"
     ],
     "sizes": [
       "Standard"
@@ -5788,9 +5788,9 @@ export const initialProducts = [
     "retail_price": 972,
     "regular_price": 1263,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Foiii_2606261729235361.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Foiii_2606261729235361.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Foiii_2606261729235361.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Foiii_2606261729235361.jpg"
     ],
     "sizes": [
       "Standard"
@@ -5810,9 +5810,9 @@ export const initialProducts = [
     "retail_price": 972,
     "regular_price": 1263,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fggggg_2606261723208374.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fggggg_2606261723208374.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fggggg_2606261723208374.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fggggg_2606261723208374.jpg"
     ],
     "sizes": [
       "Standard"
@@ -5832,9 +5832,9 @@ export const initialProducts = [
     "retail_price": 754,
     "regular_price": 980,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fiuo98yu7_2606261657465321.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fiuo98yu7_2606261657465321.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fiuo98yu7_2606261657465321.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fiuo98yu7_2606261657465321.jpg"
     ],
     "sizes": [
       "Standard"
@@ -5854,9 +5854,9 @@ export const initialProducts = [
     "retail_price": 754,
     "regular_price": 980,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhjny%20_2606261646368225.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhjny%20_2606261646368225.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhjny%20_2606261646368225.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhjny%20_2606261646368225.jpg"
     ],
     "sizes": [
       "Standard"
@@ -5876,9 +5876,9 @@ export const initialProducts = [
     "retail_price": 754,
     "regular_price": 980,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_dt1duxdt1duxdt1d_2606261635337039.png&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_dt1duxdt1duxdt1d_2606261635337039.png",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_dt1duxdt1duxdt1d_2606261635337039.png&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_dt1duxdt1duxdt1d_2606261635337039.png"
     ],
     "sizes": [
       "Standard"
@@ -5898,9 +5898,9 @@ export const initialProducts = [
     "retail_price": 1726,
     "regular_price": 2243,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fghtv_2606261629331871.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fghtv_2606261629331871.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fghtv_2606261629331871.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fghtv_2606261629331871.jpg"
     ],
     "sizes": [
       "Standard"
@@ -5920,9 +5920,9 @@ export const initialProducts = [
     "retail_price": 1436,
     "regular_price": 1866,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fbhbhbhbhbhgbv_2606251730295511.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fbhbhbhbhbhgbv_2606251730295511.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fbhbhbhbhbhgbv_2606251730295511.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fbhbhbhbhbhgbv_2606251730295511.jpg"
     ],
     "sizes": [
       "Standard"
@@ -5942,9 +5942,9 @@ export const initialProducts = [
     "retail_price": 2030,
     "regular_price": 2639,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fgvfrtgv_2606251723466957.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fgvfrtgv_2606251723466957.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fgvfrtgv_2606251723466957.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fgvfrtgv_2606251723466957.jpg"
     ],
     "sizes": [
       "Standard"
@@ -5964,9 +5964,9 @@ export const initialProducts = [
     "retail_price": 2639,
     "regular_price": 3431,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fjnyhjhunty_2606251719018655.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fjnyhjhunty_2606251719018655.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fjnyhjhunty_2606251719018655.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fjnyhjhunty_2606251719018655.jpg"
     ],
     "sizes": [
       "Standard"
@@ -5986,9 +5986,9 @@ export const initialProducts = [
     "retail_price": 360,
     "regular_price": 468,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fgtbftrbfrt_2606251707594639.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fgtbftrbfrt_2606251707594639.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fgtbftrbfrt_2606251707594639.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fgtbftrbfrt_2606251707594639.jpg"
     ],
     "sizes": [
       "Standard"
@@ -6008,9 +6008,9 @@ export const initialProducts = [
     "retail_price": 690,
     "regular_price": 897,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhnnngyh_2606191912557389.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhnnngyh_2606191912557389.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhnnngyh_2606191912557389.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhnnngyh_2606191912557389.jpg"
     ],
     "sizes": [
       "Standard"
@@ -6030,9 +6030,9 @@ export const initialProducts = [
     "retail_price": 460,
     "regular_price": 598,
     "stock": 9,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ffgbrtfgvb_2609031418026494.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ffgbrtfgvb_2609031418026494.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ffgbrtfgvb_2609031418026494.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ffgbrtfgvb_2609031418026494.jpg"
     ],
     "sizes": [
       "Standard"
@@ -6052,9 +6052,9 @@ export const initialProducts = [
     "retail_price": 1581,
     "regular_price": 2055,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fdfgt54_2605032127374696.png&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fdfgt54_2605032127374696.png",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fdfgt54_2605032127374696.png&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fdfgt54_2605032127374696.png"
     ],
     "sizes": [
       "Standard"
@@ -6074,9 +6074,9 @@ export const initialProducts = [
     "retail_price": 470,
     "regular_price": 611,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-05-04%20at%201.25.23%20AM%20(1)_2605032008002860.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-05-04%20at%201.25.23%20AM%20(1)_2605032008002860.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-05-04%20at%201.25.23%20AM%20(1)_2605032008002860.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-05-04%20at%201.25.23%20AM%20(1)_2605032008002860.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -6096,9 +6096,9 @@ export const initialProducts = [
     "retail_price": 470,
     "regular_price": 611,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-05-04%20at%201.25.23%20AM_2605032005292281.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-05-04%20at%201.25.23%20AM_2605032005292281.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-05-04%20at%201.25.23%20AM_2605032005292281.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-05-04%20at%201.25.23%20AM_2605032005292281.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -6118,9 +6118,9 @@ export const initialProducts = [
     "retail_price": 420,
     "regular_price": 546,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ffdgt_2605032133018247.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ffdgt_2605032133018247.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ffdgt_2605032133018247.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ffdgt_2605032133018247.jpg"
     ],
     "sizes": [
       "Standard"
@@ -6140,9 +6140,9 @@ export const initialProducts = [
     "retail_price": 540,
     "regular_price": 702,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fytu6_2605032122187809.jfif&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fytu6_2605032122187809.jfif",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fytu6_2605032122187809.jfif&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fytu6_2605032122187809.jfif"
     ],
     "sizes": [
       "Standard"
@@ -6162,9 +6162,9 @@ export const initialProducts = [
     "retail_price": 1581,
     "regular_price": 2055,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fffde_2605032119105146.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fffde_2605032119105146.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fffde_2605032119105146.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fffde_2605032119105146.jpg"
     ],
     "sizes": [
       "Standard"
@@ -6184,9 +6184,9 @@ export const initialProducts = [
     "retail_price": 1697,
     "regular_price": 2205,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ffgt5r54_2605032113485170.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ffgt5r54_2605032113485170.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ffgt5r54_2605032113485170.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ffgt5r54_2605032113485170.jpg"
     ],
     "sizes": [
       "Standard"
@@ -6206,9 +6206,9 @@ export const initialProducts = [
     "retail_price": 360,
     "regular_price": 468,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.46.59_2609200708042990.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.46.59_2609200708042990.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.46.59_2609200708042990.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.46.59_2609200708042990.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -6228,9 +6228,9 @@ export const initialProducts = [
     "retail_price": 310,
     "regular_price": 403,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2016.46.41_2609191046565770.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2016.46.41_2609191046565770.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2016.46.41_2609191046565770.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2016.46.41_2609191046565770.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -6250,9 +6250,9 @@ export const initialProducts = [
     "retail_price": 1204,
     "regular_price": 1565,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGHYH_2605100940355574.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGHYH_2605100940355574.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGHYH_2605100940355574.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGHYH_2605100940355574.jpg"
     ],
     "sizes": [
       "Standard"
@@ -6272,9 +6272,9 @@ export const initialProducts = [
     "retail_price": 500,
     "regular_price": 650,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ft6y6t_2605100920417598.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ft6y6t_2605100920417598.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ft6y6t_2605100920417598.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ft6y6t_2605100920417598.jpg"
     ],
     "sizes": [
       "Standard"
@@ -6294,9 +6294,9 @@ export const initialProducts = [
     "retail_price": 450,
     "regular_price": 585,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Figyuppet_2605091702584235.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Figyuppet_2605091702584235.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Figyuppet_2605091702584235.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Figyuppet_2605091702584235.jpg"
     ],
     "sizes": [
       "Standard"
@@ -6316,9 +6316,9 @@ export const initialProducts = [
     "retail_price": 1044,
     "regular_price": 1357,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fmkoumjhk%5B_2605091653126977.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fmkoumjhk%5B_2605091653126977.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fmkoumjhk%5B_2605091653126977.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fmkoumjhk%5B_2605091653126977.jpg"
     ],
     "sizes": [
       "Standard"
@@ -6338,9 +6338,9 @@ export const initialProducts = [
     "retail_price": 470,
     "regular_price": 611,
     "stock": 11,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Figuihgiojoi_2605091604219573.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Figuihgiojoi_2605091604219573.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Figuihgiojoi_2605091604219573.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Figuihgiojoi_2605091604219573.jpg"
     ],
     "sizes": [
       "Standard"
@@ -6360,9 +6360,9 @@ export const initialProducts = [
     "retail_price": 460,
     "regular_price": 598,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fuiguhboknm_2605091510285600.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fuiguhboknm_2605091510285600.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fuiguhboknm_2605091510285600.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fuiguhboknm_2605091510285600.jpg"
     ],
     "sizes": [
       "Standard"
@@ -6382,9 +6382,9 @@ export const initialProducts = [
     "retail_price": 440,
     "regular_price": 572,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fuj7yu56y_2605090938193755.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fuj7yu56y_2605090938193755.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fuj7yu56y_2605090938193755.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fuj7yu56y_2605090938193755.jpg"
     ],
     "sizes": [
       "Standard"
@@ -6404,9 +6404,9 @@ export const initialProducts = [
     "retail_price": 972,
     "regular_price": 1263,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FYT54T5_2605090643483351.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FYT54T5_2605090643483351.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FYT54T5_2605090643483351.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FYT54T5_2605090643483351.jpg"
     ],
     "sizes": [
       "Standard"
@@ -6426,9 +6426,9 @@ export const initialProducts = [
     "retail_price": 400,
     "regular_price": 520,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F7uy_2605041407560041.jfif&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F7uy_2605041407560041.jfif",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F7uy_2605041407560041.jfif&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F7uy_2605041407560041.jfif"
     ],
     "sizes": [
       "Standard"
@@ -6448,9 +6448,9 @@ export const initialProducts = [
     "retail_price": 440,
     "regular_price": 572,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ffrtg54t6_2605041124130305.png&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ffrtg54t6_2605041124130305.png",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ffrtg54t6_2605041124130305.png&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ffrtg54t6_2605041124130305.png"
     ],
     "sizes": [
       "Standard"
@@ -6470,9 +6470,9 @@ export const initialProducts = [
     "retail_price": 1885,
     "regular_price": 2451,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-16%20at%2012.07.57%20AM_2606151912249201.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-16%20at%2012.07.57%20AM_2606151912249201.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-16%20at%2012.07.57%20AM_2606151912249201.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-16%20at%2012.07.57%20AM_2606151912249201.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -6492,9 +6492,9 @@ export const initialProducts = [
     "retail_price": 1494,
     "regular_price": 1942,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_galrgdgalrgdgalr_2606151906375787.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_galrgdgalrgdgalr_2606151906375787.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_galrgdgalrgdgalr_2606151906375787.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_galrgdgalrgdgalr_2606151906375787.jpg"
     ],
     "sizes": [
       "Standard"
@@ -6514,9 +6514,9 @@ export const initialProducts = [
     "retail_price": 725,
     "regular_price": 943,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_tcxspftcxspftcxs_2606151900160405.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_tcxspftcxspftcxs_2606151900160405.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_tcxspftcxspftcxs_2606151900160405.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_tcxspftcxspftcxs_2606151900160405.jpg"
     ],
     "sizes": [
       "Standard"
@@ -6536,9 +6536,9 @@ export const initialProducts = [
     "retail_price": 1088,
     "regular_price": 1414,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_lj21wdlj21wdlj21_2606151855530483.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_lj21wdlj21wdlj21_2606151855530483.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_lj21wdlj21wdlj21_2606151855530483.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_lj21wdlj21wdlj21_2606151855530483.jpg"
     ],
     "sizes": [
       "Standard"
@@ -6558,9 +6558,9 @@ export const initialProducts = [
     "retail_price": 827,
     "regular_price": 1074,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-16%20at%2012.11.40%20AM%20(1)_2606151851284326.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-16%20at%2012.11.40%20AM%20(1)_2606151851284326.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-16%20at%2012.11.40%20AM%20(1)_2606151851284326.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-16%20at%2012.11.40%20AM%20(1)_2606151851284326.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -6580,9 +6580,9 @@ export const initialProducts = [
     "retail_price": 1305,
     "regular_price": 1697,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-16%20at%2012.10.25%20AM_2606151844340580.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-16%20at%2012.10.25%20AM_2606151844340580.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-16%20at%2012.10.25%20AM_2606151844340580.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-16%20at%2012.10.25%20AM_2606151844340580.jpg"
     ],
     "sizes": [
       "Standard"
@@ -6602,9 +6602,9 @@ export const initialProducts = [
     "retail_price": 1349,
     "regular_price": 1753,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_mxafbpmxafbpmxaf_2606151837415301.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_mxafbpmxafbpmxaf_2606151837415301.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_mxafbpmxafbpmxaf_2606151837415301.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_mxafbpmxafbpmxaf_2606151837415301.jpg"
     ],
     "sizes": [
       "Standard"
@@ -6624,9 +6624,9 @@ export const initialProducts = [
     "retail_price": 1189,
     "regular_price": 1546,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fghrr_2606082047135345.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fghrr_2606082047135345.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fghrr_2606082047135345.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fghrr_2606082047135345.jpg"
     ],
     "sizes": [
       "Standard"
@@ -6646,9 +6646,9 @@ export const initialProducts = [
     "retail_price": 798,
     "regular_price": 1037,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-08%20at%204.18.06%20AM_2606082038039494.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-08%20at%204.18.06%20AM_2606082038039494.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-08%20at%204.18.06%20AM_2606082038039494.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-08%20at%204.18.06%20AM_2606082038039494.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -6668,9 +6668,9 @@ export const initialProducts = [
     "retail_price": 740,
     "regular_price": 961,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-08%20at%204.18.05%20AM%20(1)_2606082027003206.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-08%20at%204.18.05%20AM%20(1)_2606082027003206.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-08%20at%204.18.05%20AM%20(1)_2606082027003206.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-08%20at%204.18.05%20AM%20(1)_2606082027003206.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -6690,9 +6690,9 @@ export const initialProducts = [
     "retail_price": 827,
     "regular_price": 1074,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-08%20at%204.18.05%20AM_2606082019508544.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-08%20at%204.18.05%20AM_2606082019508544.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-08%20at%204.18.05%20AM_2606082019508544.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-08%20at%204.18.05%20AM_2606082019508544.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -6712,9 +6712,9 @@ export const initialProducts = [
     "retail_price": 2654,
     "regular_price": 3450,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-08%20at%204.18.04%20AM_2606082016524413.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-08%20at%204.18.04%20AM_2606082016524413.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-08%20at%204.18.04%20AM_2606082016524413.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-08%20at%204.18.04%20AM_2606082016524413.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -6734,9 +6734,9 @@ export const initialProducts = [
     "retail_price": 870,
     "regular_price": 1131,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fimages%20(4)_2607310640038491.jfif&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fimages%20(4)_2607310640038491.jfif",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fimages%20(4)_2607310640038491.jfif&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fimages%20(4)_2607310640038491.jfif"
     ],
     "sizes": [
       "Standard"
@@ -6756,9 +6756,9 @@ export const initialProducts = [
     "retail_price": 1407,
     "regular_price": 1828,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.13%20AM%20(1)_2607022110397269.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.13%20AM%20(1)_2607022110397269.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.13%20AM%20(1)_2607022110397269.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.13%20AM%20(1)_2607022110397269.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -6778,9 +6778,9 @@ export const initialProducts = [
     "retail_price": 841,
     "regular_price": 1093,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.13%20AM_2607022107433733.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.13%20AM_2607022107433733.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.13%20AM_2607022107433733.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.13%20AM_2607022107433733.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -6800,9 +6800,9 @@ export const initialProducts = [
     "retail_price": 682,
     "regular_price": 886,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.14%20AM%20(1)_2607022104497140.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.14%20AM%20(1)_2607022104497140.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.14%20AM%20(1)_2607022104497140.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.14%20AM%20(1)_2607022104497140.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -6822,9 +6822,9 @@ export const initialProducts = [
     "retail_price": 682,
     "regular_price": 886,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.14%20AM_2607022102514072.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.14%20AM_2607022102514072.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.14%20AM_2607022102514072.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.14%20AM_2607022102514072.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -6844,9 +6844,9 @@ export const initialProducts = [
     "retail_price": 620,
     "regular_price": 806,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.15%20AM%20(1)_2607022100537231.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.15%20AM%20(1)_2607022100537231.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.15%20AM%20(1)_2607022100537231.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.15%20AM%20(1)_2607022100537231.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -6866,9 +6866,9 @@ export const initialProducts = [
     "retail_price": 1117,
     "regular_price": 1451,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.15%20AM_2607022058355777.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.15%20AM_2607022058355777.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.15%20AM_2607022058355777.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.15%20AM_2607022058355777.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -6888,9 +6888,9 @@ export const initialProducts = [
     "retail_price": 490,
     "regular_price": 637,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.16%20AM%20(1)_2607022011081121.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.16%20AM%20(1)_2607022011081121.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.16%20AM%20(1)_2607022011081121.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.16%20AM%20(1)_2607022011081121.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -6910,9 +6910,9 @@ export const initialProducts = [
     "retail_price": 682,
     "regular_price": 886,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.16%20AM_2607022007437818.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.16%20AM_2607022007437818.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.16%20AM_2607022007437818.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.16%20AM_2607022007437818.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -6932,9 +6932,9 @@ export const initialProducts = [
     "retail_price": 754,
     "regular_price": 980,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.17%20AM%20(1)_2607022005012153.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.17%20AM%20(1)_2607022005012153.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.17%20AM%20(1)_2607022005012153.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.17%20AM%20(1)_2607022005012153.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -6954,9 +6954,9 @@ export const initialProducts = [
     "retail_price": 1436,
     "regular_price": 1866,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.17%20AM_2607021932517855.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.17%20AM_2607021932517855.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.17%20AM_2607021932517855.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.17%20AM_2607021932517855.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -6976,9 +6976,9 @@ export const initialProducts = [
     "retail_price": 680,
     "regular_price": 884,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.18%20AM%20(1)_2607012226054459.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.18%20AM%20(1)_2607012226054459.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.18%20AM%20(1)_2607012226054459.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-20%20at%203.22.18%20AM%20(1)_2607012226054459.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -6998,9 +6998,9 @@ export const initialProducts = [
     "retail_price": 440,
     "regular_price": 572,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Futjjjj_2606082009206495.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Futjjjj_2606082009206495.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Futjjjj_2606082009206495.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Futjjjj_2606082009206495.jpg"
     ],
     "sizes": [
       "Standard"
@@ -7020,9 +7020,9 @@ export const initialProducts = [
     "retail_price": 440,
     "regular_price": 572,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fjuyh_2606082004418496.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fjuyh_2606082004418496.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fjuyh_2606082004418496.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fjuyh_2606082004418496.jpg"
     ],
     "sizes": [
       "Standard"
@@ -7042,9 +7042,9 @@ export const initialProducts = [
     "retail_price": 440,
     "regular_price": 572,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fppp_2606081946142375.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fppp_2606081946142375.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fppp_2606081946142375.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fppp_2606081946142375.jpg"
     ],
     "sizes": [
       "Standard"
@@ -7064,9 +7064,9 @@ export const initialProducts = [
     "retail_price": 440,
     "regular_price": 572,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fiiiiii_2606081926148320.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fiiiiii_2606081926148320.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fiiiiii_2606081926148320.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fiiiiii_2606081926148320.jpg"
     ],
     "sizes": [
       "Standard"
@@ -7086,9 +7086,9 @@ export const initialProducts = [
     "retail_price": 440,
     "regular_price": 572,
     "stock": 9,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fkyu_2606081912473310.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fkyu_2606081912473310.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fkyu_2606081912473310.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fkyu_2606081912473310.jpg"
     ],
     "sizes": [
       "Standard"
@@ -7108,9 +7108,9 @@ export const initialProducts = [
     "retail_price": 440,
     "regular_price": 572,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fikuyu7_2606081908592320.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fikuyu7_2606081908592320.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fikuyu7_2606081908592320.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fikuyu7_2606081908592320.jpg"
     ],
     "sizes": [
       "Standard"
@@ -7130,9 +7130,9 @@ export const initialProducts = [
     "retail_price": 440,
     "regular_price": 572,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fiki_2606081904465980.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fiki_2606081904465980.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fiki_2606081904465980.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fiki_2606081904465980.jpg"
     ],
     "sizes": [
       "Standard"
@@ -7152,9 +7152,9 @@ export const initialProducts = [
     "retail_price": 440,
     "regular_price": 572,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_8uug0j8uug0j8uug_2606081857312311.png&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_8uug0j8uug0j8uug_2606081857312311.png",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_8uug0j8uug0j8uug_2606081857312311.png&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_8uug0j8uug0j8uug_2606081857312311.png"
     ],
     "sizes": [
       "Standard"
@@ -7174,9 +7174,9 @@ export const initialProducts = [
     "retail_price": 440,
     "regular_price": 572,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_dqduzzdqduzzdqdu_2606081851472575.png&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_dqduzzdqduzzdqdu_2606081851472575.png",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_dqduzzdqduzzdqdu_2606081851472575.png&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_dqduzzdqduzzdqdu_2606081851472575.png"
     ],
     "sizes": [
       "Standard"
@@ -7196,9 +7196,9 @@ export const initialProducts = [
     "retail_price": 870,
     "regular_price": 1131,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.47.01_2609210656419768.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.47.01_2609210656419768.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.47.01_2609210656419768.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.47.01_2609210656419768.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -7218,9 +7218,9 @@ export const initialProducts = [
     "retail_price": 827,
     "regular_price": 1074,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-16%20at%2011.52.27_2609191052179034.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-16%20at%2011.52.27_2609191052179034.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-16%20at%2011.52.27_2609191052179034.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-16%20at%2011.52.27_2609191052179034.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -7240,9 +7240,9 @@ export const initialProducts = [
     "retail_price": 350,
     "regular_price": 455,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-16%20at%2012.54.47%20(4)_2609190935129240.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-16%20at%2012.54.47%20(4)_2609190935129240.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-16%20at%2012.54.47%20(4)_2609190935129240.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-16%20at%2012.54.47%20(4)_2609190935129240.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -7262,9 +7262,9 @@ export const initialProducts = [
     "retail_price": 798,
     "regular_price": 1037,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-06%20at%2013.03.02_2609160642257604.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-06%20at%2013.03.02_2609160642257604.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-06%20at%2013.03.02_2609160642257604.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-06%20at%2013.03.02_2609160642257604.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -7284,9 +7284,9 @@ export const initialProducts = [
     "retail_price": 754,
     "regular_price": 980,
     "stock": 8,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-15%20at%2023.43.11_2609151743331363.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-15%20at%2023.43.11_2609151743331363.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-15%20at%2023.43.11_2609151743331363.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-15%20at%2023.43.11_2609151743331363.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -7306,9 +7306,9 @@ export const initialProducts = [
     "retail_price": 725,
     "regular_price": 943,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F17845606221000981023_2609151737498603.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F17845606221000981023_2609151737498603.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F17845606221000981023_2609151737498603.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F17845606221000981023_2609151737498603.jpg"
     ],
     "sizes": [
       "Standard"
@@ -7328,9 +7328,9 @@ export const initialProducts = [
     "retail_price": 1262,
     "regular_price": 1640,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F17845613741000981036_2609151734517656.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F17845613741000981036_2609151734517656.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F17845613741000981036_2609151734517656.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F17845613741000981036_2609151734517656.jpg"
     ],
     "sizes": [
       "Standard"
@@ -7350,9 +7350,9 @@ export const initialProducts = [
     "retail_price": 812,
     "regular_price": 1056,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F17845648701000981210_2609151730478291.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F17845648701000981210_2609151730478291.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F17845648701000981210_2609151730478291.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F17845648701000981210_2609151730478291.jpg"
     ],
     "sizes": [
       "Standard"
@@ -7372,9 +7372,9 @@ export const initialProducts = [
     "retail_price": 870,
     "regular_price": 1131,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-09%20at%2012.06.57_2609090607174969.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-09%20at%2012.06.57_2609090607174969.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-09%20at%2012.06.57_2609090607174969.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-09%20at%2012.06.57_2609090607174969.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -7394,9 +7394,9 @@ export const initialProducts = [
     "retail_price": 550,
     "regular_price": 715,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHa263f063186c41898f386bd5d8196d46v_2609081812011366.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHa263f063186c41898f386bd5d8196d46v_2609081812011366.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHa263f063186c41898f386bd5d8196d46v_2609081812011366.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHa263f063186c41898f386bd5d8196d46v_2609081812011366.jpg"
     ],
     "sizes": [
       "Standard"
@@ -7416,9 +7416,9 @@ export const initialProducts = [
     "retail_price": 680,
     "regular_price": 884,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-08%20at%2013.05.33_2609080711347694.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-08%20at%2013.05.33_2609080711347694.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-08%20at%2013.05.33_2609080711347694.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-08%20at%2013.05.33_2609080711347694.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -7438,9 +7438,9 @@ export const initialProducts = [
     "retail_price": 570,
     "regular_price": 741,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F615yI-okWSL._AC_SX679__2609080606219026.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F615yI-okWSL._AC_SX679__2609080606219026.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F615yI-okWSL._AC_SX679__2609080606219026.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F615yI-okWSL._AC_SX679__2609080606219026.jpg"
     ],
     "sizes": [
       "Standard"
@@ -7460,9 +7460,9 @@ export const initialProducts = [
     "retail_price": 1421,
     "regular_price": 1847,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1776801267-picsart_26-04-22_01-52-34-276_2607160620590208.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1776801267-picsart_26-04-22_01-52-34-276_2607160620590208.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1776801267-picsart_26-04-22_01-52-34-276_2607160620590208.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1776801267-picsart_26-04-22_01-52-34-276_2607160620590208.jpg"
     ],
     "sizes": [
       "Standard"
@@ -7482,9 +7482,9 @@ export const initialProducts = [
     "retail_price": 320,
     "regular_price": 416,
     "stock": 9,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-01%20at%205.02.05%20AM_2607012105392158.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-01%20at%205.02.05%20AM_2607012105392158.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-01%20at%205.02.05%20AM_2607012105392158.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-01%20at%205.02.05%20AM_2607012105392158.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -7504,9 +7504,9 @@ export const initialProducts = [
     "retail_price": 360,
     "regular_price": 468,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-07%20at%201.36.57%20AM_2606112103380300.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-07%20at%201.36.57%20AM_2606112103380300.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-07%20at%201.36.57%20AM_2606112103380300.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-07%20at%201.36.57%20AM_2606112103380300.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -7526,9 +7526,9 @@ export const initialProducts = [
     "retail_price": 1247,
     "regular_price": 1621,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-09%20at%202.05.11%20AM_2606102008269812.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-09%20at%202.05.11%20AM_2606102008269812.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-09%20at%202.05.11%20AM_2606102008269812.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-09%20at%202.05.11%20AM_2606102008269812.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -7548,9 +7548,9 @@ export const initialProducts = [
     "retail_price": 3741,
     "regular_price": 4863,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fe%20Anker%20Nano%2045W%20Smart%20Display%20Fast%20Charger%20(Model%20A121D)._2604232043473975.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fe%20Anker%20Nano%2045W%20Smart%20Display%20Fast%20Charger%20(Model%20A121D)._2604232043473975.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fe%20Anker%20Nano%2045W%20Smart%20Display%20Fast%20Charger%20(Model%20A121D)._2604232043473975.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fe%20Anker%20Nano%2045W%20Smart%20Display%20Fast%20Charger%20(Model%20A121D)._2604232043473975.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -7570,9 +7570,9 @@ export const initialProducts = [
     "retail_price": 2219,
     "regular_price": 2884,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_y3zdeyy3zdeyy3zd_2604232039421302.png&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_y3zdeyy3zdeyy3zd_2604232039421302.png",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_y3zdeyy3zdeyy3zd_2604232039421302.png&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_y3zdeyy3zdeyy3zd_2604232039421302.png"
     ],
     "sizes": [
       "Standard"
@@ -7592,9 +7592,9 @@ export const initialProducts = [
     "retail_price": 1624,
     "regular_price": 2111,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_70nhrx70nhrx70nh_2604232035151244.png&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_70nhrx70nhrx70nh_2604232035151244.png",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_70nhrx70nhrx70nh_2604232035151244.png&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_70nhrx70nhrx70nh_2604232035151244.png"
     ],
     "sizes": [
       "Standard"
@@ -7614,9 +7614,9 @@ export const initialProducts = [
     "retail_price": 1450,
     "regular_price": 1885,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_aw5hccaw5hccaw5h7_2604232028420276.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_aw5hccaw5hccaw5h7_2604232028420276.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_aw5hccaw5hccaw5h7_2604232028420276.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_aw5hccaw5hccaw5h7_2604232028420276.jpg"
     ],
     "sizes": [
       "Standard"
@@ -7636,9 +7636,9 @@ export const initialProducts = [
     "retail_price": 1305,
     "regular_price": 1697,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FMOXX%20MC-30%2030W%20Power%20PD%20GaN%20Adapter_2604232023201996.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FMOXX%20MC-30%2030W%20Power%20PD%20GaN%20Adapter_2604232023201996.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FMOXX%20MC-30%2030W%20Power%20PD%20GaN%20Adapter_2604232023201996.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FMOXX%20MC-30%2030W%20Power%20PD%20GaN%20Adapter_2604232023201996.jpg"
     ],
     "sizes": [
       "Standard"
@@ -7658,9 +7658,9 @@ export const initialProducts = [
     "retail_price": 1117,
     "regular_price": 1451,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FAnker%20PowerPort%20III%2020W%20Cube%20PD%20USB-C%20Fast%20Charging%20Adapter%20.._2604231934570701.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FAnker%20PowerPort%20III%2020W%20Cube%20PD%20USB-C%20Fast%20Charging%20Adapter%20.._2604231934570701.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FAnker%20PowerPort%20III%2020W%20Cube%20PD%20USB-C%20Fast%20Charging%20Adapter%20.._2604231934570701.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FAnker%20PowerPort%20III%2020W%20Cube%20PD%20USB-C%20Fast%20Charging%20Adapter%20.._2604231934570701.jpg"
     ],
     "sizes": [
       "Standard"
@@ -7680,9 +7680,9 @@ export const initialProducts = [
     "retail_price": 1088,
     "regular_price": 1414,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FMotorola%20TurboPower%20125W%20GaN%20Charger%20with%20a%206.5A%20USB-C%20cable._2604231932142825.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FMotorola%20TurboPower%20125W%20GaN%20Charger%20with%20a%206.5A%20USB-C%20cable._2604231932142825.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FMotorola%20TurboPower%20125W%20GaN%20Charger%20with%20a%206.5A%20USB-C%20cable._2604231932142825.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FMotorola%20TurboPower%20125W%20GaN%20Charger%20with%20a%206.5A%20USB-C%20cable._2604231932142825.jpg"
     ],
     "sizes": [
       "Standard"
@@ -7702,9 +7702,9 @@ export const initialProducts = [
     "retail_price": 1030,
     "regular_price": 1338,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_3ffomr3ffomr3ffo_2604231929026982.png&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_3ffomr3ffomr3ffo_2604231929026982.png",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_3ffomr3ffomr3ffo_2604231929026982.png&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_3ffomr3ffomr3ffo_2604231929026982.png"
     ],
     "sizes": [
       "Standard"
@@ -7724,9 +7724,9 @@ export const initialProducts = [
     "retail_price": 16385,
     "regular_price": 21301,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-30%20at%203.48.58%20AM_2607012116328766.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-30%20at%203.48.58%20AM_2607012116328766.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-30%20at%203.48.58%20AM_2607012116328766.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-30%20at%203.48.58%20AM_2607012116328766.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -7746,9 +7746,9 @@ export const initialProducts = [
     "retail_price": 44950,
     "regular_price": 58435,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-06%20at%206.59.37%20AM_2606112055380987.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-06%20at%206.59.37%20AM_2606112055380987.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-06%20at%206.59.37%20AM_2606112055380987.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-06%20at%206.59.37%20AM_2606112055380987.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -7768,9 +7768,9 @@ export const initialProducts = [
     "retail_price": 590,
     "regular_price": 767,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2017.18.38_2609191118563025.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2017.18.38_2609191118563025.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2017.18.38_2609191118563025.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2017.18.38_2609191118563025.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -7790,9 +7790,9 @@ export const initialProducts = [
     "retail_price": 500,
     "regular_price": 650,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1%20(15)_2609191113277210.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1%20(15)_2609191113277210.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1%20(15)_2609191113277210.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1%20(15)_2609191113277210.jpg"
     ],
     "sizes": [
       "Standard"
@@ -7812,9 +7812,9 @@ export const initialProducts = [
     "retail_price": 740,
     "regular_price": 961,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.33.26_2609191014227501.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.33.26_2609191014227501.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.33.26_2609191014227501.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-19%20at%2014.33.26_2609191014227501.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -7834,9 +7834,9 @@ export const initialProducts = [
     "retail_price": 1537,
     "regular_price": 1998,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-06%20at%2013.03.02%20(1)_2609160648293346.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-06%20at%2013.03.02%20(1)_2609160648293346.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-06%20at%2013.03.02%20(1)_2609160648293346.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-06%20at%2013.03.02%20(1)_2609160648293346.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -7856,9 +7856,9 @@ export const initialProducts = [
     "retail_price": 2088,
     "regular_price": 2714,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F17649556911000615931_2609151756525009.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F17649556911000615931_2609151756525009.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F17649556911000615931_2609151756525009.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F17649556911000615931_2609151756525009.jpg"
     ],
     "sizes": [
       "Standard"
@@ -7878,9 +7878,9 @@ export const initialProducts = [
     "retail_price": 660,
     "regular_price": 858,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F17649562191000615938_2609151753013860.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F17649562191000615938_2609151753013860.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F17649562191000615938_2609151753013860.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F17649562191000615938_2609151753013860.jpg"
     ],
     "sizes": [
       "Standard"
@@ -7900,9 +7900,9 @@ export const initialProducts = [
     "retail_price": 841,
     "regular_price": 1093,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F17649564541000615939_2609151749145237.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F17649564541000615939_2609151749145237.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F17649564541000615939_2609151749145237.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F17649564541000615939_2609151749145237.jpg"
     ],
     "sizes": [
       "Standard"
@@ -7922,9 +7922,9 @@ export const initialProducts = [
     "retail_price": 680,
     "regular_price": 884,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGBHGTBFBV_2609031923154320.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGBHGTBFBV_2609031923154320.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGBHGTBFBV_2609031923154320.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGBHGTBFBV_2609031923154320.jpg"
     ],
     "sizes": [
       "Standard"
@@ -7944,9 +7944,9 @@ export const initialProducts = [
     "retail_price": 440,
     "regular_price": 572,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FUJNMYUHNY_2609031827137571.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FUJNMYUHNY_2609031827137571.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FUJNMYUHNY_2609031827137571.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FUJNMYUHNY_2609031827137571.jpg"
     ],
     "sizes": [
       "Standard"
@@ -7966,9 +7966,9 @@ export const initialProducts = [
     "retail_price": 1015,
     "regular_price": 1320,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGTBHTGBFB_2609031822045844.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGTBHTGBFB_2609031822045844.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGTBHTGBFB_2609031822045844.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGTBHTGBFB_2609031822045844.jpg"
     ],
     "sizes": [
       "Standard"
@@ -7988,9 +7988,9 @@ export const initialProducts = [
     "retail_price": 410,
     "regular_price": 533,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FFGTBV_2609031815000535.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FFGTBV_2609031815000535.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FFGTBV_2609031815000535.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FFGTBV_2609031815000535.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8010,9 +8010,9 @@ export const initialProducts = [
     "retail_price": 650,
     "regular_price": 845,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHNYBHGFT_2609031800158530.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHNYBHGFT_2609031800158530.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHNYBHGFT_2609031800158530.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHNYBHGFT_2609031800158530.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8032,9 +8032,9 @@ export const initialProducts = [
     "retail_price": 928,
     "regular_price": 1206,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FTYGHT_2608201642121083.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FTYGHT_2608201642121083.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FTYGHT_2608201642121083.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FTYGHT_2608201642121083.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8054,9 +8054,9 @@ export const initialProducts = [
     "retail_price": 928,
     "regular_price": 1206,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fujh7yjh_2608201635469539.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fujh7yjh_2608201635469539.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fujh7yjh_2608201635469539.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fujh7yjh_2608201635469539.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8076,9 +8076,9 @@ export const initialProducts = [
     "retail_price": 928,
     "regular_price": 1206,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftyjhnyh_2608201631475949.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftyjhnyh_2608201631475949.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftyjhnyh_2608201631475949.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftyjhnyh_2608201631475949.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8098,9 +8098,9 @@ export const initialProducts = [
     "retail_price": 928,
     "regular_price": 1206,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyghyntrhgt_2608201626508151.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyghyntrhgt_2608201626508151.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyghyntrhgt_2608201626508151.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyghyntrhgt_2608201626508151.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8120,9 +8120,9 @@ export const initialProducts = [
     "retail_price": 783,
     "regular_price": 1018,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fjhie_2608191753539069.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fjhie_2608191753539069.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fjhie_2608191753539069.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fjhie_2608191753539069.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8142,9 +8142,9 @@ export const initialProducts = [
     "retail_price": 783,
     "regular_price": 1018,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftgtrfgvbr_2608191746011512.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftgtrfgvbr_2608191746011512.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftgtrfgvbr_2608191746011512.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftgtrfgvbr_2608191746011512.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8164,9 +8164,9 @@ export const initialProducts = [
     "retail_price": 783,
     "regular_price": 1018,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fgbtfvbrf_2608191737128427.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fgbtfvbrf_2608191737128427.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fgbtfvbrf_2608191737128427.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fgbtfvbrf_2608191737128427.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8186,9 +8186,9 @@ export const initialProducts = [
     "retail_price": 783,
     "regular_price": 1018,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ffgftrrtf_2608191729485635.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ffgftrrtf_2608191729485635.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ffgftrrtf_2608191729485635.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ffgftrrtf_2608191729485635.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8208,9 +8208,9 @@ export const initialProducts = [
     "retail_price": 783,
     "regular_price": 1018,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhgyugyu7_2608191723242592.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhgyugyu7_2608191723242592.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhgyugyu7_2608191723242592.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhgyugyu7_2608191723242592.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8230,9 +8230,9 @@ export const initialProducts = [
     "retail_price": 783,
     "regular_price": 1018,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fhnbh_2608191717587643.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fhnbh_2608191717587643.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fhnbh_2608191717587643.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fhnbh_2608191717587643.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8252,9 +8252,9 @@ export const initialProducts = [
     "retail_price": 783,
     "regular_price": 1018,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftygr_2608191712323752.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftygr_2608191712323752.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftygr_2608191712323752.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftygr_2608191712323752.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8274,9 +8274,9 @@ export const initialProducts = [
     "retail_price": 1842,
     "regular_price": 2394,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-19%20at%206.00.54%20AM_2607191757013802.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-19%20at%206.00.54%20AM_2607191757013802.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-19%20at%206.00.54%20AM_2607191757013802.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-19%20at%206.00.54%20AM_2607191757013802.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -8296,9 +8296,9 @@ export const initialProducts = [
     "retail_price": 1711,
     "regular_price": 2224,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1784453623-picsart_26-07-19_15-31-29-583_2609200730397657.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1784453623-picsart_26-07-19_15-31-29-583_2609200730397657.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1784453623-picsart_26-07-19_15-31-29-583_2609200730397657.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1784453623-picsart_26-07-19_15-31-29-583_2609200730397657.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8318,9 +8318,9 @@ export const initialProducts = [
     "retail_price": 1030,
     "regular_price": 1338,
     "stock": 9,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1782219608-picsart_26-06-23_18-56-24-976_2609200722400657.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1782219608-picsart_26-06-23_18-56-24-976_2609200722400657.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1782219608-picsart_26-06-23_18-56-24-976_2609200722400657.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1782219608-picsart_26-06-23_18-56-24-976_2609200722400657.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8340,9 +8340,9 @@ export const initialProducts = [
     "retail_price": 1392,
     "regular_price": 1810,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-16%20at%2014.02.47_2609160803071560.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-16%20at%2014.02.47_2609160803071560.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-16%20at%2014.02.47_2609160803071560.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-16%20at%2014.02.47_2609160803071560.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -8362,9 +8362,9 @@ export const initialProducts = [
     "retail_price": 943,
     "regular_price": 1225,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1765129377-20251207_233305_2609160755558626.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1765129377-20251207_233305_2609160755558626.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1765129377-20251207_233305_2609160755558626.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1765129377-20251207_233305_2609160755558626.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8384,9 +8384,9 @@ export const initialProducts = [
     "retail_price": 725,
     "regular_price": 943,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1765039919-fb_img_1765039406416_2609160752583640.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1765039919-fb_img_1765039406416_2609160752583640.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1765039919-fb_img_1765039406416_2609160752583640.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1765039919-fb_img_1765039406416_2609160752583640.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8406,9 +8406,9 @@ export const initialProducts = [
     "retail_price": 660,
     "regular_price": 858,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1766948539-picsart_25-12-29_01-01-05-145_2609160749241870.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1766948539-picsart_25-12-29_01-01-05-145_2609160749241870.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1766948539-picsart_25-12-29_01-01-05-145_2609160749241870.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1766948539-picsart_25-12-29_01-01-05-145_2609160749241870.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8428,9 +8428,9 @@ export const initialProducts = [
     "retail_price": 1450,
     "regular_price": 1885,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1784800207-img-20260723-wa0168_2608021752507426.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1784800207-img-20260723-wa0168_2608021752507426.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1784800207-img-20260723-wa0168_2608021752507426.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1784800207-img-20260723-wa0168_2608021752507426.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8450,9 +8450,9 @@ export const initialProducts = [
     "retail_price": 660,
     "regular_price": 858,
     "stock": 13,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-26%20at%2010.57.27%20PM_2607301932572079.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-26%20at%2010.57.27%20PM_2607301932572079.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-26%20at%2010.57.27%20PM_2607301932572079.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-26%20at%2010.57.27%20PM_2607301932572079.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -8472,9 +8472,9 @@ export const initialProducts = [
     "retail_price": 1117,
     "regular_price": 1451,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-07%20at%205.37.18%20AM_2607301923357144.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-07%20at%205.37.18%20AM_2607301923357144.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-07%20at%205.37.18%20AM_2607301923357144.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-07%20at%205.37.18%20AM_2607301923357144.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -8494,9 +8494,9 @@ export const initialProducts = [
     "retail_price": 3089,
     "regular_price": 4015,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-07%20at%205.54.41%20AM_2607301920574467.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-07%20at%205.54.41%20AM_2607301920574467.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-07%20at%205.54.41%20AM_2607301920574467.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-07%20at%205.54.41%20AM_2607301920574467.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -8516,9 +8516,9 @@ export const initialProducts = [
     "retail_price": 725,
     "regular_price": 943,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-27%20at%204.15.05%20AM_2607301855544965.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-27%20at%204.15.05%20AM_2607301855544965.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-27%20at%204.15.05%20AM_2607301855544965.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-27%20at%204.15.05%20AM_2607301855544965.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -8538,9 +8538,9 @@ export const initialProducts = [
     "retail_price": 540,
     "regular_price": 702,
     "stock": 3,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-28%20at%208.06.31%20AM_2607012134078365.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-28%20at%208.06.31%20AM_2607012134078365.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-28%20at%208.06.31%20AM_2607012134078365.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-28%20at%208.06.31%20AM_2607012134078365.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -8560,9 +8560,9 @@ export const initialProducts = [
     "retail_price": 1668,
     "regular_price": 2168,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-13%20at%2000.12.04_2608121812549668.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-13%20at%2000.12.04_2608121812549668.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-13%20at%2000.12.04_2608121812549668.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-08-13%20at%2000.12.04_2608121812549668.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -8582,9 +8582,9 @@ export const initialProducts = [
     "retail_price": 885,
     "regular_price": 1150,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-26%20at%202.26.59%20AM_2607301900037308.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-26%20at%202.26.59%20AM_2607301900037308.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-26%20at%202.26.59%20AM_2607301900037308.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-26%20at%202.26.59%20AM_2607301900037308.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -8604,9 +8604,9 @@ export const initialProducts = [
     "retail_price": 3190,
     "regular_price": 4147,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1766609056-picsart_25-12-25_02-37-28-134_2606232214428517.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1766609056-picsart_25-12-25_02-37-28-134_2606232214428517.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1766609056-picsart_25-12-25_02-37-28-134_2606232214428517.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1766609056-picsart_25-12-25_02-37-28-134_2606232214428517.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8626,9 +8626,9 @@ export const initialProducts = [
     "retail_price": 3205,
     "regular_price": 4166,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1767814072-picsart_26-01-08_01-24-10-381_2606232211597369.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1767814072-picsart_26-01-08_01-24-10-381_2606232211597369.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1767814072-picsart_26-01-08_01-24-10-381_2606232211597369.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1767814072-picsart_26-01-08_01-24-10-381_2606232211597369.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8648,9 +8648,9 @@ export const initialProducts = [
     "retail_price": 4089,
     "regular_price": 5316,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1769975519-picsart_26-02-02_01-49-32-003_2606232054198716.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1769975519-picsart_26-02-02_01-49-32-003_2606232054198716.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1769975519-picsart_26-02-02_01-49-32-003_2606232054198716.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1769975519-picsart_26-02-02_01-49-32-003_2606232054198716.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8670,9 +8670,9 @@ export const initialProducts = [
     "retail_price": 1305,
     "regular_price": 1697,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1772825600-picsart_26-03-07_01-33-02-895_2606232041563363.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1772825600-picsart_26-03-07_01-33-02-895_2606232041563363.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1772825600-picsart_26-03-07_01-33-02-895_2606232041563363.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1772825600-picsart_26-03-07_01-33-02-895_2606232041563363.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8692,9 +8692,9 @@ export const initialProducts = [
     "retail_price": 2378,
     "regular_price": 3091,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1775330493-picsart_26-04-05_01-21-21-555_2606232020280436.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1775330493-picsart_26-04-05_01-21-21-555_2606232020280436.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1775330493-picsart_26-04-05_01-21-21-555_2606232020280436.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1775330493-picsart_26-04-05_01-21-21-555_2606232020280436.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8714,9 +8714,9 @@ export const initialProducts = [
     "retail_price": 1798,
     "regular_price": 2337,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1775677254-picsart_26-04-09_01-40-42-283%20(1)_2606232016598747.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1775677254-picsart_26-04-09_01-40-42-283%20(1)_2606232016598747.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1775677254-picsart_26-04-09_01-40-42-283%20(1)_2606232016598747.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1775677254-picsart_26-04-09_01-40-42-283%20(1)_2606232016598747.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8736,9 +8736,9 @@ export const initialProducts = [
     "retail_price": 8758,
     "regular_price": 11385,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1776017602-picsart_26-04-13_00-12-07-884%20(1)_2606232007053392.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1776017602-picsart_26-04-13_00-12-07-884%20(1)_2606232007053392.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1776017602-picsart_26-04-13_00-12-07-884%20(1)_2606232007053392.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1776017602-picsart_26-04-13_00-12-07-884%20(1)_2606232007053392.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8758,9 +8758,9 @@ export const initialProducts = [
     "retail_price": 1189,
     "regular_price": 1546,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1776199140-picsart_26-04-15_02-37-06-628_2606231948217153.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1776199140-picsart_26-04-15_02-37-06-628_2606231948217153.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1776199140-picsart_26-04-15_02-37-06-628_2606231948217153.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1776199140-picsart_26-04-15_02-37-06-628_2606231948217153.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8780,9 +8780,9 @@ export const initialProducts = [
     "retail_price": 2857,
     "regular_price": 3713,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1776889589-picsart_26-04-23_02-23-52-904_2606231945512500.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1776889589-picsart_26-04-23_02-23-52-904_2606231945512500.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1776889589-picsart_26-04-23_02-23-52-904_2606231945512500.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1776889589-picsart_26-04-23_02-23-52-904_2606231945512500.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8802,9 +8802,9 @@ export const initialProducts = [
     "retail_price": 2132,
     "regular_price": 2771,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1777233488-picsart_26-04-27_01-56-27-548_2606231943574397.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1777233488-picsart_26-04-27_01-56-27-548_2606231943574397.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1777233488-picsart_26-04-27_01-56-27-548_2606231943574397.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1777233488-picsart_26-04-27_01-56-27-548_2606231943574397.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8824,9 +8824,9 @@ export const initialProducts = [
     "retail_price": 690,
     "regular_price": 897,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F7AXh1000573012_2609191040323039.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F7AXh1000573012_2609191040323039.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F7AXh1000573012_2609191040323039.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F7AXh1000573012_2609191040323039.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8846,9 +8846,9 @@ export const initialProducts = [
     "retail_price": 711,
     "regular_price": 924,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-26%20at%203.48.10%20AM_2607301936035308.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-26%20at%203.48.10%20AM_2607301936035308.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-26%20at%203.48.10%20AM_2607301936035308.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-26%20at%203.48.10%20AM_2607301936035308.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -8868,9 +8868,9 @@ export const initialProducts = [
     "retail_price": 4133,
     "regular_price": 5372,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1781032516-picsart_26-06-10_01-12-46-290_2606152015304159.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1781032516-picsart_26-06-10_01-12-46-290_2606152015304159.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1781032516-picsart_26-06-10_01-12-46-290_2606152015304159.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1781032516-picsart_26-06-10_01-12-46-290_2606152015304159.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8890,9 +8890,9 @@ export const initialProducts = [
     "retail_price": 1523,
     "regular_price": 1979,
     "stock": 8,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1781286077-picsart_26-06-12_23-39-25-828_2606152013402170.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1781286077-picsart_26-06-12_23-39-25-828_2606152013402170.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1781286077-picsart_26-06-12_23-39-25-828_2606152013402170.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1781286077-picsart_26-06-12_23-39-25-828_2606152013402170.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8912,9 +8912,9 @@ export const initialProducts = [
     "retail_price": 1305,
     "regular_price": 1697,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1781552168-picsart_26-06-16_01-34-28-351_2606152001358929.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1781552168-picsart_26-06-16_01-34-28-351_2606152001358929.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1781552168-picsart_26-06-16_01-34-28-351_2606152001358929.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1781552168-picsart_26-06-16_01-34-28-351_2606152001358929.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8934,9 +8934,9 @@ export const initialProducts = [
     "retail_price": 1334,
     "regular_price": 1734,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FSany%20S2005%20portable%20Bluetooth%20bass%20speaker._2604271732401173.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FSany%20S2005%20portable%20Bluetooth%20bass%20speaker._2604271732401173.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FSany%20S2005%20portable%20Bluetooth%20bass%20speaker._2604271732401173.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FSany%20S2005%20portable%20Bluetooth%20bass%20speaker._2604271732401173.jpg"
     ],
     "sizes": [
       "Standard"
@@ -8956,9 +8956,9 @@ export const initialProducts = [
     "retail_price": 1334,
     "regular_price": 1734,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftfghyxdtrgbdf_2604271720327735.png&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftfghyxdtrgbdf_2604271720327735.png",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftfghyxdtrgbdf_2604271720327735.png&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftfghyxdtrgbdf_2604271720327735.png"
     ],
     "sizes": [
       "Standard"
@@ -8978,9 +8978,9 @@ export const initialProducts = [
     "retail_price": 1218,
     "regular_price": 1583,
     "stock": 9,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fx702_2604270747048289.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fx702_2604270747048289.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fx702_2604270747048289.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fx702_2604270747048289.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9000,9 +9000,9 @@ export const initialProducts = [
     "retail_price": 1131,
     "regular_price": 1470,
     "stock": 11,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHM-805%20portable%20wireless%20speaker._2604270725241776.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHM-805%20portable%20wireless%20speaker._2604270725241776.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHM-805%20portable%20wireless%20speaker._2604270725241776.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHM-805%20portable%20wireless%20speaker._2604270725241776.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9022,9 +9022,9 @@ export const initialProducts = [
     "retail_price": 1131,
     "regular_price": 1470,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftransparent%20portable%20Bluetooth%20speaker_2604270721389800.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftransparent%20portable%20Bluetooth%20speaker_2604270721389800.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftransparent%20portable%20Bluetooth%20speaker_2604270721389800.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftransparent%20portable%20Bluetooth%20speaker_2604270721389800.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9044,9 +9044,9 @@ export const initialProducts = [
     "retail_price": 1088,
     "regular_price": 1414,
     "stock": 9,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fa%20Greatnice%20GTS-1550%20wireless%20speaker_2604270718243642.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fa%20Greatnice%20GTS-1550%20wireless%20speaker_2604270718243642.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fa%20Greatnice%20GTS-1550%20wireless%20speaker_2604270718243642.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fa%20Greatnice%20GTS-1550%20wireless%20speaker_2604270718243642.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9066,9 +9066,9 @@ export const initialProducts = [
     "retail_price": 841,
     "regular_price": 1093,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FX-811%20Portable%20Wireless%20Speaker._2604270709223271.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FX-811%20Portable%20Wireless%20Speaker._2604270709223271.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FX-811%20Portable%20Wireless%20Speaker._2604270709223271.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FX-811%20Portable%20Wireless%20Speaker._2604270709223271.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9088,9 +9088,9 @@ export const initialProducts = [
     "retail_price": 4017,
     "regular_price": 5221,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1764706191-images-(39)%20(1)_2607032039141386.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1764706191-images-(39)%20(1)_2607032039141386.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1764706191-images-(39)%20(1)_2607032039141386.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1764706191-images-(39)%20(1)_2607032039141386.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -9110,9 +9110,9 @@ export const initialProducts = [
     "retail_price": 1204,
     "regular_price": 1565,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1775752287-picsart_26-04-09_22-28-31-985%20(3)_2607032031179548.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1775752287-picsart_26-04-09_22-28-31-985%20(3)_2607032031179548.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1775752287-picsart_26-04-09_22-28-31-985%20(3)_2607032031179548.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1775752287-picsart_26-04-09_22-28-31-985%20(3)_2607032031179548.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9132,9 +9132,9 @@ export const initialProducts = [
     "retail_price": 1088,
     "regular_price": 1414,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1781899731-picsart_26-06-20_02-06-33-461_2607032020501488.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1781899731-picsart_26-06-20_02-06-33-461_2607032020501488.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1781899731-picsart_26-06-20_02-06-33-461_2607032020501488.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1781899731-picsart_26-06-20_02-06-33-461_2607032020501488.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9154,9 +9154,9 @@ export const initialProducts = [
     "retail_price": 2726,
     "regular_price": 3544,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1782852880-picsart_26-07-01_02-51-05-670_2607032016501319.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1782852880-picsart_26-07-01_02-51-05-670_2607032016501319.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1782852880-picsart_26-07-01_02-51-05-670_2607032016501319.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1782852880-picsart_26-07-01_02-51-05-670_2607032016501319.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9176,9 +9176,9 @@ export const initialProducts = [
     "retail_price": 1102,
     "regular_price": 1433,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1765564368-picsart_25-12-13_00-19-40-956_2606121858348854.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1765564368-picsart_25-12-13_00-19-40-956_2606121858348854.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1765564368-picsart_25-12-13_00-19-40-956_2606121858348854.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1765564368-picsart_25-12-13_00-19-40-956_2606121858348854.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9198,9 +9198,9 @@ export const initialProducts = [
     "retail_price": 1102,
     "regular_price": 1433,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1775751691-picsart_26-04-09_22-19-06-649_2606121614214459.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1775751691-picsart_26-04-09_22-19-06-649_2606121614214459.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1775751691-picsart_26-04-09_22-19-06-649_2606121614214459.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1775751691-picsart_26-04-09_22-19-06-649_2606121614214459.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9220,9 +9220,9 @@ export const initialProducts = [
     "retail_price": 1030,
     "regular_price": 1338,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1776015420-picsart_26-04-12_23-34-52-834%20(1)_2606121515197167.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1776015420-picsart_26-04-12_23-34-52-834%20(1)_2606121515197167.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1776015420-picsart_26-04-12_23-34-52-834%20(1)_2606121515197167.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1776015420-picsart_26-04-12_23-34-52-834%20(1)_2606121515197167.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9242,9 +9242,9 @@ export const initialProducts = [
     "retail_price": 2306,
     "regular_price": 2997,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1777904791-picsart_26-05-04_20-22-08-382_2606121435016546.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1777904791-picsart_26-05-04_20-22-08-382_2606121435016546.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1777904791-picsart_26-05-04_20-22-08-382_2606121435016546.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1777904791-picsart_26-05-04_20-22-08-382_2606121435016546.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9264,9 +9264,9 @@ export const initialProducts = [
     "retail_price": 2683,
     "regular_price": 3487,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1778701450-picsart_26-05-14_01-42-39-994_2606121431069454.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1778701450-picsart_26-05-14_01-42-39-994_2606121431069454.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1778701450-picsart_26-05-14_01-42-39-994_2606121431069454.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1778701450-picsart_26-05-14_01-42-39-994_2606121431069454.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9286,9 +9286,9 @@ export const initialProducts = [
     "retail_price": 2393,
     "regular_price": 3110,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1777059739-picsart_26-04-25_01-40-06-135%20(1)_2606121625012427.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1777059739-picsart_26-04-25_01-40-06-135%20(1)_2606121625012427.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1777059739-picsart_26-04-25_01-40-06-135%20(1)_2606121625012427.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1777059739-picsart_26-04-25_01-40-06-135%20(1)_2606121625012427.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9308,9 +9308,9 @@ export const initialProducts = [
     "retail_price": 1102,
     "regular_price": 1433,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1779769697-picsart_26-05-26_10-26-14-163_2606121419451244.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1779769697-picsart_26-05-26_10-26-14-163_2606121419451244.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1779769697-picsart_26-05-26_10-26-14-163_2606121419451244.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1779769697-picsart_26-05-26_10-26-14-163_2606121419451244.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9330,9 +9330,9 @@ export const initialProducts = [
     "retail_price": 1102,
     "regular_price": 1433,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fhyjnyh_2606121416158386.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fhyjnyh_2606121416158386.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fhyjnyh_2606121416158386.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fhyjnyh_2606121416158386.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9352,9 +9352,9 @@ export const initialProducts = [
     "retail_price": 2393,
     "regular_price": 3110,
     "stock": 9,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1772824248-picsart_26-03-07_01-06-48-840_2608021759179521.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1772824248-picsart_26-03-07_01-06-48-840_2608021759179521.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1772824248-picsart_26-03-07_01-06-48-840_2608021759179521.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1772824248-picsart_26-03-07_01-06-48-840_2608021759179521.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9374,9 +9374,9 @@ export const initialProducts = [
     "retail_price": 1160,
     "regular_price": 1508,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1777794620-picsart_26-05-03_13-50-07-728_2608021756581262.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1777794620-picsart_26-05-03_13-50-07-728_2608021756581262.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1777794620-picsart_26-05-03_13-50-07-728_2608021756581262.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1777794620-picsart_26-05-03_13-50-07-728_2608021756581262.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9396,9 +9396,9 @@ export const initialProducts = [
     "retail_price": 360,
     "regular_price": 468,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1768679437-picsart_26-01-18_01-49-17-598_2606121629079378.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1768679437-picsart_26-01-18_01-49-17-598_2606121629079378.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1768679437-picsart_26-01-18_01-49-17-598_2606121629079378.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1768679437-picsart_26-01-18_01-49-17-598_2606121629079378.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9418,9 +9418,9 @@ export const initialProducts = [
     "retail_price": 1059,
     "regular_price": 1376,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fgdkgkrt7htt8_2605101827038792.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fgdkgkrt7htt8_2605101827038792.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fgdkgkrt7htt8_2605101827038792.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fgdkgkrt7htt8_2605101827038792.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9440,9 +9440,9 @@ export const initialProducts = [
     "retail_price": 725,
     "regular_price": 943,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fryrtrey6urt_2605101819339327.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fryrtrey6urt_2605101819339327.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fryrtrey6urt_2605101819339327.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fryrtrey6urt_2605101819339327.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9462,9 +9462,9 @@ export const initialProducts = [
     "retail_price": 680,
     "regular_price": 884,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fdjgdjdg_2605101812328869.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fdjgdjdg_2605101812328869.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fdjgdjdg_2605101812328869.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fdjgdjdg_2605101812328869.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9484,9 +9484,9 @@ export const initialProducts = [
     "retail_price": 680,
     "regular_price": 884,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftght_2605101805236369.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftght_2605101805236369.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftght_2605101805236369.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftght_2605101805236369.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9506,9 +9506,9 @@ export const initialProducts = [
     "retail_price": 540,
     "regular_price": 702,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fytujj_2605101752280732.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fytujj_2605101752280732.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fytujj_2605101752280732.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fytujj_2605101752280732.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9528,9 +9528,9 @@ export const initialProducts = [
     "retail_price": 540,
     "regular_price": 702,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_b6kk0eb6kk0eb6kk_2605101738297440.png&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_b6kk0eb6kk0eb6kk_2605101738297440.png",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_b6kk0eb6kk0eb6kk_2605101738297440.png&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGemini_Generated_Image_b6kk0eb6kk0eb6kk_2605101738297440.png"
     ],
     "sizes": [
       "Standard"
@@ -9550,9 +9550,9 @@ export const initialProducts = [
     "retail_price": 1276,
     "regular_price": 1659,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FThe%20product%20shown%20is%20an%20A4TECH%20KRS-82%20USB%20Multimedia%20Keyboard._2604211200583868.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FThe%20product%20shown%20is%20an%20A4TECH%20KRS-82%20USB%20Multimedia%20Keyboard._2604211200583868.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FThe%20product%20shown%20is%20an%20A4TECH%20KRS-82%20USB%20Multimedia%20Keyboard._2604211200583868.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FThe%20product%20shown%20is%20an%20A4TECH%20KRS-82%20USB%20Multimedia%20Keyboard._2604211200583868.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9572,9 +9572,9 @@ export const initialProducts = [
     "retail_price": 1160,
     "regular_price": 1508,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FThe%20image%20displays%20the%20Bajeal%20T350%20RGB%20Gaming%20Keyboard%20and%20Mouse%20Combo._2604211157283315.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FThe%20image%20displays%20the%20Bajeal%20T350%20RGB%20Gaming%20Keyboard%20and%20Mouse%20Combo._2604211157283315.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FThe%20image%20displays%20the%20Bajeal%20T350%20RGB%20Gaming%20Keyboard%20and%20Mouse%20Combo._2604211157283315.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FThe%20image%20displays%20the%20Bajeal%20T350%20RGB%20Gaming%20Keyboard%20and%20Mouse%20Combo._2604211157283315.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9594,9 +9594,9 @@ export const initialProducts = [
     "retail_price": 590,
     "regular_price": 767,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FElite%20KB25%20Wired%20Keyboa_2604211138034984.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FElite%20KB25%20Wired%20Keyboa_2604211138034984.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FElite%20KB25%20Wired%20Keyboa_2604211138034984.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FElite%20KB25%20Wired%20Keyboa_2604211138034984.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9616,9 +9616,9 @@ export const initialProducts = [
     "retail_price": 340,
     "regular_price": 442,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fhklfehjfjikjpo_2605101847026570.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fhklfehjfjikjpo_2605101847026570.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fhklfehjfjikjpo_2605101847026570.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fhklfehjfjikjpo_2605101847026570.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9638,9 +9638,9 @@ export const initialProducts = [
     "retail_price": 330,
     "regular_price": 429,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fffuyrgtrh_2605101840280730.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fffuyrgtrh_2605101840280730.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fffuyrgtrh_2605101840280730.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fffuyrgtrh_2605101840280730.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9660,9 +9660,9 @@ export const initialProducts = [
     "retail_price": 320,
     "regular_price": 416,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Frjtdjtejujhguy_2605101833459909.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Frjtdjtejujhguy_2605101833459909.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Frjtdjtejujhguy_2605101833459909.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Frjtdjtejujhguy_2605101833459909.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9682,9 +9682,9 @@ export const initialProducts = [
     "retail_price": 430,
     "regular_price": 559,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FTP-Link%20Power%20Adapter_2604212052177434.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FTP-Link%20Power%20Adapter_2604212052177434.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FTP-Link%20Power%20Adapter_2604212052177434.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FTP-Link%20Power%20Adapter_2604212052177434.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9704,9 +9704,9 @@ export const initialProducts = [
     "retail_price": 420,
     "regular_price": 546,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fawsq_2604212046510393.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fawsq_2604212046510393.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fawsq_2604212046510393.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fawsq_2604212046510393.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9726,9 +9726,9 @@ export const initialProducts = [
     "retail_price": 1030,
     "regular_price": 1338,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fqwg_2604211913570099.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fqwg_2604211913570099.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fqwg_2604211913570099.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fqwg_2604211913570099.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9748,9 +9748,9 @@ export const initialProducts = [
     "retail_price": 10150,
     "regular_price": 13195,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F2111_2604211206020411.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F2111_2604211206020411.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F2111_2604211206020411.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F2111_2604211206020411.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9770,9 +9770,9 @@ export const initialProducts = [
     "retail_price": 6902,
     "regular_price": 8973,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FF5%203-Axis%20Foldable%20Gimbal%20Stabilizer%20for%20smartphones_2604211158313860.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FF5%203-Axis%20Foldable%20Gimbal%20Stabilizer%20for%20smartphones_2604211158313860.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FF5%203-Axis%20Foldable%20Gimbal%20Stabilizer%20for%20smartphones_2604211158313860.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FF5%203-Axis%20Foldable%20Gimbal%20Stabilizer%20for%20smartphones_2604211158313860.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9792,9 +9792,9 @@ export const initialProducts = [
     "retail_price": 3698,
     "regular_price": 4807,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fqsaa_2604211152195716.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fqsaa_2604211152195716.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fqsaa_2604211152195716.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fqsaa_2604211152195716.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9814,9 +9814,9 @@ export const initialProducts = [
     "retail_price": 3045,
     "regular_price": 3959,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FUlanzi%20MT-78%20Extendable%20Quick-Release%20Tripod_2604211145461364.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FUlanzi%20MT-78%20Extendable%20Quick-Release%20Tripod_2604211145461364.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FUlanzi%20MT-78%20Extendable%20Quick-Release%20Tripod_2604211145461364.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FUlanzi%20MT-78%20Extendable%20Quick-Release%20Tripod_2604211145461364.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9836,9 +9836,9 @@ export const initialProducts = [
     "retail_price": 2132,
     "regular_price": 2771,
     "stock": 20,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fe%20Q185%20Intelligent%20Face%20Tracking%20Selfie%20Stick%2C_2604211142574506.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fe%20Q185%20Intelligent%20Face%20Tracking%20Selfie%20Stick%2C_2604211142574506.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fe%20Q185%20Intelligent%20Face%20Tracking%20Selfie%20Stick%2C_2604211142574506.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fe%20Q185%20Intelligent%20Face%20Tracking%20Selfie%20Stick%2C_2604211142574506.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9858,9 +9858,9 @@ export const initialProducts = [
     "retail_price": 660,
     "regular_price": 858,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fqqw1_2604210830317477.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fqqw1_2604210830317477.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fqqw1_2604210830317477.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fqqw1_2604210830317477.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9880,9 +9880,9 @@ export const initialProducts = [
     "retail_price": 870,
     "regular_price": 1131,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F61tFxYVL8NL._SL1500__2609080657072546.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F61tFxYVL8NL._SL1500__2609080657072546.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F61tFxYVL8NL._SL1500__2609080657072546.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F61tFxYVL8NL._SL1500__2609080657072546.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9902,9 +9902,9 @@ export const initialProducts = [
     "retail_price": 570,
     "regular_price": 741,
     "stock": 5,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fdownload%20(23)_2608121802030895.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fdownload%20(23)_2608121802030895.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fdownload%20(23)_2608121802030895.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fdownload%20(23)_2608121802030895.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9924,9 +9924,9 @@ export const initialProducts = [
     "retail_price": 2828,
     "regular_price": 3676,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-07%20at%2000.41.51_2607070608521285.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-07%20at%2000.41.51_2607070608521285.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-07%20at%2000.41.51_2607070608521285.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-07%20at%2000.41.51_2607070608521285.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -9946,9 +9946,9 @@ export const initialProducts = [
     "retail_price": 2103,
     "regular_price": 2733,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-28%20at%2021.06.15_2606290622521165.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-28%20at%2021.06.15_2606290622521165.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-28%20at%2021.06.15_2606290622521165.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-28%20at%2021.06.15_2606290622521165.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -9968,9 +9968,9 @@ export const initialProducts = [
     "retail_price": 653,
     "regular_price": 848,
     "stock": 8,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1777815570-picsart_26-04-28_02-01-24-259_2606241923508478.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1777815570-picsart_26-04-28_02-01-24-259_2606241923508478.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1777815570-picsart_26-04-28_02-01-24-259_2606241923508478.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1777815570-picsart_26-04-28_02-01-24-259_2606241923508478.jpg"
     ],
     "sizes": [
       "Standard"
@@ -9990,9 +9990,9 @@ export const initialProducts = [
     "retail_price": 2755,
     "regular_price": 3582,
     "stock": 20,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1777818030-picsart_26-04-29_01-34-49-661_2606241920157989.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1777818030-picsart_26-04-29_01-34-49-661_2606241920157989.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1777818030-picsart_26-04-29_01-34-49-661_2606241920157989.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1777818030-picsart_26-04-29_01-34-49-661_2606241920157989.jpg"
     ],
     "sizes": [
       "Standard"
@@ -10012,9 +10012,9 @@ export const initialProducts = [
     "retail_price": 1595,
     "regular_price": 2074,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1779567145-picsart_26-05-24_02-07-16-010_2606241917547623.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1779567145-picsart_26-05-24_02-07-16-010_2606241917547623.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1779567145-picsart_26-05-24_02-07-16-010_2606241917547623.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F1779567145-picsart_26-05-24_02-07-16-010_2606241917547623.jpg"
     ],
     "sizes": [
       "Standard"
@@ -10034,9 +10034,9 @@ export const initialProducts = [
     "retail_price": 600,
     "regular_price": 780,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-21%20at%205.31.49%20AM_2606212012441399.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-21%20at%205.31.49%20AM_2606212012441399.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-21%20at%205.31.49%20AM_2606212012441399.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-21%20at%205.31.49%20AM_2606212012441399.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -10056,9 +10056,9 @@ export const initialProducts = [
     "retail_price": 510,
     "regular_price": 663,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-07%20at%201.36.56%20AM_2606112058292944.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-07%20at%201.36.56%20AM_2606112058292944.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-07%20at%201.36.56%20AM_2606112058292944.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-06-07%20at%201.36.56%20AM_2606112058292944.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -10078,9 +10078,9 @@ export const initialProducts = [
     "retail_price": 769,
     "regular_price": 999,
     "stock": 9,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-05-11%20at%2008.43.07_2605150652474437.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-05-11%20at%2008.43.07_2605150652474437.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-05-11%20at%2008.43.07_2605150652474437.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-05-11%20at%2008.43.07_2605150652474437.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -10100,9 +10100,9 @@ export const initialProducts = [
     "retail_price": 754,
     "regular_price": 980,
     "stock": 9,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-05-11%20at%2008.42.00_2605150645335370.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-05-11%20at%2008.42.00_2605150645335370.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-05-11%20at%2008.42.00_2605150645335370.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-05-11%20at%2008.42.00_2605150645335370.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -10122,9 +10122,9 @@ export const initialProducts = [
     "retail_price": 2103,
     "regular_price": 2733,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FDP-7688-Portable-Rechargeable-Fan-3_2604280557203822.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FDP-7688-Portable-Rechargeable-Fan-3_2604280557203822.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FDP-7688-Portable-Rechargeable-Fan-3_2604280557203822.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FDP-7688-Portable-Rechargeable-Fan-3_2604280557203822.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -10144,9 +10144,9 @@ export const initialProducts = [
     "retail_price": 2436,
     "regular_price": 3167,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftimmer4_2604182152511006.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftimmer4_2604182152511006.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftimmer4_2604182152511006.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftimmer4_2604182152511006.jpg"
     ],
     "sizes": [
       "Standard"
@@ -10166,9 +10166,9 @@ export const initialProducts = [
     "retail_price": 2364,
     "regular_price": 3073,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftimmer3_2604182148450237.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftimmer3_2604182148450237.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftimmer3_2604182148450237.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftimmer3_2604182148450237.jpg"
     ],
     "sizes": [
       "Standard"
@@ -10188,9 +10188,9 @@ export const initialProducts = [
     "retail_price": 2306,
     "regular_price": 2997,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FKemei%20KM-2600%20cordless%20electric%20hair%20clipper._2604182142522369.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FKemei%20KM-2600%20cordless%20electric%20hair%20clipper._2604182142522369.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FKemei%20KM-2600%20cordless%20electric%20hair%20clipper._2604182142522369.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FKemei%20KM-2600%20cordless%20electric%20hair%20clipper._2604182142522369.jpg"
     ],
     "sizes": [
       "Standard"
@@ -10210,9 +10210,9 @@ export const initialProducts = [
     "retail_price": 1972,
     "regular_price": 2564,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FVGR%20V-987%20Professional%20Hair%20Trimmer_2604182110593742.png&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FVGR%20V-987%20Professional%20Hair%20Trimmer_2604182110593742.png",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FVGR%20V-987%20Professional%20Hair%20Trimmer_2604182110593742.png&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FVGR%20V-987%20Professional%20Hair%20Trimmer_2604182110593742.png"
     ],
     "sizes": [
       "Standard"
@@ -10232,9 +10232,9 @@ export const initialProducts = [
     "retail_price": 1682,
     "regular_price": 2187,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FKemei%20KM-809A_2604182106527709.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FKemei%20KM-809A_2604182106527709.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FKemei%20KM-809A_2604182106527709.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FKemei%20KM-809A_2604182106527709.jpg"
     ],
     "sizes": [
       "Standard"
@@ -10254,9 +10254,9 @@ export const initialProducts = [
     "retail_price": 1494,
     "regular_price": 1942,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ft%202_2604182103093719.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ft%202_2604182103093719.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ft%202_2604182103093719.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ft%202_2604182103093719.jpg"
     ],
     "sizes": [
       "Standard"
@@ -10276,9 +10276,9 @@ export const initialProducts = [
     "retail_price": 1581,
     "regular_price": 2055,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FKemei%20KM-234%20Hair%20Clipper%20%26%20Beard%20Trimmer._2604182055411517.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FKemei%20KM-234%20Hair%20Clipper%20%26%20Beard%20Trimmer._2604182055411517.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FKemei%20KM-234%20Hair%20Clipper%20%26%20Beard%20Trimmer._2604182055411517.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FKemei%20KM-234%20Hair%20Clipper%20%26%20Beard%20Trimmer._2604182055411517.jpg"
     ],
     "sizes": [
       "Standard"
@@ -10298,9 +10298,9 @@ export const initialProducts = [
     "retail_price": 711,
     "regular_price": 924,
     "stock": 11,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHTC%20AT-518B%20Rechargeable%20Hair%20Trimmer._2604182052021032.jfif&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHTC%20AT-518B%20Rechargeable%20Hair%20Trimmer._2604182052021032.jfif",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHTC%20AT-518B%20Rechargeable%20Hair%20Trimmer._2604182052021032.jfif&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHTC%20AT-518B%20Rechargeable%20Hair%20Trimmer._2604182052021032.jfif"
     ],
     "sizes": [
       "Standard"
@@ -10320,9 +10320,9 @@ export const initialProducts = [
     "retail_price": 696,
     "regular_price": 905,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHTC%20AT-1105%20Rechargeable%20Hair%20Trimmer._2604182047396947.jfif&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHTC%20AT-1105%20Rechargeable%20Hair%20Trimmer._2604182047396947.jfif",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHTC%20AT-1105%20Rechargeable%20Hair%20Trimmer._2604182047396947.jfif&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHTC%20AT-1105%20Rechargeable%20Hair%20Trimmer._2604182047396947.jfif"
     ],
     "sizes": [
       "Standard"
@@ -10342,9 +10342,9 @@ export const initialProducts = [
     "retail_price": 696,
     "regular_price": 905,
     "stock": 9,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHTC%20AT-528%20Professional%20Rechargeable%20Cordless%20Beard%20and%20Hair%20Trimmer._2604182041053551.jfif&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHTC%20AT-528%20Professional%20Rechargeable%20Cordless%20Beard%20and%20Hair%20Trimmer._2604182041053551.jfif",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHTC%20AT-528%20Professional%20Rechargeable%20Cordless%20Beard%20and%20Hair%20Trimmer._2604182041053551.jfif&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHTC%20AT-528%20Professional%20Rechargeable%20Cordless%20Beard%20and%20Hair%20Trimmer._2604182041053551.jfif"
     ],
     "sizes": [
       "Standard"
@@ -10364,9 +10364,9 @@ export const initialProducts = [
     "retail_price": 653,
     "regular_price": 848,
     "stock": 11,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHTC%20AT-538%20Rechargeable%20Hair%20and%20Beard%20Trimmer._2604182030405684.jfif&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHTC%20AT-538%20Rechargeable%20Hair%20and%20Beard%20Trimmer._2604182030405684.jfif",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHTC%20AT-538%20Rechargeable%20Hair%20and%20Beard%20Trimmer._2604182030405684.jfif&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHTC%20AT-538%20Rechargeable%20Hair%20and%20Beard%20Trimmer._2604182030405684.jfif"
     ],
     "sizes": [
       "Standard"
@@ -10386,9 +10386,9 @@ export const initialProducts = [
     "retail_price": 653,
     "regular_price": 848,
     "stock": 11,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHTC%20AT-1210%20Professional%20Beard%20Trimmer%20for%20Men._2604182020546508.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHTC%20AT-1210%20Professional%20Beard%20Trimmer%20for%20Men._2604182020546508.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHTC%20AT-1210%20Professional%20Beard%20Trimmer%20for%20Men._2604182020546508.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FHTC%20AT-1210%20Professional%20Beard%20Trimmer%20for%20Men._2604182020546508.jpg"
     ],
     "sizes": [
       "Standard"
@@ -10408,9 +10408,9 @@ export const initialProducts = [
     "retail_price": 972,
     "regular_price": 1263,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.51%20AM%20(5)_2607231930158908.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.51%20AM%20(5)_2607231930158908.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.51%20AM%20(5)_2607231930158908.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.51%20AM%20(5)_2607231930158908.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -10430,9 +10430,9 @@ export const initialProducts = [
     "retail_price": 972,
     "regular_price": 1263,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.51%20AM%20(1)_2607231919404204.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.51%20AM%20(1)_2607231919404204.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.51%20AM%20(1)_2607231919404204.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.51%20AM%20(1)_2607231919404204.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -10452,9 +10452,9 @@ export const initialProducts = [
     "retail_price": 972,
     "regular_price": 1263,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.51%20AM_2607231917159323.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.51%20AM_2607231917159323.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.51%20AM_2607231917159323.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.51%20AM_2607231917159323.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -10474,9 +10474,9 @@ export const initialProducts = [
     "retail_price": 972,
     "regular_price": 1263,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.50%20AM%20(3)_2607231914261062.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.50%20AM%20(3)_2607231914261062.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.50%20AM%20(3)_2607231914261062.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.50%20AM%20(3)_2607231914261062.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -10496,9 +10496,9 @@ export const initialProducts = [
     "retail_price": 972,
     "regular_price": 1263,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.50%20AM%20(2)_2607231911393458.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.50%20AM%20(2)_2607231911393458.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.50%20AM%20(2)_2607231911393458.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.50%20AM%20(2)_2607231911393458.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -10518,9 +10518,9 @@ export const initialProducts = [
     "retail_price": 754,
     "regular_price": 980,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F87y76u_2605051815411391.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F87y76u_2605051815411391.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F87y76u_2605051815411391.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F87y76u_2605051815411391.jpg"
     ],
     "sizes": [
       "Standard"
@@ -10540,9 +10540,9 @@ export const initialProducts = [
     "retail_price": 754,
     "regular_price": 980,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F87I_2605051750475244.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F87I_2605051750475244.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F87I_2605051750475244.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F87I_2605051750475244.jpg"
     ],
     "sizes": [
       "Standard"
@@ -10562,9 +10562,9 @@ export const initialProducts = [
     "retail_price": 754,
     "regular_price": 980,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-05-04%20at%206.51.09%20PM%20(2)_2605051740377273.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-05-04%20at%206.51.09%20PM%20(2)_2605051740377273.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-05-04%20at%206.51.09%20PM%20(2)_2605051740377273.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-05-04%20at%206.51.09%20PM%20(2)_2605051740377273.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -10584,9 +10584,9 @@ export const initialProducts = [
     "retail_price": 754,
     "regular_price": 980,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FOI8L8_2605051736176960.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FOI8L8_2605051736176960.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FOI8L8_2605051736176960.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FOI8L8_2605051736176960.jpg"
     ],
     "sizes": [
       "Standard"
@@ -10606,9 +10606,9 @@ export const initialProducts = [
     "retail_price": 754,
     "regular_price": 980,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FU768_2605051730267972.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FU768_2605051730267972.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FU768_2605051730267972.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FU768_2605051730267972.jpg"
     ],
     "sizes": [
       "Standard"
@@ -10628,9 +10628,9 @@ export const initialProducts = [
     "retail_price": 754,
     "regular_price": 980,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FI98787_2605051722118835.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FI98787_2605051722118835.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FI98787_2605051722118835.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FI98787_2605051722118835.jpg"
     ],
     "sizes": [
       "Standard"
@@ -10650,9 +10650,9 @@ export const initialProducts = [
     "retail_price": 972,
     "regular_price": 1263,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-23%20at%2012.38.27%20PM%20(1)_2607231943264381.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-23%20at%2012.38.27%20PM%20(1)_2607231943264381.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-23%20at%2012.38.27%20PM%20(1)_2607231943264381.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-23%20at%2012.38.27%20PM%20(1)_2607231943264381.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -10672,9 +10672,9 @@ export const initialProducts = [
     "retail_price": 1436,
     "regular_price": 1866,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.50%20AM%20(1)_2607221915481028.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.50%20AM%20(1)_2607221915481028.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.50%20AM%20(1)_2607221915481028.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.50%20AM%20(1)_2607221915481028.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -10694,9 +10694,9 @@ export const initialProducts = [
     "retail_price": 1436,
     "regular_price": 1866,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.50%20AM_2607221908277810.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.50%20AM_2607221908277810.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.50%20AM_2607221908277810.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.50%20AM_2607221908277810.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -10716,9 +10716,9 @@ export const initialProducts = [
     "retail_price": 1436,
     "regular_price": 1866,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.49%20AM%20(2)_2607221903204370.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.49%20AM%20(2)_2607221903204370.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.49%20AM%20(2)_2607221903204370.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.49%20AM%20(2)_2607221903204370.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -10738,9 +10738,9 @@ export const initialProducts = [
     "retail_price": 1436,
     "regular_price": 1866,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.49%20AM%20(1)_2607221900083985.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.49%20AM%20(1)_2607221900083985.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.49%20AM%20(1)_2607221900083985.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.49%20AM%20(1)_2607221900083985.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -10760,9 +10760,9 @@ export const initialProducts = [
     "retail_price": 1436,
     "regular_price": 1866,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.49%20AM_2607221822106780.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.49%20AM_2607221822106780.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.49%20AM_2607221822106780.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.49%20AM_2607221822106780.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -10782,9 +10782,9 @@ export const initialProducts = [
     "retail_price": 1595,
     "regular_price": 2074,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.48%20AM%20(2)_2607221738542489.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.48%20AM%20(2)_2607221738542489.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.48%20AM%20(2)_2607221738542489.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.48%20AM%20(2)_2607221738542489.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -10804,9 +10804,9 @@ export const initialProducts = [
     "retail_price": 1595,
     "regular_price": 2074,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.48%20AM%20(1)_2607221736070656.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.48%20AM%20(1)_2607221736070656.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.48%20AM%20(1)_2607221736070656.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.48%20AM%20(1)_2607221736070656.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -10826,9 +10826,9 @@ export const initialProducts = [
     "retail_price": 1595,
     "regular_price": 2074,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.48%20AM_2607221733473154.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.48%20AM_2607221733473154.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.48%20AM_2607221733473154.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.48%20AM_2607221733473154.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -10848,9 +10848,9 @@ export const initialProducts = [
     "retail_price": 1595,
     "regular_price": 2074,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.47%20AM%20(2)_2607221731586378.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.47%20AM%20(2)_2607221731586378.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.47%20AM%20(2)_2607221731586378.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.47%20AM%20(2)_2607221731586378.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -10870,9 +10870,9 @@ export const initialProducts = [
     "retail_price": 1595,
     "regular_price": 2074,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.47%20AM%20(1)_2607221729502334.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.47%20AM%20(1)_2607221729502334.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.47%20AM%20(1)_2607221729502334.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.47%20AM%20(1)_2607221729502334.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -10892,9 +10892,9 @@ export const initialProducts = [
     "retail_price": 1595,
     "regular_price": 2074,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.47%20AM_2607221645487766.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.47%20AM_2607221645487766.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.47%20AM_2607221645487766.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-07-22%20at%2012.48.47%20AM_2607221645487766.jpeg"
     ],
     "sizes": [
       "Standard"
@@ -10914,9 +10914,9 @@ export const initialProducts = [
     "retail_price": 725,
     "regular_price": 943,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fgbtf_2608181831116471.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fgbtf_2608181831116471.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fgbtf_2608181831116471.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fgbtf_2608181831116471.jpg"
     ],
     "sizes": [
       "Standard"
@@ -10936,9 +10936,9 @@ export const initialProducts = [
     "retail_price": 530,
     "regular_price": 689,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fghtr6_2608181820177199.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fghtr6_2608181820177199.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fghtr6_2608181820177199.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fghtr6_2608181820177199.jpg"
     ],
     "sizes": [
       "Standard"
@@ -10958,9 +10958,9 @@ export const initialProducts = [
     "retail_price": 440,
     "regular_price": 572,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fjhi_2608181807511662.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fjhi_2608181807511662.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fjhi_2608181807511662.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fjhi_2608181807511662.jpg"
     ],
     "sizes": [
       "Standard"
@@ -10980,9 +10980,9 @@ export const initialProducts = [
     "retail_price": 400,
     "regular_price": 520,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftg5rg_2608181726451400.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftg5rg_2608181726451400.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftg5rg_2608181726451400.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ftg5rg_2608181726451400.jpg"
     ],
     "sizes": [
       "Standard"
@@ -11002,9 +11002,9 @@ export const initialProducts = [
     "retail_price": 520,
     "regular_price": 676,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fujhynythntrs_2608181719569982.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fujhynythntrs_2608181719569982.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fujhynythntrs_2608181719569982.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fujhynythntrs_2608181719569982.jpg"
     ],
     "sizes": [
       "Standard"
@@ -11024,9 +11024,9 @@ export const initialProducts = [
     "retail_price": 1073,
     "regular_price": 1395,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fghtf_2608181710324460.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fghtf_2608181710324460.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fghtf_2608181710324460.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fghtf_2608181710324460.jpg"
     ],
     "sizes": [
       "Standard"
@@ -11046,9 +11046,9 @@ export const initialProducts = [
     "retail_price": 520,
     "regular_price": 676,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F5t_2608181702395055.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F5t_2608181702395055.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F5t_2608181702395055.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F5t_2608181702395055.jpg"
     ],
     "sizes": [
       "Standard"
@@ -11068,9 +11068,9 @@ export const initialProducts = [
     "retail_price": 580,
     "regular_price": 754,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F9IOK_2608181654469769.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F9IOK_2608181654469769.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F9IOK_2608181654469769.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F9IOK_2608181654469769.jpg"
     ],
     "sizes": [
       "Standard"
@@ -11090,9 +11090,9 @@ export const initialProducts = [
     "retail_price": 696,
     "regular_price": 905,
     "stock": 8,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fi87_2605150022449512.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fi87_2605150022449512.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fi87_2605150022449512.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fi87_2605150022449512.jpg"
     ],
     "sizes": [
       "Standard"
@@ -11112,9 +11112,9 @@ export const initialProducts = [
     "retail_price": 450,
     "regular_price": 585,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fkio_2605150008318486.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fkio_2605150008318486.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fkio_2605150008318486.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fkio_2605150008318486.jpg"
     ],
     "sizes": [
       "Standard"
@@ -11134,9 +11134,9 @@ export const initialProducts = [
     "retail_price": 430,
     "regular_price": 559,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhujuy_2605150002062443.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhujuy_2605150002062443.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhujuy_2605150002062443.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhujuy_2605150002062443.jpg"
     ],
     "sizes": [
       "Standard"
@@ -11156,9 +11156,9 @@ export const initialProducts = [
     "retail_price": 420,
     "regular_price": 546,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fij8ui_2605142359151658.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fij8ui_2605142359151658.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fij8ui_2605142359151658.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fij8ui_2605142359151658.jpg"
     ],
     "sizes": [
       "Standard"
@@ -11178,9 +11178,9 @@ export const initialProducts = [
     "retail_price": 580,
     "regular_price": 754,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FTGY5R_2605061845090357.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FTGY5R_2605061845090357.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FTGY5R_2605061845090357.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FTGY5R_2605061845090357.jpg"
     ],
     "sizes": [
       "Standard"
@@ -11200,9 +11200,9 @@ export const initialProducts = [
     "retail_price": 620,
     "regular_price": 806,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FUJ67876_2605061924329099.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FUJ67876_2605061924329099.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FUJ67876_2605061924329099.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FUJ67876_2605061924329099.jpg"
     ],
     "sizes": [
       "Standard"
@@ -11222,9 +11222,9 @@ export const initialProducts = [
     "retail_price": 630,
     "regular_price": 819,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGTHTR_2605061714008489.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGTHTR_2605061714008489.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGTHTR_2605061714008489.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FGTHTR_2605061714008489.jpg"
     ],
     "sizes": [
       "Standard"
@@ -11244,9 +11244,9 @@ export const initialProducts = [
     "retail_price": 798,
     "regular_price": 1037,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F55_2604101716034941.png&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F55_2604101716034941.png",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F55_2604101716034941.png&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F55_2604101716034941.png"
     ],
     "sizes": [
       "Standard"
@@ -11266,9 +11266,9 @@ export const initialProducts = [
     "retail_price": 957,
     "regular_price": 1244,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F10009_2604101902575477.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F10009_2604101902575477.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F10009_2604101902575477.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F10009_2604101902575477.jpg"
     ],
     "sizes": [
       "Standard"
@@ -11288,9 +11288,9 @@ export const initialProducts = [
     "retail_price": 1305,
     "regular_price": 1697,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F8A_2604101341410702.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F8A_2604101341410702.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F8A_2604101341410702.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F8A_2604101341410702.jpg"
     ],
     "sizes": [
       "Standard"
@@ -11310,9 +11310,9 @@ export const initialProducts = [
     "retail_price": 1044,
     "regular_price": 1357,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F-4_2604101238482688.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F-4_2604101238482688.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F-4_2604101238482688.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F-4_2604101238482688.jpg"
     ],
     "sizes": [
       "Standard"
@@ -11332,9 +11332,9 @@ export const initialProducts = [
     "retail_price": 986,
     "regular_price": 1282,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F56_2604101147519691.png&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F56_2604101147519691.png",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F56_2604101147519691.png&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F56_2604101147519691.png"
     ],
     "sizes": [
       "Standard"
@@ -11354,9 +11354,9 @@ export const initialProducts = [
     "retail_price": 1247,
     "regular_price": 1621,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F3_2604100954025871.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F3_2604100954025871.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F3_2604100954025871.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2F3_2604100954025871.jpg"
     ],
     "sizes": [
       "Standard"
@@ -11376,9 +11376,9 @@ export const initialProducts = [
     "retail_price": 957,
     "regular_price": 1244,
     "stock": 10,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FBG%201_2604100844244297.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FBG%201_2604100844244297.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FBG%201_2604100844244297.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FBG%201_2604100844244297.jpg"
     ],
     "sizes": [
       "Standard"
@@ -11398,9 +11398,9 @@ export const initialProducts = [
     "retail_price": 754,
     "regular_price": 980,
     "stock": 8,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ffgverf_2606181937194804.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ffgverf_2606181937194804.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ffgverf_2606181937194804.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Ffgverf_2606181937194804.jpg"
     ],
     "sizes": [
       "Standard"
@@ -11420,9 +11420,9 @@ export const initialProducts = [
     "retail_price": 650,
     "regular_price": 845,
     "stock": 8,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhhbtgr_2606181923410755.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhhbtgr_2606181923410755.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhhbtgr_2606181923410755.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhhbtgr_2606181923410755.jpg"
     ],
     "sizes": [
       "Standard"
@@ -11442,9 +11442,9 @@ export const initialProducts = [
     "retail_price": 754,
     "regular_price": 980,
     "stock": 7,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fgyhb_2606181913564206.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fgyhb_2606181913564206.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fgyhb_2606181913564206.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fgyhb_2606181913564206.jpg"
     ],
     "sizes": [
       "Standard"
@@ -11464,9 +11464,9 @@ export const initialProducts = [
     "retail_price": 914,
     "regular_price": 1188,
     "stock": 15,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fkk_2606172131240695.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fkk_2606172131240695.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fkk_2606172131240695.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fkk_2606172131240695.jpg"
     ],
     "sizes": [
       "Standard"
@@ -11486,9 +11486,9 @@ export const initialProducts = [
     "retail_price": 660,
     "regular_price": 858,
     "stock": 13,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhjny_2606172114232168.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhjny_2606172114232168.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhjny_2606172114232168.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fyhjny_2606172114232168.jpg"
     ],
     "sizes": [
       "Standard"
@@ -11508,9 +11508,9 @@ export const initialProducts = [
     "retail_price": 899,
     "regular_price": 1169,
     "stock": 16,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fumbrella%202%2C0_2606172051168382.jpg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fumbrella%202%2C0_2606172051168382.jpg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fumbrella%202%2C0_2606172051168382.jpg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2Fumbrella%202%2C0_2606172051168382.jpg"
     ],
     "sizes": [
       "Standard"
@@ -11530,9 +11530,9 @@ export const initialProducts = [
     "retail_price": 1305,
     "regular_price": 1697,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.37%20(1)_2609180634049679.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.37%20(1)_2609180634049679.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.37%20(1)_2609180634049679.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.37%20(1)_2609180634049679.jpeg"
     ],
     "sizes": [
       "Combo M+Free",
@@ -11554,9 +11554,9 @@ export const initialProducts = [
     "retail_price": 1305,
     "regular_price": 1697,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.37_2609180631192705.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.37_2609180631192705.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.37_2609180631192705.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.37_2609180631192705.jpeg"
     ],
     "sizes": [
       "Combo M+Free",
@@ -11578,9 +11578,9 @@ export const initialProducts = [
     "retail_price": 1305,
     "regular_price": 1697,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.36_2609180628473260.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.36_2609180628473260.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.36_2609180628473260.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.36_2609180628473260.jpeg"
     ],
     "sizes": [
       "Combo M+Free",
@@ -11602,9 +11602,9 @@ export const initialProducts = [
     "retail_price": 1305,
     "regular_price": 1697,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.35%20(1)_2609180625381772.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.35%20(1)_2609180625381772.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.35%20(1)_2609180625381772.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.35%20(1)_2609180625381772.jpeg"
     ],
     "sizes": [
       "Combo M+Free",
@@ -11626,9 +11626,9 @@ export const initialProducts = [
     "retail_price": 1305,
     "regular_price": 1697,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.35_2609180621210368.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.35_2609180621210368.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.35_2609180621210368.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.35_2609180621210368.jpeg"
     ],
     "sizes": [
       "Combo M+Free",
@@ -11650,9 +11650,9 @@ export const initialProducts = [
     "retail_price": 1305,
     "regular_price": 1697,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.34%20(1)_2609180615452379.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.34%20(1)_2609180615452379.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.34%20(1)_2609180615452379.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.34%20(1)_2609180615452379.jpeg"
     ],
     "sizes": [
       "Combo M+Free",
@@ -11674,9 +11674,9 @@ export const initialProducts = [
     "retail_price": 1305,
     "regular_price": 1697,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.34_2609180613300471.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.34_2609180613300471.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.34_2609180613300471.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.34_2609180613300471.jpeg"
     ],
     "sizes": [
       "Combo M+Free",
@@ -11698,9 +11698,9 @@ export const initialProducts = [
     "retail_price": 1305,
     "regular_price": 1697,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.32%20(1)_2609180608193141.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.32%20(1)_2609180608193141.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.32%20(1)_2609180608193141.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.32%20(1)_2609180608193141.jpeg"
     ],
     "sizes": [
       "Combo M+Free",
@@ -11722,9 +11722,9 @@ export const initialProducts = [
     "retail_price": 1305,
     "regular_price": 1697,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.32_2609180605522690.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.32_2609180605522690.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.32_2609180605522690.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.18.32_2609180605522690.jpeg"
     ],
     "sizes": [
       "Combo M+Free",
@@ -11746,9 +11746,9 @@ export const initialProducts = [
     "retail_price": 1233,
     "regular_price": 1602,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2023.35.22_2609171828488132.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2023.35.22_2609171828488132.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2023.35.22_2609171828488132.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2023.35.22_2609171828488132.jpeg"
     ],
     "sizes": [
       "Combo M+Free",
@@ -11770,9 +11770,9 @@ export const initialProducts = [
     "retail_price": 1233,
     "regular_price": 1602,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2023.35.21_2609171826289873.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2023.35.21_2609171826289873.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2023.35.21_2609171826289873.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2023.35.21_2609171826289873.jpeg"
     ],
     "sizes": [
       "Combo M+Free",
@@ -11794,9 +11794,9 @@ export const initialProducts = [
     "retail_price": 1233,
     "regular_price": 1602,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2023.35.20%20(1)_2609171824143925.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2023.35.20%20(1)_2609171824143925.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2023.35.20%20(1)_2609171824143925.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2023.35.20%20(1)_2609171824143925.jpeg"
     ],
     "sizes": [
       "Combo M+Free",
@@ -11818,9 +11818,9 @@ export const initialProducts = [
     "retail_price": 1595,
     "regular_price": 2074,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.08%20(1)_2609181746585678.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.08%20(1)_2609181746585678.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.08%20(1)_2609181746585678.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.08%20(1)_2609181746585678.jpeg"
     ],
     "sizes": [
       "Combo M+Free",
@@ -11842,9 +11842,9 @@ export const initialProducts = [
     "retail_price": 1595,
     "regular_price": 2074,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.08_2609181745026796.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.08_2609181745026796.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.08_2609181745026796.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.08_2609181745026796.jpeg"
     ],
     "sizes": [
       "Combo M+Free",
@@ -11866,9 +11866,9 @@ export const initialProducts = [
     "retail_price": 1595,
     "regular_price": 2074,
     "stock": 39,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.09_2609181743177598.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.09_2609181743177598.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.09_2609181743177598.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.09_2609181743177598.jpeg"
     ],
     "sizes": [
       "Combo M+Free",
@@ -11890,9 +11890,9 @@ export const initialProducts = [
     "retail_price": 1595,
     "regular_price": 2074,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.10_2609181741318416.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.10_2609181741318416.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.10_2609181741318416.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.10_2609181741318416.jpeg"
     ],
     "sizes": [
       "Combo M+Free",
@@ -11914,9 +11914,9 @@ export const initialProducts = [
     "retail_price": 1595,
     "regular_price": 2074,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.11_2609181739397732.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.11_2609181739397732.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.11_2609181739397732.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.11_2609181739397732.jpeg"
     ],
     "sizes": [
       "Combo M+Free",
@@ -11938,9 +11938,9 @@ export const initialProducts = [
     "retail_price": 1595,
     "regular_price": 2074,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.13_2609181737448553.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.13_2609181737448553.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.13_2609181737448553.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.13_2609181737448553.jpeg"
     ],
     "sizes": [
       "Combo M+Free",
@@ -11962,9 +11962,9 @@ export const initialProducts = [
     "retail_price": 1595,
     "regular_price": 2074,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.14_2609181736015667.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.14_2609181736015667.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.14_2609181736015667.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.14_2609181736015667.jpeg"
     ],
     "sizes": [
       "Combo M+Free",
@@ -11986,9 +11986,9 @@ export const initialProducts = [
     "retail_price": 1595,
     "regular_price": 2074,
     "stock": 4000,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.15_2609181734117883.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.15_2609181734117883.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.15_2609181734117883.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.15_2609181734117883.jpeg"
     ],
     "sizes": [
       "Combo M+Free",
@@ -12010,9 +12010,9 @@ export const initialProducts = [
     "retail_price": 1595,
     "regular_price": 2074,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.16_2609181732053050.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.16_2609181732053050.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.16_2609181732053050.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.16_2609181732053050.jpeg"
     ],
     "sizes": [
       "Combo M+Free",
@@ -12034,9 +12034,9 @@ export const initialProducts = [
     "retail_price": 1595,
     "regular_price": 2074,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.02_2609181728137938.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.02_2609181728137938.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.02_2609181728137938.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.02_2609181728137938.jpeg"
     ],
     "sizes": [
       "Combo M+Free",
@@ -12058,9 +12058,9 @@ export const initialProducts = [
     "retail_price": 1595,
     "regular_price": 2074,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.01_2609181725111945.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.01_2609181725111945.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.01_2609181725111945.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.01_2609181725111945.jpeg"
     ],
     "sizes": [
       "Combo M+Free",
@@ -12082,9 +12082,9 @@ export const initialProducts = [
     "retail_price": 1595,
     "regular_price": 2074,
     "stock": 40,
-    "image": "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.00_2609181723003167.jpeg&w=800&q=80",
+    "image": "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.00_2609181723003167.jpeg",
     "images": [
-      "https://greenishtradeltd.com/_next/image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.00_2609181723003167.jpeg&w=800&q=80"
+      "/api/proxy-image?url=http%3A%2F%2F147.93.97.56%3A9000%2Fecommerce-public%2FProductImage%2FWhatsApp%20Image%202026-09-17%20at%2013.24.00_2609181723003167.jpeg"
     ],
     "sizes": [
       "Combo M+Free",

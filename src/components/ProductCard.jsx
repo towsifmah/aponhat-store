@@ -22,6 +22,10 @@ export default function ProductCard({ product, onQuickView }) {
           src={product.image || 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80'}
           alt={product.title}
           loading="lazy"
+          onError={(e) => {
+            e.currentTarget.onerror = null;
+            e.currentTarget.src = 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80';
+          }}
           className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
         />
 

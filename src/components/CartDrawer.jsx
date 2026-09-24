@@ -91,6 +91,10 @@ export default function CartDrawer({ onCheckout, products = [], onQuickView }) {
                     <img
                       src={item.image || 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80'}
                       alt={item.title}
+                      onError={(e) => {
+                        e.currentTarget.onerror = null;
+                        e.currentTarget.src = 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80';
+                      }}
                       className="w-16 h-16 rounded-xl object-cover bg-white shrink-0"
                     />
 

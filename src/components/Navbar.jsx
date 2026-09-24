@@ -167,6 +167,10 @@ export default function Navbar({
                       <img
                         src={prod.image}
                         alt={prod.title}
+                        onError={(e) => {
+                          e.currentTarget.onerror = null;
+                          e.currentTarget.src = 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80';
+                        }}
                         className="w-10 h-10 rounded-lg object-cover bg-gray-100 dark:bg-dark-bg shrink-0"
                       />
                       <div className="flex-1 min-w-0">
