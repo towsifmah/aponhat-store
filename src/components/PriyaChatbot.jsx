@@ -172,8 +172,13 @@ export default function PriyaChatbot({ onQuickView, storeSettings = {} }) {
             </span>
 
             {/* Avatar Icon */}
-            <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center font-bold text-sm shadow-inner">
-              👩‍💼
+            <div className="w-8 h-8 rounded-full overflow-hidden border border-white/40 shadow-inner shrink-0 bg-emerald-800">
+              <img 
+                src="/priya-model.jpg" 
+                alt="প্রিয়া" 
+                className="w-full h-full object-cover"
+                onError={(e) => { e.currentTarget.src = '/logo.png'; }}
+              />
             </div>
 
             {/* Label */}
@@ -205,11 +210,16 @@ export default function PriyaChatbot({ onQuickView, storeSettings = {} }) {
           <div className="bg-gradient-to-r from-emerald-600 via-teal-700 to-emerald-800 text-white px-5 py-4 flex items-center justify-between shadow-sm relative">
             <div className="flex items-center gap-3">
               <div className="relative">
-                <div className="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-xl border border-white/30 shadow-inner">
-                  👩‍💼
+                <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-white/50 shadow-md shrink-0 bg-emerald-800">
+                  <img 
+                    src="/priya-model.jpg" 
+                    alt="প্রিয়া" 
+                    className="w-full h-full object-cover"
+                    onError={(e) => { e.currentTarget.src = '/logo.png'; }}
+                  />
                 </div>
                 {/* Live Indicator */}
-                <span className="absolute bottom-0 right-0 w-3 h-3 bg-emerald-400 border-2 border-emerald-800 rounded-full"></span>
+                <span className="absolute bottom-0 right-0 w-3.5 h-3.5 bg-emerald-400 border-2 border-emerald-800 rounded-full shadow-xs"></span>
               </div>
               <div>
                 <div className="flex items-center gap-2">
@@ -268,7 +278,17 @@ export default function PriyaChatbot({ onQuickView, storeSettings = {} }) {
                 >
                   {/* Sender Tag */}
                   <div className="flex items-center gap-1.5 mb-1 px-1 text-[11px] font-bold text-gray-500 dark:text-gray-400">
-                    {isPriya && <span>👩‍💼 প্রিয়া</span>}
+                    {isPriya && (
+                      <div className="flex items-center gap-1.5">
+                        <img 
+                          src="/priya-model.jpg" 
+                          alt="প্রিয়া" 
+                          className="w-4 h-4 rounded-full object-cover border border-emerald-500/40"
+                          onError={(e) => { e.currentTarget.style.display = 'none'; }}
+                        />
+                        <span className="text-emerald-700 dark:text-emerald-400 font-bold">প্রিয়া</span>
+                      </div>
+                    )}
                     {isAdmin && <span className="text-amber-600 dark:text-amber-400 flex items-center gap-1 font-bold">🛡️ আপনহাট সাপোর্ট ম্যানেজার</span>}
                     {isUser && <span>আপনি</span>}
                   </div>

@@ -72,28 +72,28 @@ export default function HomePage({
     <div className="space-y-10 pb-16">
       
       {/* Hero Banner with AponHat Premium Branding (No dropship mentions) */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-apon-800 via-apon-700 to-apon-900 text-white py-12 md:py-16 px-4 sm:px-6 lg:px-8">
+      <section className="relative overflow-hidden bg-gradient-to-br from-[#05321d] via-[#006e38] to-[#022415] text-white py-12 md:py-16 px-4 sm:px-6 lg:px-8 border-b border-emerald-500/20 shadow-xl">
         {/* Glow Decorative Elements */}
-        <div className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-apon-400/20 rounded-full blur-3xl pointer-events-none" />
-        <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 bg-emerald-400/15 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-gradient-to-br from-emerald-400/25 via-teal-300/15 to-transparent rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 bg-gradient-to-tr from-amber-400/20 via-emerald-400/15 to-transparent rounded-full blur-3xl pointer-events-none" />
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
           <div className="lg:col-span-7 space-y-4 text-center lg:text-left">
             
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/15 text-xs font-semibold text-apon-200">
-              <Sparkles className="w-3.5 h-3.5 text-amber-300" />
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-xs font-bold text-emerald-200 shadow-sm">
+              <Sparkles className="w-3.5 h-3.5 text-amber-300 animate-pulse" />
               <span>বাংলাদেশের নির্ভরযোগ্য প্রিমিয়াম অনলাইন শপ</span>
             </div>
 
             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight">
               আপনার পছন্দের পণ্য, <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-green-200 to-teal-300">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-200 via-green-100 to-teal-200 drop-shadow-sm">
                 আপনহাটে ঘরে বসেই!
               </span>
             </h1>
 
-            <p className="text-sm sm:text-base text-white/80 max-w-xl mx-auto lg:mx-0 font-normal">
-              সেরা মানের ট্রেন্ডি ফ্যাশন, গ্যাজেটস ও লাইফস্টাইল পণ্য এখন এক ক্লিকেই আপনার ঠিকানায়। ক্যাশ অন ডেলিভারি ও দ্রুততম হোম ডেলিভারি সুবিধা!
+            <p className="text-sm sm:text-base text-emerald-50/90 max-w-xl mx-auto lg:mx-0 font-normal leading-relaxed">
+              সেরা মানের ট্রেন্ডি ফ্যাশন, গ্যাজেটস ও লাইফস্টাইল পণ্য এখন এক ক্লিকেই আপনার ঠিকানায়। ঢাকা সিটিতে ৬০৳ ও সারাদেশে ১০০৳ ডেলিভারি চার্জ।
             </p>
 
             {/* Quick Action Pills */}
@@ -103,16 +103,16 @@ export default function HomePage({
                   const el = document.getElementById('products-section');
                   if (el) el.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="px-6 py-3 rounded-full bg-white text-apon-800 hover:bg-apon-50 font-bold text-xs sm:text-sm shadow-xl transition-all hover:scale-105 active:scale-95 flex items-center gap-2"
+                className="px-6 py-3 rounded-full bg-white hover:bg-emerald-50 text-emerald-950 font-black text-xs sm:text-sm shadow-xl shadow-emerald-950/30 hover:shadow-emerald-400/30 transition-all hover:scale-105 active:scale-95 flex items-center gap-2 border border-white/50"
               >
-                <ShoppingBag className="w-4 h-4 text-apon-600" />
+                <ShoppingBag className="w-4 h-4 text-emerald-700" />
                 <span>এখনই কেনাকাটা করুন</span>
-                <ArrowRight className="w-4 h-4" />
+                <ArrowRight className="w-4 h-4 text-emerald-700" />
               </button>
 
-              <div className="flex items-center gap-3 px-4 py-2.5 rounded-full bg-white/10 backdrop-blur-md border border-white/15 text-xs font-medium">
-                <Flame className="w-4 h-4 text-amber-400" />
-                <span>বিকাশ ও নগদে সহজ পেমেন্ট</span>
+              <div className="flex items-center gap-2.5 px-4 py-2.5 rounded-full bg-emerald-900/60 backdrop-blur-md border border-emerald-400/30 text-xs font-semibold text-emerald-100 shadow-inner">
+                <Flame className="w-4 h-4 text-amber-400 fill-amber-400" />
+                <span>বিকাশ ও ক্যাশ অন ডেলিভারি</span>
               </div>
             </div>
 
@@ -120,25 +120,30 @@ export default function HomePage({
 
           {/* Hero Visual Card */}
           <div className="lg:col-span-5 flex justify-center">
-            <div className="relative w-full max-w-sm rounded-3xl bg-white/10 backdrop-blur-xl border border-white/20 p-6 shadow-2xl text-center space-y-4">
-              <div className="relative mx-auto w-44 h-24 flex items-center justify-center p-2 rounded-2xl bg-white shadow-lg overflow-hidden">
+            <div className="relative w-full max-w-sm rounded-3xl bg-white/10 backdrop-blur-2xl border border-white/25 p-6 shadow-2xl text-center space-y-4 ring-1 ring-white/20">
+              <div className="relative mx-auto w-44 h-24 flex items-center justify-center p-2 rounded-2xl bg-white shadow-xl overflow-hidden">
                 <img src="/logo.png" alt="আপনহাট" className="max-h-full max-w-full object-contain" />
               </div>
 
               <div>
-                <h3 className="text-lg font-bold text-white">আপনহাট ডেলিভারি সুবিধা</h3>
-                <p className="text-xs text-white/70 mt-0.5">অর্ডার করার পর পিকআপ ভ্যানে দ্রুত ডেলিভারি</p>
+                <h3 className="text-lg font-black text-white">আপনহাট হোম ডেলিভারি</h3>
+                <p className="text-xs text-emerald-100/80 mt-0.5">সারা দেশে দ্রুততম ও নিরাপদ ক্যাশ অন ডেলিভারি</p>
               </div>
 
               <div className="grid grid-cols-2 gap-2 text-left">
-                <div className="p-2.5 rounded-xl bg-white/10 border border-white/10">
-                  <p className="text-[10px] text-white/60">ডেলিভারি সময়</p>
-                  <p className="text-xs font-bold text-white">২-৪ দিন</p>
+                <div className="p-2.5 rounded-xl bg-white/10 border border-white/15 backdrop-blur-sm">
+                  <p className="text-[10px] text-emerald-200">ঢাকা সিটিতে চার্জ</p>
+                  <p className="text-xs font-black text-white">৳৬০ (২-৩ দিন)</p>
                 </div>
-                <div className="p-2.5 rounded-xl bg-white/10 border border-white/10">
-                  <p className="text-[10px] text-white/60">পেমেন্ট মেথড</p>
-                  <p className="text-xs font-bold text-white">বিকাশ/নগদ/COD</p>
+                <div className="p-2.5 rounded-xl bg-white/10 border border-white/15 backdrop-blur-sm">
+                  <p className="text-[10px] text-emerald-200">ঢাকার বাইরে চার্জ</p>
+                  <p className="text-xs font-black text-white">৳১০০ (৩-৪ দিন)</p>
                 </div>
+              </div>
+
+              <div className="pt-1 text-[11px] font-semibold text-amber-300 flex items-center justify-center gap-1.5 bg-amber-400/10 py-1.5 px-3 rounded-full border border-amber-300/30">
+                <Sparkles className="w-3.5 h-3.5 text-amber-300" />
+                <span>১৫০০৳ বা বেশি অর্ডারে ফ্রি ডেলিভারি!</span>
               </div>
             </div>
           </div>

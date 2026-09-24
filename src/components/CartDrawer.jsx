@@ -198,7 +198,7 @@ export default function CartDrawer({ onCheckout, products = [], onQuickView }) {
                 <div className="flex justify-between text-gray-600 dark:text-dark-muted">
                   <span>আনুমানিক ডেলিভারি চার্জ</span>
                   <span className="font-semibold text-emerald-600 dark:text-emerald-400">
-                    {subtotal >= 1500 ? 'ফ্রি' : '৳৬০ (ঢাকায়) / ৳১২০ (বাইরে)'}
+                    {subtotal >= 1500 ? 'ফ্রি' : '৳৬০ (ঢাকায়) / ৳১০০ (বাইরে)'}
                   </span>
                 </div>
                 <div className="flex justify-between text-sm font-bold text-gray-900 dark:text-white pt-2 border-t border-gray-100 dark:border-dark-border">

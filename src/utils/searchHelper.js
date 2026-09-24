@@ -1,14 +1,20 @@
 // src/utils/searchHelper.js - Intelligent Bilingual Bengali & English Search Engine
 
 export const BILINGUAL_SYNONYMS = {
-  // Gents Fashion
+  // Gents Fashion & Typos
   'শার্ট': ['shirt', 'formal shirt', 'casual shirt', 'oxford', 'cotton shirt', 'শার্ট'],
   'shirt': ['শার্ট', 'shirt', 'formal shirt', 'casual shirt', 'oxford'],
+  'shrit': ['শার্ট', 'shirt', 'formal shirt', 'casual shirt', 'oxford', 'cotton shirt'],
+  'shart': ['শার্ট', 'shirt', 'formal shirt', 'casual shirt', 'oxford'],
+  'shrt': ['শার্ট', 'shirt', 'formal shirt', 'casual shirt'],
   'টি-শার্ট': ['t-shirt', 'tshirt', 'polo shirt', 'ড্রপশোল্ডার', 'গেঞ্জি', 'টি শার্ট', 'টি-শার্ট'],
   'টি শার্ট': ['t-shirt', 'tshirt', 'polo shirt', 'ড্রপশোল্ডার', 'গেঞ্জি', 'টি শার্ট', 'টি-শার্ট'],
   't-shirt': ['টি-শার্ট', 'টি শার্ট', 't-shirt', 'tshirt', 'polo shirt', 'ড্রপশোল্ডার'],
   'tshirt': ['টি-শার্ট', 'টি শার্ট', 't-shirt', 'tshirt', 'polo shirt'],
+  't-shrit': ['টি-শার্ট', 'টি শার্ট', 't-shirt', 'tshirt', 'polo shirt', 'শার্ট'],
+  'tshrit': ['টি-শার্ট', 'টি শার্ট', 't-shirt', 'tshirt', 'polo shirt', 'শার্ট'],
   'পোলো': ['polo', 'polo shirt', 'পোলো', 'টি-শার্ট'],
+  'polo': ['polo', 'polo shirt', 'পোলো', 'টি-শার্ট'],
   'পাঞ্জাবি': ['panjabi', 'punjabi', 'পাঞ্জাবি', 'পাঞ্জাবী', 'পায়জামা'],
   'পাঞ্জাবী': ['panjabi', 'punjabi', 'পাঞ্জাবি', 'পাঞ্জাবী'],
   'panjabi': ['পাঞ্জাবি', 'পাঞ্জাবী', 'panjabi', 'punjabi'],
@@ -16,13 +22,28 @@ export const BILINGUAL_SYNONYMS = {
   'প্যান্ট': ['pant', 'pants', 'trouser', 'trousers', 'jeans', 'gabardine', 'প্যান্ট', 'ট্রাউজার'],
   'ট্রাউজার': ['trouser', 'trousers', 'pant', 'ট্রাউজার', 'প্যান্ট'],
   'pant': ['প্যান্ট', 'pant', 'trouser', 'jeans', 'gabardine'],
+  'pantt': ['প্যান্ট', 'pant', 'trouser', 'jeans', 'gabardine'],
+  'pnt': ['প্যান্ট', 'pant', 'trouser', 'jeans', 'gabardine'],
   'জিন্স': ['jeans', 'denim', 'জিন্স', 'প্যান্ট'],
   'jeans': ['জিন্স', 'jeans', 'denim', 'pant'],
+
+  // Toys & Baby Entertainment
+  'খেলনা': ['খেলনা', 'toy', 'toys', 'বার্ড টয়', 'বেবি বাউন্সার', 'টয়', 'টয়', 'দোলনা'],
+  'khelna': ['খেলনা', 'toy', 'toys', 'বার্ড টয়', 'বেবি বাউন্সার', 'টয়', 'টয়', 'দোলনা'],
+  'khilna': ['খেলনা', 'toy', 'toys', 'বার্ড টয়', 'টয়', 'টয়'],
+  'toy': ['খেলনা', 'toy', 'toys', 'বার্ড টয়', 'টয়', 'টয়', 'বেবি বাউন্সার'],
+  'toys': ['খেলনা', 'toy', 'toys', 'বার্ড টয়', 'টয়', 'টয়', 'বেবি বাউন্সার'],
+  'টয়': ['খেলনা', 'toy', 'toys', 'বার্ড টয়', 'টয়', 'টয়'],
+  'টয়': ['খেলনা', 'toy', 'toys', 'বার্ড টয়', 'টয়', 'টয়'],
 
   // Watches & Smart Devices
   'ঘড়ি': ['watch', 'smartwatch', 'smart watch', 'wrist watch', 'ঘড়ি', 'ঘড়ি', 'ওয়াচ'],
   'ঘড়ি': ['watch', 'smartwatch', 'smart watch', 'wrist watch', 'ঘড়ি', 'ঘড়ি', 'ওয়াচ'],
   'watch': ['ঘড়ি', 'ঘড়ি', 'watch', 'smartwatch', 'ultra'],
+  'wach': ['ঘড়ি', 'ঘড়ি', 'watch', 'smartwatch', 'ultra'],
+  'wacth': ['ঘড়ি', 'ঘড়ি', 'watch', 'smartwatch', 'ultra'],
+  'ghori': ['ঘড়ি', 'ঘড়ি', 'watch', 'smartwatch', 'ultra'],
+  'ghari': ['ঘড়ি', 'ঘড়ি', 'watch', 'smartwatch', 'ultra'],
   'স্মার্ট ওয়াচ': ['smartwatch', 'smart watch', 'watch', 'ultra', 'স্মার্ট ওয়াচ', 'ঘড়ি'],
   'স্মার্ট ওয়াচ': ['smartwatch', 'smart watch', 'watch', 'ultra', 'স্মার্ট ওয়াচ', 'ঘড়ি'],
   'smartwatch': ['স্মার্ট ওয়াচ', 'স্মার্ট ওয়াচ', 'ঘড়ি', 'ঘড়ি', 'watch'],

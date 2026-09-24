@@ -76,7 +76,7 @@ export default function App() {
         store_notice: 'আপনহাটে আপনাকে স্বাগতম! সারা বাংলাদেশে হোম ডেলিভারি দেওয়া হয়।',
         helpline_phone: '01617971644',
         inside_dhaka_delivery: 60,
-        outside_dhaka_delivery: 120,
+        outside_dhaka_delivery: 100,
         bkash_number: '01617971644',
         nagad_number: '01309993470',
         rocket_number: '01617971644',
@@ -89,7 +89,7 @@ export default function App() {
         store_notice: 'আপনহাটে আপনাকে স্বাগতম! সারা বাংলাদেশে হোম ডেলিভারি দেওয়া হয়।',
         helpline_phone: '01617971644',
         inside_dhaka_delivery: 60,
-        outside_dhaka_delivery: 120,
+        outside_dhaka_delivery: 100,
         bkash_number: '01617971644',
         nagad_number: '01309993470',
         rocket_number: '01617971644',
@@ -148,9 +148,27 @@ export default function App() {
             } catch {}
           }
           if (prodData.status === 'success' && Array.isArray(prodData.data) && prodData.data.length > 0) {
-            setProducts(prodData.data);
+            let prods = prodData.data;
             try {
-              localStorage.setItem('aponhat_cached_products', JSON.stringify(prodData.data));
+              const overrides = JSON.parse(localStorage.getItem('aponhat_price_overrides') || '{}');
+              if (Object.keys(overrides).length > 0) {
+                prods = prods.map(p => {
+                  const ovr = overrides[String(p.id)];
+                  if (ovr) {
+                    return {
+                      ...p,
+                      retail_price: ovr.retail_price !== undefined ? ovr.retail_price : p.retail_price,
+                      price: ovr.price !== undefined ? ovr.price : p.price,
+                      stock: ovr.stock !== undefined ? ovr.stock : p.stock
+                    };
+                  }
+                  return p;
+                });
+              }
+            } catch {}
+            setProducts(prods);
+            try {
+              localStorage.setItem('aponhat_cached_products', JSON.stringify(prods));
             } catch {}
           }
         }
@@ -164,6 +182,73 @@ export default function App() {
     fetchData();
     return () => { isMounted = false; };
   }, []);
+
+  // Real-time live price updater called directly from AdminDashboard
+  const handleProductPriceUpdated = (productId, newPrice, newStock) => {
+    const pIdStr = String(productId);
+    const parsedPrice = parseFloat(newPrice);
+    const parsedStock = newStock !== undefined ? parseInt(newStock) : undefined;
+
+    setProducts(prevProducts => {
+      const updated = prevProducts.map(p => {
+        if (String(p.id) === pIdStr) {
+          return {
+            ...p,
+            retail_price: parsedPrice,
+            price: parsedPrice,
+            stock: parsedStock !== undefined ? parsedStock : p.stock
+          };
+        }
+        return p;
+      });
+      try {
+        localStorage.setItem('aponhat_cached_products', JSON.stringify(updated));
+      } catch (e) {}
+      return updated;
+    });
+
+    // Also persist in price overrides cache
+    try {
+      const overrides = JSON.parse(localStorage.getItem('aponhat_price_overrides') || '{}');
+      overrides[pIdStr] = {
+        retail_price: parsedPrice,
+        price: parsedPrice,
+        stock: parsedStock
+      };
+      localStorage.setItem('aponhat_price_overrides', JSON.stringify(overrides));
+    } catch (e) {}
+
+    // Dispatch global event for live synchronization across components
+    if (typeof window !== 'undefined') {
+      window.dispatchEvent(new CustomEvent('aponhat_product_price_changed', {
+        detail: { productId: pIdStr, retail_price: parsedPrice, stock: parsedStock }
+      }));
+    }
+  };
+
+  const handleBulkMarkupApplied = (percent) => {
+    const markupNum = parseFloat(percent);
+    if (isNaN(markupNum)) return;
+
+    setProducts(prevProducts => {
+      const updated = prevProducts.map(p => {
+        const wholesale = parseFloat(p.reseller_price || p.regular_price || p.price || 0);
+        if (wholesale > 0) {
+          const newPrice = Math.round(wholesale * (1 + (markupNum / 100)));
+          return { ...p, retail_price: newPrice, price: newPrice };
+        }
+        return p;
+      });
+      try {
+        localStorage.setItem('aponhat_cached_products', JSON.stringify(updated));
+      } catch (e) {}
+      return updated;
+    });
+
+    try {
+      localStorage.removeItem('aponhat_price_overrides');
+    } catch (e) {}
+  };
 
   // Dynamic Routing Handler
   const navigateTo = (path, view = 'home', catId = 'all', options = {}) => {
@@ -274,7 +359,10 @@ export default function App() {
           isAdmin ? (
             <AdminDashboard 
               storeSettings={storeSettings} 
-              onUpdateSettings={handleUpdateStoreSettings} 
+              onUpdateSettings={handleUpdateStoreSettings}
+              onProductPriceUpdated={handleProductPriceUpdated}
+              onBulkMarkupApplied={handleBulkMarkupApplied}
+              productsList={products}
             />
           ) : (
             <div className="max-w-md mx-auto my-16 p-8 rounded-3xl bg-white dark:bg-dark-card border border-gray-200 dark:border-dark-border text-center shadow-xl">

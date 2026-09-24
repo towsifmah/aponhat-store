@@ -12206,7 +12206,7 @@ export const initialSettings = {
   store_notice: 'আপনহাটে আপনাকে স্বাগতম! সারা বাংলাদেশে হোম ডেলিভারি দেওয়া হয়।',
   helpline_phone: '01617971644',
   inside_dhaka_delivery: 60,
-  outside_dhaka_delivery: 120,
+  outside_dhaka_delivery: 100,
   bkash_number: '01617971644',
   nagad_number: '01309993470',
   rocket_number: '01617971644',

@@ -26,7 +26,7 @@ export default function CheckoutPage({ onBackToShopping, onOrderCompleted, store
   const [createdOrderData, setCreatedOrderData] = useState(null);
 
   const insideFee = storeSettings.inside_dhaka_delivery ? Number(storeSettings.inside_dhaka_delivery) : 60;
-  const outsideFee = storeSettings.outside_dhaka_delivery ? Number(storeSettings.outside_dhaka_delivery) : 120;
+  const outsideFee = storeSettings.outside_dhaka_delivery ? Number(storeSettings.outside_dhaka_delivery) : 100;
   const deliveryFee = city === 'ঢাকা' ? insideFee : outsideFee;
   const totalAmount = subtotal + deliveryFee;
   const bkashNum = storeSettings.bkash_number || '01617971644';

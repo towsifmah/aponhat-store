@@ -43,23 +43,23 @@ function generatePriyaResponse(userMessage, store) {
   const products = store.products || [];
 
   // 1. Delivery inquiries
-  if (q.includes('ডেলিভারি') || q.includes('চার্জ') || q.includes('শিপিং') || q.includes('কবে পাব') || q.includes('কত দিন')) {
+  if (q.includes('ডেলিভারি') || q.includes('চার্জ') || q.includes('শিপিং') || q.includes('কবে পাব') || q.includes('কত দিন') || q.includes('delivery')) {
     return {
-      text: "আমাদের ডেলিভারি পলিসি:\n🚚 **ঢাকা সিটির ভেতরে**: ডেলিভারি চার্জ মাত্র ৬০ টাকা (২-৩ কার্যদিবস)।\n🚚 **ঢাকার বাইরে সারাদেশে**: ডেলিভারি চার্জ ১২০ টাকা (৩-৪ কার্যদিবস)।\n🎉 **বিশেষ অফার**: যেকোনো ১৫০০ টাকা বা তার বেশি অর্ডারে হোম ডেলিভারি সম্পূর্ণ ফ্রি!\n\nআপনার কি কোনো নির্দিষ্ট পণ্য পছন্দ হয়েছে? আমি অর্ডার করতে সাহায্য করতে পারি।",
+      text: "আমাদের ডেলিভারি পলিসি:\n🚚 **ঢাকা সিটির ভেতরে**: ডেলিভারি চার্জ মাত্র ৬০ টাকা (২-৩ কার্যদিবস)।\n🚚 **ঢাকার বাইরে সারাদেশে**: ডেলিভারি চার্জ মাত্র ১০০ টাকা (৩-৪ কার্যদিবস)।\n🎉 **বিশেষ অফার**: যেকোনো ১৫০০ টাকা বা তার বেশি অর্ডারে হোম ডেলিভারি সম্পূর্ণ ফ্রি!\n\nআপনার কি কোনো নির্দিষ্ট পণ্য পছন্দ হয়েছে? আমি এখনই অর্ডার করতে সাহায্য করতে পারি।",
       suggested_products: []
     };
   }
 
   // 2. Payment inquiries
-  if (q.includes('পেমেন্ট') || q.includes('টাকা') || q.includes('বিকাশ') || q.includes('নগদ') || q.includes('ক্যাশ অন ডেলিভারি') || q.includes('cod')) {
+  if (q.includes('পেমেন্ট') || q.includes('টাকা') || q.includes('বিকাশ') || q.includes('নগদ') || q.includes('ক্যাশ অন ডেলিভারি') || q.includes('cod') || q.includes('payment')) {
     return {
-      text: "আপনহাটে পেমেন্ট করা একদম সহজ ও নিরাপদ:\n১. **ক্যাশ অন ডেলিভারি (COD)**: পণ্য হাতে পেয়ে দেখে টাকা দিন।\n২. **বিকাশ পেমেন্ট**: ০১৬১৭৯৭১৬৪৪\n৩. **নগদ পেমেন্ট**: ০১৩০৯৯৯৩৪৭০\n\nআপনি অর্ডার ফর্ম পূরণ করে পছন্দের পেমেন্ট অপশনটি সিলেক্ট করলেই সাথে সাথে অর্ডার কনফার্ম হয়ে যাবে।",
+      text: "আপনহাটে পেমেন্ট করা একদম সহজ ও নিরাপদ:\n১. **ক্যাশ অন ডেলিভারি (COD)**: সারাদেশে পণ্য হাতে পেয়ে দেখে টাকা দিন।\n২. **বিকাশ পেমেন্ট**: ০১৬১৭৯৭১৬৪৪\n৩. **নগদ পেমেন্ট**: ০১৩০৯৯৯৩৪৭০\n\nআপনি অর্ডার ফর্মে নাম-ঠিকানা দিয়ে পছন্দের পেমেন্ট অপশনটি সিলেক্ট করলেই সাথে সাথে অর্ডার কনফার্ম হয়ে যাবে।",
       suggested_products: []
     };
   }
 
   // 3. Return / Guarantee inquiries
-  if (q.includes('রিটার্ন') || q.includes('গ্যারান্টি') || q.includes('পরিবর্তন') || q.includes('আসল') || q.includes('ওয়ারেন্টি')) {
+  if (q.includes('রিটার্ন') || q.includes('গ্যারান্টি') || q.includes('পরিবর্তন') || q.includes('আসল') || q.includes('ওয়ারেন্টি') || q.includes('return')) {
     return {
       text: "আপনহাটের প্রতিটি পণ্য ১০০% অরিজিনাল কোয়ালিটি চেক করা।\n🛡️ **৭ দিনের সহজ রিটার্ন ও এক্সচেঞ্জ**: সাইজ বা পণ্যে কোনো সমস্যা হলে ডেলিভারিম্যান থাকা অবস্থাতেই চেক করে পরিবর্তন বা ফেরত দিতে পারবেন।\n📞 যেকোনো প্রয়োজনে আমাদের হেল্পলাইন: ০১৬১৭৯৭১৬৪৪",
       suggested_products: []
@@ -67,58 +67,86 @@ function generatePriyaResponse(userMessage, store) {
   }
 
   // 4. Greetings
-  if (q.includes('হ্যালো') || q.includes('হাই') || q.includes('সালাম') || q.includes('hello') || q.includes('hi') || q === 'প্রিয়া' || q === 'priya') {
+  if (q === 'হ্যালো' || q === 'হাই' || q === 'সালাম' || q === 'hello' || q === 'hi' || q === 'hey' || q === 'প্রিয়া' || q === 'priya' || q.startsWith('সালাম')) {
     return {
-      text: "আসসালামু আলাইকুম! আমি প্রিয়া, আপনহাটে আপনাকে স্বাগতম। 😊\n\nআজ আপনাকে কীভাবে সাহায্য করতে পারি? আমাদের নতুন শার্ট কালেকশন, স্মার্ট ওয়াচ, থ্রি-পিস বা আকর্ষণীয় কোনো পণ্য দেখতে চান?",
+      text: "আসসালামু আলাইকুম! আমি প্রিয়া, আপনহাটে আপনাকে স্বাগতম। 😊\n\nআজ আপনাকে কীভাবে সাহায্য করতে পারি? আমাদের নতুন শার্ট কালেকশন, স্মার্ট ওয়াচ, ইয়ারবাডস, থ্রি-পিস বা শিশুদের কোনো পণ্য দেখতে চান?",
       suggested_products: products.slice(0, 2)
     };
   }
 
-  // 5. Product specific search
-  let matched = [];
-  if (q.includes('শার্ট') || q.includes('shirt') || q.includes('ফরমাল') || q.includes('কটন')) {
-    matched = products.filter(p => p.title.toLowerCase().includes('shirt') || p.subcategory?.includes('শার্ট')).slice(0, 3);
+  // 5. Product Specific Matching with Typo Handling
+  // Shirts & Menswear (including typos 'shrit', 'shart', 'shrt', 't-shrit')
+  if (q.includes('শার্ট') || q.includes('shirt') || q.includes('shrit') || q.includes('shart') || q.includes('shrt') || q.includes('ফরমাল') || q.includes('কটন')) {
+    const matched = smartSearchProducts(products, 'shrit').slice(0, 3);
     return {
-      text: "আমাদের কাছে প্রিমিয়াম ১০০% অক্সফোর্ড কটন ফরমাল শার্ট কালেকশন রয়েছে। স্লিম ফিট কাটিং ও আরামদায়ক ফেব্রিক। সাইজ: M, L, XL, XXL পাওয়া যাচ্ছে। এক নজরে দেখে নিন:",
+      text: "আমাদের কাছে প্রিমিয়াম ১০০% অক্সফোর্ড কটন ফরমাল ও ক্যাজুয়াল শার্ট কালেকশন রয়েছে। স্লিম ফিট কাটিং ও আরামদায়ক ফেব্রিক। সাইজ: M, L, XL, XXL পাওয়া যাচ্ছে। এক নজরে দেখে নিন:",
       suggested_products: matched
     };
   }
 
-  if (q.includes('ঘড়ি') || q.includes('ঘড়ি') || q.includes('watch') || q.includes('স্মার্ট ওয়াচ')) {
-    matched = products.filter(p => p.title.toLowerCase().includes('watch') || p.subcategory?.includes('স্মার্ট')).slice(0, 2);
+  // Toys & Baby (including 'khelna', 'khilna', 'toy', 'toys', 'খেলনা', 'টয়')
+  if (q.includes('খেলনা') || q.includes('khelna') || q.includes('khilna') || q.includes('toy') || q.includes('toys') || q.includes('টয়') || q.includes('টয়') || q.includes('বাউন্সার')) {
+    const matched = smartSearchProducts(products, 'খেলনা').slice(0, 3);
+    if (matched.length > 0) {
+      return {
+        text: "ছোট সোনামণিদের জন্য আমাদের কাছে খাঁচা আকৃতির আকর্ষণীয় মিউজিক্যাল বার্ড টয় ও বেবি বাউন্সার/রকার কালেকশন রয়েছে। নিচে দেখে নিন:",
+        suggested_products: matched
+      };
+    } else {
+      return {
+        text: "দুঃখিত প্রিয় গ্রাহক, এই মুহূর্তে আমাদের খেলনা আইটেম স্টক সীমিত। তবে বাচ্চাদের আরামদায়ক চমৎকার জামাকাপড়ের জন্য আমাদের 'বেবি ফ্যাশন' সেকশন ঘুরে দেখতে পারেন!",
+        suggested_products: []
+      };
+    }
+  }
+
+  // Watches & Smartwatches (including 'wach', 'wacth', 'ghori', 'ঘড়ি')
+  if (q.includes('ঘড়ি') || q.includes('ঘড়ি') || q.includes('watch') || q.includes('wach') || q.includes('wacth') || q.includes('ghori') || q.includes('স্মার্ট ওয়াচ')) {
+    const matched = smartSearchProducts(products, 'watch').slice(0, 3);
     return {
       text: "আমাদের আল্ট্রা স্মার্ট ওয়াচে রয়েছে ব্লুটুথ কলিং, হার্ট রেট ও স্লিপ মনিটরিং এবং মেটালিক বডি। নিচে বিস্তারিত দেখে নিন:",
       suggested_products: matched
     };
   }
 
-  if (q.includes('ইয়ারবাডস') || q.includes('earbuds') || q.includes('হেডফোন') || q.includes('ব্লুটুথ')) {
-    matched = products.filter(p => p.title.toLowerCase().includes('earbuds') || p.subcategory?.includes('ইয়ারবাডস')).slice(0, 2);
+  // Earbuds & Audio (including 'blutooth', 'earbud', 'headphone')
+  if (q.includes('ইয়ারবাডস') || q.includes('ইয়ারবাডস') || q.includes('earbuds') || q.includes('earbud') || q.includes('হেডফোন') || q.includes('ব্লুটুথ') || q.includes('blutooth')) {
+    const matched = smartSearchProducts(products, 'earbuds').slice(0, 3);
     return {
-      text: "আমাদের ডিজিটাল এলইডি ডিসপ্লে সহ ওয়্যারলেস ব্লুটুথ ইয়ারবাডসে পাবেন ডিপ বাস ও ৬ ঘণ্টার দুর্দান্ত ব্যাটারি ব্যাকআপ।",
+      text: "আমাদের ডিজিটাল এলইডি ডিসপ্লে সহ ওয়্যারলেস ব্লুটুথ ইয়ারবাডসে পাবেন ডিপ বাস ও দীর্ঘ ব্যাটারি ব্যাকআপ। নিচে পছন্দের মডেলটি বেছে নিন:",
       suggested_products: matched
     };
   }
 
-  if (q.includes('শাড়ি') || q.includes('শাড়ি') || q.includes('saree') || q.includes('থ্রি পিস') || q.includes('লেডিস') || q.includes('জর্জেট')) {
-    matched = products.filter(p => String(p.category_id) === '2').slice(0, 3);
+  // Saree & Ladies Wear
+  if (q.includes('শাড়ি') || q.includes('শাড়ি') || q.includes('saree') || q.includes('sari') || q.includes('থ্রি পিস') || q.includes('লেডিস') || q.includes('জর্জেট')) {
+    const matched = products.filter(p => String(p.category_id) === '2').slice(0, 3);
     return {
       text: "লেডিস ফ্যাশনের জন্য এক্সক্লুসিভ জর্জেট এমব্রয়ডারি থ্রি-পিস এবং সফট সিল্কের ফ্লোরাল পার্টি শাড়ি কালেকশন রয়েছে। এগুলো দেখতে পারেন:",
       suggested_products: matched
     };
   }
 
-  if (q.includes('ব্যাগ') || q.includes('bag') || q.includes('ব্যাকপ্যাক') || q.includes('হ্যান্ডব্যাগ')) {
-    matched = products.filter(p => String(p.category_id) === '11').slice(0, 2);
+  // Bags
+  if (q.includes('ব্যাগ') || q.includes('bag') || q.includes('beg') || q.includes('ব্যাকপ্যাক') || q.includes('হ্যান্ডব্যাগ')) {
+    const matched = products.filter(p => String(p.category_id) === '11').slice(0, 3);
     return {
       text: "ওয়াটারপ্রুফ ল্যাপটপ ব্যাকপ্যাক এবং পিইউ লেদার লাক্সারি লেডিস হ্যান্ডব্যাগ এখন বিশেষ ছাড়ে পাওয়া যাচ্ছে:",
       suggested_products: matched
     };
   }
 
-  // 6. Intelligent bilingual search across all 524 products from Greenish Trade
-  const keywordMatches = smartSearchProducts(products, q).slice(0, 3);
+  // Pants & Trousers
+  if (q.includes('প্যান্ট') || q.includes('pant') || q.includes('pantt') || q.includes('pnt') || q.includes('জিন্স') || q.includes('জিনস') || q.includes('ট্রাউজার')) {
+    const matched = smartSearchProducts(products, 'pant').slice(0, 3);
+    return {
+      text: "আমাদের কাছে প্রিমিয়াম কোয়ালিটি গ্যাবার্ডিন প্যান্ট ও কমফোর্টেবল ডেনিম জিন্স প্যান্টের দারুণ কালেকশন রয়েছে:",
+      suggested_products: matched
+    };
+  }
 
+  // 6. Intelligent bilingual search across all 524 products
+  const keywordMatches = smartSearchProducts(products, q).slice(0, 3);
   if (keywordMatches.length > 0) {
     return {
       text: `আপনার খোঁজার সাথে মিলিয়ে সেরা এই পণ্যগুলো পেয়েছি:`,
@@ -126,10 +154,10 @@ function generatePriyaResponse(userMessage, store) {
     };
   }
 
-  // Default friendly fallback
+  // 7. Honest, Courteous, Non-Hallucinating Fallback (NEVER returns random unrelated products!)
   return {
-    text: "ধন্যবাদ আপনার বার্তার জন্য! আপনহাটে শার্ট, ঘড়ি, গ্যাজেটস, লেডিস ফ্যাশন ও হোম ডেকরের সেরা কালেকশন রয়েছে।\n\nআপনি নির্দিষ্ট কোনো পণ্য খুঁজছেন কি? অথবা সাইজ, ডেলিভারি বা পেমেন্ট নিয়ে কিছু জানতে চাইলে আমাকে বলুন, আমি বুঝিয়ে বলছি।",
-    suggested_products: products.slice(0, 2)
+    text: `ধন্যবাদ আপনার বার্তার জন্য! এই মুহূর্তে আমাদের স্টকে "${userMessage.trim()}" সরাসরি পাওয়া যায়নি।\n\nআপনহাটে রয়েছে প্রিমিয়াম জেন্টস শার্ট, প্যান্ট, পাঞ্জাবি, স্মার্ট ওয়াচ, ব্লুটুথ ইয়ারবাডস, লেডিস থ্রি-পিস, চামড়ার ব্যাগ, জুতা ও অর্গানিক ফুড। আপনি কি এই কালেকশনগুলো থেকে কিছু দেখতে চান?`,
+    suggested_products: []
   };
 }
 
