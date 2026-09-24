@@ -2,7 +2,7 @@
 import { getStore, saveStore } from './_data.js';
 import { smartSearchProducts } from './_searchHelper.js';
 
-export default function handler(req, res) {
+export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
@@ -67,13 +67,48 @@ export default function handler(req, res) {
   const itemQuery = (id || slug || '').trim().toLowerCase();
   if (itemQuery) {
     const cleanId = itemQuery.match(/^(\d{6,})/) ? itemQuery.match(/^(\d{6,})/)[1] : null;
-    const product = store.products.find(p => {
+    let product = store.products.find(p => {
       if (cleanId && String(p.id) === cleanId) return true;
       if (String(p.id).toLowerCase() === itemQuery) return true;
       if (p.slug && p.slug.toLowerCase() === itemQuery) return true;
       const pSlug = String(p.title || '').toLowerCase().trim().replace(/[^\w\s\u0980-\u09FF-]/g, '').replace(/[\s_-]+/g, '-').slice(0, 65);
       return pSlug === itemQuery;
     });
+
+    // Auto-fetch if this is a new product uploaded on Greenish Trade
+    if (!product && cleanId) {
+      try {
+        const liveRes = await fetch(`https://greenishtradeltd.com/products/${cleanId}`, {
+          headers: { 'User-Agent': 'Mozilla/5.0' },
+          signal: AbortSignal.timeout(3500)
+        });
+        if (liveRes.ok) {
+          const html = await liveRes.text();
+          const titleMatch = html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/) || html.match(/<h2[^>]*>([\s\S]*?)<\/h2>/);
+          const priceMatch = html.match(/BDT\s*([0-9,.]+)/i);
+          if (titleMatch) {
+            const rawTitle = titleMatch[1].replace(/<[^>]+>/g, '').trim();
+            const resPrice = priceMatch ? parseFloat(priceMatch[1].replace(/,/g, '')) : 500;
+            product = {
+              id: cleanId,
+              title: rawTitle,
+              category_id: '1',
+              category_name: 'জেন্টস ফ্যাশন',
+              reseller_price: Math.round(resPrice),
+              retail_price: Math.round(resPrice * 1.35),
+              regular_price: Math.round(resPrice * 1.6),
+              stock: 30,
+              image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80',
+              images: ['https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80'],
+              sizes: ['Standard'],
+              is_active: 1
+            };
+            store.products.unshift(product);
+            saveStore(store);
+          }
+        }
+      } catch (e) {}
+    }
 
     if (product) {
       return res.status(200).json({ status: 'success', data: product });

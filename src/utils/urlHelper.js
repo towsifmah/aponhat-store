@@ -54,7 +54,7 @@ export function parseAppPathname(pathname) {
     const matchId = decoded.match(/^(\d{6,})/);
     const prodId = matchId ? matchId[1] : decoded;
     return {
-      view: 'home',
+      view: 'product',
       productId: prodId || decoded,
       productSlug: decoded,
       catId: 'all'
@@ -73,7 +73,7 @@ export function parseAppPathname(pathname) {
       const matchId = rawItem.match(/^(\d{6,})/);
       const prodId = matchId ? matchId[1] : (rawItem.includes('-') && /^\d+$/.test(rawItem.split('-')[0]) ? rawItem.split('-')[0] : rawItem);
       return {
-        view: 'home',
+        view: 'product',
         catId: catId,
         productId: prodId || rawItem,
         productSlug: rawItem

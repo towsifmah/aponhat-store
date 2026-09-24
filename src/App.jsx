@@ -322,9 +322,11 @@ export default function App() {
     const path = prod ? getProductUrl(prod) : `/category/${catId}/${slug}`;
     setSelectedProductId(slug);
     setSelectedCategory(catId);
+    setCurrentView('product');
     if (typeof window !== 'undefined' && window.location.pathname !== path) {
-      window.history.pushState({ view: 'home', catId, productId: slug }, '', path);
+      window.history.pushState({ view: 'product', catId, productId: slug }, '', path);
     }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleCloseProductModal = () => {
