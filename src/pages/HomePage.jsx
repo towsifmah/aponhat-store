@@ -86,7 +86,7 @@ export default function HomePage({
     <div className="space-y-10 pb-16">
       
       {/* Hero Banner with AponHat Premium Branding (No dropship mentions) */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-[#05321d] via-[#006e38] to-[#022415] text-white py-12 md:py-16 px-4 sm:px-6 lg:px-8 border-b border-emerald-500/20 shadow-xl">
+      <section className="relative overflow-hidden bg-gradient-to-br from-[#021f11] via-[#044c27] to-[#01140a] text-white py-12 md:py-16 px-4 sm:px-6 lg:px-8 border-b border-emerald-500/20 shadow-2xl">
         {/* Glow Decorative Elements */}
         <div className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-gradient-to-br from-emerald-400/25 via-teal-300/15 to-transparent rounded-full blur-3xl pointer-events-none" />
         <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 bg-gradient-to-tr from-amber-400/20 via-emerald-400/15 to-transparent rounded-full blur-3xl pointer-events-none" />
@@ -135,8 +135,8 @@ export default function HomePage({
           {/* Hero Visual Card */}
           <div className="lg:col-span-5 flex justify-center">
             <div className="relative w-full max-w-sm rounded-3xl bg-white/10 backdrop-blur-2xl border border-white/25 p-6 shadow-2xl text-center space-y-4 ring-1 ring-white/20">
-              <div className="relative mx-auto w-44 h-24 flex items-center justify-center p-2 rounded-2xl bg-white shadow-xl overflow-hidden">
-                <img src="/logo.png" alt="আপনহাট" className="max-h-full max-w-full object-contain" />
+              <div className="relative mx-auto w-52 h-24 flex items-center justify-center p-3 rounded-2xl bg-white/95 dark:bg-[#0c1f14]/95 shadow-2xl border border-white/40 overflow-hidden">
+                <img src="/logo.png" alt="আপনহাট" className="max-h-full max-w-full object-contain drop-shadow-[0_4px_12px_rgba(0,135,62,0.25)]" />
               </div>
 
               <div>

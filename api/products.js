@@ -62,10 +62,19 @@ export default function handler(req, res) {
   }
 
   // 2. GET - Single product or filtered list
-  const { id, category_id, search, limit } = req.query;
+  const { id, slug, category_id, search, limit } = req.query;
 
-  if (id) {
-    const product = store.products.find(p => String(p.id) === String(id));
+  const itemQuery = (id || slug || '').trim().toLowerCase();
+  if (itemQuery) {
+    const cleanId = itemQuery.match(/^(\d{6,})/) ? itemQuery.match(/^(\d{6,})/)[1] : null;
+    const product = store.products.find(p => {
+      if (cleanId && String(p.id) === cleanId) return true;
+      if (String(p.id).toLowerCase() === itemQuery) return true;
+      if (p.slug && p.slug.toLowerCase() === itemQuery) return true;
+      const pSlug = String(p.title || '').toLowerCase().trim().replace(/[^\w\s\u0980-\u09FF-]/g, '').replace(/[\s_-]+/g, '-').slice(0, 65);
+      return pSlug === itemQuery;
+    });
+
     if (product) {
       return res.status(200).json({ status: 'success', data: product });
     } else {

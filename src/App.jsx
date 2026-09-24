@@ -14,7 +14,7 @@ import PriyaChatbot from './components/PriyaChatbot';
 import ProductPage from './pages/ProductPage';
 import { useAuth } from './context/AuthContext';
 import { ShieldAlert, KeyRound } from 'lucide-react';
-import { parseAppPathname, getProductUrl, slugifyTitle } from './utils/urlHelper';
+import { parseAppPathname, getProductUrl, slugifyTitle, findProductInList } from './utils/urlHelper';
 
 export default function App() {
   const initialRoute = parseAppPathname(typeof window !== 'undefined' ? window.location.pathname : '/');
@@ -117,24 +117,14 @@ export default function App() {
   // Fetch or find single product when visiting /category/:catId/:item or /product/:id directly or on reload
   useEffect(() => {
     if (selectedProductId) {
-      const pIdStr = String(selectedProductId);
-      const cleanId = pIdStr.match(/^(\d{6,})/) ? pIdStr.match(/^(\d{6,})/)[1] : pIdStr.split('-')[0];
-
-      const found = products.find(p => 
-        String(p.id) === pIdStr ||
-        String(p.id) === cleanId ||
-        (p.slug && p.slug === pIdStr) ||
-        (p.title && slugifyTitle(p.title) === pIdStr) ||
-        (p.title && slugifyTitle(p.title) === cleanId) ||
-        pIdStr.includes(String(p.id))
-      );
+      const found = findProductInList(selectedProductId, products);
       if (found) {
         setDirectProductData(found);
         setSingleProductLoading(false);
       } else {
         let isMounted = true;
         setSingleProductLoading(true);
-        fetch(`/api/products.php?id=${encodeURIComponent(cleanId)}`)
+        fetch(`/api/products.php?slug=${encodeURIComponent(selectedProductId)}`)
           .then(r => r.json())
           .then(res => {
             if (isMounted) {
@@ -319,30 +309,21 @@ export default function App() {
 
   const handleOpenProduct = (productOrId) => {
     let prod = null;
-    let prodId = null;
     if (typeof productOrId === 'object' && productOrId !== null) {
       prod = productOrId;
-      prodId = String(productOrId.id);
       setDirectProductData(productOrId);
     } else {
-      prodId = String(productOrId);
-      const cleanId = prodId.match(/^(\d{6,})/) ? prodId.match(/^(\d{6,})/)[1] : prodId.split('-')[0];
-      prod = products.find(p => 
-        String(p.id) === prodId || 
-        String(p.id) === cleanId ||
-        (p.slug && p.slug === prodId) || 
-        (p.title && slugifyTitle(p.title) === prodId) ||
-        prodId.includes(String(p.id))
-      ) || null;
+      prod = findProductInList(productOrId, products);
       if (prod) setDirectProductData(prod);
     }
 
     const catId = prod?.category_id || (selectedCategory !== 'all' ? selectedCategory : '1');
-    const path = prod ? getProductUrl(prod) : `/category/${catId}/${prodId}`;
-    setSelectedProductId(prodId);
+    const slug = prod ? slugifyTitle(prod.title) : String(productOrId);
+    const path = prod ? getProductUrl(prod) : `/category/${catId}/${slug}`;
+    setSelectedProductId(slug);
     setSelectedCategory(catId);
     if (typeof window !== 'undefined' && window.location.pathname !== path) {
-      window.history.pushState({ view: 'home', catId, productId: prodId }, '', path);
+      window.history.pushState({ view: 'home', catId, productId: slug }, '', path);
     }
   };
 
@@ -391,19 +372,7 @@ export default function App() {
     } catch {}
   };
 
-  const activeProduct = directProductData || products.find(p => {
-    if (!selectedProductId) return false;
-    const pIdStr = String(selectedProductId);
-    const cleanId = pIdStr.match(/^(\d{6,})/) ? pIdStr.match(/^(\d{6,})/)[1] : pIdStr.split('-')[0];
-    return (
-      String(p.id) === pIdStr ||
-      String(p.id) === cleanId ||
-      (p.slug && p.slug === pIdStr) ||
-      (p.title && slugifyTitle(p.title) === pIdStr) ||
-      (p.title && slugifyTitle(p.title) === cleanId) ||
-      pIdStr.includes(String(p.id))
-    );
-  });
+  const activeProduct = directProductData || findProductInList(selectedProductId, products);
 
   return (
     <div className="min-h-screen flex flex-col bg-gray-50 dark:bg-dark-bg text-gray-900 dark:text-dark-text transition-colors duration-300">

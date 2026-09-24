@@ -10,7 +10,7 @@ export default function Footer({ setCurrentView, navigateTo, setSelectedCategory
   const helplineNum = storeSettings.helpline_phone || '01617971644';
 
   return (
-    <footer className="w-full bg-[#07130A] text-gray-300 border-t border-apon-900/60 transition-colors duration-300">
+    <footer className="w-full bg-gradient-to-b from-[#06180e] via-[#04120a] to-[#020905] text-gray-300 border-t border-emerald-500/20 transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
@@ -22,12 +22,11 @@ export default function Footer({ setCurrentView, navigateTo, setSelectedCategory
                 if (navigateTo) navigateTo('/', 'home', 'all');
                 else { setCurrentView('home'); setSelectedCategory('all'); }
               }}
-              className="flex items-center gap-3 cursor-pointer"
+              className="flex items-center gap-3 cursor-pointer group"
             >
-              <div className="h-10 w-auto flex items-center p-1 rounded-xl bg-white">
-                <img src="/logo.png" alt="আপনহাট" className="h-8 w-auto object-contain" />
+              <div className="h-11 w-auto flex items-center transition-transform duration-300 group-hover:scale-105">
+                <img src="/logo.png" alt="আপনহাট" className="h-9 w-auto object-contain drop-shadow-[0_4px_12px_rgba(0,135,62,0.35)]" />
               </div>
-              <span className="text-xl font-black text-white font-sans">{storeSettings.store_name || 'আপনহাট'}</span>
             </div>
 
             <p className="text-xs text-gray-400 leading-relaxed">

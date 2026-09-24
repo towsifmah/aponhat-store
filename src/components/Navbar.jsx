@@ -84,12 +84,12 @@ export default function Navbar({
   }, []);
 
   return (
-    <header className="sticky top-0 z-40 w-full backdrop-blur-xl bg-white/95 dark:bg-dark-card/95 border-b border-gray-200/80 dark:border-dark-border transition-colors duration-300 shadow-xs">
+    <header className="sticky top-0 z-40 w-full backdrop-blur-xl bg-white/95 dark:bg-[#07170e]/95 border-b border-gray-200/80 dark:border-emerald-500/20 transition-colors duration-300 shadow-sm">
       
       {/* Top Announcement Bar - Customer-Facing ONLY */}
-      <div className="bg-gradient-to-r from-apon-800 via-apon-600 to-apon-700 text-white text-xs py-1.5 px-4 text-center font-medium flex items-center justify-between">
+      <div className="bg-gradient-to-r from-[#021f11] via-emerald-800 to-[#021f11] text-white text-xs py-1.5 px-4 text-center font-medium flex items-center justify-between border-b border-emerald-700/30">
         <div className="hidden sm:flex items-center gap-2">
-          <ShieldCheck className="w-3.5 h-3.5 text-apon-300" />
+          <ShieldCheck className="w-3.5 h-3.5 text-emerald-300" />
           <span>{storeSettings.store_notice || '১০০% অরিজিনাল কোয়ালিটি গ্যারান্টি | দ্রুততম ক্যাশ অন ডেলিভারি'}</span>
         </div>
         <div className="mx-auto sm:mx-0">
@@ -116,28 +116,20 @@ export default function Navbar({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20 gap-3 sm:gap-4">
           
-          {/* Logo */}
+          {/* Logo with transparent background */}
           <div 
             onClick={() => { 
               if (navigateTo) navigateTo('/', 'home', 'all');
               else { setCurrentView('home'); setSelectedCategory('all'); }
             }}
-            className="flex items-center gap-2.5 sm:gap-3 cursor-pointer group shrink-0"
+            className="flex items-center gap-2 cursor-pointer group shrink-0"
           >
-            <div className="relative h-10 sm:h-12 w-auto flex items-center overflow-hidden rounded-xl p-1 transition-transform group-hover:scale-105">
+            <div className="relative h-11 sm:h-13 w-auto flex items-center transition-transform duration-300 group-hover:scale-105">
               <img 
                 src="/logo.png" 
                 alt="আপনহাট" 
-                className="h-8 sm:h-11 w-auto object-contain drop-shadow-xs" 
+                className="h-9 sm:h-12 w-auto object-contain drop-shadow-[0_4px_12px_rgba(0,135,62,0.2)]" 
               />
-            </div>
-            <div>
-              <h1 className="text-lg sm:text-2xl font-black tracking-tight text-apon-600 dark:text-apon-400 font-sans flex items-center gap-1">
-                আপনহাট
-              </h1>
-              <p className="hidden sm:block text-[10px] text-gray-500 dark:text-dark-muted font-medium tracking-wide">
-                সেরা অনলাইন কেনাকাটা
-              </p>
             </div>
           </div>
 
@@ -319,14 +311,14 @@ export default function Navbar({
             {/* Cart Drawer Trigger */}
             <button
               onClick={() => setIsCartOpen(true)}
-              className="relative flex items-center gap-1.5 sm:gap-2 bg-gradient-to-r from-apon-600 to-apon-700 hover:from-apon-700 hover:to-apon-800 text-white px-3 sm:px-4 py-1.5 sm:py-2 rounded-full shadow-lg shadow-apon-600/25 transition-all hover:scale-105 active:scale-95"
+              className="relative flex items-center gap-1.5 sm:gap-2 bg-gradient-to-r from-emerald-600 via-emerald-500 to-teal-600 hover:from-emerald-500 hover:via-emerald-600 hover:to-teal-500 text-white px-3 sm:px-4 py-1.5 sm:py-2 rounded-full shadow-lg shadow-emerald-600/30 transition-all hover:scale-105 active:scale-95"
             >
               <ShoppingBag className="w-4 h-4 sm:w-5 sm:h-5" />
               <span className="hidden md:inline text-xs sm:text-sm font-semibold">কার্ট</span>
               
               {/* Badge */}
               <span
-                className={`flex items-center justify-center min-w-[18px] sm:min-w-[20px] h-4 sm:h-5 px-1 sm:px-1.5 text-[10px] sm:text-xs font-bold bg-amber-400 text-gray-900 rounded-full shadow ${
+                className={`flex items-center justify-center min-w-[18px] sm:min-w-[20px] h-4 sm:h-5 px-1 sm:px-1.5 text-[10px] sm:text-xs font-bold bg-amber-400 text-gray-950 rounded-full shadow ${
                   cartBadgeAnimate ? 'animate-bounce-short scale-125' : ''
                 }`}
               >
@@ -339,14 +331,14 @@ export default function Navbar({
 
         {/* Dynamic Category Navigation Bar - ZERO SCROLLBARS, Smooth Chevron Buttons & Soft Masking */}
         {currentView === 'home' && categories && categories.length > 0 && (
-          <nav aria-label="Product Categories" className="relative border-t border-gray-100 dark:border-dark-border py-2 flex items-center">
+          <nav aria-label="Product Categories" className="relative border-t border-gray-100 dark:border-emerald-500/20 py-2.5 flex items-center">
             
             {/* Scroll Left Button (Visible when scrolled) */}
             {canScrollLeft && (
               <button
                 onClick={() => handleCategoryScroll('left')}
                 aria-label="Scroll Categories Left"
-                className="hidden md:flex absolute left-0 z-10 w-8 h-8 items-center justify-center rounded-full bg-white/90 dark:bg-dark-card/90 shadow-md border border-gray-200 dark:border-dark-border text-gray-700 dark:text-white hover:bg-gray-100 dark:hover:bg-dark-bg transition-all -ml-3"
+                className="hidden md:flex absolute left-0 z-10 w-8 h-8 items-center justify-center rounded-full bg-white/90 dark:bg-[#0c1f14]/90 shadow-md border border-gray-200 dark:border-emerald-500/30 text-gray-700 dark:text-white hover:bg-gray-100 dark:hover:bg-dark-bg transition-all -ml-3"
               >
                 <ChevronLeft className="w-4 h-4" />
               </button>
@@ -354,7 +346,7 @@ export default function Navbar({
 
             {/* Left Gradient Edge Fade */}
             {canScrollLeft && (
-              <div className="pointer-events-none absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-white dark:from-dark-card to-transparent z-[5]" />
+              <div className="pointer-events-none absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-white dark:from-[#07170e] to-transparent z-[5]" />
             )}
 
             {/* Scrollable Category Rail with ZERO visible scrollbars */}
@@ -375,8 +367,8 @@ export default function Navbar({
                 }}
                 className={`shrink-0 px-3.5 py-1.5 rounded-full text-xs font-bold transition-all ${
                   selectedCategory === 'all'
-                    ? 'bg-apon-600 text-white shadow-sm ring-2 ring-apon-600/30'
-                    : 'bg-gray-100/90 dark:bg-dark-bg/90 text-gray-700 dark:text-dark-text hover:bg-gray-200 dark:hover:bg-dark-cardHover'
+                    ? 'bg-gradient-to-r from-emerald-600 to-teal-600 text-white shadow-md shadow-emerald-600/30 ring-2 ring-emerald-400/40'
+                    : 'bg-gray-100/90 dark:bg-[#0e2217]/90 text-gray-700 dark:text-dark-text hover:bg-emerald-50 dark:hover:bg-emerald-950/50 border border-transparent hover:border-emerald-300/40'
                 }`}
               >
                 সকল ক্যাটাগরি
@@ -395,8 +387,8 @@ export default function Navbar({
                   }}
                   className={`shrink-0 px-3.5 py-1.5 rounded-full text-xs font-bold transition-all ${
                     String(selectedCategory) === String(cat.id)
-                      ? 'bg-apon-600 text-white shadow-sm ring-2 ring-apon-600/30'
-                      : 'bg-gray-100/90 dark:bg-dark-bg/90 text-gray-700 dark:text-dark-text hover:bg-gray-200 dark:hover:bg-dark-cardHover'
+                      ? 'bg-gradient-to-r from-emerald-600 to-teal-600 text-white shadow-md shadow-emerald-600/30 ring-2 ring-emerald-400/40'
+                      : 'bg-gray-100/90 dark:bg-[#0e2217]/90 text-gray-700 dark:text-dark-text hover:bg-emerald-50 dark:hover:bg-emerald-950/50 border border-transparent hover:border-emerald-300/40'
                   }`}
                 >
                   {cat.name}

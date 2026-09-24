@@ -40,7 +40,7 @@ export default function ProductCard({ product, onQuickView }) {
     <article
       itemScope
       itemType="https://schema.org/Product"
-      className="group relative flex flex-col overflow-hidden rounded-2xl border border-gray-200/80 dark:border-dark-border bg-white dark:bg-dark-card shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1.5"
+      className="group relative flex flex-col overflow-hidden rounded-2xl border border-gray-200/80 dark:border-emerald-500/20 bg-white dark:bg-gradient-to-b dark:from-[#0d1d14] dark:to-[#08150e] shadow-sm hover:shadow-2xl hover:shadow-emerald-950/25 dark:hover:border-emerald-500/50 hover:border-emerald-400/60 transition-all duration-300 hover:-translate-y-1.5"
     >
       <meta itemProp="name" content={product.title} />
       <meta itemProp="description" content={product.description || product.title} />
@@ -51,7 +51,7 @@ export default function ProductCard({ product, onQuickView }) {
       <button
         onClick={handleCopyLink}
         title="এই প্রোডাক্টের লিংক কপি করুন"
-        className="absolute top-2.5 right-2.5 z-20 flex items-center gap-1 px-2.5 py-1 rounded-full bg-white/95 dark:bg-dark-card/95 backdrop-blur-md text-[10px] font-bold text-gray-700 dark:text-gray-200 border border-gray-200/80 dark:border-dark-border shadow-md hover:border-emerald-500 hover:text-emerald-600 transition-all active:scale-90"
+        className="absolute top-2.5 right-2.5 z-20 flex items-center gap-1 px-2.5 py-1 rounded-full bg-white/95 dark:bg-[#0d1d14]/95 backdrop-blur-md text-[10px] font-bold text-gray-700 dark:text-gray-200 border border-gray-200/80 dark:border-emerald-500/30 shadow-md hover:border-emerald-500 hover:text-emerald-600 transition-all active:scale-90"
       >
         {copied ? (
           <>
@@ -86,19 +86,19 @@ export default function ProductCard({ product, onQuickView }) {
 
         {/* Category & Stock Badges */}
         <div className="absolute top-2.5 left-2.5 flex flex-col gap-1 z-10">
-          <span className="inline-flex items-center gap-1 rounded-full bg-white/95 dark:bg-dark-card/95 backdrop-blur-md px-2.5 py-0.5 text-[10px] font-bold text-emerald-700 dark:text-emerald-300 shadow-sm border border-emerald-200/50 dark:border-dark-border">
+          <span className="inline-flex items-center gap-1 rounded-full bg-white/95 dark:bg-[#0d1d14]/95 backdrop-blur-md px-2.5 py-0.5 text-[10px] font-bold text-emerald-700 dark:text-emerald-300 shadow-sm border border-emerald-200/50 dark:border-emerald-500/30">
             {product.category_name || 'পণ্য'}
           </span>
           {product.stock && (
-            <span className="inline-flex items-center rounded-full bg-emerald-600/90 text-white px-2 py-0.5 text-[9px] font-semibold">
+            <span className="inline-flex items-center rounded-full bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-2 py-0.5 text-[9px] font-semibold shadow-sm">
               স্টক: {product.stock} টি
             </span>
           )}
         </div>
 
         {/* Quick View Button Hover Overlay */}
-        <div className="absolute inset-0 bg-black/25 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center pointer-events-none">
-          <span className="flex items-center gap-1.5 rounded-full bg-white/95 dark:bg-dark-card/95 text-gray-900 dark:text-white px-3.5 py-1.5 text-xs font-bold shadow-lg backdrop-blur-sm transform translate-y-2 group-hover:translate-y-0 transition-transform">
+        <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center pointer-events-none backdrop-blur-[1px]">
+          <span className="flex items-center gap-1.5 rounded-full bg-white/95 dark:bg-[#0d1d14]/95 text-gray-900 dark:text-white px-3.5 py-1.5 text-xs font-bold shadow-lg backdrop-blur-sm transform translate-y-2 group-hover:translate-y-0 transition-transform border border-emerald-500/30">
             <Eye className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" />
             <span>বিস্তারিত দেখুন</span>
           </span>
@@ -107,7 +107,7 @@ export default function ProductCard({ product, onQuickView }) {
 
       {/* Details Area */}
       <div className="flex flex-1 flex-col p-4">
-        <p className="text-[11px] font-medium text-gray-500 dark:text-dark-muted mb-1 line-clamp-1">
+        <p className="text-[11px] font-medium text-emerald-700/80 dark:text-emerald-400/80 mb-1 line-clamp-1">
           {product.subcategory || product.category_name}
         </p>
 
@@ -121,13 +121,13 @@ export default function ProductCard({ product, onQuickView }) {
         </a>
 
         {/* Price & Add to Cart / Actions Button */}
-        <div className="mt-auto pt-3 flex items-center justify-between border-t border-gray-100 dark:border-dark-border" itemProp="offers" itemScope itemType="https://schema.org/Offer">
+        <div className="mt-auto pt-3 flex items-center justify-between border-t border-gray-100 dark:border-emerald-500/15" itemProp="offers" itemScope itemType="https://schema.org/Offer">
           <meta itemProp="priceCurrency" content="BDT" />
           <meta itemProp="price" content={String(Math.round(product.retail_price))} />
           <meta itemProp="availability" content="https://schema.org/InStock" />
           <div>
             <div className="flex items-baseline gap-1.5">
-              <span className="text-base sm:text-lg font-black text-emerald-600 dark:text-emerald-400">
+              <span className="text-base sm:text-lg font-black text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-600 dark:from-emerald-400 dark:to-teal-300">
                 ৳{Math.round(product.retail_price)}
               </span>
               {product.reseller_price && (
@@ -136,15 +136,15 @@ export default function ProductCard({ product, onQuickView }) {
                 </span>
               )}
             </div>
-            <span className="text-[9px] font-medium text-emerald-600 dark:text-emerald-400">
-              ফ্রি রিটার্ন সুবিধা
+            <span className="text-[9px] font-medium text-emerald-600 dark:text-emerald-400 flex items-center gap-1">
+              ✓ ক্যাশ অন ডেলিভারি
             </span>
           </div>
 
           <div className="flex items-center gap-1.5">
             <button
               onClick={handleQuickAdd}
-              className="flex items-center justify-center p-2.5 rounded-xl bg-emerald-50 hover:bg-emerald-600 text-emerald-700 hover:text-white dark:bg-emerald-950/60 dark:hover:bg-emerald-600 dark:text-emerald-300 dark:hover:text-white transition-all duration-200 active:scale-95 shadow-sm"
+              className="flex items-center justify-center p-2.5 rounded-xl bg-gradient-to-r from-emerald-600 via-emerald-500 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white transition-all duration-200 active:scale-95 shadow-md shadow-emerald-600/25"
               title="কার্টে যোগ করুন"
             >
               <ShoppingCart className="w-4 h-4" />

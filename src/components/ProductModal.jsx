@@ -45,10 +45,10 @@ export default function ProductModal({
     const previousUrl = window.location.pathname;
     const targetUrl = getProductUrl(product);
 
-    // Update browser address bar to /category/:catId/:productId-:slug without page reload
+    // Update browser address bar to /category/:catId/:itemSlug without page reload
     if (window.location.pathname !== targetUrl) {
       window.history.pushState(
-        { view: 'home', catId: product.category_id || '1', productId: product.id },
+        { view: 'home', catId: product.category_id || '1', productId: slugifyTitle(product.title) },
         '',
         targetUrl
       );
