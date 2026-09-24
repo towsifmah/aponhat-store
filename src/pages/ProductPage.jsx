@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { 
   ArrowLeft, ShoppingBag, Truck, ShieldCheck, Check, Star, 
   ArrowRight, Share2, Copy, CheckCheck, MessageCircle, Facebook,
-  Sparkles, RotateCcw, PhoneCall, Tag, Box, Layers
+  Sparkles, RotateCcw, PhoneCall, Tag, Box, Layers, Link2
 } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import ShopifyProductViewer from '../components/ShopifyProductViewer';
@@ -364,6 +364,39 @@ export default function ProductPage({
               <span>এখনই অর্ডার করুন</span>
               <ArrowRight className="w-4 h-4" />
             </button>
+          </div>
+
+          {/* Single Product Item Permanent Shareable URL Box */}
+          <div className="p-4 rounded-2xl bg-gradient-to-r from-emerald-50/70 via-teal-50/40 to-white dark:from-dark-bg dark:via-dark-bg/80 dark:to-dark-card border border-emerald-200/90 dark:border-dark-border space-y-2.5 shadow-xs">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-1.5 text-xs font-bold text-gray-800 dark:text-gray-100">
+                <Link2 className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
+                <span>এই প্রোডাক্টটির সরাসরি শেয়ার লিংক (URL):</span>
+              </div>
+              <span className="text-[10px] font-bold text-emerald-700 dark:text-emerald-300 bg-white dark:bg-dark-card px-2.5 py-0.5 rounded-full border border-emerald-200 dark:border-emerald-800 shadow-2xs">
+                প্রোডাক্ট লিঙ্ক
+              </span>
+            </div>
+
+            <div className="flex items-center gap-2">
+              <input
+                type="text"
+                readOnly
+                value={currentUrl}
+                className="flex-1 text-xs px-3.5 py-2.5 rounded-xl bg-white dark:bg-dark-card border border-gray-200 dark:border-dark-border text-gray-700 dark:text-dark-text font-mono truncate shadow-inner focus:outline-none select-all"
+              />
+              <button
+                onClick={handleCopyLink}
+                className="shrink-0 flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs shadow-md transition-all active:scale-95"
+              >
+                {copiedLink ? <CheckCheck className="w-4 h-4 text-emerald-200" /> : <Copy className="w-4 h-4" />}
+                <span>{copiedLink ? 'কপি হয়েছে!' : 'লিংক কপি'}</span>
+              </button>
+            </div>
+
+            <p className="text-[11px] text-gray-500 dark:text-dark-muted flex items-center gap-1">
+              <span>💡 যেকোনো কাস্টমারকে এই লিংক পাঠালে তারা সরাসরি এই প্রোডাক্টে এসে অর্ডার করতে পারবে।</span>
+            </p>
           </div>
 
           {/* Delivery & Trust Highlights */}

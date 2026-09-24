@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Trash2, ShoppingBag, ArrowRight, ShieldCheck, Sparkles, Plus } from 'lucide-react';
+import { X, Trash2, ShoppingBag, ArrowRight, ShieldCheck, Sparkles, Plus, ExternalLink } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 
 export default function CartDrawer({ onCheckout, products = [], onQuickView }) {
@@ -12,6 +12,12 @@ export default function CartDrawer({ onCheckout, products = [], onQuickView }) {
   const suggestedProducts = products
     .filter(p => !cartItemIds.has(p.id))
     .slice(0, 3);
+
+  const handleOpenItem = (e, item) => {
+    e.preventDefault();
+    setIsCartOpen(false);
+    if (onQuickView) onQuickView(item);
+  };
 
   return (
     <div className="fixed inset-0 z-50 overflow-hidden bg-black/60 backdrop-blur-sm transition-opacity duration-300">
@@ -86,22 +92,32 @@ export default function CartDrawer({ onCheckout, products = [], onQuickView }) {
                 {cartItems.map((item) => (
                   <div 
                     key={`${item.id}-${item.variant}`}
-                    className="flex gap-3 p-3 rounded-2xl border border-gray-100 dark:border-dark-border bg-gray-50/70 dark:bg-dark-bg/60 transition-all hover:border-apon-200 dark:hover:border-apon-800"
+                    className="flex gap-3 p-3 rounded-2xl border border-gray-100 dark:border-dark-border bg-gray-50/70 dark:bg-dark-bg/60 transition-all hover:border-emerald-300 dark:hover:border-emerald-800"
                   >
-                    <img
-                      src={item.image || 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80'}
-                      alt={item.title}
-                      onError={(e) => {
-                        e.currentTarget.onerror = null;
-                        e.currentTarget.src = 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80';
-                      }}
-                      className="w-16 h-16 rounded-xl object-cover bg-white shrink-0"
-                    />
+                    <a
+                      href={`/product/${item.id}`}
+                      onClick={(e) => handleOpenItem(e, item)}
+                      className="block shrink-0 cursor-pointer"
+                    >
+                      <img
+                        src={item.image || 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80'}
+                        alt={item.title}
+                        onError={(e) => {
+                          e.currentTarget.onerror = null;
+                          e.currentTarget.src = 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80';
+                        }}
+                        className="w-16 h-16 rounded-xl object-cover bg-white hover:scale-105 transition-transform"
+                      />
+                    </a>
 
                     <div className="flex-1 min-w-0">
-                      <h4 className="text-xs font-semibold text-gray-900 dark:text-white line-clamp-1">
+                      <a
+                        href={`/product/${item.id}`}
+                        onClick={(e) => handleOpenItem(e, item)}
+                        className="text-xs font-semibold text-gray-900 dark:text-white line-clamp-1 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors block cursor-pointer"
+                      >
                         {item.title}
-                      </h4>
+                      </a>
                       <p className="text-[11px] text-gray-500 dark:text-dark-muted mt-0.5">
                         ভ্যারিয়েন্ট: <span className="font-semibold text-apon-600 dark:text-apon-400">{item.variant}</span>
                       </p>
