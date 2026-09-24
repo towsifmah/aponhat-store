@@ -1,10 +1,12 @@
 // api/chat.js - Vercel Serverless Function for Priya Live Chatbot & Admin Chat Manager
 import fs from 'fs';
 import path from 'path';
+import os from 'os';
 import { getStore } from './_data.js';
 import { smartSearchProducts } from './_searchHelper.js';
 
-const CHAT_FILE = path.join('/tmp', 'aponhat_chats.json');
+const CHAT_FILE = path.join(os.tmpdir(), 'aponhat_chats.json');
+
 
 let chatState = null;
 

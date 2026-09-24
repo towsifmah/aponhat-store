@@ -14,62 +14,209 @@ import PriyaChatbot from './components/PriyaChatbot';
 import { useAuth } from './context/AuthContext';
 import { ShieldAlert, KeyRound } from 'lucide-react';
 
-export default function App() {
-  const [currentView, setCurrentView] = useState('home'); // home, checkout, order_success, admin
-  const [products, setProducts] = useState([]);
-  const [categories, setCategories] = useState([]);
-  const [loading, setLoading] = useState(true);
+function parsePathname(pathname) {
+  const clean = (pathname || '/').replace(/\/+$/, '') || '/';
+  if (clean === '/admin') return { view: 'admin', catId: 'all' };
+  if (clean === '/checkout') return { view: 'checkout', catId: 'all' };
+  if (clean === '/order-success') return { view: 'order_success', catId: 'all' };
+  if (clean.startsWith('/category/')) {
+    const rawCat = clean.replace('/category/', '');
+    return { view: 'home', catId: decodeURIComponent(rawCat) };
+  }
+  return { view: 'home', catId: 'all' };
+}
 
-  const [selectedCategory, setSelectedCategory] = useState('all');
+export default function App() {
+  const initialRoute = parsePathname(typeof window !== 'undefined' ? window.location.pathname : '/');
+
+  const [currentView, setCurrentView] = useState(initialRoute.view); // home, checkout, order_success, admin
+  const [selectedCategory, setSelectedCategory] = useState(initialRoute.catId);
+
+  // Instant 0ms Load on Reload from localStorage Cache
+  const [products, setProducts] = useState(() => {
+    try {
+      const cached = localStorage.getItem('aponhat_cached_products');
+      if (cached) {
+        const parsed = JSON.parse(cached);
+        if (Array.isArray(parsed) && parsed.length > 0) return parsed;
+      }
+    } catch (e) {
+      console.warn('Failed reading product cache:', e);
+    }
+    return [];
+  });
+
+  const [categories, setCategories] = useState(() => {
+    try {
+      const cached = localStorage.getItem('aponhat_cached_categories');
+      if (cached) {
+        const parsed = JSON.parse(cached);
+        if (Array.isArray(parsed) && parsed.length > 0) return parsed;
+      }
+    } catch (e) {
+      console.warn('Failed reading category cache:', e);
+    }
+    return [];
+  });
+
+  const [loading, setLoading] = useState(() => {
+    try {
+      const cached = localStorage.getItem('aponhat_cached_products');
+      return !cached || JSON.parse(cached).length === 0;
+    } catch {
+      return true;
+    }
+  });
+
+  const [storeSettings, setStoreSettings] = useState(() => {
+    try {
+      const cached = localStorage.getItem('aponhat_cached_settings');
+      return cached ? JSON.parse(cached) : {
+        store_name: 'আপনহাট (AponHat)',
+        store_notice: 'আপনহাটে আপনাকে স্বাগতম! সারা বাংলাদেশে হোম ডেলিভারি দেওয়া হয়।',
+        helpline_phone: '01617971644',
+        inside_dhaka_delivery: 60,
+        outside_dhaka_delivery: 120,
+        bkash_number: '01617971644',
+        nagad_number: '01309993470',
+        rocket_number: '01617971644',
+        default_markup_percent: '35',
+        priya_status: 'online'
+      };
+    } catch {
+      return {
+        store_name: 'আপনহাট (AponHat)',
+        store_notice: 'আপনহাটে আপনাকে স্বাগতম! সারা বাংলাদেশে হোম ডেলিভারি দেওয়া হয়।',
+        helpline_phone: '01617971644',
+        inside_dhaka_delivery: 60,
+        outside_dhaka_delivery: 120,
+        bkash_number: '01617971644',
+        nagad_number: '01309993470',
+        rocket_number: '01617971644',
+        default_markup_percent: '35',
+        priya_status: 'online'
+      };
+    }
+  });
+
   const [searchQuery, setSearchQuery] = useState('');
   const [quickViewProduct, setQuickViewProduct] = useState(null);
   const [orderSuccessData, setOrderSuccessData] = useState(null);
 
   const { isAdmin, openLogin } = useAuth();
 
+  // Listen to browser Back/Forward navigation
   useEffect(() => {
-    // Fetch categories and products on initial load
+    const handlePopState = () => {
+      const route = parsePathname(window.location.pathname);
+      setCurrentView(route.view);
+      setSelectedCategory(route.catId);
+    };
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
+
+  // Fetch categories, products, and settings on initial load
+  useEffect(() => {
+    let isMounted = true;
     const fetchData = async () => {
       try {
-        setLoading(true);
-        const [catRes, prodRes] = await Promise.all([
+        const [catRes, prodRes, setRes] = await Promise.all([
           fetch('/api/categories.php'),
-          fetch('/api/products.php')
+          fetch('/api/products.php'),
+          fetch('/api/settings.php').catch(() => null)
         ]);
 
         const catData = await catRes.json();
         const prodData = await prodRes.json();
 
-        if (catData.status === 'success') {
-          setCategories(catData.data);
+        if (setRes && setRes.ok) {
+          const setData = await setRes.json();
+          if (setData.status === 'success' && setData.data) {
+            if (isMounted) setStoreSettings(setData.data);
+            try {
+              localStorage.setItem('aponhat_cached_settings', JSON.stringify(setData.data));
+            } catch {}
+          }
         }
-        if (prodData.status === 'success') {
-          setProducts(prodData.data);
+
+        if (isMounted) {
+          if (catData.status === 'success' && Array.isArray(catData.data) && catData.data.length > 0) {
+            setCategories(catData.data);
+            try {
+              localStorage.setItem('aponhat_cached_categories', JSON.stringify(catData.data));
+            } catch {}
+          }
+          if (prodData.status === 'success' && Array.isArray(prodData.data) && prodData.data.length > 0) {
+            setProducts(prodData.data);
+            try {
+              localStorage.setItem('aponhat_cached_products', JSON.stringify(prodData.data));
+            } catch {}
+          }
         }
       } catch (err) {
         console.error('Error loading store data:', err);
       } finally {
-        setLoading(false);
+        if (isMounted) setLoading(false);
       }
     };
 
     fetchData();
+    return () => { isMounted = false; };
   }, []);
+
+  // Dynamic Routing Handler
+  const navigateTo = (path, view = 'home', catId = 'all', options = {}) => {
+    if (typeof window !== 'undefined' && window.location.pathname !== path) {
+      window.history.pushState({ view, catId }, '', path);
+    }
+    setCurrentView(view);
+    setSelectedCategory(catId);
+    if (options.scroll !== false) {
+      window.scrollTo({ top: options.scrollTop || 0, behavior: 'smooth' });
+    }
+  };
+
+  const handleSetCurrentView = (view) => {
+    let path = '/';
+    if (view === 'admin') path = '/admin';
+    else if (view === 'checkout') path = '/checkout';
+    else if (view === 'order_success') path = '/order-success';
+    else if (view === 'home') {
+      path = (selectedCategory && selectedCategory !== 'all') ? `/category/${selectedCategory}` : '/';
+    }
+    navigateTo(path, view, selectedCategory);
+  };
+
+  const handleSelectCategory = (catId) => {
+    setSelectedCategory(catId);
+    const newPath = (catId && catId !== 'all') ? `/category/${catId}` : '/';
+    if (window.location.pathname !== newPath) {
+      window.history.pushState({ view: 'home', catId }, '', newPath);
+    }
+    if (currentView !== 'home') {
+      setCurrentView('home');
+    }
+  };
 
   const handleOrderCompleted = (orderData) => {
     setOrderSuccessData(orderData);
-    setCurrentView('order_success');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    navigateTo('/order-success', 'order_success', 'all');
   };
 
   const handleBackToShopping = () => {
-    setCurrentView('home');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    navigateTo('/', 'home', 'all');
   };
 
   const handleGoToCheckout = () => {
-    setCurrentView('checkout');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    navigateTo('/checkout', 'checkout', 'all');
+  };
+
+  const handleUpdateStoreSettings = (newSettings) => {
+    setStoreSettings(prev => ({ ...prev, ...newSettings }));
+    try {
+      localStorage.setItem('aponhat_cached_settings', JSON.stringify({ ...storeSettings, ...newSettings }));
+    } catch {}
   };
 
   return (
@@ -78,14 +225,16 @@ export default function App() {
       {/* Top Navbar */}
       <Navbar
         currentView={currentView}
-        setCurrentView={setCurrentView}
+        setCurrentView={handleSetCurrentView}
+        navigateTo={navigateTo}
         searchQuery={searchQuery}
         setSearchQuery={setSearchQuery}
         selectedCategory={selectedCategory}
-        setSelectedCategory={setSelectedCategory}
+        setSelectedCategory={handleSelectCategory}
         categories={categories}
         products={products}
         onQuickView={(prod) => setQuickViewProduct(prod)}
+        storeSettings={storeSettings}
       />
 
       {/* Main View Switcher */}
@@ -96,10 +245,12 @@ export default function App() {
             loading={loading}
             categories={categories}
             selectedCategory={selectedCategory}
-            setSelectedCategory={setSelectedCategory}
+            setSelectedCategory={handleSelectCategory}
+            navigateTo={navigateTo}
             searchQuery={searchQuery}
             setSearchQuery={setSearchQuery}
             onQuickView={(prod) => setQuickViewProduct(prod)}
+            storeSettings={storeSettings}
           />
         )}
 
@@ -107,6 +258,7 @@ export default function App() {
           <CheckoutPage
             onBackToShopping={handleBackToShopping}
             onOrderCompleted={handleOrderCompleted}
+            storeSettings={storeSettings}
           />
         )}
 
@@ -114,12 +266,16 @@ export default function App() {
           <OrderSuccessPage
             orderData={orderSuccessData}
             onBackToHome={handleBackToShopping}
+            storeSettings={storeSettings}
           />
         )}
 
         {currentView === 'admin' && (
           isAdmin ? (
-            <AdminDashboard />
+            <AdminDashboard 
+              storeSettings={storeSettings} 
+              onUpdateSettings={handleUpdateStoreSettings} 
+            />
           ) : (
             <div className="max-w-md mx-auto my-16 p-8 rounded-3xl bg-white dark:bg-dark-card border border-gray-200 dark:border-dark-border text-center shadow-xl">
               <div className="w-16 h-16 rounded-2xl bg-amber-50 dark:bg-amber-950/60 border border-amber-200 dark:border-amber-800 text-amber-600 dark:text-amber-400 mx-auto flex items-center justify-center mb-4">
@@ -149,7 +305,10 @@ export default function App() {
       />
 
       {/* Priya Live Shopping Assistant (Left Side) */}
-      <PriyaChatbot onQuickView={(prod) => setQuickViewProduct(prod)} />
+      <PriyaChatbot 
+        onQuickView={(prod) => setQuickViewProduct(prod)} 
+        storeSettings={storeSettings}
+      />
 
       {/* Animated Add-to-Cart Toast Notification */}
       <CartToast onCheckout={handleGoToCheckout} />
@@ -157,11 +316,12 @@ export default function App() {
       {/* Mobile App Bottom Navigation Bar */}
       <MobileBottomNav
         currentView={currentView}
-        setCurrentView={setCurrentView}
-        setSelectedCategory={setSelectedCategory}
+        setCurrentView={handleSetCurrentView}
+        navigateTo={navigateTo}
+        setSelectedCategory={handleSelectCategory}
       />
 
-      {/* Product Quick View & Variant Modal with Shopify Zoom */}
+      {/* Product Quick View & Variant Modal with Zoom */}
       {quickViewProduct && (
         <ProductModal
           product={quickViewProduct}
@@ -175,9 +335,11 @@ export default function App() {
 
       {/* Footer */}
       <Footer
-        setCurrentView={setCurrentView}
-        setSelectedCategory={setSelectedCategory}
+        setCurrentView={handleSetCurrentView}
+        navigateTo={navigateTo}
+        setSelectedCategory={handleSelectCategory}
         categories={categories}
+        storeSettings={storeSettings}
       />
 
     </div>

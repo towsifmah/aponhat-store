@@ -1,8 +1,10 @@
 // api/_data.js - Shared In-Memory & /tmp Store for Vercel Serverless Functions
 import fs from 'fs';
 import path from 'path';
+import os from 'os';
 
-const TMP_FILE = path.join('/tmp', 'aponhat_store.json');
+const TMP_FILE = path.join(os.tmpdir(), 'aponhat_store.json');
+
 
 export const initialCategories = [
   {
@@ -12188,10 +12190,43 @@ export const initialProducts = [
   }
 ];
 
+export const initialUsers = [
+  {
+    id: 1,
+    name: 'আপনহাট অ্যাডমিন',
+    phone: '01617971644',
+    email: 'admin@aponhat.com',
+    password: 'Admin@AponHat2026!',
+    role: 'admin'
+  }
+];
+
+export const initialSettings = {
+  store_name: 'আপনহাট (AponHat)',
+  store_notice: 'আপনহাটে আপনাকে স্বাগতম! সারা বাংলাদেশে হোম ডেলিভারি দেওয়া হয়।',
+  helpline_phone: '01617971644',
+  inside_dhaka_delivery: 60,
+  outside_dhaka_delivery: 120,
+  bkash_number: '01617971644',
+  nagad_number: '01309993470',
+  rocket_number: '01617971644',
+  default_markup_percent: '35',
+  priya_status: 'online',
+  priya_prompt: 'আপনি আপনহাট ই-কমার্স প্ল্যাটফর্মের বিশ্বস্ত এবং অত্যন্ত বিনয়ী স্মার্ট সেলস অ্যাসিস্ট্যান্ট "প্রিয়া"। কাস্টমারদের যেকোনো প্রোডাক্টের তথ্য, ডেলিভারি চার্জ, অর্ডার প্রক্রিয়া সম্পর্কে ১০০% প্রফেশনাল ও নির্ভুল বাংলা ভাষায় উত্তর দিন।',
+  last_sync: new Date().toISOString()
+};
+
 let storeCache = null;
 
 export function getStore() {
-  if (storeCache) return storeCache;
+  if (storeCache) {
+    if (!storeCache.users || !Array.isArray(storeCache.users) || storeCache.users.length === 0) {
+      storeCache.users = [...initialUsers];
+    } else if (!storeCache.users.some(u => u.phone === '01617971644')) {
+      storeCache.users.push(initialUsers[0]);
+    }
+    return storeCache;
+  }
 
   try {
     if (fs.existsSync(TMP_FILE)) {
@@ -12201,6 +12236,13 @@ export function getStore() {
         storeCache.products = initialProducts;
         storeCache.categories = initialCategories;
       }
+      if (!storeCache.users || !Array.isArray(storeCache.users) || storeCache.users.length === 0) {
+        storeCache.users = [...initialUsers];
+      } else if (!storeCache.users.some(u => u.phone === '01617971644')) {
+        storeCache.users.push(initialUsers[0]);
+      }
+      if (!storeCache.orders) storeCache.orders = [];
+      if (!storeCache.settings) storeCache.settings = { ...initialSettings };
       return storeCache;
     }
   } catch (e) {
@@ -12211,12 +12253,8 @@ export function getStore() {
     categories: initialCategories,
     products: initialProducts,
     orders: [],
-    settings: {
-      bkash_number: '01617971644',
-      nagad_number: '01309993470',
-      default_markup_percent: '35',
-      last_sync: new Date().toISOString()
-    }
+    users: [...initialUsers],
+    settings: { ...initialSettings }
   };
 
   return storeCache;
@@ -12230,3 +12268,4 @@ export function saveStore(store) {
     console.error('Failed saving tmp store:', e);
   }
 }
+

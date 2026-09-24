@@ -11,13 +11,15 @@ import { useAuth } from '../context/AuthContext';
 export default function Navbar({ 
   currentView, 
   setCurrentView, 
+  navigateTo,
   searchQuery, 
   setSearchQuery, 
   selectedCategory, 
   setSelectedCategory, 
   categories,
   products,
-  onQuickView
+  onQuickView,
+  storeSettings = {}
 }) {
   const { isDark, toggleTheme } = useTheme();
   const { totalCount, setIsCartOpen, cartBadgeAnimate } = useCart();
@@ -84,15 +86,17 @@ export default function Navbar({
   return (
     <header className="sticky top-0 z-40 w-full backdrop-blur-xl bg-white/95 dark:bg-dark-card/95 border-b border-gray-200/80 dark:border-dark-border transition-colors duration-300 shadow-xs">
       
-      {/* Top Announcement Bar - Customer-Facing ONLY (No dropshipping/admin mentions) */}
+      {/* Top Announcement Bar - Customer-Facing ONLY */}
       <div className="bg-gradient-to-r from-apon-800 via-apon-600 to-apon-700 text-white text-xs py-1.5 px-4 text-center font-medium flex items-center justify-between">
         <div className="hidden sm:flex items-center gap-2">
           <ShieldCheck className="w-3.5 h-3.5 text-apon-300" />
-          <span>১০০% অরিজিনাল কোয়ালিটি গ্যারান্টি | দ্রুততম ক্যাশ অন ডেলিভারি</span>
+          <span>{storeSettings.store_notice || '১০০% অরিজিনাল কোয়ালিটি গ্যারান্টি | দ্রুততম ক্যাশ অন ডেলিভারি'}</span>
         </div>
         <div className="mx-auto sm:mx-0">
           <span>বিকাশ/নগদ/ক্যাশ অন ডেলিভারিতে অর্ডার করুন | হেল্পলাইন: </span>
-          <a href="tel:01617971644" className="font-bold underline ml-1 hover:text-apon-200">০১৬১৭৯৭১৬৪৪</a>
+          <a href={`tel:${storeSettings.helpline_phone || '01617971644'}`} className="font-bold underline ml-1 hover:text-apon-200">
+            {storeSettings.helpline_phone || '০১৬১৭৯৭১৬৪৪'}
+          </a>
         </div>
         <div className="hidden md:flex items-center gap-3">
           {/* ONLY show Admin Dashboard link in top bar if current user is ADMIN */}
@@ -114,7 +118,10 @@ export default function Navbar({
           
           {/* Logo */}
           <div 
-            onClick={() => { setCurrentView('home'); setSelectedCategory('all'); }}
+            onClick={() => { 
+              if (navigateTo) navigateTo('/', 'home', 'all');
+              else { setCurrentView('home'); setSelectedCategory('all'); }
+            }}
             className="flex items-center gap-2.5 sm:gap-3 cursor-pointer group shrink-0"
           >
             <div className="relative h-10 sm:h-12 w-auto flex items-center overflow-hidden rounded-xl p-1 transition-transform group-hover:scale-105">

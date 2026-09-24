@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, Lock, Phone, User, Mail, Eye, EyeOff, CheckCircle2, ShieldCheck, KeyRound, Sparkles } from 'lucide-react';
+import { X, Lock, Phone, User, Mail, Eye, EyeOff, CheckCircle2, ShieldCheck, Sparkles } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 
 export default function AuthModal() {
@@ -72,11 +72,6 @@ export default function AuthModal() {
     } finally {
       setLoading(false);
     }
-  };
-
-  const handleFillAdmin = () => {
-    setIdentifier('01617971644');
-    setPassword('Admin@AponHat2026!');
   };
 
   return (
@@ -272,21 +267,8 @@ export default function AuthModal() {
           </button>
         </form>
 
-        {/* Store Owner Quick Fill Helper (Discreet) */}
-        {authModalMode === 'login' && (
-          <div className="mt-5 pt-4 border-t border-gray-100 dark:border-dark-border text-center">
-            <button
-              type="button"
-              onClick={handleFillAdmin}
-              className="text-[11px] text-gray-400 hover:text-apon-600 dark:hover:text-apon-400 flex items-center justify-center gap-1 mx-auto transition-colors"
-            >
-              <KeyRound className="w-3 h-3" />
-              <span>স্টোর ওনার (অ্যাডমিন) দ্রুত লগইন</span>
-            </button>
-          </div>
-        )}
-
       </div>
     </div>
   );
 }
+

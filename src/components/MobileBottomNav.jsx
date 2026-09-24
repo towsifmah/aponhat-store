@@ -3,7 +3,7 @@ import { Home, LayoutGrid, Search, ShoppingBag, User, LayoutDashboard } from 'lu
 import { useCart } from '../context/CartContext';
 import { useAuth } from '../context/AuthContext';
 
-export default function MobileBottomNav({ currentView, setCurrentView, setSelectedCategory }) {
+export default function MobileBottomNav({ currentView, setCurrentView, navigateTo, setSelectedCategory }) {
   const { totalCount, setIsCartOpen, cartBadgeAnimate } = useCart();
   const { currentUser, isAdmin, openLogin } = useAuth();
 
@@ -17,7 +17,8 @@ export default function MobileBottomNav({ currentView, setCurrentView, setSelect
 
   const scrollToCategories = () => {
     if (currentView !== 'home') {
-      setCurrentView('home');
+      if (navigateTo) navigateTo('/', 'home', 'all');
+      else setCurrentView('home');
     }
     setTimeout(() => {
       const el = document.getElementById('products-section');
@@ -33,9 +34,12 @@ export default function MobileBottomNav({ currentView, setCurrentView, setSelect
       {/* Home */}
       <button
         onClick={() => {
-          setCurrentView('home');
-          setSelectedCategory('all');
-          window.scrollTo({ top: 0, behavior: 'smooth' });
+          if (navigateTo) navigateTo('/', 'home', 'all');
+          else {
+            setCurrentView('home');
+            setSelectedCategory('all');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }
         }}
         className={`flex flex-col items-center gap-1 transition-colors ${
           currentView === 'home'
@@ -88,7 +92,10 @@ export default function MobileBottomNav({ currentView, setCurrentView, setSelect
       {/* Account or Admin */}
       {isAdmin ? (
         <button
-          onClick={() => setCurrentView('admin')}
+          onClick={() => {
+            if (navigateTo) navigateTo('/admin', 'admin', 'all');
+            else setCurrentView('admin');
+          }}
           className={`flex flex-col items-center gap-1 transition-colors ${
             currentView === 'admin'
               ? 'text-amber-500 font-bold'

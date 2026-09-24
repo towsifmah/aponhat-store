@@ -1,8 +1,10 @@
 import React from 'react';
 import { CheckCircle, Package, PhoneCall, ShoppingBag, ArrowRight, Printer } from 'lucide-react';
 
-export default function OrderSuccessPage({ orderData, onBackToHome }) {
+export default function OrderSuccessPage({ orderData, onBackToHome, storeSettings = {} }) {
   if (!orderData) return null;
+
+  const helpline = storeSettings.helpline_phone || '01617971644';
 
   return (
     <div className="max-w-2xl mx-auto px-4 py-12 text-center">
@@ -53,8 +55,8 @@ export default function OrderSuccessPage({ orderData, onBackToHome }) {
 
           <div className="flex justify-between items-center text-xs text-gray-600 dark:text-dark-muted">
             <span>কাস্টমার সাপোর্ট:</span>
-            <a href="tel:01617971644" className="font-bold text-apon-600 hover:underline">
-              ০১৬১৭৯৭১৬৪৪
+            <a href={`tel:${helpline}`} className="font-bold text-apon-600 hover:underline">
+              {helpline}
             </a>
           </div>
         </div>

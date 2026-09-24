@@ -2,8 +2,12 @@ import React from 'react';
 import { PhoneCall, Mail, MapPin, ShieldCheck } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 
-export default function Footer({ setCurrentView, setSelectedCategory, categories }) {
+export default function Footer({ setCurrentView, navigateTo, setSelectedCategory, categories, storeSettings = {} }) {
   const { isAdmin, openLogin } = useAuth();
+
+  const bkashNum = storeSettings.bkash_number || '01617971644';
+  const nagadNum = storeSettings.nagad_number || '01309993470';
+  const helplineNum = storeSettings.helpline_phone || '01617971644';
 
   return (
     <footer className="w-full bg-[#07130A] text-gray-300 border-t border-apon-900/60 transition-colors duration-300">
@@ -13,15 +17,21 @@ export default function Footer({ setCurrentView, setSelectedCategory, categories
           
           {/* Brand Info */}
           <div className="space-y-4">
-            <div className="flex items-center gap-3">
+            <div 
+              onClick={() => {
+                if (navigateTo) navigateTo('/', 'home', 'all');
+                else { setCurrentView('home'); setSelectedCategory('all'); }
+              }}
+              className="flex items-center gap-3 cursor-pointer"
+            >
               <div className="h-10 w-auto flex items-center p-1 rounded-xl bg-white">
                 <img src="/logo.png" alt="আপনহাট" className="h-8 w-auto object-contain" />
               </div>
-              <span className="text-xl font-black text-white font-sans">আপনহাট</span>
+              <span className="text-xl font-black text-white font-sans">{storeSettings.store_name || 'আপনহাট'}</span>
             </div>
 
             <p className="text-xs text-gray-400 leading-relaxed">
-              আপনহাট - আপনার বিশ্বস্ত অনলাইন শপিং মল। সেরা মানের পণ্য, ক্যাশ অন ডেলিভারি এবং দ্রুততম হোম ডেলিভারি নিশ্চয়তা।
+              {storeSettings.store_name || 'আপনহাট'} - আপনার বিশ্বস্ত অনলাইন শপিং মল। সেরা মানের পণ্য, ক্যাশ অন ডেলিভারি এবং দ্রুততম হোম ডেলিভারি নিশ্চয়তা।
             </p>
 
             <div className="flex items-center gap-2 text-xs text-emerald-400 font-semibold">
@@ -40,9 +50,12 @@ export default function Footer({ setCurrentView, setSelectedCategory, categories
                 <li key={cat.id}>
                   <button
                     onClick={() => {
-                      setCurrentView('home');
-                      setSelectedCategory(cat.id);
-                      window.scrollTo({ top: 400, behavior: 'smooth' });
+                      if (navigateTo) navigateTo(`/category/${cat.id}`, 'home', cat.id, { scrollTop: 450 });
+                      else {
+                        setCurrentView('home');
+                        setSelectedCategory(cat.id);
+                        window.scrollTo({ top: 400, behavior: 'smooth' });
+                      }
                     }}
                     className="hover:text-apon-400 transition-colors"
                   >
@@ -65,7 +78,10 @@ export default function Footer({ setCurrentView, setSelectedCategory, categories
               <li>
                 {isAdmin ? (
                   <button 
-                    onClick={() => setCurrentView('admin')}
+                    onClick={() => {
+                      if (navigateTo) navigateTo('/admin', 'admin', 'all');
+                      else setCurrentView('admin');
+                    }}
                     className="text-amber-400 hover:underline font-bold"
                   >
                     অ্যাডমিন কন্ট্রোল প্যানেল
@@ -92,14 +108,14 @@ export default function Footer({ setCurrentView, setSelectedCategory, categories
                 <PhoneCall className="w-4 h-4 text-apon-400 shrink-0" />
                 <div>
                   <p className="text-[10px] text-gray-500">বিকাশ ও হেল্পলাইন:</p>
-                  <a href="tel:01617971644" className="font-bold text-white hover:text-apon-400">০১৬১৭৯৭১৬৪৪</a>
+                  <a href={`tel:${helplineNum}`} className="font-bold text-white hover:text-apon-400">{helplineNum}</a>
                 </div>
               </li>
               <li className="flex items-center gap-2.5">
                 <PhoneCall className="w-4 h-4 text-amber-400 shrink-0" />
                 <div>
                   <p className="text-[10px] text-gray-500">নগদ অ্যাকাউন্ট:</p>
-                  <span className="font-bold text-white">০১৩০৯৯৯৩৪৭০</span>
+                  <span className="font-bold text-white">{nagadNum}</span>
                 </div>
               </li>
               <li className="flex items-center gap-2.5">

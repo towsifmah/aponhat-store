@@ -3,7 +3,7 @@ import { ShieldCheck, Copy, Check, ArrowLeft, CreditCard, Banknote, HelpCircle, 
 import { useCart } from '../context/CartContext';
 import PickupVanAnimation from '../components/PickupVanAnimation';
 
-export default function CheckoutPage({ onBackToShopping, onOrderCompleted }) {
+export default function CheckoutPage({ onBackToShopping, onOrderCompleted, storeSettings = {} }) {
   const { cartItems, subtotal, clearCart } = useCart();
 
   const [customerName, setCustomerName] = useState('');
@@ -25,8 +25,13 @@ export default function CheckoutPage({ onBackToShopping, onOrderCompleted }) {
   const [showVanAnimation, setShowVanAnimation] = useState(false);
   const [createdOrderData, setCreatedOrderData] = useState(null);
 
-  const deliveryFee = city === 'ঢাকা' ? 60 : 120;
+  const insideFee = storeSettings.inside_dhaka_delivery ? Number(storeSettings.inside_dhaka_delivery) : 60;
+  const outsideFee = storeSettings.outside_dhaka_delivery ? Number(storeSettings.outside_dhaka_delivery) : 120;
+  const deliveryFee = city === 'ঢাকা' ? insideFee : outsideFee;
   const totalAmount = subtotal + deliveryFee;
+  const bkashNum = storeSettings.bkash_number || '01617971644';
+  const nagadNum = storeSettings.nagad_number || '01309993470';
+
 
   const handleCopy = (number) => {
     navigator.clipboard.writeText(number);
@@ -165,8 +170,8 @@ export default function CheckoutPage({ onBackToShopping, onOrderCompleted }) {
                     onChange={(e) => setCity(e.target.value)}
                     className="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-dark-border bg-gray-50 dark:bg-dark-bg text-sm text-gray-900 dark:text-dark-text focus:outline-none focus:ring-2 focus:ring-apon-500 transition-all"
                   >
-                    <option value="ঢাকা">ঢাকা সিটি (ডেলিভারি চার্জ: ৳৬০)</option>
-                    <option value="ঢাকার বাইরে">ঢাকার বাইরে / অন্যান্য জেলা (ডেলিভারি চার্জ: ৳১২০)</option>
+                    <option value="ঢাকা">ঢাকা সিটি (ডেলিভারি চার্জ: ৳{insideFee})</option>
+                    <option value="ঢাকার বাইরে">ঢাকার বাইরে / অন্যান্য জেলা (ডেলিভারি চার্জ: ৳{outsideFee})</option>
                   </select>
                 </div>
               </div>
@@ -276,22 +281,22 @@ export default function CheckoutPage({ onBackToShopping, onOrderCompleted }) {
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-white dark:bg-dark-bg p-4 rounded-xl border border-[#D12053]/20">
                   <div>
                     <span className="text-[10px] font-bold uppercase tracking-wider text-gray-500">বিকাশ পার্সোনাল নম্বর:</span>
-                    <p className="text-xl font-black text-[#D12053] font-mono tracking-wider">01617971644</p>
+                    <p className="text-xl font-black text-[#D12053] font-mono tracking-wider">{bkashNum}</p>
                   </div>
                   <button
                     type="button"
-                    onClick={() => handleCopy('01617971644')}
+                    onClick={() => handleCopy(bkashNum)}
                     className="inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-xl bg-[#D12053] text-white text-xs font-bold hover:bg-[#b01944] transition-all active:scale-95"
                   >
-                    {copiedNumber === '01617971644' ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
-                    <span>{copiedNumber === '01617971644' ? 'কপি হয়েছে!' : 'নম্বর কপি করুন'}</span>
+                    {copiedNumber === bkashNum ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                    <span>{copiedNumber === bkashNum ? 'কপি হয়েছে!' : 'নম্বর কপি করুন'}</span>
                   </button>
                 </div>
 
                 <div className="text-xs text-gray-600 dark:text-dark-muted space-y-1 bg-white/70 dark:bg-dark-bg/60 p-3.5 rounded-xl">
                   <p className="font-bold text-gray-800 dark:text-white">পেমেন্ট করার নিয়মাবলী:</p>
                   <p>১. আপনার বিকাশ অ্যাপ বা *247# থেকে <strong>Send Money</strong> করুন।</p>
-                  <p>২. প্রাপক নম্বরে <strong>01617971644</strong> লিখুন।</p>
+                  <p>২. প্রাপক নম্বরে <strong>{bkashNum}</strong> লিখুন।</p>
                   <p>৩. টাকার পরিমাণ <strong>৳{totalAmount}</strong> সেন্ড করুন।</p>
                   <p>৪. ট্রানজেকশন সফল হলে নিচের বক্সে TrxID ও বিকাশ নম্বর দিন।</p>
                 </div>
@@ -333,22 +338,22 @@ export default function CheckoutPage({ onBackToShopping, onOrderCompleted }) {
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-white dark:bg-dark-bg p-4 rounded-xl border border-[#F7941D]/20">
                   <div>
                     <span className="text-[10px] font-bold uppercase tracking-wider text-gray-500">নগদ পার্সোনাল নম্বর:</span>
-                    <p className="text-xl font-black text-[#F7941D] font-mono tracking-wider">01309993470</p>
+                    <p className="text-xl font-black text-[#F7941D] font-mono tracking-wider">{nagadNum}</p>
                   </div>
                   <button
                     type="button"
-                    onClick={() => handleCopy('01309993470')}
+                    onClick={() => handleCopy(nagadNum)}
                     className="inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-xl bg-[#F7941D] text-white text-xs font-bold hover:bg-[#d87c11] transition-all active:scale-95"
                   >
-                    {copiedNumber === '01309993470' ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
-                    <span>{copiedNumber === '01309993470' ? 'কপি হয়েছে!' : 'নম্বর কপি করুন'}</span>
+                    {copiedNumber === nagadNum ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                    <span>{copiedNumber === nagadNum ? 'কপি হয়েছে!' : 'নম্বর কপি করুন'}</span>
                   </button>
                 </div>
 
                 <div className="text-xs text-gray-600 dark:text-dark-muted space-y-1 bg-white/70 dark:bg-dark-bg/60 p-3.5 rounded-xl">
                   <p className="font-bold text-gray-800 dark:text-white">পেমেন্ট করার নিয়মাবলী:</p>
                   <p>১. আপনার নগদ অ্যাপ বা *167# থেকে <strong>Send Money</strong> করুন।</p>
-                  <p>২. প্রাপক নম্বরে <strong>01309993470</strong> দিন।</p>
+                  <p>২. প্রাপক নম্বরে <strong>{nagadNum}</strong> দিন।</p>
                   <p>৩. টাকার পরিমাণ <strong>৳{totalAmount}</strong> সেন্ড করুন।</p>
                   <p>৪. ট্রানজেকশন সফল হলে নিচের বক্সে TrxID ও নম্বর দিন।</p>
                 </div>

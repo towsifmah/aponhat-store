@@ -5,7 +5,7 @@ import {
   PhoneCall, RefreshCw, UserCheck
 } from 'lucide-react';
 
-export default function PriyaChatbot({ onQuickView }) {
+export default function PriyaChatbot({ onQuickView, storeSettings = {} }) {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState([]);
   const [inputText, setInputText] = useState('');
@@ -214,8 +214,14 @@ export default function PriyaChatbot({ onQuickView }) {
               <div>
                 <div className="flex items-center gap-2">
                   <h3 className="font-bold text-sm tracking-wide text-white">প্রিয়া</h3>
-                  <span className="text-[10px] bg-emerald-500/40 text-emerald-100 px-2 py-0.5 rounded-full font-semibold border border-emerald-400/30">
-                    অনলাইন
+                  <span className={`text-[10px] px-2 py-0.5 rounded-full font-semibold border ${
+                    storeSettings.priya_status === 'offline'
+                      ? 'bg-red-500/40 text-red-100 border-red-400/30'
+                      : storeSettings.priya_status === 'busy'
+                      ? 'bg-amber-500/40 text-amber-100 border-amber-400/30'
+                      : 'bg-emerald-500/40 text-emerald-100 border-emerald-400/30'
+                  }`}>
+                    {storeSettings.priya_status === 'offline' ? 'অফলাইন' : storeSettings.priya_status === 'busy' ? 'ব্যস্ত' : 'অনলাইন'}
                   </span>
                 </div>
                 <p className="text-[11px] text-emerald-100/90 leading-tight">

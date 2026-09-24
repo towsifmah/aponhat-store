@@ -3,12 +3,14 @@ import {
   RefreshCw, ExternalLink, Package, DollarSign, ShoppingCart, 
   CheckCircle, AlertCircle, Copy, Check, Filter, Search,
   TrendingUp, Volume2, VolumeX, Settings, Edit3, Save, Sparkles, Tag,
-  MessageSquare, Send, Bot, User, Clock, CheckCheck, ToggleLeft, ToggleRight, MessageCircle
+  MessageSquare, Send, Bot, User, Clock, CheckCheck, ToggleLeft, ToggleRight, MessageCircle,
+  Truck, PhoneCall, HelpCircle, Sliders, Store, Bell, CheckSquare, ShieldCheck
 } from 'lucide-react';
 
-export default function AdminDashboard() {
-  // Tabs: 'orders' or 'pricing'
+export default function AdminDashboard({ storeSettings, onUpdateSettings }) {
+  // Tabs: 'orders', 'pricing', 'live_chat', 'store_settings'
   const [activeTab, setActiveTab] = useState('orders');
+
 
   const [orders, setOrders] = useState([]);
   const [products, setProducts] = useState([]);
@@ -36,13 +38,23 @@ export default function AdminDashboard() {
 
   // Settings
   const [settings, setSettings] = useState({
+    store_name: 'আপনহাট (AponHat)',
+    store_notice: 'আপনহাটে আপনাকে স্বাগতম! সারা বাংলাদেশে হোম ডেলিভারি দেওয়া হয়।',
+    helpline_phone: '01617971644',
+    inside_dhaka_delivery: 60,
+    outside_dhaka_delivery: 120,
     bkash_number: '01617971644',
     nagad_number: '01309993470',
-    default_markup_percent: '30',
+    rocket_number: '01617971644',
+    default_markup_percent: '35',
+    priya_status: 'online',
+    priya_prompt: 'আপনি আপনহাট ই-কমার্স প্ল্যাটফর্মের বিশ্বস্ত এবং অত্যন্ত বিনয়ী স্মার্ট সেলস অ্যাসিস্ট্যান্ট "প্রিয়া"। কাস্টমারদের যেকোনো প্রোডাক্টের তথ্য, ডেলিভারি চার্জ, অর্ডার প্রক্রিয়া সম্পর্কে ১০০% প্রফেশনাল ও নির্ভুল বাংলা ভাষায় উত্তর দিন।',
     last_sync: 'আজ'
   });
   const [showSettingsModal, setShowSettingsModal] = useState(false);
   const [savingSettings, setSavingSettings] = useState(false);
+  const [settingsSavedMsg, setSettingsSavedMsg] = useState('');
+
 
   // Live Chat & Priya AI Controller States
   const [chatSessions, setChatSessions] = useState({});
@@ -309,8 +321,9 @@ export default function AdminDashboard() {
   };
 
   const handleSaveSettings = async (e) => {
-    e.preventDefault();
+    if (e) e.preventDefault();
     setSavingSettings(true);
+    setSettingsSavedMsg('');
     try {
       const res = await fetch('/api/settings.php', {
         method: 'POST',
@@ -320,7 +333,13 @@ export default function AdminDashboard() {
       const data = await res.json();
       if (data.status === 'success') {
         setShowSettingsModal(false);
-        alert('সেটিংস সফলভাবে সংরক্ষিত হয়েছে!');
+        if (onUpdateSettings) {
+          onUpdateSettings(settings);
+        }
+        setSettingsSavedMsg('স্টোরের সকল সেটিংস সফলভাবে আপডেট ও সংরক্ষিত হয়েছে!');
+        setTimeout(() => setSettingsSavedMsg(''), 4000);
+      } else {
+        alert(data.message || 'সেটিংস সংরক্ষণ ব্যর্থ হয়েছে');
       }
     } catch (err) {
       alert('সেটিংস সংরক্ষণ ব্যর্থ হয়েছে');
@@ -484,6 +503,19 @@ export default function AdminDashboard() {
             <span className="w-2.5 h-2.5 rounded-full bg-amber-500" title="ম্যানুয়াল টেকওভার মোড" />
           )}
         </button>
+
+        <button
+          onClick={() => setActiveTab('store_settings')}
+          className={`pb-2 text-sm font-bold transition-all border-b-2 flex items-center gap-2 ${
+            activeTab === 'store_settings'
+              ? 'border-apon-600 text-apon-600 dark:text-apon-400'
+              : 'border-transparent text-gray-500 dark:text-dark-muted hover:text-gray-800'
+          }`}
+        >
+          <Settings className="w-4 h-4" />
+          <span>স্টোর সেটিংস ও কাস্টমাইজেশন</span>
+        </button>
+
       </div>
 
       {/* TAB 1: ORDERS & FULFILLMENT */}
@@ -1269,7 +1301,283 @@ export default function AdminDashboard() {
         </div>
       )}
 
-      {/* Settings Modal */}
+      {/* TAB 4: STORE SETTINGS & FULL REALTIME CUSTOMIZATION */}
+      {activeTab === 'store_settings' && (
+        <div className="space-y-6">
+          
+          {/* Header Card */}
+          <div className="p-6 rounded-3xl bg-gradient-to-r from-apon-800 via-apon-700 to-apon-900 text-white shadow-xl flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+            <div>
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-xs font-semibold text-emerald-300 mb-2">
+                <Store className="w-3.5 h-3.5" />
+                <span>লাইভ ও রিয়েলটাইম কাস্টমাইজেশন প্যানেল</span>
+              </div>
+              <h2 className="text-xl sm:text-2xl font-black">স্টোর সেটিংস ও ফুল কন্ট্রোল</h2>
+              <p className="text-xs text-white/80 mt-1 max-w-xl">
+                এখানে যা পরিবর্তন করবেন তা ব্রাউজার রিলোড বা অ্যান্টিগ্র্যাভিটি বন্ধ থাকলেও সার্বক্ষণিক Vercel সার্ভারে সংরক্ষিত থাকবে এবং গ্রাহকদের স্ক্রিনে সাথে সাথে কার্যকর হবে।
+              </p>
+            </div>
+            
+            {settingsSavedMsg && (
+              <div className="px-4 py-2.5 rounded-2xl bg-emerald-500/20 border border-emerald-400/30 text-emerald-200 text-xs font-bold flex items-center gap-2 animate-bounce-short">
+                <CheckCircle className="w-4 h-4 text-emerald-400" />
+                <span>{settingsSavedMsg}</span>
+              </div>
+            )}
+          </div>
+
+          <form onSubmit={handleSaveSettings} className="space-y-6">
+            
+            {/* Grid 1: Basic Store Info & Notice */}
+            <div className="p-6 sm:p-8 rounded-3xl bg-white dark:bg-dark-card border border-gray-200/80 dark:border-dark-border shadow-xs space-y-6">
+              <div className="flex items-center gap-2.5 border-b border-gray-100 dark:border-dark-border pb-3">
+                <div className="p-2 rounded-xl bg-apon-50 dark:bg-apon-950/60 text-apon-600 dark:text-apon-400">
+                  <Store className="w-5 h-5" />
+                </div>
+                <div>
+                  <h3 className="text-base font-bold text-gray-900 dark:text-white">স্টোরের নাম ও ঘোষণা বার্তা</h3>
+                  <p className="text-xs text-gray-500 dark:text-dark-muted">ওয়েবসাইটের হেডার ও শীর্ষ ব্যানার কাস্টমাইজ করুন</p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                  <label className="block text-xs font-bold text-gray-700 dark:text-dark-text mb-1.5">
+                    স্টোরের নাম (Store Name) *
+                  </label>
+                  <input
+                    type="text"
+                    value={settings.store_name || ''}
+                    onChange={(e) => setSettings({ ...settings, store_name: e.target.value })}
+                    placeholder="আপনহাট (AponHat)"
+                    className="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-dark-border bg-gray-50 dark:bg-dark-bg text-sm text-gray-900 dark:text-white font-medium"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-xs font-bold text-gray-700 dark:text-dark-text mb-1.5">
+                    সার্বক্ষণিক হেল্পলাইন নম্বর (Helpline Phone) *
+                  </label>
+                  <input
+                    type="text"
+                    value={settings.helpline_phone || ''}
+                    onChange={(e) => setSettings({ ...settings, helpline_phone: e.target.value })}
+                    placeholder="01617971644"
+                    className="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-dark-border bg-gray-50 dark:bg-dark-bg text-sm text-gray-900 dark:text-white font-mono"
+                    required
+                  />
+                </div>
+
+                <div className="md:col-span-2">
+                  <label className="block text-xs font-bold text-gray-700 dark:text-dark-text mb-1.5">
+                    টপ অ্যানাউন্সমেন্ট বার নোটিশ (Announcement Banner Notice) *
+                  </label>
+                  <input
+                    type="text"
+                    value={settings.store_notice || ''}
+                    onChange={(e) => setSettings({ ...settings, store_notice: e.target.value })}
+                    placeholder="১০০% অরিজিনাল কোয়ালিটি গ্যারান্টি | দ্রুততম ক্যাশ অন ডেলিভারি"
+                    className="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-dark-border bg-gray-50 dark:bg-dark-bg text-sm text-gray-900 dark:text-white font-medium"
+                    required
+                  />
+                  <p className="text-[11px] text-gray-400 mt-1">
+                    💡 এই বার্তাটি ওয়েবসাইটের একেবারে শীর্ষে সবুজ/কালো ঘোষণা ব্যানারে সার্বক্ষণিক প্রদর্শিত হয়।
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Grid 2: Delivery Fees & Markup */}
+            <div className="p-6 sm:p-8 rounded-3xl bg-white dark:bg-dark-card border border-gray-200/80 dark:border-dark-border shadow-xs space-y-6">
+              <div className="flex items-center gap-2.5 border-b border-gray-100 dark:border-dark-border pb-3">
+                <div className="p-2 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400">
+                  <Truck className="w-5 h-5" />
+                </div>
+                <div>
+                  <h3 className="text-base font-bold text-gray-900 dark:text-white">ডেলিভারি চার্জ ও প্রফিট মার্জিন</h3>
+                  <p className="text-xs text-gray-500 dark:text-dark-muted">চেকআউট পেজে ডেলিভারি ফি এবং পাইকারি মূল্যের মার্জিন</p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <div>
+                  <label className="block text-xs font-bold text-gray-700 dark:text-dark-text mb-1.5">
+                    ঢাকা সিটির ভেতরে চার্জ (টাকা) *
+                  </label>
+                  <input
+                    type="number"
+                    value={settings.inside_dhaka_delivery || 60}
+                    onChange={(e) => setSettings({ ...settings, inside_dhaka_delivery: e.target.value })}
+                    className="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-dark-border bg-gray-50 dark:bg-dark-bg text-sm text-gray-900 dark:text-white font-mono"
+                    required
+                  />
+                  <span className="text-[10px] text-gray-400">ডিফল্ট: ৬০ টাকা</span>
+                </div>
+
+                <div>
+                  <label className="block text-xs font-bold text-gray-700 dark:text-dark-text mb-1.5">
+                    ঢাকার বাইরে চার্জ (টাকা) *
+                  </label>
+                  <input
+                    type="number"
+                    value={settings.outside_dhaka_delivery || 120}
+                    onChange={(e) => setSettings({ ...settings, outside_dhaka_delivery: e.target.value })}
+                    className="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-dark-border bg-gray-50 dark:bg-dark-bg text-sm text-gray-900 dark:text-white font-mono"
+                    required
+                  />
+                  <span className="text-[10px] text-gray-400">ডিফল্ট: ১২০ টাকা</span>
+                </div>
+
+                <div>
+                  <label className="block text-xs font-bold text-gray-700 dark:text-dark-text mb-1.5">
+                    ডিফল্ট প্রফিট মার্জিন (%) *
+                  </label>
+                  <input
+                    type="number"
+                    value={settings.default_markup_percent || 35}
+                    onChange={(e) => setSettings({ ...settings, default_markup_percent: e.target.value })}
+                    className="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-dark-border bg-gray-50 dark:bg-dark-bg text-sm text-gray-900 dark:text-white font-mono"
+                    required
+                  />
+                  <span className="text-[10px] text-gray-400">গ্রিনিশ পাইকারি মূল্যের উপর লাভ %</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Grid 3: Payment Accounts */}
+            <div className="p-6 sm:p-8 rounded-3xl bg-white dark:bg-dark-card border border-gray-200/80 dark:border-dark-border shadow-xs space-y-6">
+              <div className="flex items-center gap-2.5 border-b border-gray-100 dark:border-dark-border pb-3">
+                <div className="p-2 rounded-xl bg-amber-50 dark:bg-amber-950/60 text-amber-600 dark:text-amber-400">
+                  <DollarSign className="w-5 h-5" />
+                </div>
+                <div>
+                  <h3 className="text-base font-bold text-gray-900 dark:text-white">মোবাইল ব্যাংকিং ও পেমেন্ট অ্যাকাউন্ট</h3>
+                  <p className="text-xs text-gray-500 dark:text-dark-muted">গ্রাহক চেকআউটে টাকা পাঠাতে এই নম্বরগুলো দেখতে পাবেন</p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <div>
+                  <label className="block text-xs font-bold text-gray-700 dark:text-dark-text mb-1.5 flex items-center gap-1.5">
+                    <span className="w-2.5 h-2.5 rounded-full bg-[#D12053]" />
+                    <span>বিকাশ নম্বর (Personal/Send Money) *</span>
+                  </label>
+                  <input
+                    type="text"
+                    value={settings.bkash_number || ''}
+                    onChange={(e) => setSettings({ ...settings, bkash_number: e.target.value })}
+                    placeholder="01617971644"
+                    className="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-dark-border bg-gray-50 dark:bg-dark-bg text-sm text-gray-900 dark:text-white font-mono"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-xs font-bold text-gray-700 dark:text-dark-text mb-1.5 flex items-center gap-1.5">
+                    <span className="w-2.5 h-2.5 rounded-full bg-[#F7941D]" />
+                    <span>নগদ নম্বর (Personal/Send Money) *</span>
+                  </label>
+                  <input
+                    type="text"
+                    value={settings.nagad_number || ''}
+                    onChange={(e) => setSettings({ ...settings, nagad_number: e.target.value })}
+                    placeholder="01309993470"
+                    className="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-dark-border bg-gray-50 dark:bg-dark-bg text-sm text-gray-900 dark:text-white font-mono"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-xs font-bold text-gray-700 dark:text-dark-text mb-1.5 flex items-center gap-1.5">
+                    <span className="w-2.5 h-2.5 rounded-full bg-purple-600" />
+                    <span>রকেট নম্বর (ঐচ্ছিক)</span>
+                  </label>
+                  <input
+                    type="text"
+                    value={settings.rocket_number || ''}
+                    onChange={(e) => setSettings({ ...settings, rocket_number: e.target.value })}
+                    placeholder="01617971644"
+                    className="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-dark-border bg-gray-50 dark:bg-dark-bg text-sm text-gray-900 dark:text-white font-mono"
+                  />
+                </div>
+              </div>
+            </div>
+
+            {/* Grid 4: Priya Assistant AI Controller */}
+            <div className="p-6 sm:p-8 rounded-3xl bg-white dark:bg-dark-card border border-gray-200/80 dark:border-dark-border shadow-xs space-y-6">
+              <div className="flex items-center gap-2.5 border-b border-gray-100 dark:border-dark-border pb-3">
+                <div className="p-2 rounded-xl bg-purple-50 dark:bg-purple-950/60 text-purple-600 dark:text-purple-400">
+                  <Bot className="w-5 h-5" />
+                </div>
+                <div>
+                  <h3 className="text-base font-bold text-gray-900 dark:text-white">প্রিয়া (Priya) স্মার্ট সহকারী কন্ট্রোল</h3>
+                  <p className="text-xs text-gray-500 dark:text-dark-muted">বাম পাশের লাইভ শপিং অ্যাসিস্ট্যান্টের আচরণ ও প্রম্পট কনফিগার করুন</p>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div>
+                  <label className="block text-xs font-bold text-gray-700 dark:text-dark-text mb-1.5">
+                    প্রিয়া স্ট্যাটাস (Assistant Status)
+                  </label>
+                  <select
+                    value={settings.priya_status || 'online'}
+                    onChange={(e) => setSettings({ ...settings, priya_status: e.target.value })}
+                    className="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-dark-border bg-gray-50 dark:bg-dark-bg text-sm text-gray-900 dark:text-white font-bold"
+                  >
+                    <option value="online">🟢 অনলাইন (সার্বক্ষণিক সক্রিয়)</option>
+                    <option value="busy">🟡 ব্যস্ত (অপেক্ষা বার্তা দেবে)</option>
+                    <option value="offline">🔴 অফলাইন (গ্রাহক মেসেজ রেখে যাবে)</option>
+                  </select>
+                </div>
+
+                <div className="md:col-span-2">
+                  <label className="block text-xs font-bold text-gray-700 dark:text-dark-text mb-1.5">
+                    প্রিয়ার দায়িত্ব ও সিস্টেম প্রম্পট (AI System Prompt)
+                  </label>
+                  <textarea
+                    rows={3}
+                    value={settings.priya_prompt || ''}
+                    onChange={(e) => setSettings({ ...settings, priya_prompt: e.target.value })}
+                    placeholder="আপনি আপনহাট ই-কমার্স প্ল্যাটফর্মের বিশ্বস্ত এবং অত্যন্ত বিনয়ী স্মার্ট সেলস অ্যাসিস্ট্যান্ট..."
+                    className="w-full px-4 py-2.5 rounded-xl border border-gray-300 dark:border-dark-border bg-gray-50 dark:bg-dark-bg text-xs text-gray-900 dark:text-white leading-relaxed"
+                  />
+                </div>
+              </div>
+            </div>
+
+            {/* Bottom Save Bar */}
+            <div className="flex items-center justify-between p-5 rounded-2xl bg-white dark:bg-dark-card border border-gray-200 dark:border-dark-border shadow-md">
+              <span className="text-xs text-gray-500 dark:text-dark-muted font-medium">
+                সবগুলো পরিবর্তন স্থায়ীভাবে ক্লাউডে সেভ করতে বাটন চাপুন
+              </span>
+              
+              <button
+                type="submit"
+                disabled={savingSettings}
+                className="px-6 py-3 rounded-2xl bg-gradient-to-r from-apon-600 to-apon-700 hover:from-apon-700 hover:to-apon-800 disabled:opacity-50 text-white font-bold text-sm shadow-lg transition-all active:scale-95 flex items-center gap-2"
+              >
+                {savingSettings ? (
+                  <>
+                    <RefreshCw className="w-4 h-4 animate-spin" />
+                    <span>সংরক্ষণ হচ্ছে...</span>
+                  </>
+                ) : (
+                  <>
+                    <Save className="w-4 h-4" />
+                    <span>সকল সেটিংস সংরক্ষণ করুন</span>
+                  </>
+                )}
+              </button>
+            </div>
+
+          </form>
+
+        </div>
+      )}
+
+      {/* Settings Modal (Quick Edit) */}
       {showSettingsModal && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm">
           <div className="relative w-full max-w-lg rounded-3xl bg-white dark:bg-dark-card border border-gray-200 dark:border-dark-border p-6 sm:p-8 shadow-2xl">
@@ -1277,7 +1585,7 @@ export default function AdminDashboard() {
               স্টোর ও পেমেন্ট সেটিংস
             </h3>
             <p className="text-xs text-gray-500 dark:text-dark-muted mb-5">
-              বিকাশ, নগদ নম্বর ও ডিফল্ট প্রফিট মার্জিন পরিবর্তন করুন।
+              বিকাশ, নগদ নম্বর ও ডিফল্ট প্রফিট মার্জিন দ্রুত পরিবর্তন করুন।
             </p>
 
             <form onSubmit={handleSaveSettings} className="space-y-4 text-xs font-bold">
@@ -1307,20 +1615,45 @@ export default function AdminDashboard() {
                 />
               </div>
 
+              <div className="grid grid-cols-2 gap-3">
+                <div>
+                  <label className="block text-gray-700 dark:text-dark-text mb-1">
+                    ঢাকা ডেলিভারি (৳)
+                  </label>
+                  <input
+                    type="number"
+                    value={settings.inside_dhaka_delivery || 60}
+                    onChange={(e) => setSettings({ ...settings, inside_dhaka_delivery: e.target.value })}
+                    className="w-full px-3 py-2.5 rounded-xl border border-gray-300 dark:border-dark-border bg-gray-50 dark:bg-dark-bg text-sm text-gray-900 dark:text-white font-mono"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-gray-700 dark:text-dark-text mb-1">
+                    ঢাকার বাইরে (৳)
+                  </label>
+                  <input
+                    type="number"
+                    value={settings.outside_dhaka_delivery || 120}
+                    onChange={(e) => setSettings({ ...settings, outside_dhaka_delivery: e.target.value })}
+                    className="w-full px-3 py-2.5 rounded-xl border border-gray-300 dark:border-dark-border bg-gray-50 dark:bg-dark-bg text-sm text-gray-900 dark:text-white font-mono"
+                    required
+                  />
+                </div>
+              </div>
+
               <div>
                 <label className="block text-gray-700 dark:text-dark-text mb-1">
                   ডিফল্ট প্রফিট মার্জিন (%)
                 </label>
                 <input
                   type="number"
-                  value={settings.default_markup_percent || '30'}
+                  value={settings.default_markup_percent || '35'}
                   onChange={(e) => setSettings({ ...settings, default_markup_percent: e.target.value })}
                   className="w-full px-3 py-2.5 rounded-xl border border-gray-300 dark:border-dark-border bg-gray-50 dark:bg-dark-bg text-sm text-gray-900 dark:text-white"
                   required
                 />
-                <span className="text-[10px] text-gray-400 font-normal">
-                  (গ্রিনিশ ট্রেডের পাইকারি মূল্যের উপর এই হারে বিক্রয় মূল্য নির্ধারিত হবে)
-                </span>
               </div>
 
               <div className="flex gap-3 pt-4 border-t border-gray-100 dark:border-dark-border">
@@ -1343,6 +1676,7 @@ export default function AdminDashboard() {
           </div>
         </div>
       )}
+
 
     </div>
   );
