@@ -11,14 +11,43 @@ export default function HomePage({
   searchQuery,
   onQuickView
 }) {
+  const [selectedSubcategory, setSelectedSubcategory] = React.useState('all');
+
+  // Reset subcategory when selectedCategory changes
+  React.useEffect(() => {
+    setSelectedSubcategory('all');
+  }, [selectedCategory]);
+
+  // Compute available subcategories for selected category
+  const availableSubcategories = React.useMemo(() => {
+    if (selectedCategory === 'all') return [];
+    const subs = new Set();
+    products.forEach((p) => {
+      if (String(p.category_id) === String(selectedCategory) && p.subcategory) {
+        subs.add(p.subcategory);
+      }
+    });
+    return Array.from(subs);
+  }, [selectedCategory, products]);
+
   const filteredProducts = products.filter((product) => {
     const matchesCategory =
-      selectedCategory === 'all' || String(product.category_id) === String(selectedCategory);
+      selectedCategory === 'all' || 
+      String(product.category_id) === String(selectedCategory) ||
+      (product.category_name && product.category_name.toLowerCase() === String(selectedCategory).toLowerCase());
+
+    const matchesSubcategory =
+      selectedSubcategory === 'all' || 
+      product.subcategory === selectedSubcategory;
+
     const matchesSearch =
       !searchQuery ||
       product.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      (product.subcategory && product.subcategory.toLowerCase().includes(searchQuery.toLowerCase()));
-    return matchesCategory && matchesSearch;
+      (product.subcategory && product.subcategory.toLowerCase().includes(searchQuery.toLowerCase())) ||
+      (product.category_name && product.category_name.toLowerCase().includes(searchQuery.toLowerCase())) ||
+      (product.sku && product.sku.toLowerCase().includes(searchQuery.toLowerCase()));
+
+    return matchesCategory && matchesSubcategory && matchesSearch;
   });
 
   return (
@@ -157,7 +186,14 @@ export default function HomePage({
               </p>
             </div>
             <button
-              onClick={() => setSelectedCategory('all')}
+              onClick={() => {
+                setSelectedCategory('all');
+                setSelectedSubcategory('all');
+                setTimeout(() => {
+                  const el = document.getElementById('products-section');
+                  if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }, 50);
+              }}
               className="text-xs font-bold text-apon-600 dark:text-apon-400 hover:underline"
             >
               সবগুলো ({products.length})
@@ -168,9 +204,16 @@ export default function HomePage({
             {categories.map((cat) => (
               <div
                 key={cat.id}
-                onClick={() => setSelectedCategory(cat.id)}
+                onClick={() => {
+                  setSelectedCategory(cat.id);
+                  setSelectedSubcategory('all');
+                  setTimeout(() => {
+                    const el = document.getElementById('products-section');
+                    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                  }, 50);
+                }}
                 className={`group cursor-pointer rounded-2xl border p-3.5 transition-all duration-200 hover:-translate-y-1 text-center ${
-                  selectedCategory === cat.id
+                  String(selectedCategory) === String(cat.id)
                     ? 'border-apon-600 bg-apon-50/80 dark:bg-apon-950/40 shadow-md ring-2 ring-apon-500/20'
                     : 'border-gray-200/80 dark:border-dark-border bg-white dark:bg-dark-card hover:border-apon-300'
                 }`}
@@ -202,7 +245,7 @@ export default function HomePage({
               <span>
                 {selectedCategory === 'all'
                   ? 'সকল পণ্য সম্ভার'
-                  : categories.find((c) => c.id === selectedCategory)?.name || 'পণ্যসমূহ'}
+                  : categories.find((c) => String(c.id) === String(selectedCategory))?.name || 'পণ্যসমূহ'}
               </span>
               <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-apon-100 text-apon-800 dark:bg-apon-950 dark:text-apon-300">
                 {filteredProducts.length} টি
@@ -217,13 +260,49 @@ export default function HomePage({
 
           {selectedCategory !== 'all' && (
             <button
-              onClick={() => setSelectedCategory('all')}
+              onClick={() => {
+                setSelectedCategory('all');
+                setSelectedSubcategory('all');
+              }}
               className="text-xs font-semibold text-apon-600 dark:text-apon-400 hover:underline self-start sm:self-auto"
             >
               ← সব ক্যাটাগরি দেখুন
             </button>
           )}
         </div>
+
+        {/* Subcategories Filter Rail */}
+        {availableSubcategories.length > 0 && (
+          <div className="flex items-center gap-2 overflow-x-auto no-scrollbar pb-3 mb-5 border-b border-gray-100 dark:border-dark-border">
+            <span className="text-[11px] font-bold text-gray-400 shrink-0">সাবক্যাটাগরি:</span>
+            <button
+              onClick={() => setSelectedSubcategory('all')}
+              className={`shrink-0 px-3.5 py-1.5 rounded-full text-xs font-bold transition-all ${
+                selectedSubcategory === 'all'
+                  ? 'bg-emerald-600 text-white shadow-xs'
+                  : 'bg-gray-100 dark:bg-dark-card text-gray-700 dark:text-dark-text hover:bg-gray-200 dark:hover:bg-dark-cardHover'
+              }`}
+            >
+              সকল ({products.filter(p => String(p.category_id) === String(selectedCategory)).length})
+            </button>
+            {availableSubcategories.map((sub) => {
+              const count = products.filter(p => String(p.category_id) === String(selectedCategory) && p.subcategory === sub).length;
+              return (
+                <button
+                  key={sub}
+                  onClick={() => setSelectedSubcategory(sub)}
+                  className={`shrink-0 px-3.5 py-1.5 rounded-full text-xs font-bold transition-all ${
+                    selectedSubcategory === sub
+                      ? 'bg-emerald-600 text-white shadow-xs'
+                      : 'bg-gray-100 dark:bg-dark-card text-gray-700 dark:text-dark-text hover:bg-gray-200 dark:hover:bg-dark-cardHover'
+                  }`}
+                >
+                  {sub} ({count})
+                </button>
+              );
+            })}
+          </div>
+        )}
 
         {/* Products Grid */}
         {loading ? (

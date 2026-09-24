@@ -88,7 +88,7 @@ export default function handler(req, res) {
     );
   }
 
-  const max = limit ? parseInt(limit) : 100;
+  const max = limit ? parseInt(limit) : 1000;
   results = results.slice(0, max);
 
   return res.status(200).json({

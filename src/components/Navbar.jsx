@@ -308,7 +308,15 @@ export default function Navbar({
               className="flex items-center gap-2 overflow-x-auto no-scrollbar scroll-smooth w-full px-1"
             >
               <button
-                onClick={() => setSelectedCategory('all')}
+                onClick={() => {
+                  setSelectedCategory('all');
+                  setSearchQuery('');
+                  if (currentView !== 'home') setCurrentView('home');
+                  setTimeout(() => {
+                    const el = document.getElementById('products-section');
+                    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                  }, 60);
+                }}
                 className={`shrink-0 px-3.5 py-1.5 rounded-full text-xs font-bold transition-all ${
                   selectedCategory === 'all'
                     ? 'bg-apon-600 text-white shadow-sm ring-2 ring-apon-600/30'
@@ -320,9 +328,17 @@ export default function Navbar({
               {categories.map((cat) => (
                 <button
                   key={cat.id}
-                  onClick={() => setSelectedCategory(cat.id)}
+                  onClick={() => {
+                    setSelectedCategory(cat.id);
+                    setSearchQuery('');
+                    if (currentView !== 'home') setCurrentView('home');
+                    setTimeout(() => {
+                      const el = document.getElementById('products-section');
+                      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }, 60);
+                  }}
                   className={`shrink-0 px-3.5 py-1.5 rounded-full text-xs font-bold transition-all ${
-                    selectedCategory === cat.id
+                    String(selectedCategory) === String(cat.id)
                       ? 'bg-apon-600 text-white shadow-sm ring-2 ring-apon-600/30'
                       : 'bg-gray-100/90 dark:bg-dark-bg/90 text-gray-700 dark:text-dark-text hover:bg-gray-200 dark:hover:bg-dark-cardHover'
                   }`}
