@@ -15,7 +15,7 @@ export default function ProductCard({ product, onQuickView }) {
     <article
       itemScope
       itemType="https://schema.org/Product"
-      onClick={() => onQuickView(product)}
+      onClick={() => onQuickView && onQuickView(product)}
       className="group relative flex flex-col overflow-hidden rounded-2xl border border-gray-200/80 dark:border-dark-border bg-white dark:bg-dark-card shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1.5 cursor-pointer"
     >
       <meta itemProp="name" content={product.title} />

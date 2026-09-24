@@ -3,6 +3,20 @@ import { Sparkles, Truck, ShieldCheck, Headphones, ArrowRight, Flame, ShoppingBa
 import ProductCard from '../components/ProductCard';
 import { smartSearchProducts } from '../utils/searchHelper';
 
+export const getCategoryEmoji = (name = '') => {
+  if (name.includes('জেন্টস')) return '👔';
+  if (name.includes('লেডিস')) return '👗';
+  if (name.includes('বেবি') || name.includes('শিশু')) return '👶';
+  if (name.includes('হোম') || name.includes('ডেকর')) return '🛋️';
+  if (name.includes('কসমেটিকস') || name.includes('গহনা')) return '💄';
+  if (name.includes('ইলেকট্রনিকস') || name.includes('গ্যাজেট')) return '⌚';
+  if (name.includes('ফুড') || name.includes('ফ্রুটস')) return '🍯';
+  if (name.includes('ব্যাগ')) return '🎒';
+  if (name.includes('সিজনাল')) return '🌟';
+  if (name.includes('কম্বো') || name.includes('কাপল')) return '🎁';
+  return '🛍️';
+};
+
 export default function HomePage({
   products,
   loading,
@@ -196,17 +210,18 @@ export default function HomePage({
         </div>
       </section>
 
-      {/* Categories Grid Showcase */}
+      {/* Categories Grid Showcase - Ultra Modern & Stylish */}
       {categories && categories.length > 0 && (
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between mb-5">
             <div>
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-200 dark:border-emerald-800 text-[11px] font-bold text-emerald-700 dark:text-emerald-300 mb-1">
+                <Sparkles className="w-3.5 h-3.5 text-amber-500" />
+                <span>জনপ্রিয় ক্যাটাগরি কালেকশন</span>
+              </div>
               <h2 className="text-xl sm:text-2xl font-black text-gray-900 dark:text-white">
-                ক্যাটাগরি অনুযায়ী পণ্য দেখুন
+                ক্যাটাগরি অনুযায়ী এক্সপ্লোর করুন
               </h2>
-              <p className="text-xs text-gray-500 dark:text-dark-muted mt-0.5">
-                আপনার পছন্দের ক্যাটাগরি বেছে নিন
-              </p>
             </div>
             <button
               onClick={() => {
@@ -217,51 +232,126 @@ export default function HomePage({
                   if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }, 50);
               }}
-              className="text-xs font-bold text-apon-600 dark:text-apon-400 hover:underline"
+              className="text-xs font-bold text-emerald-600 dark:text-emerald-400 hover:underline flex items-center gap-1"
             >
-              সবগুলো ({products.length})
+              <span>সবগুলো দেখুন ({products.length})</span>
+              <ArrowRight className="w-3.5 h-3.5" />
             </button>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 sm:gap-4">
-            {categories.map((cat) => (
-              <div
-                key={cat.id}
-                onClick={() => {
-                  setSelectedCategory(cat.id);
-                  setSelectedSubcategory('all');
-                  setTimeout(() => {
-                    const el = document.getElementById('products-section');
-                    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                  }, 50);
-                }}
-                className={`group cursor-pointer rounded-2xl border p-3.5 transition-all duration-200 hover:-translate-y-1 text-center ${
-                  String(selectedCategory) === String(cat.id)
-                    ? 'border-apon-600 bg-apon-50/80 dark:bg-apon-950/40 shadow-md ring-2 ring-apon-500/20'
-                    : 'border-gray-200/80 dark:border-dark-border bg-white dark:bg-dark-card hover:border-apon-300'
-                }`}
-              >
-                <div className="relative aspect-square w-full rounded-xl overflow-hidden bg-gray-50 dark:bg-dark-bg p-2 mb-2">
-                  <img
-                    src={cat.image}
-                    alt={cat.name}
-                    className="w-full h-full object-contain transition-transform group-hover:scale-105"
-                  />
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3.5 sm:gap-4">
+            {categories.map((cat) => {
+              const isSelected = String(selectedCategory) === String(cat.id);
+              const emoji = getCategoryEmoji(cat.name);
+              const count = cat.actual_products_count || cat.product_count;
+              return (
+                <div
+                  key={cat.id}
+                  onClick={() => {
+                    setSelectedCategory(cat.id);
+                    setSelectedSubcategory('all');
+                    setTimeout(() => {
+                      const el = document.getElementById('products-section');
+                      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }, 50);
+                  }}
+                  className={`group relative cursor-pointer rounded-3xl border p-3 sm:p-4 transition-all duration-300 hover:-translate-y-1.5 text-center overflow-hidden ${
+                    isSelected
+                      ? 'border-emerald-500 bg-gradient-to-b from-emerald-500/10 via-white to-emerald-50/40 dark:from-emerald-950/50 dark:via-dark-card dark:to-dark-card shadow-lg ring-2 ring-emerald-500/30'
+                      : 'border-gray-200/90 dark:border-dark-border bg-white dark:bg-dark-card hover:border-emerald-400 hover:shadow-xl dark:hover:shadow-emerald-950/30'
+                  }`}
+                >
+                  {/* Floating Category Emoji */}
+                  <div className="absolute top-2.5 left-2.5 z-10 w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-white/95 dark:bg-dark-card/95 backdrop-blur-md flex items-center justify-center text-sm sm:text-base shadow-sm border border-gray-100 dark:border-dark-border">
+                    {emoji}
+                  </div>
+
+                  {/* Floating Count Badge */}
+                  {count && (
+                    <div className="absolute top-2.5 right-2.5 z-10 px-2 py-0.5 rounded-full bg-emerald-600/90 backdrop-blur-md text-white text-[9px] sm:text-[10px] font-bold shadow-xs">
+                      {count} টি
+                    </div>
+                  )}
+
+                  <div className="relative aspect-square w-full rounded-2xl overflow-hidden bg-gradient-to-b from-gray-50 to-gray-100/60 dark:from-dark-bg dark:to-dark-bg/60 p-2 sm:p-3 mb-2.5">
+                    <img
+                      src={cat.image}
+                      alt={cat.name}
+                      className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110 drop-shadow-sm"
+                      onError={(e) => {
+                        e.currentTarget.onerror = null;
+                        e.currentTarget.src = 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80';
+                      }}
+                    />
+                  </div>
+
+                  <h3 className="text-xs sm:text-sm font-black text-gray-900 dark:text-white line-clamp-1 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
+                    {cat.name}
+                  </h3>
+                  <p className="text-[11px] font-semibold text-emerald-600 dark:text-emerald-400 mt-1 flex items-center justify-center gap-1 opacity-90 group-hover:opacity-100">
+                    <span>পণ্য দেখুন</span>
+                    <span className="transition-transform group-hover:translate-x-1">→</span>
+                  </p>
                 </div>
-                <h3 className="text-xs sm:text-sm font-bold text-gray-900 dark:text-white line-clamp-1 group-hover:text-apon-600 dark:group-hover:text-apon-400">
-                  {cat.name}
-                </h3>
-                <span className="text-[10px] text-gray-400 mt-0.5 block">
-                  {cat.actual_products_count || cat.product_count} টি পণ্য
-                </span>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </section>
       )}
 
       {/* Main Products Section */}
       <section id="products-section" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        {/* Modern 1-Tap Category Quick Filter Pills Bar */}
+        {categories && categories.length > 0 && (
+          <div className="mb-6">
+            <div className="flex items-center gap-2 overflow-x-auto no-scrollbar py-2 scroll-smooth">
+              <button
+                onClick={() => {
+                  setSelectedCategory('all');
+                  setSelectedSubcategory('all');
+                }}
+                className={`shrink-0 flex items-center gap-1.5 px-4 py-2 rounded-2xl text-xs font-bold transition-all shadow-sm ${
+                  selectedCategory === 'all'
+                    ? 'bg-gradient-to-r from-emerald-600 to-teal-700 text-white shadow-emerald-500/25 ring-2 ring-emerald-500/30'
+                    : 'bg-white dark:bg-dark-card text-gray-700 dark:text-dark-text border border-gray-200/80 dark:border-dark-border hover:border-emerald-400 hover:bg-emerald-50/50 dark:hover:bg-dark-bg'
+                }`}
+              >
+                <span>✨</span>
+                <span>সকল পণ্য ({products.length})</span>
+              </button>
+
+              {categories.map((cat) => {
+                const isSelected = String(selectedCategory) === String(cat.id);
+                const count = cat.actual_products_count || cat.product_count;
+                return (
+                  <button
+                    key={cat.id}
+                    onClick={() => {
+                      setSelectedCategory(cat.id);
+                      setSelectedSubcategory('all');
+                    }}
+                    className={`shrink-0 flex items-center gap-2 px-3.5 py-2 rounded-2xl text-xs font-bold transition-all shadow-sm ${
+                      isSelected
+                        ? 'bg-gradient-to-r from-emerald-600 to-teal-700 text-white shadow-emerald-500/25 ring-2 ring-emerald-500/30 scale-102'
+                        : 'bg-white dark:bg-dark-card text-gray-700 dark:text-dark-text border border-gray-200/80 dark:border-dark-border hover:border-emerald-400 hover:bg-emerald-50/50 dark:hover:bg-dark-bg'
+                    }`}
+                  >
+                    <span className="text-sm">{getCategoryEmoji(cat.name)}</span>
+                    <span>{cat.name}</span>
+                    {count && (
+                      <span className={`text-[10px] px-1.5 py-0.5 rounded-full ${
+                        isSelected ? 'bg-white/20 text-white' : 'bg-gray-100 dark:bg-dark-bg text-gray-500 dark:text-dark-muted'
+                      }`}>
+                        {count}
+                      </span>
+                    )}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        )}
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-6 pb-3 border-b border-gray-100 dark:border-dark-border">
           <div>
             <h2 className="text-xl sm:text-2xl font-black text-gray-900 dark:text-white flex items-center gap-2">

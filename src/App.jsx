@@ -11,6 +11,7 @@ import ProductModal from './components/ProductModal';
 import AuthModal from './components/AuthModal';
 import Footer from './components/Footer';
 import PriyaChatbot from './components/PriyaChatbot';
+import ProductPage from './pages/ProductPage';
 import { useAuth } from './context/AuthContext';
 import { ShieldAlert, KeyRound } from 'lucide-react';
 
@@ -19,6 +20,10 @@ function parsePathname(pathname) {
   if (clean === '/admin') return { view: 'admin', catId: 'all' };
   if (clean === '/checkout') return { view: 'checkout', catId: 'all' };
   if (clean === '/order-success') return { view: 'order_success', catId: 'all' };
+  if (clean.startsWith('/product/')) {
+    const rawId = clean.replace('/product/', '').split('/')[0];
+    return { view: 'product', productId: decodeURIComponent(rawId), catId: 'all' };
+  }
   if (clean.startsWith('/category/')) {
     const rawCat = clean.replace('/category/', '');
     return { view: 'home', catId: decodeURIComponent(rawCat) };
@@ -29,8 +34,11 @@ function parsePathname(pathname) {
 export default function App() {
   const initialRoute = parsePathname(typeof window !== 'undefined' ? window.location.pathname : '/');
 
-  const [currentView, setCurrentView] = useState(initialRoute.view); // home, checkout, order_success, admin
+  const [currentView, setCurrentView] = useState(initialRoute.view); // home, checkout, order_success, admin, product
   const [selectedCategory, setSelectedCategory] = useState(initialRoute.catId);
+  const [selectedProductId, setSelectedProductId] = useState(initialRoute.productId || null);
+  const [directProductData, setDirectProductData] = useState(null);
+  const [singleProductLoading, setSingleProductLoading] = useState(false);
 
   // Instant 0ms Load on Reload from localStorage Cache
   const [products, setProducts] = useState(() => {
@@ -111,10 +119,45 @@ export default function App() {
       const route = parsePathname(window.location.pathname);
       setCurrentView(route.view);
       setSelectedCategory(route.catId);
+      if (route.productId) {
+        setSelectedProductId(route.productId);
+      } else {
+        setSelectedProductId(null);
+        setDirectProductData(null);
+      }
     };
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
   }, []);
+
+  // Fetch or find single product when visiting /product/:id directly or on reload
+  useEffect(() => {
+    if (currentView === 'product' && selectedProductId) {
+      const found = products.find(p => String(p.id) === String(selectedProductId));
+      if (found) {
+        setDirectProductData(found);
+        setSingleProductLoading(false);
+      } else {
+        let isMounted = true;
+        setSingleProductLoading(true);
+        fetch(`/api/products.php?id=${encodeURIComponent(selectedProductId)}`)
+          .then(r => r.json())
+          .then(res => {
+            if (isMounted) {
+              if (res && res.status === 'success' && res.data) {
+                setDirectProductData(res.data);
+              }
+              setSingleProductLoading(false);
+            }
+          })
+          .catch(err => {
+            console.warn('Single product fetch error:', err);
+            if (isMounted) setSingleProductLoading(false);
+          });
+        return () => { isMounted = false; };
+      }
+    }
+  }, [currentView, selectedProductId, products]);
 
   // Fetch categories, products, and settings on initial load
   useEffect(() => {
@@ -253,10 +296,13 @@ export default function App() {
   // Dynamic Routing Handler
   const navigateTo = (path, view = 'home', catId = 'all', options = {}) => {
     if (typeof window !== 'undefined' && window.location.pathname !== path) {
-      window.history.pushState({ view, catId }, '', path);
+      window.history.pushState({ view, catId, productId: options.productId || null }, '', path);
     }
     setCurrentView(view);
     setSelectedCategory(catId);
+    if (options.productId !== undefined) {
+      setSelectedProductId(options.productId);
+    }
     if (options.scroll !== false) {
       window.scrollTo({ top: options.scrollTop || 0, behavior: 'smooth' });
     }
@@ -267,17 +313,28 @@ export default function App() {
     if (view === 'admin') path = '/admin';
     else if (view === 'checkout') path = '/checkout';
     else if (view === 'order_success') path = '/order-success';
+    else if (view === 'product' && selectedProductId) path = `/product/${selectedProductId}`;
     else if (view === 'home') {
       path = (selectedCategory && selectedCategory !== 'all') ? `/category/${selectedCategory}` : '/';
     }
-    navigateTo(path, view, selectedCategory);
+    navigateTo(path, view, selectedCategory, { productId: view === 'product' ? selectedProductId : null });
+  };
+
+  const handleOpenProduct = (productOrId) => {
+    const prodId = typeof productOrId === 'object' && productOrId !== null ? productOrId.id : productOrId;
+    if (typeof productOrId === 'object' && productOrId !== null) {
+      setDirectProductData(productOrId);
+    }
+    const idStr = String(prodId);
+    setSelectedProductId(idStr);
+    navigateTo(`/product/${idStr}`, 'product', 'all', { productId: idStr });
   };
 
   const handleSelectCategory = (catId) => {
     setSelectedCategory(catId);
     const newPath = (catId && catId !== 'all') ? `/category/${catId}` : '/';
     if (window.location.pathname !== newPath) {
-      window.history.pushState({ view: 'home', catId }, '', newPath);
+      window.history.pushState({ view: 'home', catId, productId: null }, '', newPath);
     }
     if (currentView !== 'home') {
       setCurrentView('home');
@@ -304,6 +361,8 @@ export default function App() {
     } catch {}
   };
 
+  const activeProduct = directProductData || products.find(p => String(p.id) === String(selectedProductId));
+
   return (
     <div className="min-h-screen flex flex-col bg-gray-50 dark:bg-dark-bg text-gray-900 dark:text-dark-text transition-colors duration-300">
       
@@ -318,7 +377,7 @@ export default function App() {
         setSelectedCategory={handleSelectCategory}
         categories={categories}
         products={products}
-        onQuickView={(prod) => setQuickViewProduct(prod)}
+        onQuickView={handleOpenProduct}
         storeSettings={storeSettings}
       />
 
@@ -334,8 +393,27 @@ export default function App() {
             navigateTo={navigateTo}
             searchQuery={searchQuery}
             setSearchQuery={setSearchQuery}
-            onQuickView={(prod) => setQuickViewProduct(prod)}
+            onQuickView={handleOpenProduct}
             storeSettings={storeSettings}
+          />
+        )}
+
+        {currentView === 'product' && (
+          <ProductPage
+            product={activeProduct}
+            loading={singleProductLoading && !activeProduct}
+            onBack={handleBackToShopping}
+            onBuyNow={handleGoToCheckout}
+            onSelectProduct={handleOpenProduct}
+            storeSettings={storeSettings}
+            relatedProducts={products.filter(p => {
+              if (!activeProduct) return false;
+              return String(p.id) !== String(activeProduct.id) && (
+                String(p.category_id) === String(activeProduct.category_id) ||
+                p.category_name === activeProduct.category_name
+              );
+            }).slice(0, 8)}
+            navigateTo={navigateTo}
           />
         )}
 
@@ -389,12 +467,12 @@ export default function App() {
       <CartDrawer 
         onCheckout={handleGoToCheckout} 
         products={products}
-        onQuickView={(prod) => setQuickViewProduct(prod)}
+        onQuickView={handleOpenProduct}
       />
 
       {/* Priya Live Shopping Assistant (Left Side) */}
       <PriyaChatbot 
-        onQuickView={(prod) => setQuickViewProduct(prod)} 
+        onQuickView={handleOpenProduct} 
         storeSettings={storeSettings}
       />
 
